@@ -50,4 +50,4 @@ I've drafted or am in the process of writing several blog posts to be published 
 
 I'll come back to this list and add a hyperlink once I've exhausted a topic. From time to time, I may also publish a review of a book or video on this blog. 
 
-If any of this interests or intrigues you, I invite you to stick around and come back often for more. Here's an [RSS feed](/feed.xml) you can grab, and a [low-volume mailing list](https://tinyletter.com/nsmsn) you can sign up for, if you are interested in getting an email from me every 4-6 months. Thank for reading all the way to here, and more importantly, thank you for resisting the temptation to correct my grammar.
+If any of this interests or intrigues you, I invite you to stick around and come back often for more. Here's an [RSS feed](https://nicksimson.com/feed/feed.xml) you can grab, and a [low-volume mailing list](https://tinyletter.com/nsmsn) you can sign up for, if you are interested in getting an email from me every 4-6 months. Thank for reading all the way to here, and more importantly, thank you for resisting the temptation to correct my grammar.

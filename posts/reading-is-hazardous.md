@@ -8,7 +8,7 @@ layout: layouts/post.njk
 accent-color: 101010
 ---
 
-<a href="http://www.wavepoetry.com/products/madness-rack-and-honey"><img class="book" src="https://nicksimson.com/images/post-images/ruefle-madness.jpg" alt="Cover of Madness, Rack, and Honey" /></a>
+<a href="http://www.wavepoetry.com/products/madness-rack-and-honey"><img class="book" src="/img/post-images/ruefle-madness.jpg" alt="Cover of Madness, Rack, and Honey" /></a>
 
 I became aware of Mary Ruefle's collection of "lectures" with an unusual title after reading the reflections by [Mandy Brown](http://aworkinglibrary.com/reading/madness-rack-and-honey/) and [Frank Chimero](http://frankchimero.com/writing/madness-and-rowing/) on their personal blogs. When two or more sources I trust recommend the same thing, I usually start paying attention. 
 
