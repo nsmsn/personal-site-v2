@@ -15,10 +15,11 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: system-ui, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
   color: var(--darkgray);
-  background-color: var(--white);
+  background-color: #fbfcf7;
 }
+
 p:last-child {
   margin-bottom: 0;
 }
@@ -39,10 +40,25 @@ a[href]:visited {
 }
 main {
   padding: 1rem;
+  font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+  font-size: 1rem;
 }
+
+@media screen and (min-width: 700px) {
+  .wrapper {
+    font-size: 120%;
+    line-height: 1.625;
+  }
+}
+
 main :first-child {
   margin-top: 0;
 }
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
 header {
   border-bottom: 1px dashed var(--lightgray);
 }
@@ -126,6 +142,12 @@ pre {
 }
 
 /* Nav */
+.wrapper {
+  margin: 0 auto;
+  max-width: 48em;
+}
+
+/* Nav */
 .nav {
   padding: 0;
   list-style: none;
@@ -152,6 +174,11 @@ pre {
 .postlist-item {
   counter-increment: start-from -1;
 }
+
+.postlist-item time {
+  font-family: Consolas, Menlo, Monaco, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", "Courier New", Courier, monospace;
+}
+
 .postlist-item:before {
   display: inline-block;
   pointer-events: none;
@@ -169,8 +196,10 @@ pre {
 }
 .postlist-link {
   display: inline-block;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
   padding: 0.25em 0.1875em; /* 4px 3px /16 */
 }
+
 .postlist-item-active .postlist-link {
   font-weight: bold;
 }
@@ -180,11 +209,14 @@ pre {
 }
 
 
+
+
 /* Tags */
 .post-tag {
   display: inline-block;
   vertical-align: text-top;
   text-transform: uppercase;
+  letter-spacing: 1px;
   font-size: 0.625em; /* 10px /16 */
   padding: 2px 4px;
   margin-left: 0.8em; /* 8px /10 */
@@ -192,6 +224,7 @@ pre {
   color: var(--white);
   border-radius: 0.25em; /* 3px /12 */
   text-decoration: none;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
 }
 a[href].post-tag,
 a[href].post-tag:visited {
@@ -200,7 +233,8 @@ a[href].post-tag:visited {
 
 /* Warning */
 .warning {
-  background-color: #ffc;
+  background-color:#feee88;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
   padding: 1em 0.625em; /* 16px 10px /16 */
 }
 .warning ol:only-child {
