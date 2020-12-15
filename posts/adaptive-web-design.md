@@ -12,7 +12,7 @@ It's just one powerful layer that can do incredible things on top of an already 
 
 <p class="lede">It&rsquo;s just one powerful layer that can do some incredible things on an already solid HTML&nbsp;foundation.</p>
 
-<a href="http://adaptivewebdesign.info/"><img class="book" src="/images/post-images/adaptive-web-cover.jpg" alt="Cover of Adaptive Web Design" /></a>
+<a href="http://adaptivewebdesign.info/"><img class="book" src="https://nicksimson.com/images/post-images/adaptive-web-cover.jpg" alt="Cover of Adaptive Web Design" /></a>
 
 [*Adaptive Web Design*](http://adaptivewebdesign.info/) is an excellent guide to creating rich digital experiences for the web. The author, [Aaron Gustafson](https://www.aaron-gustafson.com/), is a seasoned web professional who really knows his stuff. More than a framework or methodology, Gustafson introduces Progressive Enhancement as a guiding "philosophy" to approaching websites and apps, treating each part of the design process as a series of layers upon a universally accessible, baseline&nbsp;experience.
 
