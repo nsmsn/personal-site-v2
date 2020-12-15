@@ -9,11 +9,9 @@ eleventyNavigation:
 
 ## Profile
 
-After years of creating things for the fun of it, my formal education in design began in 2004. Seventeen-year-old me discovered a college major that combined photography, drawing, writing, and creating letterforms on cold-press illustration board. That was also the year I bought my first Apple computer.
+I am a public sector communication designer with over a decade of professional experience. Most of my day is spent designing, building and maintaining websites at the University of Tennessee. I'm always interested in getting better at content strategy and digital accessibility. I'm getting comfortable working as a bridge between communication teams and IT teams, or between visual designers and engineer-types.
 
-Today, I am a public sector communication designer at the University of Tennessee. Most of my day is spent designing, building and maintaining websites. I'm mosted interested in getting better at content strategy and accessibility. I'm pretty comfortable working as a bridge between communication teams and IT teams, or between visual designers and engineers.
-
-I occasionally contribute pixels, code, and CMS know-how for small projects, independent artists and other worthy causes. I’m married to [Eleanor](https://eleanoraldrich.com), who makes paintings. We live in Knoxville with Zelda, our dog.
+I also occasionally contribute pixels, code, and CMS know-how for small projects, independent artists and other worthy causes. I’m married to [Eleanor](https://eleanoraldrich.com), who makes paintings. We live in Knoxville with Zelda, our dog.
 
 ### Get in touch
 Send your email to [nick@nicksimson.com](mailto:nick@nicksimson.com).  
