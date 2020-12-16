@@ -301,4 +301,9 @@ pre {
   :hover > a[href].direct-link:visited {
     color: #aaa;
   }
+
+
+  .footer{
+      margin-top: 3em;
+  }
   
