@@ -8,8 +8,6 @@ layout: layouts/post.njk
 accent-color: 006b73
 ---
 
-It's just one powerful layer that can do incredible things on top of an already solid HTML foundation.
-
 <p class="lede">It&rsquo;s just one powerful layer that can do some incredible things on an already solid HTML&nbsp;foundation.</p>
 
 <a href="http://adaptivewebdesign.info/"><img class="book" src="/img/post-images/adaptive-web-cover.jpg" alt="Cover of Adaptive Web Design" /></a>
@@ -22,7 +20,8 @@ The book is organized into short chapters (layers) on content strategy, HTML, WA
 
 This tome sits alongside my various [Rosenfeld Media](http://rosenfeldmedia.com/) and [A Book Apart](http://abookapart.com/) titles &ndash; books with similar dimensions I find helpful to go back and refer to every few months. A web designer with a few years of experience will get a lot of ideas and inspiration from the text and examples, but I would recommend it for beginners as well, alongside Jennifer Robbins’ [*Learning Web&nbsp;Design*](http://www.learningwebdesign.com/).
 
-<mark>&nbsp;
-<small><em>This is a cross-posting of a book I reviewed on <a href="https://www.amazon.com/gp/review/R3MB2MRMDDLDCW?ref_=glimp_1rv_cl">Amazon.com</a> and&nbsp;<a href="https://www.goodreads.com/book/show/28095620-adaptive-web-design">Goodreads</a>. </em></small>
 &nbsp;
+
+<mark>
+<small><em>This is a cross-posting of a book I reviewed on <a href="https://www.amazon.com/gp/review/R3MB2MRMDDLDCW?ref_=glimp_1rv_cl">Amazon.com</a> and&nbsp;<a href="https://www.goodreads.com/book/show/28095620-adaptive-web-design">Goodreads</a>. </em></small>
 </mark>

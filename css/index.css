@@ -141,7 +141,7 @@ pre {
   text-decoration: none;
 }
 
-/* Nav */
+/* Wrapper */
 .wrapper {
   margin: 0 auto;
   max-width: 48em;
@@ -172,20 +172,23 @@ pre {
   padding: 0;
 }
 .postlist-item {
-  counter-increment: start-from -1;
+/* counter-increment: start-from -1;*/
+  margin-bottom: 1.95em;
 }
 
 .postlist-item time {
   font-family: Consolas, Menlo, Monaco, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", "Courier New", Courier, monospace;
+  font-size: 14px;
+  padding-left: 0.1875em;
 }
 
-.postlist-item:before {
+/* .postlist-item:before {
   display: inline-block;
   pointer-events: none;
   content: "" counter(start-from, decimal-leading-zero) ". ";
   line-height: 100%;
   text-align: right;
-}
+}*/
 .postlist-date,
 .postlist-item:before {
   font-size: 0.8125em; /* 13px /16 */
