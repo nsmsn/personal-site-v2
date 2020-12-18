@@ -1,4 +1,5 @@
 :root {
+    --pink: #f8c0be;
     --red: #ee453b;
     --darkred: #681d19;
     --lightgray: #e0e0e0;
@@ -7,6 +8,9 @@
     --navy: #012850;
     --blue: #0067c1;
     --white: #fff;
+    
+    --flowspace: 1em;
+    font-size: calc(1rem + 0.25vw);
   }
 
 /* Box sizing rules */
@@ -120,6 +124,7 @@ header {
     margin-top: var(--flow-space);
   }
 
+
   pre,
 code {
   font-family: Consolas, Menlo, Monaco, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", "Courier New", Courier, monospace;
@@ -143,6 +148,7 @@ pre {
   padding: 1em;
   margin: .5em 0;
   background-color: #f6f6f6;
+  overflow: auto;
 }
 .highlight-line {
   display: block;
@@ -217,12 +223,12 @@ pre {
 .postlist-item {
 /* counter-increment: start-from -1;*/
   margin-bottom: 1.95em;
+  display:block;
 }
 
 .postlist-item time {
   font-family: Consolas, Menlo, Monaco, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", "Courier New", Courier, monospace;
-  font-size: 14px;
-  padding-left: 0.1875em;
+  padding-left: 0.2em;
 }
 
 /* .postlist-item:before {
@@ -234,14 +240,15 @@ pre {
 }*/
 .postlist-date,
 .postlist-item:before {
-  font-size: 0.8125em; /* 13px /16 */
+  font-size: 0.8em;
   color: var(--darkgray);
 }
 .postlist-date {
   word-spacing: -0.5px;
+  vertical-align: text-top;
 }
 .postlist-link {
-  display: inline-block;
+  display: block;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
   padding: 0.25em 0.1875em; /* 4px 3px /16 */
 }
@@ -263,15 +270,15 @@ pre {
     font-size: 0.625em; /* 10px /16 */
     padding: 2px 4px;
     margin-left: 0.8em; /* 8px /10 */
-    background-color: var(--red);
-    color: var(--white);
+    background-color: var(--pink);
+    color: var(--navy);
     border-radius: 0.25em; /* 3px /12 */
     text-decoration: none;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
   }
   a[href].post-tag,
   a[href].post-tag:visited {
-    color: #fff;
+    color: var(--navy);
   } 
 
 /* Warning */
