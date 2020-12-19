@@ -9,6 +9,10 @@
     --blue: #0067c1;
     --white: #fff;
     
+    --sans: 'Epilogue', 'Segoe UI', Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --serif: 'Literata', Georgia, serif;
+    --mono: 'IBM Plex Mono', Consolas, Menlo, Monaco, "Andale Mono", "Lucida Console", "Courier New", Courier, monospace;
+
     --flowspace: 1em;
     font-size: calc(1rem + 0.25vw);
   }
@@ -50,9 +54,18 @@ body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  font-family: var(--serif);
   color: var(--darkgray);
   background-color: #fbfcf7;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--sans);
 }
 
 /* A elements that don't have a class get default styles */
@@ -127,11 +140,18 @@ header {
 
   pre,
 code {
-  font-family: Consolas, Menlo, Monaco, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", "Courier New", Courier, monospace;
+  font-family: var(--mono);
   line-height: 1.5;
+  font-size: .875em;
 }
+
+p code {
+  color: var(--navy);
+  background-color: #f6f6f6;
+}
+
 pre {
-  font-size: 14px;
+  font-size: .875em;
   line-height: 1.375;
   direction: ltr;
   text-align: left;
@@ -147,7 +167,8 @@ pre {
   hyphens: none;
   padding: 1em;
   margin: .5em 0;
-  background-color: #f6f6f6;
+  background-color: var(--navy);
+  color: #f6f6f6;
   overflow: auto;
 }
 .highlight-line {
@@ -181,6 +202,27 @@ pre {
   background-color: #902f2f;
 }
 
+/* Figcaption and blockquote styles */
+figcaption {
+  font-family: var(--mono);
+  font-style: italic;
+  font-size: .875em;
+  padding: .25em .625em;
+  color: var(--darkred);
+}
+
+blockquote {
+  font-size: 1.125em;
+  font-weight: 320;
+  font-variation-settings: "opsz" 60;
+  border-left: 3px solid var(--red);
+  color: var(--darkred);
+  padding: .25em .625em;
+  max-width: 60ch;
+
+}
+
+
 /* Header */
 .home {
   padding: 0 1rem;
@@ -202,6 +244,7 @@ pre {
   list-style: none;
   float: left;
   margin-left: 1em;
+  font-family: var(--sans)
 }
 .nav-item {
   display: inline-block;
@@ -227,7 +270,7 @@ pre {
 }
 
 .postlist-item time {
-  font-family: Consolas, Menlo, Monaco, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", "Courier New", Courier, monospace;
+  font-family: var(--mono);
   padding-left: 0.2em;
 }
 
@@ -249,7 +292,7 @@ pre {
 }
 .postlist-link {
   display: block;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  font-family: var(--sans);
   padding: 0.25em 0.1875em; /* 4px 3px /16 */
 }
 
@@ -267,14 +310,14 @@ pre {
     vertical-align: text-top;
     text-transform: uppercase;
     letter-spacing: 1px;
-    font-size: 0.625em; /* 10px /16 */
+    font-size: 0.65em; /* 10px /16 */
     padding: 2px 4px;
     margin-left: 0.8em; /* 8px /10 */
     background-color: var(--pink);
     color: var(--navy);
     border-radius: 0.25em; /* 3px /12 */
     text-decoration: none;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    font-family: var(--mono);
   }
   a[href].post-tag,
   a[href].post-tag:visited {
@@ -284,7 +327,7 @@ pre {
 /* Warning */
 .warning {
     background-color:#feee88;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    font-family: var(--sans);
     padding: 1em 0.625em; /* 16px 10px /16 */
   }
   .warning ol:only-child {
@@ -293,7 +336,7 @@ pre {
 
 /* Direct Links / Markdown Headers */
 .direct-link {
-    font-family: sans-serif;
+    font-family: var(--sans);
     text-decoration: none;
     font-style: normal;
     margin-left: .1em;
@@ -312,5 +355,13 @@ pre {
 
   .footer{
       margin-top: 3em;
+      font-family: var(--sans);
+      font-size: .875em;
   }
   
+
+  .photo-border {
+    background: white;
+    padding: 8px 8px;
+    border: 1px var(--gray) solid;
+  }
