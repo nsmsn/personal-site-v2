@@ -7,6 +7,8 @@
     <meta name="description" content="{{ description or metadata.description }}">
     <link rel="stylesheet" href="{{ '/css/style.css' | url }}">
     <link rel="stylesheet" href="{{ '/css/prism-base16-monokai.dark.css' | url }}">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,400..800;1,400..800&family=IBM+Plex+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Literata:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
     <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
     <link rel="alternate" href="{{ metadata.jsonfeed.path | url }}" type="application/json" title="{{ metadata.title }}">
     <link rel="icon" href="/img/meta/favicon.svg" type="image/svg+xml" />
@@ -40,7 +42,7 @@
     </main>
 
     <footer role="contentinfo" class="footer flow">
-	<p>Copyright {{ helpers.currentYear() }} Nick Simson. This website does not track you.</p>
+	<p>© copyright {{ helpers.currentYear() }} Nick Simson.</p>
 </footer>
     <!-- Current page: {{ page.url | url }} -->
   </body>

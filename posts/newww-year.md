@@ -1,6 +1,6 @@
 ---
 title: Ready for a Newww Year
-description: Thing and planning an open redesign 
+description: Thinking and planning an open redesign 
 date: 2020-12-16
 tags:
   - redesign
