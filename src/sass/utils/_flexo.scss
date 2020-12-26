@@ -1,0 +1,11 @@
+.flexo {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -0.5em;
+  }
+  
+  .flexo > * {
+    flex: 1 0 18em;
+    margin: 0.75em;
+  }
+  

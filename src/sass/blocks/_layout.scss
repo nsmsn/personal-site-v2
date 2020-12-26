@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main,
+main.wrapper {
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+
+header, footer {
+    display: block;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 60em;
+}
+
+.footer {
+    margin-top: auto;
+    padding: var(--size3) var(--size2);
+    text-align: center;
+    font-family: $sans;
+    font-size: var(--size2);
+}

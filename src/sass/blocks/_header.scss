@@ -1,0 +1,67 @@
+/* Header */
+
+.site-head {
+  max-height: 4em;
+}
+header.site-head:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+.home {
+    font-family: $mono;
+    font-weight: 400;
+    padding: 0 1rem;
+    margin: 1rem 0; /* 16px /16 */
+    font-size: var(--size2); 
+    text-transform: uppercase;
+    z-index: 300;
+    display: flex;
+    flex-direction: column;
+    float: left;
+  
+  }
+
+  .home-id {
+    padding: 0 .5em;
+    @media screen and (min-width: 36em) {
+      float: left;
+      text-orientation: mixed;
+      writing-mode: vertical-rl;
+      font-size: 12px;
+      margin-left: -1rem;  
+    }
+
+  }
+
+  .logo {
+    float: right;
+  }
+
+  .logo-path1:hover, .logo-path2:hover {
+    fill: var(--darkred);
+  }
+
+  .logo:hover{
+  animation-name: spin;
+  animation-duration: 3000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+}
+
+@keyframes spin {
+  from { transform:rotate(0deg); }
+  to { transform:rotate(360deg); }
+}
+
+  .home a {
+    color: var(--medgray);
+  }
+
+  .home :link {
+    color: var(--medgray);
+    text-decoration: none;
+  }
