@@ -1,0 +1,52 @@
+/* Posts list */
+.postlist {
+  list-style: none;
+  padding: 0;
+}
+.postlist-item {
+/* counter-increment: start-from -1;*/
+  margin-bottom: 1.95em;
+  display:block;
+}
+
+.postlist-item time {
+  font-family: $mono;
+  padding-left: 0.2em;
+}
+
+/* .postlist-item:before {
+  display: inline-block;
+  pointer-events: none;
+  content: "" counter(start-from, decimal-leading-zero) ". ";
+  line-height: 100%;
+  text-align: right;
+}*/
+
+.postlist-blurb{
+  display: block;
+  margin-bottom: .4em;
+  max-width: 45ch;
+}
+
+.postlist-date,
+.postlist-item:before {
+  font-size: 0.8em;
+  color: var(--darkgray);
+}
+.postlist-date {
+  word-spacing: -0.5px;
+  vertical-align: text-top;
+}
+.postlist-link {
+  display: block;
+  font-family: $sans;
+  padding: 0.25em 0 .125em 0; 
+}
+
+.postlist-item-active .postlist-link {
+  font-weight: bold;
+}
+.tmpl-home .postlist-link {
+  font-size: 1.1875em; /* 19px /16 */
+  font-weight: 700;
+}

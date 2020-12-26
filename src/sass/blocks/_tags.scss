@@ -1,0 +1,26 @@
+/* Tags */
+.post-tag {
+    display: inline-block;
+    font-family: $mono;
+    vertical-align: text-top;
+    font-size: 0.625em; /* 10px /16 */
+    padding: 2px 4px;
+    margin-left: 0.8em; /* 8px /10 */
+    background-color: var(--washedred);
+    color: var(--white);
+    border-radius: 0.25em; /* 3px /12 */
+    text-decoration: none;
+  }
+
+  .post-tag:hover {
+    background-color: var(--gold);
+  }
+
+.post-tag::before {
+  content: "#";
+}  
+
+  a[href].post-tag,
+  a[href].post-tag:visited {
+    color:var(--navy);
+  }

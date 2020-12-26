@@ -1,0 +1,48 @@
+
+  * {
+    box-sizing: border-box;
+  }
+  html,
+  body {
+    padding: 0;
+    margin: 0;
+    font-family: $serif;
+    color: var(--darkgray);
+    background-color: var(--ivory);
+  }
+  p:last-child {
+    margin-bottom: 0;
+  }
+  p,
+  .tmpl-post li,
+  img {
+    max-width: 37.5em; /* 600px /16 */
+  }
+  p,
+  .tmpl-post li {
+    line-height: 1.45;
+  }
+  a[href] {
+    color: var(--darkblue);
+  }
+  main {
+    padding: 1rem;
+  }
+  main :first-child {
+    margin-top: 0;
+  }
+
+  table {
+    margin: 1em 0;
+  }
+  table td,
+  table th {
+    padding-right: 1em;
+  }
+
+  hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.4);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+}

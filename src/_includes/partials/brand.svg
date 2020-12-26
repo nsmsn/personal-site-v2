@@ -1,0 +1,10 @@
+<svg class="logo" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 100 100" xml:space="preserve" width="40" height="40">
+  <style>
+    .logo-path1{fill:#ee453b}
+    .logo-path2{fill:#ee453b}
+  </style>
+  <g id="Layer_1_2_">
+    <path class="logo-path1" d="M82.7 16.7C66.8.8 41.1.8 25.3 16.7 9.6 32.3 9.4 57.4 24.5 73.3l17.9-37c.2-.5.8-.6 1.2-.2l10.3 10.3c.3.3.8.3 1.1 0l27.7-29.7z"/>
+    <path class="logo-path2" d="M17.3 83.3c15.9 15.9 41.6 15.9 57.4 0 15.6-15.6 15.8-40.7.8-56.6l-17.9 37c-.2.5-.8.6-1.2.2L46.2 53.6c-.3-.3-.8-.3-1.1 0L17.3 83.3z"/>
+  </g>
+</svg>

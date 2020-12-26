@@ -1,0 +1,100 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: $sans;
+    font-weight: 700;
+    color: var(--darkgray);
+}
+
+h1 {
+    font-size: var(--size6);
+    letter-spacing: -1px;
+        @media screen and (min-width: 36em) {
+          font-size: var(--size8);
+        }
+        @media screen and (min-width: 60em) {
+            font-size: var(--size9);
+          }
+}
+
+h2 {
+    font-size: var(--size5);
+        @media screen and (min-width: 36em) {
+            font-size: var(--size6);
+        }
+}
+
+
+h3 {
+    font-size: var(--size4);
+    @media screen and (min-width: 36em) {
+        font-size: var(--size5);
+    }
+}
+
+h4 {
+    font-size: var(--size3);
+    @media screen and (min-width: 36em) {
+        font-size: var(--size4);
+    }
+}
+
+h5 {
+    font-size: var(--size3);
+    font-weight: 620;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: var(--medgray);
+}
+
+h6 {
+    font-size: var(--size2);
+    font-weight: 520;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: var(--medgray);
+}
+
+
+
+
+blockquote {
+    margin-left: 0;
+    margin-right: 0;
+    padding: .25rem 1.25rem;
+    border-left: 4px solid var(--lightred);
+    color: var(--medgray);
+    max-width: 60ch;
+    
+  
+    &,
+    p {
+      font-size: var(--size3);
+    }
+  
+    + * {
+      margin-top: 1rem;
+    }
+  
+    :last-child {
+      margin-bottom: 0;
+    }
+  }
+
+figcaption{
+    font-family: $mono;
+    font-size: var(--size2);
+    font-style: italic;
+    color: var(--medgray);
+}
+
+p {
+    max-width: 60ch;
+}
+
+p.lede {
+    font-size: var(--size4);
+}

@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Many best practices</title>
+    <meta name="description" content="There&#39;s more than one way to skin a website.">
+    <link rel="stylesheet" href="/css/style.css">
+    <!--<link rel="stylesheet" href="/css/prism-base16-monokai.dark.css">-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,400..900;1,400..800&family=IBM+Plex+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Literata:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+    
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Nick Simson">
+    <link rel="alternate" href="/feed/feed.json" type="application/json" title="Nick Simson">
+
+    <link rel="icon" href="/img/meta/favicon.svg" type="image/svg+xml" />
+  
+  </head>
+  <body>
+    <header class="site-head wrapper">
+      <h1 class="home"><a href="/"><span class="home-id sr-only">Nick Simson</span> <svg class="logo" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 100 100" xml:space="preserve" width="40" height="40">
+  <style>
+    .logo-path1{fill:#ee453b}
+    .logo-path2{fill:#ee453b}
+  </style>
+  <g id="Layer_1_2_">
+    <path class="logo-path1" d="M82.7 16.7C66.8.8 41.1.8 25.3 16.7 9.6 32.3 9.4 57.4 24.5 73.3l17.9-37c.2-.5.8-.6 1.2-.2l10.3 10.3c.3.3.8.3 1.1 0l27.7-29.7z"/>
+    <path class="logo-path2" d="M17.3 83.3c15.9 15.9 41.6 15.9 57.4 0 15.6-15.6 15.8-40.7.8-56.6l-17.9 37c-.2.5-.8.6-1.2.2L46.2 53.6c-.3-.3-.8-.3-1.1 0L17.3 83.3z"/>
+  </g>
+</svg></a></h1>
+      <ul class="nav">
+        <li class="nav-item"><a href="/">Home</a></li>
+        <li class="nav-item"><a href="/posts/">Archive</a></li>
+        <li class="nav-item"><a href="/info/">Info</a></li>
+      </ul>
+    </header>
+
+    <main class="tmpl-post flow wrapper">
+
+      <!-- Delete this message -->
+      <div class="warning">
+        🚩 <em>This website is undergoing an <a href="/tags/redesign/">open redesign</a>, so if anything looks <small class="medgray">[not&nbsp;deliberately]</small> wonky, that’s&nbsp;why.</em>
+      </div>
+      <!-- Stop deleting -->
+
+      <h1>Many best practices</h1>
+
+<p>I recently stumbled across a website called <a href="http://webfieldmanual.com/">Web Field Manual</a>, a directory of resources &quot;focused on documenting only the best knowledge for designing experiences and interfaces on the web.&quot;</p>
+<p>The directory features a ton of links to information sources on relevant front-end web design topics: design process, style guide documentation, grids and typography, accessibility, and specific web technologies. Many of the articles and projects linked here I was familiar with, but several are new to me as well.</p>
+<p>No single link or author is the authoritative end-point for a particular subject. Combined, all these approaches make up a useful body of knowledge. Here are a few recent things I've discovered that are currently influencing or changing my web design approach:</p>
+<h2 id="itcss"><a href="http://itcss.io">ITCSS</a> <a class="direct-link" href="#itcss">#</a></h2>
+<p>Short for <em>Inverted Triangle Cascading Stylesheets</em>, an approach to CSS architecture coined by Harry Roberts that is more strategy than strict methodology. ITCSS is primarily concerned with avoiding a needless complexity throughout the cascade by keeping the broadest, most reusable rules at the beginning of the file and finishes with the most specific rules (style overrides) at the end.</p>
+<p><a href="https://medium.com/@jordankoschei/how-i-shrank-my-css-by-84kb-by-refactoring-with-itcss-2e8dafee123a#.es1uf4lio">Jordan Koschei wrote an informative article</a> detailing how he refactored his own website styles using ITCSS, and how this shrank the file size of his final stylesheet and boosted his web performance. The <a href="https://www.xfive.co/blog/itcss-scalable-maintainable-css-architecture/">Xfive blog also recently published a helpful overview</a>. The ITCSS strategy can be easily combined with other CSS architecture approaches, such as SMACSS, OOCSS, or BEM. I'm currently applying the ITCSS approach on a side project, and have already found it both useful and efficient for naming and organizing my CSS files.</p>
+<h2 id="fluid%2C-mathematical-web-typography"><a href="http://jxnblk.com/writing/posts/mathematical-web-typography/">Fluid, Mathematical Web Typography</a> <a class="direct-link" href="#fluid%2C-mathematical-web-typography">#</a></h2>
+<p><a href="http://jxnblk.com/writing/posts/mathematical-web-typography/">This post by Brent Jackson</a> builds upon previous writing on <a href="http://typecast.com/blog/a-more-modern-scale-for-web-typography">modular scale typesetting</a> by others, proposing a simple set of rules to make type on the web infinitely scaleable and fluid, instead of relying on context-driven &quot;magic numbers&quot;. A potentially infinite canvas throws a wrench into the historic conventions of typesetting, where rules have been built on fixed dimensions for centuries.</p>
+<p>Michael Riethmuller wrote more recently on <a href="https://www.smashingmagazine.com/2016/05/fluid-typography/">fluid typography with viewport units</a>. In this instance, &quot;fluid&quot; web type also means that there is no maximum <code>font-size</code> property, but the font system is sized in relationship to the overall canvas size. Responsive web design (largely) solved the designer dilemma for the mass adoption of smaller screens, but the <a href="http://caniuse.com/#feat=viewport-units">increasing support</a> of viewport units and a typescale that increases exponentially could better <a href="https://css-tricks.com/optimizing-large-scale-displays/">optimize our designs for larger screens</a>.</p>
+<h2 id="progressive-enhancement-everywhere"><a href="https://www.nngroup.com/articles/enhancement/">Progressive Enhancement Everywhere</a> <a class="direct-link" href="#progressive-enhancement-everywhere">#</a></h2>
+<p>The term <em>progressive enhancement</em>, coined around 2003, is not new, but I think its adoption and popularity will only trend upward. Voice-based user interfaces and artificial intelligence  I've become more fully aware of the concept by following the work of Jeremy Keith and Aaron Gustafson. I'm currently reading and enjoying Gustafson's <a href="http://adaptivewebdesign.info/"><em>Adaptive Web Design</em> book</a>, in which he describes interaction design as a series of enhancement layers built on top of a foundation of raw content and information:</p>
+<ol>
+<li>Markup (HTML, WAI-ARIA) is an enhancement layer, giving semantic structure to the content elements and exposing meaning to assistive technologies;</li>
+<li>Visual Design (Images, CSS, animations) is an enhancement layer, guiding the audience with visual prompts, identity, and delight;</li>
+<li>Interaction (Javascript) is the final enhancement layer, esablishing a baseline experience and fallbacks for interactions in which none, or only some of the programming is executed.</li>
+</ol>
+<p>Developing with this approach means that your content, service, and intention reaches the widest possible audience and accepts a broad and ever-increasing spectrum of input types and device capabilities—an exetension of the diversity of the human population itself and the human experience in the information age.</p>
+
+
+<hr>
+<ul><li>Next: <a href="/posts/adaptive-web-design/">Javascript is not your interface.</a></li><li>Previous: <a href="/posts/becoming-an-everyday-developer/">Becoming an everyday developer</a></li>
+</ul>
+
+    </main>
+
+    <footer role="contentinfo" class="footer wrapper flow">
+	<p>© copyright 2020 Nick Simson.</p>
+</footer>
+
+    <!-- Current page: /posts/many-best-practices/ -->
+  </body>
+</html>

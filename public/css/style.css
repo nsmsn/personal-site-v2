@@ -1,0 +1,1120 @@
+:root {
+  --darkred: #c91c11;
+  --red: #EE453B;
+  --lightred: #f18680;
+  --orange: #ff6300;
+  --gold: #ffb700;
+  --yellow: #ffde37;
+  --lightyellow: #fbf1a9;
+  --purple: #5e2ca5;
+  --lightpurple: #a463f2;
+  --darkpink: #d5008f;
+  --hotpink: #ff41b4;
+  --pink: #ff80cc;
+  --lightpink: #ffa3d7;
+  --darkgreen: #046b53;
+  --green: #06B58C;
+  --lightgreen: #12f7c2;
+  --navy: #1a2249;
+  --darkblue: #334492;
+  --blue: #5165c2;
+  --lightblue: #A4BFEB;
+  --lightestblue: #cdecff;
+  --washedblue: #f6fffe;
+  --washedgreen: #e8fdf5;
+  --washedyellow: #fffceb;
+  --washedred: #ffdfdf;
+  --black: #212121;
+  --darkgray: #343434;
+  --medgray: #676767;
+  --gray: #C0C0C0;
+  --lightgray: #e0e0e0;
+  --white: #fff;
+  --ivory: #faf9f9;
+  --size0: 0.25em;
+  /* 4px */
+  --size1: 0.5em;
+  /* 8px */
+  --size2: 0.75em;
+  /* 12px */
+  --size3: 1em;
+  /* 16px */
+  --size4: 1.25em;
+  /* 20px */
+  --size5: 1.5em;
+  /* 24px */
+  --size6: 1.75em;
+  /* 28px */
+  --size7: 2em;
+  /* 32px */
+  --size8: 2.25em;
+  /* 36px */
+  --size9: 2.5em;
+  /* 40px */
+  --size10: 3em;
+  /* 48px */
+  --flow-space: 1em;
+  font-size: calc(1rem + 0.275vw);
+}
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4, h5, h6,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role=list],
+ol[role=list] {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html {
+  scroll-behavior: smooth;
+  background-color: var(--ivory);
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  background-color: var(--ivory);
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations and transitions for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  *,
+*::before,
+*::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+::selection {
+  background: rgba(0, 35, 88, 0.99);
+  color: var(--lightgreen);
+}
+
+mark {
+  background-color: var(--yellow);
+}
+
+mark::selection {
+  background-color: var(--pink);
+  color: black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Literata", Georgia, serif;
+  color: var(--darkgray);
+  background-color: var(--ivory);
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+p,
+.tmpl-post li,
+img {
+  max-width: 37.5em;
+  /* 600px /16 */
+}
+
+p,
+.tmpl-post li {
+  line-height: 1.45;
+}
+
+a[href] {
+  color: var(--darkblue);
+}
+
+main {
+  padding: 1rem;
+}
+
+main :first-child {
+  margin-top: 0;
+}
+
+table {
+  margin: 1em 0;
+}
+
+table td,
+table th {
+  padding-right: 1em;
+}
+
+hr {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.4);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Epilogue", "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  color: var(--darkgray);
+}
+
+h1 {
+  font-size: var(--size6);
+  letter-spacing: -1px;
+}
+@media screen and (min-width: 36em) {
+  h1 {
+    font-size: var(--size8);
+  }
+}
+@media screen and (min-width: 60em) {
+  h1 {
+    font-size: var(--size9);
+  }
+}
+
+h2 {
+  font-size: var(--size5);
+}
+@media screen and (min-width: 36em) {
+  h2 {
+    font-size: var(--size6);
+  }
+}
+
+h3 {
+  font-size: var(--size4);
+}
+@media screen and (min-width: 36em) {
+  h3 {
+    font-size: var(--size5);
+  }
+}
+
+h4 {
+  font-size: var(--size3);
+}
+@media screen and (min-width: 36em) {
+  h4 {
+    font-size: var(--size4);
+  }
+}
+
+h5 {
+  font-size: var(--size3);
+  font-weight: 620;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: var(--medgray);
+}
+
+h6 {
+  font-size: var(--size2);
+  font-weight: 520;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: var(--medgray);
+}
+
+blockquote {
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0.25rem 1.25rem;
+  border-left: 4px solid var(--lightred);
+  color: var(--medgray);
+  max-width: 60ch;
+}
+blockquote,
+blockquote p {
+  font-size: var(--size3);
+}
+blockquote + * {
+  margin-top: 1rem;
+}
+blockquote :last-child {
+  margin-bottom: 0;
+}
+
+figcaption {
+  font-family: "IBM Plex Mono", Consolas, Menlo, Monaco, "Andale Mono", "Lucida Console", "Courier New", Courier, monospace;
+  font-size: var(--size2);
+  font-style: italic;
+  color: var(--medgray);
+}
+
+p {
+  max-width: 60ch;
+}
+
+p.lede {
+  font-size: var(--size4);
+}
+
+/* Direct Links / Markdown Headers */
+.direct-link {
+  font-family: sans-serif;
+  text-decoration: none;
+  font-style: normal;
+  margin-left: 0.1em;
+}
+
+a[href].direct-link,
+a[href].direct-link:visited {
+  color: transparent;
+}
+
+a[href].direct-link:focus,
+a[href].direct-link:focus:visited,
+:hover > a[href].direct-link,
+:hover > a[href].direct-link:visited {
+  color: #aaa;
+}
+
+pre,
+code {
+  font-family: "IBM Plex Mono", Consolas, Menlo, Monaco, "Andale Mono", "Lucida Console", "Courier New", Courier, monospace;
+  line-height: 1.5;
+  color: var(--black);
+}
+
+pre {
+  font-size: 14px;
+  line-height: 1.375;
+  direction: ltr;
+  text-align: left;
+  overflow: auto;
+  white-space: pre;
+  word-wrap: normal;
+  -moz-tab-size: 2;
+  -o-tab-size: 2;
+  tab-size: 2;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+  padding: 1em;
+  margin: 0.5em 0;
+  background-color: var(--lightgray);
+}
+
+pre p {
+  font-family: "IBM Plex Mono", Consolas, Menlo, Monaco, "Andale Mono", "Lucida Console", "Courier New", Courier, monospace;
+}
+
+.highlight-line {
+  display: block;
+  padding: 0.125em 1em;
+  text-decoration: none;
+  /* override del, ins, mark defaults */
+  color: inherit;
+  /* override del, ins, mark defaults */
+}
+
+/* allow highlighting empty lines */
+.highlight-line:empty:before {
+  content: " ";
+}
+
+/* avoid double line breaks when using display: block; */
+.highlight-line + br {
+  display: none;
+}
+
+.highlight-line-isdir {
+  color: #b0b0b0;
+  background-color: #222;
+}
+
+.highlight-line-active {
+  background-color: #444;
+  background-color: rgba(69, 69, 69, 0.8);
+}
+
+.highlight-line-add {
+  background-color: #45844b;
+}
+
+.highlight-line-remove {
+  background-color: #902f2f;
+}
+
+/**
+ * a11y-dark theme for JavaScript, CSS, and HTML
+ * Based on the okaidia theme: https://github.com/PrismJS/prism/blob/gh-pages/themes/prism-okaidia.css
+ * @author ericwbailey
+ */
+code[class*=language-],
+pre[class*=language-] {
+  color: nsmsn-color("gray");
+  background: none;
+  font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 1.5;
+  tab-size: 4;
+  hyphens: none;
+}
+
+/* Code blocks */
+pre[class*=language-] {
+  padding: 1em;
+  margin: 2rem 0;
+  overflow: auto;
+  border-radius: 0.3em;
+  max-width: calc(100vw - 2rem);
+}
+
+:not(pre) > code[class*=language-],
+pre[class*=language-] {
+  background: nsmsn-color("light");
+}
+
+/* Inline code */
+:not(pre) > code[class*=language-] {
+  padding: 0.1em;
+  border-radius: 0.3em;
+  white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+  color: #76747f;
+}
+
+.token.punctuation {
+  color: nsmsn-color("gray");
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+  color: #4d48e8;
+}
+
+.token.boolean,
+.token.number {
+  color: #348614;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+  color: #171392;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.language-scss .token.string,
+.style .token.string,
+.token.variable {
+  color: #d92d7a;
+}
+
+.token.function {
+  color: #6f34a3;
+}
+
+.token.atrule,
+.token.attr-value {
+  color: #6b65e8;
+}
+
+.token.keyword {
+  color: #171392;
+}
+
+.token.regex,
+.token.important {
+  color: #348614;
+}
+
+.token.important,
+.token.bold {
+  font-weight: bold;
+}
+
+.token.italic {
+  font-style: italic;
+}
+
+.token.entity {
+  cursor: help;
+}
+
+@media screen and (-ms-high-contrast: active) {
+  code[class*=language-],
+pre[class*=language-] {
+    color: windowText;
+    background: window;
+  }
+
+  :not(pre) > code[class*=language-],
+pre[class*=language-] {
+    background: window;
+  }
+
+  .token.important {
+    background: highlight;
+    color: window;
+    font-weight: normal;
+  }
+
+  .token.atrule,
+.token.attr-value,
+.token.function,
+.token.keyword,
+.token.operator,
+.token.selector {
+    font-weight: bold;
+  }
+
+  .token.attr-value,
+.token.comment,
+.token.doctype,
+.token.function,
+.token.keyword,
+.token.operator,
+.token.property,
+.token.string {
+    color: highlight;
+  }
+
+  .token.attr-value,
+.token.url {
+    font-weight: normal;
+  }
+}
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main,
+main.wrapper {
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+
+header, footer {
+  display: block;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 60em;
+}
+
+.footer {
+  margin-top: auto;
+  padding: var(--size3) var(--size2);
+  text-align: center;
+  font-family: "Epilogue", "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: var(--size2);
+}
+
+/* Header */
+.site-head {
+  max-height: 4em;
+}
+
+header.site-head:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.home {
+  font-family: "IBM Plex Mono", Consolas, Menlo, Monaco, "Andale Mono", "Lucida Console", "Courier New", Courier, monospace;
+  font-weight: 400;
+  padding: 0 1rem;
+  margin: 1rem 0;
+  /* 16px /16 */
+  font-size: var(--size2);
+  text-transform: uppercase;
+  z-index: 300;
+  display: flex;
+  flex-direction: column;
+  float: left;
+}
+
+.home-id {
+  padding: 0 0.5em;
+}
+@media screen and (min-width: 36em) {
+  .home-id {
+    float: left;
+    text-orientation: mixed;
+    writing-mode: vertical-rl;
+    font-size: 12px;
+    margin-left: -1rem;
+  }
+}
+
+.logo {
+  float: right;
+}
+
+.logo-path1:hover, .logo-path2:hover {
+  fill: var(--darkred);
+}
+
+.logo:hover {
+  animation-name: spin;
+  animation-duration: 3000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.home a {
+  color: var(--medgray);
+}
+
+.home :link {
+  color: var(--medgray);
+  text-decoration: none;
+}
+
+/* Nav */
+.nav {
+  padding: 0;
+  list-style: none;
+  float: left;
+  margin-left: 1em;
+}
+
+.nav-item {
+  display: inline-block;
+  margin-right: 1em;
+  font-weight: 600;
+}
+
+.nav-item a[href] {
+  color: var(--darkblue);
+  text-decoration: none;
+}
+
+.nav-item a:hover {
+  color: var(--darkred);
+}
+
+.nav-item-active {
+  font-weight: 820;
+  border-bottom: 4px solid var(--lightred);
+}
+
+/* Posts list */
+.postlist {
+  list-style: none;
+  padding: 0;
+}
+
+.postlist-item {
+  /* counter-increment: start-from -1;*/
+  margin-bottom: 1.95em;
+  display: block;
+}
+
+.postlist-item time {
+  font-family: "IBM Plex Mono", Consolas, Menlo, Monaco, "Andale Mono", "Lucida Console", "Courier New", Courier, monospace;
+  padding-left: 0.2em;
+}
+
+/* .postlist-item:before {
+  display: inline-block;
+  pointer-events: none;
+  content: "" counter(start-from, decimal-leading-zero) ". ";
+  line-height: 100%;
+  text-align: right;
+}*/
+.postlist-blurb {
+  display: block;
+  margin-bottom: 0.4em;
+  max-width: 45ch;
+}
+
+.postlist-date,
+.postlist-item:before {
+  font-size: 0.8em;
+  color: var(--darkgray);
+}
+
+.postlist-date {
+  word-spacing: -0.5px;
+  vertical-align: text-top;
+}
+
+.postlist-link {
+  display: block;
+  font-family: "Epilogue", "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 0.25em 0 0.125em 0;
+}
+
+.postlist-item-active .postlist-link {
+  font-weight: bold;
+}
+
+.tmpl-home .postlist-link {
+  font-size: 1.1875em;
+  /* 19px /16 */
+  font-weight: 700;
+}
+
+/* Tags */
+.post-tag {
+  display: inline-block;
+  font-family: "IBM Plex Mono", Consolas, Menlo, Monaco, "Andale Mono", "Lucida Console", "Courier New", Courier, monospace;
+  vertical-align: text-top;
+  font-size: 0.625em;
+  /* 10px /16 */
+  padding: 2px 4px;
+  margin-left: 0.8em;
+  /* 8px /10 */
+  background-color: var(--washedred);
+  color: var(--white);
+  border-radius: 0.25em;
+  /* 3px /12 */
+  text-decoration: none;
+}
+
+.post-tag:hover {
+  background-color: var(--gold);
+}
+
+.post-tag::before {
+  content: "#";
+}
+
+a[href].post-tag,
+a[href].post-tag:visited {
+  color: var(--navy);
+}
+
+/* Warning */
+.warning {
+  background-color: var(--lightyellow);
+  padding: 1em 0.625em;
+  /* 16px 10px /16 */
+  text-indent: -0.825em;
+}
+
+.warning ol:only-child {
+  margin: 0;
+}
+
+.panel {
+  background-color: white;
+  border: 1px solid var(--lightgray);
+  padding: var(--size3);
+}
+
+.flexo {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -0.5em;
+}
+
+.flexo > * {
+  flex: 1 0 18em;
+  margin: 0.75em;
+}
+
+.float-left {
+  display: block;
+}
+@media screen and (min-width: 36em) {
+  .float-left {
+    float: left;
+    margin-right: var(--size3);
+    padding-right: var(--size3);
+  }
+}
+
+.float-right {
+  display: block;
+  float: left;
+}
+
+/**
+ * FLOW
+ * Applies a margin to sibling elements based on a --flow-space custom property.
+ */
+.flow > * + * {
+  margin-top: var(--flow-space);
+}
+
+.flow > h2 + * {
+  margin-top: var(--size0);
+}
+
+.flow > h3 + * {
+  margin-top: var(--size0);
+}
+
+.flow > h4 + * {
+  margin-top: var(--size0);
+}
+
+.flow > h5 + * {
+  margin-top: var(--size0);
+}
+
+.flow > h6 + * {
+  margin-top: var(--size0);
+}
+
+.list-unstyled {
+  list-style: none;
+  padding: 0;
+}
+
+dl dt {
+  font-weight: 700;
+}
+
+dl dd {
+  padding-bottom: 0.75em;
+}
+
+.sr-only {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: auto;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap;
+}
+
+.darkred {
+  color: var(--darkred);
+}
+
+.bg-darkred {
+  background-color: var(--darkred);
+}
+
+.red {
+  color: var(--red);
+}
+
+.bg-red {
+  background-color: var(--red);
+}
+
+.lightred {
+  color: var(--lightred);
+}
+
+.bg-lightred {
+  background-color: var(--lightred);
+}
+
+.orange {
+  color: var(--orange);
+}
+
+.bg-orange {
+  background-color: var(--orange);
+}
+
+.gold {
+  color: var(--gold);
+}
+
+.bg-gold {
+  background-color: var(--gold);
+}
+
+.yellow {
+  color: var(--yellow);
+}
+
+.bg-yellow {
+  background-color: var(--yellow);
+}
+
+.lightyellow {
+  color: var(--lightyellow);
+}
+
+.bg-lightyellow {
+  background-color: var(--lightyellow);
+}
+
+.purple {
+  color: var(--purple);
+}
+
+.bg-purple {
+  background-color: var(--purple);
+}
+
+.lightpurple {
+  color: var(--lightpurple);
+}
+
+.bg-lightpurple {
+  background-color: var(--lightpurple);
+}
+
+.darkpink {
+  color: var(--darkpink);
+}
+
+.bg-darkpink {
+  background-color: var(--darkpink);
+}
+
+.hotpink {
+  color: var(--hotpink);
+}
+
+.bg-hotpink {
+  background-color: var(--hotpink);
+}
+
+.pink {
+  color: var(--pink);
+}
+
+.bg-pink {
+  background-color: var(--pink);
+}
+
+.lightpink {
+  color: var(--lightpink);
+}
+
+.bg-lightpink {
+  background-color: var(--lightpink);
+}
+
+.darkgreen {
+  color: var(--darkgreen);
+}
+
+.bg-darkgreen {
+  background-color: var(--darkgreen);
+}
+
+.green {
+  color: var(--green);
+}
+
+.bg-green {
+  background-color: var(--green);
+}
+
+.lightgreen {
+  color: var(--lightgreen);
+}
+
+.bg-lightgreen {
+  background-color: var(--lightgreen);
+}
+
+.navy {
+  color: var(--navy);
+}
+
+.bg-navy {
+  background-color: var(--navy);
+}
+
+.darkblue {
+  color: var(--darkblue);
+}
+
+.bg-darkblue {
+  background-color: var(--darkblue);
+}
+
+.blue {
+  color: var(--blue);
+}
+
+.bg-blue {
+  background-color: var(--blue);
+}
+
+.lightblue {
+  color: var(--lightblue);
+}
+
+.bg-lightblue {
+  background-color: var(--lightblue);
+}
+
+.lightestblue {
+  color: var(--lightestblue);
+}
+
+.bg-lightestblue {
+  background-color: var(--lightestblue);
+}
+
+.washedblue {
+  color: var(--washedblue);
+}
+
+.bg-washedblue {
+  background-color: var(--washedblue);
+}
+
+.washedgreen {
+  color: var(--washedgreen);
+}
+
+.bg-washedgreen {
+  background-color: var(--washedgreen);
+}
+
+.washedyellow {
+  color: var(--washedyellow);
+}
+
+.bg-washedyellow {
+  background-color: var(--washedyellow);
+}
+
+.washedred {
+  color: var(--washedred);
+}
+
+.bg-washedred {
+  background-color: var(--washedred);
+}
+
+.black {
+  color: var(--black);
+}
+
+.bg-black {
+  background-color: var(--black);
+}
+
+.darkgray {
+  color: var(--darkgray);
+}
+
+.bg-darkgray {
+  background-color: var(--darkgray);
+}
+
+.medgray {
+  color: var(--medgray);
+}
+
+.bg-medgray {
+  background-color: var(--medgray);
+}
+
+.gray {
+  color: var(--gray);
+}
+
+.bg-gray {
+  background-color: var(--gray);
+}
+
+.lightgray {
+  color: var(--lightgray);
+}
+
+.bg-lightgray {
+  background-color: var(--lightgray);
+}
+
+.white {
+  color: var(--white);
+}
+
+.bg-white {
+  background-color: var(--white);
+}
+
+.ivory {
+  color: var(--ivory);
+}
+
+.bg-ivory {
+  background-color: var(--ivory);
+}
+
+/*# sourceMappingURL=style.css.map */

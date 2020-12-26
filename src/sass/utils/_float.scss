@@ -1,0 +1,14 @@
+.float-left{
+    display: block;
+
+    @media screen and (min-width: 36em) {
+        float: left;
+        margin-right: var(--size3);
+        padding-right: var(--size3);
+    }
+}
+
+.float-right{
+    display: block;
+    float: left;
+}
