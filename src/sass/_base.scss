@@ -20,11 +20,16 @@
   }
   p,
   .tmpl-post li {
-    line-height: 1.45;
+    line-height: 1.6;
   }
   a[href] {
     color: var(--darkblue);
   }
+
+  a:hover {
+    color: var(--red);
+  }
+
   main {
     padding: 1rem;
   }

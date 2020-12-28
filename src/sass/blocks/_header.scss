@@ -41,9 +41,11 @@ header.site-head:after {
     float: right;
   }
 
-  .logo-path1:hover, .logo-path2:hover {
+  .logo:hover .logo-path1, .logo:hover .logo-path2 {
     fill: var(--darkred);
   }
+
+
 
   .logo:hover{
   animation-name: spin;

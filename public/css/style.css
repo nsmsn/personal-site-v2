@@ -169,11 +169,15 @@ img {
 
 p,
 .tmpl-post li {
-  line-height: 1.45;
+  line-height: 1.6;
 }
 
 a[href] {
   color: var(--darkblue);
+}
+
+a:hover {
+  color: var(--red);
 }
 
 main {
@@ -301,6 +305,19 @@ p {
 
 p.lede {
   font-size: var(--size4);
+}
+
+.list-multi-col {
+  column-width: 12em;
+  column-gap: 2em;
+}
+
+.timestamp {
+  font-family: "IBM Plex Mono", Consolas, Menlo, Monaco, "Andale Mono", "Lucida Console", "Courier New", Courier, monospace;
+  font-size: var(--size2);
+  display: block;
+  color: var(--medgray);
+  margin-bottom: 3rem;
 }
 
 /* Direct Links / Markdown Headers */
@@ -620,7 +637,7 @@ header.site-head:after {
   float: right;
 }
 
-.logo-path1:hover, .logo-path2:hover {
+.logo:hover .logo-path1, .logo:hover .logo-path2 {
   fill: var(--darkred);
 }
 
@@ -781,6 +798,20 @@ a[href].post-tag:visited {
   padding: var(--size3);
 }
 
+.pagination {
+  font-family: "IBM Plex Mono", Consolas, Menlo, Monaco, "Andale Mono", "Lucida Console", "Courier New", Courier, monospace;
+  font-size: 0.75em;
+  color: var(--medgray);
+}
+.pagination__inner {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.pagination__inner > [data-direction=forwards] {
+  margin-inline-start: auto;
+}
+
 .flexo {
   display: flex;
   flex-wrap: wrap;
@@ -805,7 +836,12 @@ a[href].post-tag:visited {
 
 .float-right {
   display: block;
-  float: left;
+}
+@media screen and (min-width: 36em) {
+  .float-right {
+    float: right;
+    margin-left: var(--size5);
+  }
 }
 
 /**

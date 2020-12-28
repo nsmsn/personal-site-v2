@@ -10,5 +10,9 @@
 
 .float-right{
     display: block;
-    float: left;
+    @media screen and (min-width: 36em) {
+        float: right;
+        margin-left: var(--size5);
+    }
+
 }

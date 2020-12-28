@@ -98,3 +98,16 @@ p {
 p.lede {
     font-size: var(--size4);
 }
+
+.list-multi-col{
+	column-width: 12em;
+	column-gap: 2em;
+}
+
+.timestamp {
+    font-family: $mono;
+    font-size: var(--size2);
+    display: block;
+    color: var(--medgray);
+    margin-bottom: 3rem;
+}
