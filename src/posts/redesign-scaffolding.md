@@ -66,4 +66,4 @@ The CSS is written so that the broadest, most generic rules are at the top of th
 
 As I develop and add more to the site, I expect these files may change a little, but the structure is designed for living projects, and designed to scale. The CSS I'm writing these days follows concepts similar to Andy Bell's [CUBE CSS](https://piccalil.li/cube-css/) and Harry Roberts' [ITCSS](https://www.xfive.co/blog/itcss-scalable-maintainable-css-architecture/) projects. I invite you to check both approaches out if you are either starting out in web development or looking for a way to write object-oriented styles for more maintainable stylesheets.
 
-
+<em>This was the third post in the ['redesign' series](/tags/redesign/).</em>

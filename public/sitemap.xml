@@ -107,12 +107,12 @@
   </url>
   
   <url>
-    <loc>https://nicksimson.com/tags/learning/</loc>
+    <loc>https://nicksimson.com/tags/personal/</loc>
     <lastmod>2020-12-24</lastmod>
   </url>
   
   <url>
-    <loc>https://nicksimson.com/tags/personal/</loc>
+    <loc>https://nicksimson.com/tags/learning/</loc>
     <lastmod>2020-12-24</lastmod>
   </url>
   
@@ -144,5 +144,10 @@
   <url>
     <loc>https://nicksimson.com/posts/redesign-scaffolding/</loc>
     <lastmod>2020-12-30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nicksimson.com/posts/2020-in-books/</loc>
+    <lastmod>2020-12-31</lastmod>
   </url>
 </urlset>
