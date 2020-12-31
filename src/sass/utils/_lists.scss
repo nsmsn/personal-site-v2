@@ -3,10 +3,7 @@
     padding: 0;
   }
 
-dl dt {
-    font-weight: 700;
-}  
-
-dl dd {
-    padding-bottom: .75em;
+.list-multi-col{
+	column-width: 12em;
+	column-gap: 2em;
 }

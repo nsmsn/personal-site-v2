@@ -99,9 +99,12 @@ p.lede {
     font-size: var(--size4);
 }
 
-.list-multi-col{
-	column-width: 12em;
-	column-gap: 2em;
+dl dt {
+    font-weight: 700;
+}  
+
+dl dd {
+    padding-bottom: .75em;
 }
 
 .timestamp {

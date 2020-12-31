@@ -3,7 +3,6 @@
 @import "reset";
 @import "base";
 @import "type";
-@import "markdown";
 @import "code";
 @import "prism";
 
@@ -12,6 +11,7 @@
 @import "blocks/nav";
 @import "blocks/postlist";
 @import "blocks/tags";
+@import "blocks/markdown";
 @import "blocks/warning";
 @import "blocks/panel";
 @import "blocks/pagination";
@@ -22,4 +22,3 @@
 @import "utils/lists";
 @import "utils/sr-only";
 @import "utils/color";
-

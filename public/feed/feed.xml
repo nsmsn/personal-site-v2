@@ -5,12 +5,67 @@
 	
 	<link href="https://nicksimson.com/feed/feed.xml" rel="self"/>
 	<link href="https://nicksimson.com/"/>
-	<updated>2020-12-18T19:00:00-05:00</updated>
+	<updated>2020-12-29T19:00:00-05:00</updated>
 	<id>https://nicksimson.com/</id>
 	<author>
 		<name>Nick Simson</name>
 		<email>nick@nicksimson.com</email>
 	</author>
+	
+	<entry>
+		<title>Scaffolding</title>
+		<link href="https://nicksimson.com/posts/redesign-scaffolding/"/>
+		<updated>2020-12-29T19:00:00-05:00</updated>
+		<id>https://nicksimson.com/posts/redesign-scaffolding/</id>
+		<content type="html">&lt;p&gt;A few things have changed visually since &lt;a href=&quot;http://web.archive.org/web/20201221200650/http://nicksimson.com/&quot;&gt;the last snapshot&lt;/a&gt;: Some of the base styles, the header, the footer, the &lt;a href=&quot;https://nicksimson.com/&quot;&gt;home page&lt;/a&gt;. I want to write a little about some things happening behind the scenes.&lt;/p&gt;
+&lt;p&gt;As I mentioned previously, I started out with the &lt;a href=&quot;https://github.com/11ty/eleventy-base-blog&quot;&gt;eleventy-base-blog&lt;/a&gt; starter project, mainly to get the github/netlify deployment set up quickly and painlessly. Since then, as I started modifying base styles, I quickly realized that I wanted to break up my CSS into smaller pieces, much in the way the site templates are seperated in the &lt;code&gt;_includes / layouts&lt;/code&gt; directory.&lt;/p&gt;
+&lt;p&gt;I explored some of the other &lt;a href=&quot;https://www.11ty.dev/docs/starter/&quot;&gt;starter projects in Eleventy&#39;s documentation&lt;/a&gt; to see how CSS is being used. In addition to every possible CSS flavor (Tailwind, Sass, PostCSS) you can imagine, I found a couple projects that keep a &lt;code&gt;src&lt;/code&gt; directory with the templates and content seperate from the &lt;code&gt;.eleventy.js&lt;/code&gt; and &lt;code&gt;.package.json&lt;/code&gt; files and other configuration stuff.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://thinkdobecreate.com/&quot;&gt;Stephanie Eckles&lt;/a&gt; has an awesome  &lt;a href=&quot;https://egghead.io/playlists/build-an-eleventy-11ty-site-from-scratch-bfd3&quot;&gt;tutorial on egghead.io&lt;/a&gt; where she shows how to set up a simple Eleventy project with Node Sass and a &lt;code&gt;src&lt;/code&gt; directory that outputs to a &lt;code&gt;public&lt;/code&gt; folder with the static site. This fit the bill of what I&#39;m after.&lt;/p&gt;
+&lt;p&gt;I know not every developer likes Node Sass, but I am still trying to use fewer dependencies, and I still like the idea of running everything through &lt;code&gt;npm start&lt;/code&gt; rather than setting up a complicated build process. I tend to mainly use variables and imports and very few mixins so I don&#39;t need all the latest and greatest in &amp;quot;Dart&amp;quot; Sass/canonical Sass.&lt;/p&gt;
+&lt;p&gt;I forked the eleventy-base-blog project and spun up &lt;a href=&quot;https://github.com/nsmsn/eleventy-base-blog-sass&quot;&gt;my own version on GitHub&lt;/a&gt; a few days ago. My version has a &lt;code&gt;src&lt;/code&gt; directory and uses Node Sass. The site that outputs on the &lt;code&gt;public&lt;/code&gt; folder looks identical to the official 11ty one.&lt;/p&gt;
+&lt;p&gt;Here&#39;s how the &lt;code&gt;sass&lt;/code&gt; folder is structured to output my &lt;a href=&quot;https://www.nicksimson.com/css/style.css&quot;&gt;style.css&lt;/a&gt; file:&lt;/p&gt;
+&lt;pre&gt;
+
+sass
+├── _base.scss
+├── _code.scss
+├── _config.scss
+├── _reset.scss
+├── _type.scss
+├── blocks
+├── style.scss
+└── utils
+
+&lt;/pre&gt;
+&lt;p&gt;The files in the root of this directory are named with an underscore (_) and are mainly for global styles and code highlighting. &lt;code&gt;_config.scss&lt;/code&gt; is a bunch of CSS variables (sizes, colors and font stacks) that will be used in the other files. In the folders named &amp;quot;blocks&amp;quot; and &amp;quot;utils&amp;quot; are where most of the CSS rules with classes are written. The big difference is that a &amp;quot;block&amp;quot; covers make up structures like page layouts and components. &amp;quot;Utils&amp;quot; are reusable utility classes that modify the appearance of an element or block.&lt;/p&gt;
+&lt;p&gt;The CSS is written so that the broadest, most generic rules are at the top of the stylesheet, followed by reusable classes that describe layouts and components, followed by more specific styles and overrides.  My &lt;code&gt;style.scss&lt;/code&gt; file is only &lt;code&gt;@import&lt;/code&gt; rules and is stuctured as follows:&lt;/p&gt;
+&lt;pre&gt;
+@import &quot;config&quot;;
+@import &quot;reset&quot;;
+@import &quot;base&quot;;
+@import &quot;type&quot;;
+@import &quot;code&quot;;
+
+@import &quot;blocks/layout&quot;;
+@import &quot;blocks/header&quot;;
+@import &quot;blocks/nav&quot;;
+@import &quot;blocks/postlist&quot;;
+@import &quot;blocks/tags&quot;;
+@import &quot;blocks/markdown&quot;;
+@import &quot;blocks/warning&quot;;
+@import &quot;blocks/panel&quot;;
+@import &quot;blocks/pagination&quot;;
+
+@import &quot;utils/flexo&quot;;
+@import &quot;utils/float&quot;;
+@import &quot;utils/flow&quot;;
+@import &quot;utils/lists&quot;;
+@import &quot;utils/sr-only&quot;;
+@import &quot;utils/color&quot;;
+&lt;/pre&gt;
+&lt;p&gt;As I develop and add more to the site, I expect these files may change a little, but the structure is designed for living projects, and designed to scale. The CSS I&#39;m writing these days follows concepts similar to Andy Bell&#39;s &lt;a href=&quot;https://piccalil.li/cube-css/&quot;&gt;CUBE CSS&lt;/a&gt; and Harry Roberts&#39; &lt;a href=&quot;https://www.xfive.co/blog/itcss-scalable-maintainable-css-architecture/&quot;&gt;ITCSS&lt;/a&gt; projects. I invite you to check both approaches out if you are either starting out in web development or looking for a way to write object-oriented styles for more maintainable stylesheets.&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Web fonts and base HTML</title>
@@ -67,7 +122,7 @@ This area needs some work.&lt;/p&gt;
 		<updated>2020-12-17T19:00:00-05:00</updated>
 		<id>https://nicksimson.com/posts/learn-html-with-jen-simmons/</id>
 		<content type="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube-nocookie.com/embed/zZCSTAR-4w0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;p&gt;I&#39;ve learned a ton from &lt;a href=&quot;https://jensimmons.com/&quot;&gt;Jen Simmons&lt;/a&gt; over the past several years.&lt;/p&gt;
+&lt;p&gt;I’ve learned a ton from &lt;a href=&quot;https://jensimmons.com/&quot;&gt;Jen Simmons&lt;/a&gt; over the past several years.&lt;/p&gt;
 &lt;p&gt;I just finished watching her latest offering, the redesigned &lt;a href=&quot;https://www.linkedin.com/learning/html-essential-training-4&quot;&gt;HTML Essential Training&lt;/a&gt; course, for LinkedInLearning. Simmons&#39; mastery of the fundamentals of the web (HTML, CSS, JavaScript) is impeccable.&lt;/p&gt;
 &lt;figure&gt;
     &lt;blockquote cite=&quot;https://shoptalkshow.com/415/&quot;&gt;
@@ -120,6 +175,12 @@ This area needs some work.&lt;/p&gt;
 &lt;p&gt;Neither Eleanor nor I would return to work in-person for months. What a difference a few days can make.&lt;/p&gt;
 &lt;p&gt;Everyone handles emergencies differently. I think my experience of the first six weeks of the global COVID-19 pandemic was better than the following nine months. We were not in a &amp;quot;hot spot&amp;quot; for several weeks, but Knox County shut down much like the rest of the country. We started refreshing the now-ubiquitous daily case count dashboards and made a bunch of homemade face coverings from old shirts and fabric scraps. I built a table and set up a home office in our living room. I didn&#39;t start baking daily (although I did execute a good gluten-free pizza crust) or attempt a novel. My plague year project was to develop a regular exercise regiment (I chose jogging and &lt;a href=&quot;http://www.c25k.com/&quot;&gt;Couch to 5K&lt;/a&gt;), and to avoid getting the virus or spreading it.&lt;/p&gt;
 &lt;p&gt;Homemade yard signs, window painting, and sidewalk chalk interventions sprang up in our neighborhood to thank healthcare workers. Eventually these were supplemanted or replaced with more yard signs and other sporadic interventions declaring solidarity with the Black Lives Matter movement. Then more general election yard signs and a handful of Trump flags appeared during my morning jogs or dog walks later in the summer. I proved that I could work at home for six months and still get things done, for the most part. &lt;a href=&quot;https://oak.is/thinking/working-remotely-covid-19-principles/&quot;&gt;Expectations of what is &amp;quot;productive&amp;quot;&lt;/a&gt; may have shifted during the global pandemic.&lt;/p&gt;
+&lt;figure&gt;
+&lt;img src=&quot;https://nicksimson.com/img/post-images/2020-holzer-survival.jpg&quot; width=&quot;600&quot; height=&quot;430&quot;&gt;
+&lt;figcaption&gt;Jenny Holzer
+American, b. 1950
+&lt;p&gt;Survival Series: In a Dream You Saw a Way…, 1997&lt;/p&gt;&lt;/figcaption&gt;&lt;p&gt;&lt;/p&gt;
+&lt;/figure&gt;
 &lt;p&gt;I&#39;ve struggled and managed depression through most of my adulthood, and 2020 will definitely get chalked up as one of my lousier years. I know I&#39;m not alone in this. Who hasn&#39;t experienced loneliness, disappointment and several dark nights of the soul this year? As I write this in mid-December, the whole state of Tennessee is a &amp;quot;hot spot&amp;quot; and the U.S. has lost the equivalent of the population of St. Louis, Missouri to COVID-19 deaths. The same number of people who perished in the September 11 terror attacks is dying daily around the country.&lt;/p&gt;
 &lt;p&gt;The Beauford Delaney exhibit stayed up through October, and the University of Tennessee is showing a &lt;a href=&quot;https://downtown.utk.edu/&quot;&gt;smaller Delaney show in its gallery in downtown Knoxville&lt;/a&gt;. The summer and fall was good for hikes in the woods and small outdoor gatherings in our back yard. I returned to in-person work (masked and at a distance 2 days a week) for a brief while in late September, but since Thanksgiving our team is fully remote again, at least through the end of the holiday season.&lt;/p&gt;
 &lt;p&gt;This time last year, we were in upstate New York for a huge wedding gathering. We spent Christmas day with my grandmother, one of the strongest women I know, but someone who is a member of a vulnerable population today. If this were a &amp;quot;normal&amp;quot; year we&#39;d be getting ready to make a trip to Albuquerque or Phoenix to spend the holidays with our families. But this is the year of postponed visits. We are writing longer Christmas cards and making video chat plans instead.&lt;/p&gt;

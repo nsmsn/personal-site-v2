@@ -190,11 +190,13 @@ main :first-child {
 
 table {
   margin: 1em 0;
+  border-collapse: collapse;
 }
 
-table td,
-table th {
-  padding-right: 1em;
+td, th {
+  border: 1px solid var(--lightgray);
+  padding: 0.5rem 1em;
+  text-align: left;
 }
 
 hr {
@@ -307,9 +309,12 @@ p.lede {
   font-size: var(--size4);
 }
 
-.list-multi-col {
-  column-width: 12em;
-  column-gap: 2em;
+dl dt {
+  font-weight: 700;
+}
+
+dl dd {
+  padding-bottom: 0.75em;
 }
 
 .timestamp {
@@ -320,31 +325,14 @@ p.lede {
   margin-bottom: 3rem;
 }
 
-/* Direct Links / Markdown Headers */
-.direct-link {
-  font-family: sans-serif;
-  text-decoration: none;
-  font-style: normal;
-  margin-left: 0.1em;
-}
-
-a[href].direct-link,
-a[href].direct-link:visited {
-  color: transparent;
-}
-
-a[href].direct-link:focus,
-a[href].direct-link:focus:visited,
-:hover > a[href].direct-link,
-:hover > a[href].direct-link:visited {
-  color: #aaa;
-}
-
 pre,
 code {
   font-family: "IBM Plex Mono", Consolas, Menlo, Monaco, "Andale Mono", "Lucida Console", "Courier New", Courier, monospace;
+  font-size: 0.875em;
   line-height: 1.5;
   color: var(--black);
+  background-color: var(--lightgray);
+  padding: 0 0.25em;
 }
 
 pre {
@@ -780,6 +768,26 @@ a[href].post-tag:visited {
   color: var(--navy);
 }
 
+/* Direct Links / Markdown Headers */
+.direct-link {
+  font-family: sans-serif;
+  text-decoration: none;
+  font-style: normal;
+  margin-left: 0.1em;
+}
+
+a[href].direct-link,
+a[href].direct-link:visited {
+  color: transparent;
+}
+
+a[href].direct-link:focus,
+a[href].direct-link:focus:visited,
+:hover > a[href].direct-link,
+:hover > a[href].direct-link:visited {
+  color: #aaa;
+}
+
 /* Warning */
 .warning {
   background-color: var(--lightyellow);
@@ -877,12 +885,9 @@ a[href].post-tag:visited {
   padding: 0;
 }
 
-dl dt {
-  font-weight: 700;
-}
-
-dl dd {
-  padding-bottom: 0.75em;
+.list-multi-col {
+  column-width: 12em;
+  column-gap: 2em;
 }
 
 .sr-only {

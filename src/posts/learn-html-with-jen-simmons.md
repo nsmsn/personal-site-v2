@@ -1,6 +1,6 @@
 ---
 title: Learn HTML with Jen Simmons
-description: In less time than an "Avengers" movie, you can learn the fundamental language of the web.
+description: In less time than an “Avengers” movie, you can learn the fundamental language of the web.
 date: 2020-12-18
 tags:
   - learning
@@ -10,7 +10,7 @@ accent-color: bada55
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/zZCSTAR-4w0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-I've learned a ton from [Jen Simmons](https://jensimmons.com/) over the past several years. 
+I’ve learned a ton from [Jen Simmons](https://jensimmons.com/) over the past several years. 
 
 I just finished watching her latest offering, the redesigned [HTML Essential Training](https://www.linkedin.com/learning/html-essential-training-4) course, for LinkedInLearning. Simmons' mastery of the fundamentals of the web (HTML, CSS, JavaScript) is impeccable. 
 

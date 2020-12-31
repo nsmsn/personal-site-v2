@@ -1,8 +1,11 @@
 pre,
 code {
   font-family: $mono;
+  font-size: .875em;
   line-height: 1.5;
   color: var(--black);
+  background-color: var(--lightgray);
+  padding: 0 .25em;
 }
 pre {
   font-size: 14px;

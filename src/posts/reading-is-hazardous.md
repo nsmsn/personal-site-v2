@@ -1,6 +1,6 @@
 ---
 title: Reading is hazardous
-description: Mary Ruefle's writing is a blow to the skull and a balm to the soul.
+description: Mary Ruefle’s writing is a blow to the skull and a balm to the soul.
 date: 2015-05-17
 tags:
   - books

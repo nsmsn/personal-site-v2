@@ -15,7 +15,7 @@ eleventyNavigation:
       </script>
       <noscript>Howdy.</noscript>
     </h1>
-<p class="lede">My name is Nick, which means <span class="bg-lightred black">“victory of the people.”</span> I design things for screens&nbsp;(mostly), paper&nbsp;(sometimes), and humans&nbsp;(always).</p>
+<p class="lede">My name is Nick, which means <em class="bg-ivory">“victory of the people.”</em> I design things for screens&nbsp;(mostly), paper&nbsp;(sometimes), and humans&nbsp;(always).</p>
 
 &nbsp;
 <h2>Lately...</h2>
@@ -33,3 +33,38 @@ eleventyNavigation:
   
   <p>I live in Knoxville, Tenn. and work as a public sector communication designer. You can learn more <a href="/info/">about&nbsp;me</a> or see what I’m up to&nbsp;<a href="/now/">now</a>.</p>
 </div>
+
+<style>
+html, body {
+  -webkit-animation: gradient 60s infinite alternate linear;
+          animation: gradient 60s infinite alternate linear;
+  background: hsl(0, 100%, 93.73%);
+}
+@-webkit-keyframes gradient {
+  25% {
+    background: hsl(52.68, 91.11%, 82.35%);
+  }
+  50% {
+    background: hsl(157.14, 84%, 95.1%);
+  }
+  75% {
+    background: hsl(202.8, 100%, 90.2%);
+  }
+}
+@keyframes gradient {
+  25% {
+    background: hsl(52.68, 91.11%, 82.35%);
+  }
+  50% {
+    background: hsl(157.14, 84%, 95.1%);
+  }
+  75% {
+    background: hsl(202.8, 100%, 90.2%);
+  }
+}
+
+.warning {
+  background-color: var(--ivory);
+}
+
+</style>
