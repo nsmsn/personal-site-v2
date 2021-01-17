@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tagged “learning”</title>
-    <meta name="description" content="Being the personal website of one Nick Simson, of Knoxville, Tenn.">
+    <title>Books finished in 2020</title>
+    <meta name="description" content="I finished 12,237 pages and 39 books.">
     <link rel="stylesheet" href="/css/style.css">
     <!--<link rel="stylesheet" href="/css/prism-base16-monokai.dark.css">-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -35,7 +35,7 @@
       </ul>
     </header>
 
-    <main class="tmpl-home flow wrapper">
+    <main class="tmpl-post flow wrapper">
 
       <!-- Delete this message -->
       <div class="warning">
@@ -43,48 +43,26 @@
       </div>
       <!-- Stop deleting -->
 
-      <h1>Tagged “learning”</h1>
+      <h1>Books finished in 2020</h1>
 
+<small class="timestamp">Published <time datetime="2020-12-31">31 Dec 2020</time></small>
 
-<ol reversed class="postlist" style="counter-reset: start-from 3">
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/bDjA1FfeR9Q?start=919?end=2718" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-  <li class="postlist-item">
-    
-    <a href="/posts/2020-learn-html-with-jen-simmons/" class="postlist-link">Learn HTML with Jen Simmons</a>
+&nbsp;
 
-    <span class="postlist-blurb">In less time than an “Avengers” movie, you can learn the fundamental language of the web.</span>
+<footer class="pagination">
 
-    <time class="postlist-date" datetime="2020-12-18">18 Dec 2020</time>
-    
-    
-      <a href="/tags/learning/" class="post-tag">learning</a>
-  
-  </li>
-
-  <li class="postlist-item">
-    
-    <a href="/posts/2015-becoming-an-everyday-developer/" class="postlist-link">Becoming an everyday developer</a>
-
-    <span class="postlist-blurb">What to learn, how to learn it, and what to learn next.</span>
-
-    <time class="postlist-date" datetime="2015-09-07">07 Sep 2015</time>
-    
-    
-      <a href="/tags/learning/" class="post-tag">learning</a>
-  
-  </li>
-
-</ol>
-
-<p>See <a href="/tags/">all tags</a>.</p>
-
-
+<hr>
+<ul class="list-unstyled pagination__inner"><li class="">Next: <a href="/posts/2021-cedric-johnson-policing-education-inequality/">Cedric Johnson on Public Goods and Inequality</a></li><li class="">Previous: <a href="/posts/2020-in-books/">Books finished in 2020</a></li>
+</ul>
+</footer>
     </main>
 
     <footer role="contentinfo" class="footer wrapper flow">
 	<p>© 2021 Nick Simson.</p>
 </footer>
 
-    <!-- Current page: /tags/learning/ -->
+    <!-- Current page: /posts/american-carnage -->
   </body>
 </html>

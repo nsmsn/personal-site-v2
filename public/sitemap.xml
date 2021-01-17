@@ -7,32 +7,32 @@
   </url>
   
   <url>
-    <loc>https://nicksimson.com/posts/collaborating-tumbleweeds/</loc>
+    <loc>https://nicksimson.com/posts/2015-collaborating-tumbleweeds/</loc>
     <lastmod>2015-03-07</lastmod>
   </url>
   
   <url>
-    <loc>https://nicksimson.com/posts/reading-is-hazardous/</loc>
+    <loc>https://nicksimson.com/posts/2015-reading-is-hazardous/</loc>
     <lastmod>2015-05-17</lastmod>
   </url>
   
   <url>
-    <loc>https://nicksimson.com/posts/everyday-developers/</loc>
+    <loc>https://nicksimson.com/posts/2015-everyday-developers/</loc>
     <lastmod>2015-08-31</lastmod>
   </url>
   
   <url>
-    <loc>https://nicksimson.com/posts/becoming-an-everyday-developer/</loc>
+    <loc>https://nicksimson.com/posts/2015-becoming-an-everyday-developer/</loc>
     <lastmod>2015-09-07</lastmod>
   </url>
   
   <url>
-    <loc>https://nicksimson.com/posts/many-best-practices/</loc>
+    <loc>https://nicksimson.com/posts/2016-many-best-practices/</loc>
     <lastmod>2016-06-11</lastmod>
   </url>
   
   <url>
-    <loc>https://nicksimson.com/posts/adaptive-web-design/</loc>
+    <loc>https://nicksimson.com/posts/2016-adaptive-web-design/</loc>
     <lastmod>2016-09-10</lastmod>
   </url>
   
@@ -62,17 +62,17 @@
   </url>
   
   <url>
-    <loc>https://nicksimson.com/posts/newww-year/</loc>
+    <loc>https://nicksimson.com/posts/2020-newww-year/</loc>
     <lastmod>2020-12-16</lastmod>
   </url>
   
   <url>
-    <loc>https://nicksimson.com/posts/learn-html-with-jen-simmons/</loc>
+    <loc>https://nicksimson.com/posts/2020-learn-html-with-jen-simmons/</loc>
     <lastmod>2020-12-18</lastmod>
   </url>
   
   <url>
-    <loc>https://nicksimson.com/posts/redesign-webfonts-html/</loc>
+    <loc>https://nicksimson.com/posts/2020-redesign-webfonts-html/</loc>
     <lastmod>2020-12-19</lastmod>
   </url>
   
@@ -102,22 +102,7 @@
   </url>
   
   <url>
-    <loc>https://nicksimson.com/tags/books/</loc>
-    <lastmod>2020-12-24</lastmod>
-  </url>
-  
-  <url>
     <loc>https://nicksimson.com/tags/learning/</loc>
-    <lastmod>2020-12-24</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nicksimson.com/tags/personal/</loc>
-    <lastmod>2020-12-24</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nicksimson.com/tags/design/</loc>
     <lastmod>2020-12-24</lastmod>
   </url>
   
@@ -127,7 +112,27 @@
   </url>
   
   <url>
+    <loc>https://nicksimson.com/tags/books/</loc>
+    <lastmod>2020-12-24</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nicksimson.com/tags/design/</loc>
+    <lastmod>2020-12-24</lastmod>
+  </url>
+  
+  <url>
     <loc>https://nicksimson.com/tags/redesign/</loc>
+    <lastmod>2020-12-24</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nicksimson.com/tags/personal/</loc>
+    <lastmod>2020-12-24</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nicksimson.com/tags/scholarship/</loc>
     <lastmod>2020-12-24</lastmod>
   </url>
   
@@ -142,7 +147,7 @@
   </url>
   
   <url>
-    <loc>https://nicksimson.com/posts/redesign-scaffolding/</loc>
+    <loc>https://nicksimson.com/posts/2020-redesign-scaffolding/</loc>
     <lastmod>2020-12-30</lastmod>
   </url>
   
@@ -159,5 +164,10 @@
   <url>
     <loc>https://nicksimson.com/recommends/</loc>
     <lastmod>2021-01-07</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nicksimson.com/posts/2021-cedric-johnson-policing-education-inequality/</loc>
+    <lastmod>2021-01-17</lastmod>
   </url>
 </urlset>

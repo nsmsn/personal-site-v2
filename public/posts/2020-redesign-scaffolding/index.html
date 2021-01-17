@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scaffolding</title>
+    <meta name="description" content="Setting up a structure for the cascade.">
+    <link rel="stylesheet" href="/css/style.css">
+    <!--<link rel="stylesheet" href="/css/prism-base16-monokai.dark.css">-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,400..900;1,400..800&family=IBM+Plex+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Literata:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+    
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Nick Simson">
+    <link rel="alternate" href="/feed/feed.json" type="application/json" title="Nick Simson">
+
+    <link rel="icon" href="/img/meta/favicon.svg" type="image/svg+xml" />
+  
+  </head>
+  <body>
+    <header class="site-head wrapper">
+      <h1 class="home"><a href="/"><span class="home-id sr-only">Nick Simson</span> <svg class="logo" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 100 100" xml:space="preserve" width="40" height="40">
+  <style>
+    .logo-path1{fill:#ee453b}
+    .logo-path2{fill:#ee453b}
+  </style>
+  <g id="Layer_1_2_">
+    <path class="logo-path1" d="M82.7 16.7C66.8.8 41.1.8 25.3 16.7 9.6 32.3 9.4 57.4 24.5 73.3l17.9-37c.2-.5.8-.6 1.2-.2l10.3 10.3c.3.3.8.3 1.1 0l27.7-29.7z"/>
+    <path class="logo-path2" d="M17.3 83.3c15.9 15.9 41.6 15.9 57.4 0 15.6-15.6 15.8-40.7.8-56.6l-17.9 37c-.2.5-.8.6-1.2.2L46.2 53.6c-.3-.3-.8-.3-1.1 0L17.3 83.3z"/>
+  </g>
+</svg></a></h1>
+      <ul class="nav">
+        <li class="nav-item"><a href="/">Home</a></li>
+        <li class="nav-item"><a href="/posts/">Archive</a></li>
+        <li class="nav-item"><a href="/info/">Info</a></li>
+      </ul>
+    </header>
+
+    <main class="tmpl-post flow wrapper">
+
+      <!-- Delete this message -->
+      <div class="warning">
+        🚩 <em>This website is undergoing an <a href="/tags/redesign/">open redesign</a>, so if anything looks <small class="medgray">[not&nbsp;deliberately]</small> wonky, that’s&nbsp;why.</em>
+      </div>
+      <!-- Stop deleting -->
+
+      <h1>Scaffolding</h1>
+
+<small class="timestamp">Published <time datetime="2020-12-30">30 Dec 2020</time></small>
+
+<p>A few things have changed visually since <a href="http://web.archive.org/web/20201221200650/http://nicksimson.com/">the last snapshot</a>: Some of the base styles, the header, the footer, the <a href="https://nicksimson.com">home page</a>. I want to write a little about some things happening behind the scenes.</p>
+<p>As I mentioned previously, I started out with the <a href="https://github.com/11ty/eleventy-base-blog">eleventy-base-blog</a> starter project, mainly to get the github/netlify deployment set up quickly and painlessly. Since then, as I started modifying base styles, I quickly realized that I wanted to break up my CSS into smaller pieces, much in the way the site templates are seperated in the <code>_includes / layouts</code> directory.</p>
+<p>I explored some of the other <a href="https://www.11ty.dev/docs/starter/">starter projects in Eleventy's documentation</a> to see how CSS is being used. In addition to every possible CSS flavor (Tailwind, Sass, PostCSS) you can imagine, I found a couple projects that keep a <code>src</code> directory with the templates and content seperate from the <code>.eleventy.js</code> and <code>.package.json</code> files and other configuration stuff.</p>
+<p><a href="https://thinkdobecreate.com/">Stephanie Eckles</a> has an awesome  <a href="https://egghead.io/playlists/build-an-eleventy-11ty-site-from-scratch-bfd3">tutorial on egghead.io</a> where she shows how to set up a simple Eleventy project with Node Sass and a <code>src</code> directory that outputs to a <code>public</code> folder with the static site. This fit the bill of what I'm after.</p>
+<p>I know not every developer likes Node Sass, but I am still trying to use fewer dependencies, and I still like the idea of running everything through <code>npm start</code> rather than setting up a complicated build process. I tend to mainly use variables and imports and very few mixins so I don't need all the latest and greatest in &quot;Dart&quot; Sass/canonical Sass.</p>
+<p>I forked the eleventy-base-blog project and spun up <a href="https://github.com/nsmsn/eleventy-base-blog-sass">my own version on GitHub</a> a few days ago. My version has a <code>src</code> directory and uses Node Sass. The site that outputs on the <code>public</code> folder looks identical to the official 11ty one.</p>
+<p>Here's how the <code>sass</code> folder is structured to output my <a href="https://www.nicksimson.com/css/style.css">style.css</a> file:</p>
+<pre>
+
+sass
+├── _base.scss
+├── _code.scss
+├── _config.scss
+├── _reset.scss
+├── _type.scss
+├── blocks
+├── style.scss
+└── utils
+
+</pre>
+<p>The files in the root of this directory are named with an underscore (_) and are mainly for global styles and code highlighting. <code>_config.scss</code> is a bunch of CSS variables (sizes, colors and font stacks) that will be used in the other files. In the folders named &quot;blocks&quot; and &quot;utils&quot; are where most of the CSS rules with classes are written. The big difference is that a &quot;block&quot; covers make up structures like page layouts and components. &quot;Utils&quot; are reusable utility classes that modify the appearance of an element or block.</p>
+<p>The CSS is written so that the broadest, most generic rules are at the top of the stylesheet, followed by reusable classes that describe layouts and components, followed by more specific styles and overrides.  My <code>style.scss</code> file is only <code>@import</code> rules and is stuctured as follows:</p>
+<pre>
+@import "config";
+@import "reset";
+@import "base";
+@import "type";
+@import "code";
+
+@import "blocks/layout";
+@import "blocks/header";
+@import "blocks/nav";
+@import "blocks/postlist";
+@import "blocks/tags";
+@import "blocks/markdown";
+@import "blocks/warning";
+@import "blocks/panel";
+@import "blocks/pagination";
+
+@import "utils/flexo";
+@import "utils/float";
+@import "utils/flow";
+@import "utils/lists";
+@import "utils/sr-only";
+@import "utils/color";
+</pre>
+<p>As I develop and add more to the site, I expect these files may change a little, but the structure is designed for living projects, and designed to scale. The CSS I'm writing these days follows concepts similar to Andy Bell's <a href="https://piccalil.li/cube-css/">CUBE CSS</a> and Harry Roberts' <a href="https://www.xfive.co/blog/itcss-scalable-maintainable-css-architecture/">ITCSS</a> projects. I invite you to check both approaches out if you are either starting out in web development or looking for a way to write object-oriented styles for more maintainable stylesheets.</p>
+<p><em>This was the third post in the <a href="/tags/redesign/">'redesign' series</a>.</em></p>
+
+
+&nbsp;
+
+<footer class="pagination">
+
+<hr>
+<ul class="list-unstyled pagination__inner"><li class="">Next: <a href="/posts/2020-in-books/">Books finished in 2020</a></li><li class="">Previous: <a href="/posts/2020-redesign-webfonts-html/">Web fonts and base HTML</a></li>
+</ul>
+</footer>
+    </main>
+
+    <footer role="contentinfo" class="footer wrapper flow">
+	<p>© 2021 Nick Simson.</p>
+</footer>
+
+    <!-- Current page: /posts/2020-redesign-scaffolding/ -->
+  </body>
+</html>

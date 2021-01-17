@@ -5,12 +5,39 @@
 	
 	<link href="https://nicksimson.com/feed/feed.xml" rel="self"/>
 	<link href="https://nicksimson.com/"/>
-	<updated>2020-12-30T19:00:00-05:00</updated>
+	<updated>2021-01-16T19:00:00-05:00</updated>
 	<id>https://nicksimson.com/</id>
 	<author>
 		<name>Nick Simson</name>
 		<email>nick@nicksimson.com</email>
 	</author>
+	
+	<entry>
+		<title>Cedric Johnson on Public Goods and Inequality</title>
+		<link href="https://nicksimson.com/posts/2021-cedric-johnson-policing-education-inequality/"/>
+		<updated>2021-01-16T19:00:00-05:00</updated>
+		<id>https://nicksimson.com/posts/2021-cedric-johnson-policing-education-inequality/</id>
+		<content type="html">&lt;p&gt;My introduction to Cedric Johnson and his work was an  &lt;a href=&quot;https://www.youtube.com/watch?v=907lFP0j1Dg&quot;&gt;interview with Johnson on the Michael Brooks Show&lt;/a&gt; (R.I.P.) in June of 2020.&lt;/p&gt;
+&lt;p&gt;Afterward, I found a video of a guest lecture Johnson gave at ArtCenter College of Design in Pasadena, Calif. on the topic of the policing crisis and what the scholar refers to as the “technological fix”. The video below was recorded in 2019:&lt;/p&gt;
+&lt;div class=&quot;video-container&quot;&gt;
+&lt;iframe src=&quot;https://www.youtube-nocookie.com/embed/z9PwqmLnLRc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;blockquote&gt;
+“I want to argue that [these problems are] deeply connected to the type of society we have and we&#39;re implicated in it...we benefit in some ways from that style of policing. Much of a lifestyle we enjoy &amp;ndash; the class position that a lot of us enjoy &amp;ndash; is based on this policing that&#39;s happening in other places.”
+&lt;/blockquote&gt;
+&lt;p&gt;Cedric Johnson is a professor of Black studies and political science at University of Illinois at Chicago. He&#39;s probed the topic of &lt;a href=&quot;https://journals.sagepub.com/doi/abs/10.1177/0169796X1102700409?journalCode=jdsb&quot;&gt;“humanitarian” design before, in an incisive paper&lt;/a&gt; inspired by his research into New Orleans after Hurricane Katrina. In his talk at ArtCenter, Johnson engages with an audience of designers and architects, to discuss the underlying issues of inequality that has expanded the role of policing in our communities and envision what a better society without poverty and violence could look like.&lt;/p&gt;
+&lt;p&gt;Johnson returned to ArtCenter at the end of 2020 to record a follow-up with the Change Lab podcast, in a &lt;a href=&quot;http://www.artcenter.edu/connect/dot-magazine/articles/change-lab-podcast-39-cedric-johnson-on-thinking-historically-about-racial-justice.html&quot;&gt;wide-ranging interview&lt;/a&gt; with Lorne Buchman, president of the college. The two discuss Johnson&#39;s own education and background, his scholarship on policing, Louisiana after Katrina, and ways to make higher education more universal and accessibile.&lt;/p&gt;
+&lt;audio controls=&quot;&quot;&gt;
+  &lt;source src=&quot;https://www.podtrac.com/pts/redirect.mp3/chtbl.com/track/1C3AGD/traffic.megaphone.fm/LIT4207515901.mp3&quot; type=&quot;audio/mpeg&quot;&gt;
+  Visit the source on &lt;a href=&quot;http://www.artcenter.edu/connect/dot-magazine/articles/change-lab-podcast-39-cedric-johnson-on-thinking-historically-about-racial-justice.html&quot;&gt;ArtCenter.edu&lt;/a&gt;.
+&lt;/audio&gt;
+&lt;blockquote&gt;
+“I think being aware of the context which you are working in and how particular design solutions might be adopted...Are they adopted in an ad hoc manner that excludes? Or will they be part of a solution carried out in way that has universal, or broad benefits?”
+&lt;/blockquote&gt;
+&lt;p&gt;What I appreciate about Cedric Johnson&#39;s analysis is the depths to which he interrogates history and social problems, and his rejection of anything reductive: simple answers, sloganeering, diversions from anything that gets to the root of a problem. In the months following the deaths of Breonna Taylor and George Floyd, and the protests and uprisings that followed throughout the country I have been engaging with Johnson&#39;s work as well as the work of other scholars, writers, and organizers.&lt;/p&gt;
+&lt;p&gt;Michelle Alexander&#39;s &lt;i&gt;The New Jim Crow&lt;/i&gt; was an important book that helped many understand policing and mass incarceration and the War on Drugs. I&#39;d also recommend reading James Forman, Jr.&#39;s &lt;i&gt;Locking Up Our Own&lt;/i&gt; as a work that complicates Alexander&#39;s narrative. If you are interested in the problem from a Black police officer&#39;s perspective, I thought Matthew Horace&#39;s &lt;i&gt;The Black and the Blue&lt;/i&gt; was beautifully written. And when it comes out, I am eagerly anticipating Cedric Johnson&#39;s next book.&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Books finished in 2020</title>
@@ -260,9 +287,9 @@ by Laura Kalbag&lt;br&gt;
 	
 	<entry>
 		<title>Scaffolding</title>
-		<link href="https://nicksimson.com/posts/redesign-scaffolding/"/>
+		<link href="https://nicksimson.com/posts/2020-redesign-scaffolding/"/>
 		<updated>2020-12-29T19:00:00-05:00</updated>
-		<id>https://nicksimson.com/posts/redesign-scaffolding/</id>
+		<id>https://nicksimson.com/posts/2020-redesign-scaffolding/</id>
 		<content type="html">&lt;p&gt;A few things have changed visually since &lt;a href=&quot;http://web.archive.org/web/20201221200650/http://nicksimson.com/&quot;&gt;the last snapshot&lt;/a&gt;: Some of the base styles, the header, the footer, the &lt;a href=&quot;https://nicksimson.com/&quot;&gt;home page&lt;/a&gt;. I want to write a little about some things happening behind the scenes.&lt;/p&gt;
 &lt;p&gt;As I mentioned previously, I started out with the &lt;a href=&quot;https://github.com/11ty/eleventy-base-blog&quot;&gt;eleventy-base-blog&lt;/a&gt; starter project, mainly to get the github/netlify deployment set up quickly and painlessly. Since then, as I started modifying base styles, I quickly realized that I wanted to break up my CSS into smaller pieces, much in the way the site templates are seperated in the &lt;code&gt;_includes / layouts&lt;/code&gt; directory.&lt;/p&gt;
 &lt;p&gt;I explored some of the other &lt;a href=&quot;https://www.11ty.dev/docs/starter/&quot;&gt;starter projects in Eleventy&#39;s documentation&lt;/a&gt; to see how CSS is being used. In addition to every possible CSS flavor (Tailwind, Sass, PostCSS) you can imagine, I found a couple projects that keep a &lt;code&gt;src&lt;/code&gt; directory with the templates and content seperate from the &lt;code&gt;.eleventy.js&lt;/code&gt; and &lt;code&gt;.package.json&lt;/code&gt; files and other configuration stuff.&lt;/p&gt;
@@ -316,9 +343,9 @@ sass
 	
 	<entry>
 		<title>Web fonts and base HTML</title>
-		<link href="https://nicksimson.com/posts/redesign-webfonts-html/"/>
+		<link href="https://nicksimson.com/posts/2020-redesign-webfonts-html/"/>
 		<updated>2020-12-18T19:00:00-05:00</updated>
-		<id>https://nicksimson.com/posts/redesign-webfonts-html/</id>
+		<id>https://nicksimson.com/posts/2020-redesign-webfonts-html/</id>
 		<content type="html">&lt;figure&gt;
     &lt;img src=&quot;https://nicksimson.com/img/post-images/2020-12-webfonts.png&quot; class=&quot;photo-border&quot; alt=&quot;NickSimson dot com homepage&quot;&gt;
     &lt;figcaption&gt;The current homepage with web fonts enabled&lt;/figcaption&gt;
@@ -365,9 +392,9 @@ This area needs some work.&lt;/p&gt;
 	
 	<entry>
 		<title>Learn HTML with Jen Simmons</title>
-		<link href="https://nicksimson.com/posts/learn-html-with-jen-simmons/"/>
+		<link href="https://nicksimson.com/posts/2020-learn-html-with-jen-simmons/"/>
 		<updated>2020-12-17T19:00:00-05:00</updated>
-		<id>https://nicksimson.com/posts/learn-html-with-jen-simmons/</id>
+		<id>https://nicksimson.com/posts/2020-learn-html-with-jen-simmons/</id>
 		<content type="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube-nocookie.com/embed/zZCSTAR-4w0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 &lt;p&gt;I’ve learned a ton from &lt;a href=&quot;https://jensimmons.com/&quot;&gt;Jen Simmons&lt;/a&gt; over the past several years.&lt;/p&gt;
 &lt;p&gt;I just finished watching her latest offering, the redesigned &lt;a href=&quot;https://www.linkedin.com/learning/html-essential-training-4&quot;&gt;HTML Essential Training&lt;/a&gt; course, for LinkedInLearning. Simmons&#39; mastery of the fundamentals of the web (HTML, CSS, JavaScript) is impeccable.&lt;/p&gt;
@@ -384,9 +411,9 @@ This area needs some work.&lt;/p&gt;
 	
 	<entry>
 		<title>Ready for a Newww Year</title>
-		<link href="https://nicksimson.com/posts/newww-year/"/>
+		<link href="https://nicksimson.com/posts/2020-newww-year/"/>
 		<updated>2020-12-15T19:00:00-05:00</updated>
-		<id>https://nicksimson.com/posts/newww-year/</id>
+		<id>https://nicksimson.com/posts/2020-newww-year/</id>
 		<content type="html">&lt;p&gt;In late 2020, the coronavirus pandemic is raging in the U.S. and colder weather makes outdoor gathering less appealing. To stave off some of the cabin fever this winter, I&#39;m ready to revisit my own website, which I have sadly left dormant until this week. My dad often talks about his grandfather, a carpenter, who was often so busy working on other people&#39;s homes, the upstairs of his own house was left unfinished for many years. The metaphor seems appropriate today.&lt;/p&gt;
 &lt;p&gt;Rather than simply applying a fresh coat of paint, I&#39;m taking this down to the studs and thinking about what I want it to be in 2021 and beyond. I find the &lt;a href=&quot;https://indieweb.org/&quot;&gt;IndieWeb&lt;/a&gt; ethos more and more appealing: Publishing on my own platform rather than a commercial social network and tinkering around with technologies to scratch an itch.&lt;/p&gt;
 &lt;p&gt;In the spirit of &lt;a href=&quot;https://twitter.com/jensimmons/status/943323088405581824&quot;&gt;New Years&#39; resolutions&lt;/a&gt;, I put together an unordered list detailing what I want to accomplish with this rebuild:&lt;/p&gt;
@@ -1221,9 +1248,9 @@ by Patrick Ryan&lt;br&gt;
 	
 	<entry>
 		<title>Javascript is not your interface.</title>
-		<link href="https://nicksimson.com/posts/adaptive-web-design/"/>
+		<link href="https://nicksimson.com/posts/2016-adaptive-web-design/"/>
 		<updated>2016-09-09T20:00:00-04:00</updated>
-		<id>https://nicksimson.com/posts/adaptive-web-design/</id>
+		<id>https://nicksimson.com/posts/2016-adaptive-web-design/</id>
 		<content type="html">&lt;p class=&quot;lede&quot;&gt;It&amp;rsquo;s just one powerful layer that can do some incredible things on an already solid HTML&amp;nbsp;foundation.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;http://adaptivewebdesign.info/&quot;&gt;&lt;img class=&quot;book&quot; src=&quot;https://nicksimson.com/img/post-images/adaptive-web-cover.jpg&quot; alt=&quot;Cover of Adaptive Web Design&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;http://adaptivewebdesign.info/&quot;&gt;&lt;em&gt;Adaptive Web Design&lt;/em&gt;&lt;/a&gt; is an excellent guide to creating rich digital experiences for the web. The author, &lt;a href=&quot;https://www.aaron-gustafson.com/&quot;&gt;Aaron Gustafson&lt;/a&gt;, is a seasoned web professional who really knows his stuff. More than a framework or methodology, Gustafson introduces Progressive Enhancement as a guiding &amp;quot;philosophy&amp;quot; to approaching websites and apps, treating each part of the design process as a series of layers upon a universally accessible, baseline experience.&lt;/p&gt;
@@ -1238,9 +1265,9 @@ by Patrick Ryan&lt;br&gt;
 	
 	<entry>
 		<title>Many best practices</title>
-		<link href="https://nicksimson.com/posts/many-best-practices/"/>
+		<link href="https://nicksimson.com/posts/2016-many-best-practices/"/>
 		<updated>2016-06-10T20:00:00-04:00</updated>
-		<id>https://nicksimson.com/posts/many-best-practices/</id>
+		<id>https://nicksimson.com/posts/2016-many-best-practices/</id>
 		<content type="html">&lt;p&gt;I recently stumbled across a website called &lt;a href=&quot;http://webfieldmanual.com/&quot;&gt;Web Field Manual&lt;/a&gt;, a directory of resources &amp;quot;focused on documenting only the best knowledge for designing experiences and interfaces on the web.&amp;quot;&lt;/p&gt;
 &lt;p&gt;The directory features a ton of links to information sources on relevant front-end web design topics: design process, style guide documentation, grids and typography, accessibility, and specific web technologies. Many of the articles and projects linked here I was familiar with, but several are new to me as well.&lt;/p&gt;
 &lt;p&gt;No single link or author is the authoritative end-point for a particular subject. Combined, all these approaches make up a useful body of knowledge. Here are a few recent things I&#39;ve discovered that are currently influencing or changing my web design approach:&lt;/p&gt;
@@ -1263,9 +1290,9 @@ by Patrick Ryan&lt;br&gt;
 	
 	<entry>
 		<title>Becoming an everyday developer</title>
-		<link href="https://nicksimson.com/posts/becoming-an-everyday-developer/"/>
+		<link href="https://nicksimson.com/posts/2015-becoming-an-everyday-developer/"/>
 		<updated>2015-09-06T20:00:00-04:00</updated>
-		<id>https://nicksimson.com/posts/becoming-an-everyday-developer/</id>
+		<id>https://nicksimson.com/posts/2015-becoming-an-everyday-developer/</id>
 		<content type="html">&lt;p&gt;A week ago &lt;a href=&quot;http://nicksimson.com/everyday-developers/&quot;&gt;I shared a few highlights and my impressions&lt;/a&gt; from a recent Web Ahead discussion about &amp;quot;everyday developers&amp;quot;. I made the point that web development is not a monolith: There are a lot of different kinds of websites, there are a ton of different tools and ways to deploy a site, and noone should be expected to know everything.&lt;/p&gt;
 &lt;p&gt;I wanted to write a follow-up entry with more details about the learning path toward becoming a web designer or developer, and I had a beginner in mind as I started drafting this post. It can be difficult to know where to start learning. It can be diffciult to figure out what to learn next. This isn&#39;t a prescriptive or definitive career guide, just what I think the core compenties are, other skills that can come in handy, and the best order to learn them in. I will not recommend any specific frameworks, software, or tools, save for two books and a handful of reference websites.&lt;/p&gt;
 &lt;p&gt;The definition of &amp;quot;everyday developer&amp;quot; I am working with is someone who writes &lt;strong&gt;front-end code&lt;/strong&gt;—that is, HTML, CSS, Javascript—to create websites for clients, either as a freelancer or an employee on a small team. I am not referring to game developers, other application platform developers, back-end programmer, or engineer wirking on a huge web product (like Facebook or Netflix). This definition also excludes industry experts and conference speakers. There may be some overlap in these worlds, but I have a web developer focused on content-based sites in mind. As I use the terms &amp;quot;everyday developer&amp;quot; , &amp;quot;web designer&amp;quot;, or &amp;quot;front-end developer&amp;quot; in this post, this is who I am referring to.&lt;/p&gt;
@@ -1325,12 +1352,12 @@ Screencapture of video content &amp;copy; Jessica Hische &amp;amp; Russ Maschmey
 	
 	<entry>
 		<title>Everyday developers</title>
-		<link href="https://nicksimson.com/posts/everyday-developers/"/>
+		<link href="https://nicksimson.com/posts/2015-everyday-developers/"/>
 		<updated>2015-08-30T20:00:00-04:00</updated>
-		<id>https://nicksimson.com/posts/everyday-developers/</id>
+		<id>https://nicksimson.com/posts/2015-everyday-developers/</id>
 		<content type="html">&lt;p&gt;I always enjoy &lt;a href=&quot;http://thewebahead.net/&quot;&gt;The Web Ahead&lt;/a&gt; podcast, hosted by &lt;a href=&quot;http://jensimmons.com/&quot;&gt;Jen Simmons&lt;/a&gt;. For the past 4 years and over 100 episodes, Jen has been researching very specific topics, booking the best possible guests, and then going deep into that subject matter for a good hour or so. I make it a point to catch up after each episode is published, as I&#39;ve found it to be an indespensible resource to keep up with new technologies and conversations surrounding the world wide web, and the people who work on it.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;http://thewebahead.net/104&quot;&gt;A recent episode released on August 13&lt;/a&gt;, featured a conversation between Jen and her guest &lt;a href=&quot;https://rachelandrew.co.uk/&quot;&gt;Rachel Andrew&lt;/a&gt; about &amp;quot;everyday developers&amp;quot;. Actually, the word &amp;quot;everyday&amp;quot; only came up once during the discussion, but they were describing a type of web generalist who builds sites for clients, perhaps as a freelancer or as part of a small team. I consider myself a part of this camp.&lt;/p&gt;
-&lt;p&gt;Five years ago, Elliot Jay Stocks&#39; &lt;a href=&quot;http://www.elliotjaystocks.com/blog/web-designers-who-cant-code/&quot;&gt;&amp;quot;Web designers who can&#39;t code&amp;quot;&lt;/a&gt; article launched a firestorm of tweets, blog posts, and debates about the division of labor between &amp;quot;design&amp;quot; and &amp;quot;development&amp;quot;. Nine years before that, Jeffery Zeldman had written a book, &lt;a href=&quot;https://nicksimson.com/posts/everyday-developers/takingyourtalenttotheweb.com/&quot;&gt;&lt;em&gt;Taking Your Talent to the Web&lt;/em&gt;&lt;/a&gt; for transitioning print designers. Each year, it feels like the lines between &amp;quot;design&amp;quot; and &amp;quot;development&amp;quot; &lt;a href=&quot;http://bradfrost.com/blog/post/development-is-design/&quot;&gt;are finally getting fuzzier&lt;/a&gt;, and I think that is a beautiful thing.&lt;/p&gt;
+&lt;p&gt;Five years ago, Elliot Jay Stocks&#39; &lt;a href=&quot;http://www.elliotjaystocks.com/blog/web-designers-who-cant-code/&quot;&gt;&amp;quot;Web designers who can&#39;t code&amp;quot;&lt;/a&gt; article launched a firestorm of tweets, blog posts, and debates about the division of labor between &amp;quot;design&amp;quot; and &amp;quot;development&amp;quot;. Nine years before that, Jeffery Zeldman had written a book, &lt;a href=&quot;https://nicksimson.com/posts/2015-everyday-developers/takingyourtalenttotheweb.com/&quot;&gt;&lt;em&gt;Taking Your Talent to the Web&lt;/em&gt;&lt;/a&gt; for transitioning print designers. Each year, it feels like the lines between &amp;quot;design&amp;quot; and &amp;quot;development&amp;quot; &lt;a href=&quot;http://bradfrost.com/blog/post/development-is-design/&quot;&gt;are finally getting fuzzier&lt;/a&gt;, and I think that is a beautiful thing.&lt;/p&gt;
 &lt;p&gt;Jen and Rachel both bring a valuable perspective to this topic, because they were once living it themselves. Today they are prominent speakers and in-demand CSS layout experts, but both came to the web early on, building websites for people who really needed them, and for others like them, who were just figuring out how to put their stuff online. In the mid-1990s, almost anyone designing a website was a novice or a pioneer, learning how things work, making mistakes along the way, and developing the techniques and hacks that others would quickly rely on.&lt;/p&gt;
 &lt;figure&gt;
 &lt;blockquote&gt;...Web technology was not that complicated 15 years ago. It was possible for a person to come from a design background, be more focused on design, and yet know pretty much everything there was to know about the development side. You wrote HTML and CSS and used FTP to put the files on the&amp;nbsp;server.&lt;/blockquote&gt;
@@ -1386,16 +1413,16 @@ Rachel Andrew, &lt;cite&gt;&lt;a href=&quot;http://thewebahead.net/104&quot;&gt;
 	
 	<entry>
 		<title>Reading is hazardous</title>
-		<link href="https://nicksimson.com/posts/reading-is-hazardous/"/>
+		<link href="https://nicksimson.com/posts/2015-reading-is-hazardous/"/>
 		<updated>2015-05-16T20:00:00-04:00</updated>
-		<id>https://nicksimson.com/posts/reading-is-hazardous/</id>
+		<id>https://nicksimson.com/posts/2015-reading-is-hazardous/</id>
 		<content type="html">&lt;p&gt;&lt;a href=&quot;http://www.wavepoetry.com/products/madness-rack-and-honey&quot;&gt;&lt;img class=&quot;book&quot; src=&quot;https://nicksimson.com/img/post-images/ruefle-madness.jpg&quot; alt=&quot;Cover of Madness, Rack, and Honey&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;I became aware of Mary Ruefle&#39;s collection of &amp;quot;lectures&amp;quot; with an unusual title after reading the reflections by &lt;a href=&quot;http://aworkinglibrary.com/reading/madness-rack-and-honey/&quot;&gt;Mandy Brown&lt;/a&gt; and &lt;a href=&quot;http://frankchimero.com/writing/madness-and-rowing/&quot;&gt;Frank Chimero&lt;/a&gt; on their personal blogs. When two or more sources I trust recommend the same thing, I usually start paying attention.&lt;/p&gt;
 &lt;p&gt;I keep &amp;quot;lectures&amp;quot; in quotations, as the author herself points out that each was carefully written before delivered orally, despite the fact she was told her graduate students would prefer informal, spontaneous talks. Ruefle maintains that writing is her &amp;quot;natural act&amp;quot;, and as individual essays, these lectures work wonderfully.&lt;/p&gt;
 &lt;p&gt;Ruefle&#39;s prose is marked by an economic use of words fitting for a poet, and she prioritizes her allegiances to poetry and art over knowledge and intelligence. Two mini-collections within the volume are titled &amp;quot;Twenty-Two Short Lectures&amp;quot; and &amp;quot;Lectures I Will Never Give&amp;quot;, and contain several vignettes that could be delivered in under two minutes.&lt;/p&gt;
 &lt;figure&gt;
 An example:
-&lt;blockquote cite=&quot;https://nicksimson.com/posts/reading-is-hazardous/Ruefle,%20Madness,%20Rack,%20and%20Honey,%20p.%20238&quot;&gt;
+&lt;blockquote cite=&quot;https://nicksimson.com/posts/2015-reading-is-hazardous/Ruefle,%20Madness,%20Rack,%20and%20Honey,%20p.%20238&quot;&gt;
     You know how to write poetry, it is all you need to be happy, but you will not be happy, you will be miserable, thinking you need so many other things, and in years and years of misery, you have only one thing, as poets, to look forward to, the day you will not want what you haven&#39;t got, the thing you have got is poetry, let nothing cheat, steal or deflect you from it, even poetry itself. Why are you sitting there? You should have fled before I finished the first sentence.
 &lt;/blockquote&gt;
 &lt;figcaption&gt;
@@ -1416,9 +1443,9 @@ Mary Ruefle, &amp;ldquo;Short Lecture on Your Own Happiness&amp;rdquo;, from &lt
 	
 	<entry>
 		<title>Collaborating on the new Tumbleweeds site</title>
-		<link href="https://nicksimson.com/posts/collaborating-tumbleweeds/"/>
+		<link href="https://nicksimson.com/posts/2015-collaborating-tumbleweeds/"/>
 		<updated>2015-03-06T19:00:00-05:00</updated>
-		<id>https://nicksimson.com/posts/collaborating-tumbleweeds/</id>
+		<id>https://nicksimson.com/posts/2015-collaborating-tumbleweeds/</id>
 		<content type="html">&lt;figure&gt;&lt;a href=&quot;http://tumbleweedsband.com/&quot;&gt;&lt;img src=&quot;https://nicksimson.com/img/post-images/tw-web-preview.jpg&quot; alt=&quot;Screenshots of The Tumbleweeds website&quot;&gt;&lt;/a&gt;
 &lt;figcaption&gt;A simple, responsive website design for the Tumblweeds band. &lt;a href=&quot;http://tumbleweedsband.com/&quot;&gt;View it live&lt;/a&gt; in the browser.&lt;/figcaption&gt;&lt;/figure&gt;
 &lt;p&gt;I was contacted in the fall of 2014 by Byron Ripley about designing a website for his band, &lt;a href=&quot;http://tumbleweedsband.com/&quot;&gt;the Tumbleweeds&lt;/a&gt;. They play classic country and dance tunes in the Honky Tonk and Western Swing tradition. I&#39;ve been friends with Byron for about ten years now, and remember the ealy days of the  Tumbleweeds duo (Byron and Joe Carter) in Flagstaff/Williams, AZ.&lt;/p&gt;
