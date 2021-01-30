@@ -5,7 +5,6 @@ date: 2014-11-29
 tags:
   - personal
 layout: layouts/post.njk
-accent-color: 146AFF
 ---
 
 Hello, world.

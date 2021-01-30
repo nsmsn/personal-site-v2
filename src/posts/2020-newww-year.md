@@ -5,7 +5,6 @@ date: 2020-12-16
 tags:
   - redesign
 layout: layouts/post.njk
-accent-color: 146AFF
 ---
 
 In late 2020, the coronavirus pandemic is raging in the U.S. and colder weather makes outdoor gathering less appealing. To stave off some of the cabin fever this winter, I'm ready to revisit my own website, which I have sadly left dormant until this week. My dad often talks about his grandfather, a carpenter, who was often so busy working on other people's homes, the upstairs of his own house was left unfinished for many years. The metaphor seems appropriate today.

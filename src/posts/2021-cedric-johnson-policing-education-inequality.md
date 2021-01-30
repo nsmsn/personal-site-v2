@@ -5,7 +5,6 @@ date: 2021-01-17
 tags:
   - scholarship
 layout: layouts/post.njk
-accent-color: 
 ---
 
 My introduction to Cedric Johnson and his work was an  [interview with Johnson on the Michael Brooks Show](https://www.youtube.com/watch?v=907lFP0j1Dg) (R.I.P.) in June of 2020. 

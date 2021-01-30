@@ -5,7 +5,6 @@ date: 2020-12-18
 tags:
   - learning
 layout: layouts/post.njk
-accent-color: bada55
 ---
 
 <div class="video-container">

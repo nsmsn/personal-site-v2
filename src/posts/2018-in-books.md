@@ -5,7 +5,6 @@ date: 2019-01-01
 tags:
   - books
 layout: layouts/post.njk
-accent-color: 
 ---
 In 2018 we bought our first home, a hundred year old house in North Knoxville. I think I listened to more audiobooks in this year becuase of the painting and other jobs that had to be done during my free time...in addition to the walks with the dog.
 

@@ -5,7 +5,6 @@ date: 2015-05-17
 tags:
   - books
 layout: layouts/post.njk
-accent-color: 101010
 ---
 
 <a href="http://www.wavepoetry.com/products/madness-rack-and-honey"><img class="book" src="/img/post-images/ruefle-madness.jpg" alt="Cover of Madness, Rack, and Honey" /></a>

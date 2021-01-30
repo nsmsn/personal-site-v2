@@ -5,7 +5,6 @@ date: 2020-01-01
 tags:
   - books
 layout: layouts/post.njk
-accent-color: 
 ---
 In 2019 I consumed a lot of books that I would consider "impulse adds" on Goodreads. A bunch were from authors I heard on radio or podcasts. I know I attempted a novel, a collection of short stories and maybe other works of fiction this year, but clearly they did not stick.
 

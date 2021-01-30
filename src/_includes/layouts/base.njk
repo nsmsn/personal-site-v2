@@ -17,8 +17,8 @@
   
   </head>
   <body>
-    <header class="site-head wrapper">
-      <h1 class="home"><a href="{{ '/' | url }}"><span class="home-id sr-only">{{ metadata.title }}</span> {% include "partials/brand.svg" %}</a></h1>
+    <header class="site-head">
+      <h1 class="home"><a href="{{ '/' | url }}"><span class="home-id">{{ metadata.title }}</span> {% include "partials/brand.svg" %}</a></h1>
 
       {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
       <ul class="nav">
@@ -40,7 +40,7 @@
     </main>
 
     <footer role="contentinfo" class="footer wrapper flow">
-	<p>© {{ helpers.currentYear() }} Nick Simson.</p>
+	<p>© {{ helpers.currentYear() }} Nick Simson. Thanks for stopping by.</p>
 </footer>
 
     <!-- Current page: {{ page.url | url }} -->

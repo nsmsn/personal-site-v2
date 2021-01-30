@@ -5,7 +5,6 @@ date: 2015-09-07
 tags:
   - learning
 layout: layouts/post.njk
-accent-color: 694486
 ---
 
 A week ago [I shared a few highlights and my impressions](http://nicksimson.com/everyday-developers/) from a recent Web Ahead discussion about "everyday developers". I made the point that web development is not a monolith: There are a lot of different kinds of websites, there are a ton of different tools and ways to deploy a site, and noone should be expected to know everything.

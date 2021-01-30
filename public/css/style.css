@@ -276,9 +276,8 @@ h6 {
 }
 
 blockquote {
-  margin-left: 0;
-  margin-right: 0;
-  padding: 0.25rem 1.25rem;
+  margin: 1em 0;
+  padding: 0.5rem 1.25rem;
   border-left: 4px solid var(--lightred);
   color: var(--medgray);
   max-width: 60ch;
@@ -323,6 +322,10 @@ dl dd {
   display: block;
   color: var(--medgray);
   margin-bottom: 3rem;
+}
+
+sup a {
+  text-decoration: none;
 }
 
 pre,
@@ -584,10 +587,6 @@ header, footer {
 }
 
 /* Header */
-.site-head {
-  max-height: 4em;
-}
-
 header.site-head:after {
   content: "";
   display: table;
@@ -609,14 +608,14 @@ header.site-head:after {
 }
 
 .home-id {
-  padding: 0 0.5em;
+  padding: 2em 0.5em;
+  font-size: 12px;
+  letter-spacing: 1px;
+  display: inline-flex;
+  transform: rotate(90deg);
 }
 @media screen and (min-width: 36em) {
   .home-id {
-    float: left;
-    text-orientation: mixed;
-    writing-mode: vertical-rl;
-    font-size: 12px;
     margin-left: -1rem;
   }
 }
@@ -625,11 +624,11 @@ header.site-head:after {
   float: right;
 }
 
-.logo:hover .logo-path1, .logo:hover .logo-path2 {
+.home a:hover .logo .logo-path1, .home a:hover .logo .logo-path2 {
   fill: var(--darkred);
 }
 
-.logo:hover {
+.home a:hover .logo {
   animation-name: spin;
   animation-duration: 3000ms;
   animation-iteration-count: infinite;
@@ -651,6 +650,11 @@ header.site-head:after {
 .home :link {
   color: var(--medgray);
   text-decoration: none;
+}
+
+.home :link a:hover .home-id {
+  color: var(--medgray);
+  text-decoration: underline;
 }
 
 /* Nav */

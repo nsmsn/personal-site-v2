@@ -5,7 +5,6 @@ date: 2020-12-31
 tags:
   - books
 layout: layouts/post.njk
-accent-color: 
 ---
 There's a dearth of fiction on this 2020 list, and I'm going to try to correct that in 2021. I have a Pynchon novel on the nightstand as well as a Murakami audiobook on my phone.
 

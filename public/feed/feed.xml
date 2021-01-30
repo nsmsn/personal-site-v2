@@ -5,12 +5,63 @@
 	
 	<link href="https://nicksimson.com/feed/feed.xml" rel="self"/>
 	<link href="https://nicksimson.com/"/>
-	<updated>2021-01-16T19:00:00-05:00</updated>
+	<updated>2021-01-29T19:00:00-05:00</updated>
 	<id>https://nicksimson.com/</id>
 	<author>
 		<name>Nick Simson</name>
 		<email>nick@nicksimson.com</email>
 	</author>
+	
+	<entry>
+		<title>Design Justice Principles</title>
+		<link href="https://nicksimson.com/posts/2021-design-justice-principles/"/>
+		<updated>2021-01-29T19:00:00-05:00</updated>
+		<id>https://nicksimson.com/posts/2021-design-justice-principles/</id>
+		<content type="html">&lt;p&gt;After I set up my &lt;a href=&quot;https://nicksimson.com/now/&quot;&gt;now page&lt;/a&gt; late in December, I found myself creating &lt;a href=&quot;https://nownownow.com/p/Mu02&quot;&gt;yet another profile&lt;/a&gt;, to get included in the &lt;a href=&quot;https://nownownow.com/&quot;&gt;directory of now pages&lt;/a&gt;. My new profile included space for a book recommendation and a quote. I wanted my quote to be original and pithy, and after a moment, it popped in my head:&lt;/p&gt;
+&lt;blockquote&gt;&lt;strong&gt;“Design won’t change the world, but ordinary people will.”&lt;/strong&gt;&lt;/blockquote&gt;
+&lt;p&gt;I think about this idea a lot. I often think about &lt;em&gt;Professional Design’s&lt;/em&gt; (title case emphasis mine) proximity to capital and power. Meaning that, design as a human activity can be practiced by anyone—has been practiced for centuries in every human civilization all over the world—but as a profession, is elevated as either a luxury or business expense to those with the most money and influence. There are exceptions to this rule, and some alternative models, but this is largely the norm in most contemporary, (Western especially) contexts. Professionals, like all workers, need to be paid for their work, after all.&lt;/p&gt;
+&lt;p&gt;I was definitely thinking about this idea while revisiting the &lt;a href=&quot;https://nicksimson.com/posts/2021-cedric-johnson-policing-education-inequality/&quot;&gt;Cedric Johnson lecture and interview from ArtCenter&lt;/a&gt; on my blog earlier this month, particularly his engagement with the question “what does it mean to design for good?” In particular, Johnson cites &lt;a href=&quot;https://www.architecturaldigest.com/story/brad-pitt-make-it-right-foundation-new-orleans-katrina-lawsuit&quot;&gt;Brad Pitt’s Make it Right Foundation homes&lt;/a&gt; built after Hurricane Katrina, in the Lower Ninth Ward. As a showcase, the 109 homes designed by star architects were impressive, but only a “drop in the bucket” in terms of the actual housing need. At the same time as these cutting-edge single family units were being celebrated with media attention, thousands of displaced residents were unable to return as former public housing sites were being demolished in New Orleans.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.daviddylanthomas.com/&quot;&gt;David Dylan Thomas&lt;/a&gt; does excellent work writing and speaking on cognitive bias, design ethics, and social justice. At the end of David’s book &lt;a href=&quot;https://abookapart.com/products/design-for-cognitive-bias&quot;&gt;&lt;i&gt;Design for Cognitive Bias&lt;/i&gt;&lt;/a&gt;, he includes the Design Justice Network and their &lt;a href=&quot;https://designjustice.org/read-the-principles&quot;&gt;ten principles&lt;/a&gt; in his resources section.&lt;/p&gt;
+&lt;figure&gt;
+    &lt;blockquote cite=&quot;https://designjustice.org/read-the-principles&quot;&gt;
+   &lt;ol&gt;
+   &lt;li&gt;We use design to &lt;strong&gt;sustain, heal, and empower&lt;/strong&gt; our communities, as well as to seek liberation from exploitative and oppressive systems.
+&lt;p&gt; &lt;/p&gt;
+   &lt;/li&gt;
+   &lt;li&gt;We &lt;strong&gt;center the voices of those who are directly impacted&lt;/strong&gt; by the outcomes of the design process.
+&lt;p&gt; &lt;/p&gt;
+   &lt;/li&gt;
+   &lt;li&gt;We &lt;strong&gt;prioritize design’s impact on the community&lt;/strong&gt; over the intentions of the designer.
+&lt;p&gt; &lt;/p&gt;
+   &lt;/li&gt;
+   &lt;li&gt;We view &lt;strong&gt;change as emergent from an accountable, accessible, and collaborative process&lt;/strong&gt;, rather than as a point at the end of a process.
+&lt;p&gt; &lt;/p&gt;
+   &lt;/li&gt;
+   &lt;li&gt;We see the role of the &lt;strong&gt;designer as a facilitator rather than an expert&lt;/strong&gt;.
+&lt;p&gt; &lt;/p&gt;
+   &lt;/li&gt;
+   &lt;li&gt;We believe that &lt;strong&gt;everyone is an expert based on their own lived experience&lt;/strong&gt;, and that we all have unique and brilliant contributions to bring to a design process.
+&lt;p&gt; &lt;/p&gt;
+   &lt;/li&gt;
+   &lt;li&gt;We &lt;strong&gt;share design knowledge and tools&lt;/strong&gt; with our communities.
+   &amp;nbsp;
+   &lt;/li&gt;
+   &lt;li&gt;We work towards &lt;strong&gt;sustainable, community-led and -controlled&lt;/strong&gt; outcomes.
+&lt;p&gt; &lt;/p&gt;
+   &lt;/li&gt;
+   &lt;li&gt;We work towards &lt;strong&gt;non-exploitative solutions&lt;/strong&gt; that reconnect us to the earth and to each other.
+&lt;p&gt; &lt;/p&gt;
+   &lt;/li&gt;
+   &lt;li&gt;Before seeking new design solutions, &lt;strong&gt;we look for what is already working&lt;/strong&gt; at the community level. We honor and uplift traditional, indigenous, and local knowledge and practices.&lt;/li&gt;
+   &lt;/ol&gt;
+       &lt;/blockquote&gt;
+    &lt;figcaption&gt;&lt;cite&gt;&lt;a href=&quot;https://designjustice.org/read-the-principles&quot;&gt;Design Justice Network Principles&lt;/a&gt; (published under a Creative Commons Attribution-NoDerivatives License)&lt;/cite&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;I find these principles challenging! The design professions are often seen as idealist, but in my experience, most people want to do the right thing. We often find ourselves making compromises with our ideals, or feeling hopeless about being caught in systems that are impossible to transform overnight by ourselves.&lt;/p&gt;
+&lt;p&gt;I think the answer for designers who want to remedy social problems and broken systems is to choose one of these principles and think about what it means and how it could change your role. Find the ordinary people who have been dedicated to solving the problem—the community organizers. Listen to what has worked and what hasn&#39;t. Read the local history. Study the successful movements that have changed the world in the past.&lt;/p&gt;
+&lt;p&gt;Offer your skills, yes, but share your knowledge and tools. Make the design process transparent, collaborative and inclusive. And hopefully, what you’ll find is you are practicing Solidarity, not merely Design.&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Cedric Johnson on Public Goods and Inequality</title>
@@ -1419,7 +1470,7 @@ Rachel Andrew, &lt;cite&gt;&lt;a href=&quot;http://thewebahead.net/104&quot;&gt;
 		<updated>2015-05-16T20:00:00-04:00</updated>
 		<id>https://nicksimson.com/posts/2015-reading-is-hazardous/</id>
 		<content type="html">&lt;p&gt;&lt;a href=&quot;http://www.wavepoetry.com/products/madness-rack-and-honey&quot;&gt;&lt;img class=&quot;book&quot; src=&quot;https://nicksimson.com/img/post-images/ruefle-madness.jpg&quot; alt=&quot;Cover of Madness, Rack, and Honey&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;I became aware of Mary Ruefle&#39;s collection of &amp;quot;lectures&amp;quot; with an unusual title after reading the reflections by &lt;a href=&quot;http://aworkinglibrary.com/reading/madness-rack-and-honey/&quot;&gt;Mandy Brown&lt;/a&gt; and &lt;a href=&quot;http://frankchimero.com/writing/madness-and-rowing/&quot;&gt;Frank Chimero&lt;/a&gt; on their personal blogs. When two or more sources I trust recommend the same thing, I usually start paying attention.&lt;/p&gt;
+&lt;p&gt;I became aware of Mary Ruefle&#39;s collection of &amp;quot;lectures&amp;quot; with an unusual title after reading the reflections by &lt;a href=&quot;http://aworkinglibrary.com/reading/madness-rack-and-honey/&quot;&gt;Mandy Brown&lt;/a&gt; and &lt;a href=&quot;https://frankchimero.com/blog/2014/madness-and-rowing/&quot;&gt;Frank Chimero&lt;/a&gt; on their personal blogs. When two or more sources I trust recommend the same thing, I usually start paying attention.&lt;/p&gt;
 &lt;p&gt;I keep &amp;quot;lectures&amp;quot; in quotations, as the author herself points out that each was carefully written before delivered orally, despite the fact she was told her graduate students would prefer informal, spontaneous talks. Ruefle maintains that writing is her &amp;quot;natural act&amp;quot;, and as individual essays, these lectures work wonderfully.&lt;/p&gt;
 &lt;p&gt;Ruefle&#39;s prose is marked by an economic use of words fitting for a poet, and she prioritizes her allegiances to poetry and art over knowledge and intelligence. Two mini-collections within the volume are titled &amp;quot;Twenty-Two Short Lectures&amp;quot; and &amp;quot;Lectures I Will Never Give&amp;quot;, and contain several vignettes that could be delivered in under two minutes.&lt;/p&gt;
 &lt;figure&gt;

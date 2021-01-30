@@ -5,7 +5,6 @@ date: 2017-01-02
 tags:
   - books
 layout: layouts/post.njk
-accent-color: 
 ---
 
 In 2015 I became a dog guardian for the first time. Zelda is still a young pup and requires a lot of walking, so audiobooks are becoming my new friend. I expect I will be listening to a lot more in 2017.

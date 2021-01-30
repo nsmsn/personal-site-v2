@@ -5,7 +5,6 @@ date: 2016-09-10
 tags:
   - books
 layout: layouts/post.njk
-accent-color: 006b73
 ---
 
 <p class="lede">It&rsquo;s just one powerful layer that can do some incredible things on an already solid HTML&nbsp;foundation.</p>

@@ -6,7 +6,6 @@ date: 2015-03-07
 tags:
   - process
 layout: layouts/post.njk
-accent-color: e5503a
 ---
 
 <figure><a href="http://tumbleweedsband.com/"><img src="/img/post-images/tw-web-preview.jpg" alt="Screenshots of The Tumbleweeds website" /></a>

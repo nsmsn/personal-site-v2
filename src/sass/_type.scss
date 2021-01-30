@@ -62,9 +62,8 @@ h6 {
 
 
 blockquote {
-    margin-left: 0;
-    margin-right: 0;
-    padding: .25rem 1.25rem;
+    margin: 1em 0;
+    padding: .5rem 1.25rem;
     border-left: 4px solid var(--lightred);
     color: var(--medgray);
     max-width: 60ch;
@@ -113,4 +112,8 @@ dl dd {
     display: block;
     color: var(--medgray);
     margin-bottom: 3rem;
+}
+
+sup a {
+    text-decoration: none;
 }

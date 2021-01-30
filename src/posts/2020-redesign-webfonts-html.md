@@ -5,7 +5,6 @@ date: 2020-12-19
 tags:
   - redesign
 layout: layouts/post.njk
-accent-color: 146AFF
 ---
 
 

@@ -5,7 +5,6 @@ date: 2018-01-01
 tags:
   - books
 layout: layouts/post.njk
-accent-color: 
 ---
 
 In trying to understand this current moment historically, my reading interests skewed sharply toward books on power and politics beginning in late 2016. I wonder how common that is during elections, or during a presidential transition.
