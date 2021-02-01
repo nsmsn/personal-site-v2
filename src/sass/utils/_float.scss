@@ -3,8 +3,8 @@
 
     @media screen and (min-width: 36em) {
         float: left;
-        margin-right: var(--size3);
-        padding-right: var(--size3);
+        margin-right: $size3;
+        padding-right: $size3;
     }
 }
 
@@ -12,7 +12,7 @@
     display: block;
     @media screen and (min-width: 36em) {
         float: right;
-        margin-left: var(--size5);
+        margin-left: $size5;
     }
 
 }

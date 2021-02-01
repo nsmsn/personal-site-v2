@@ -75,14 +75,14 @@ select {
     // We set this as an RGBA because that’s how you get a solid color, by using 0.99
     // alpha value. Browsers are wild.
     background: rgba(0,35,88,0.99);
-    color: var(--lightgreen);
+    color: $lightgreen;
   }
 
 mark{
-    background-color: var(--yellow);
+    background-color: $yellow;
 }
 
 mark::selection {
-    background-color: var(--pink);
+    background-color: $pink;
     color: black;
 }

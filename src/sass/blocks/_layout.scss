@@ -15,14 +15,17 @@ header, footer {
 }
 
 .wrapper {
-    margin: 0 auto;
-    max-width: 48em;
-}
+    max-width: 65rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
 
 .footer {
     margin-top: auto;
-    padding: var(--size3) var(--size2);
+    padding: $size3 $size2;
     text-align: center;
     font-family: $sans;
-    font-size: var(--size2);
+    font-size: $size2;
 }

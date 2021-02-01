@@ -18,23 +18,31 @@
   </head>
   <body>
     <header class="site-head">
-      <h1 class="home"><a href="{{ '/' | url }}"><span class="home-id">{{ metadata.title }}</span> {% include "partials/brand.svg" %}</a></h1>
+    <a href="#main-content" class="skip-link">Skip to content</a>
+  <div class="wrapper">
+    <div class="site-head__inner">
+
+      <h1 class="home"><a href="{{ '/' | url }}"><span class="home-id">{{ metadata.title }}</span>{% include "partials/brand.svg" %}</a></h1>
 
       {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
-      <ul class="nav">
+    <nav class="navigation" aria-label="primary">
+      <ul role="list">
       {%- for entry in collections.all | eleventyNavigation %}
-        <li class="nav-item{% if entry.url == page.url %} nav-item-active{% endif %}"><a href="{{ entry.url | url }}">{{ entry.title }}</a></li>
+        <li class="navigation-item{% if entry.url == page.url %} navigation-item-active{% endif %}"><a href="{{ entry.url | url }}">{{ entry.title }}</a></li>
       {%- endfor %}
       </ul>
+    </nav>
+  </div>
+  </div>
     </header>
 
-    <main{% if templateClass %} class="{{ templateClass }} flow wrapper"{% endif %}>
-
       <!-- Delete this message -->
-      <div class="warning">
+      <div class="warning flow wrapper">
         🚩 <em>This website is undergoing an <a href="/tags/redesign/">open redesign</a>, so if anything looks <small class="medgray">[not&nbsp;deliberately]</small> wonky, that’s&nbsp;why.</em>
       </div>
       <!-- Stop deleting -->
+
+    <main id="main-content" {% if templateClass %} class="{{ templateClass }} flow wrapper"{% endif %}>
 
       {{ content | safe }}
     </main>

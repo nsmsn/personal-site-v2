@@ -1,8 +1,9 @@
 /* Direct Links / Markdown Headers */
 .direct-link {
-    font-family: sans-serif;
+    font-family: $sans;
     text-decoration: none;
     font-style: normal;
+    font-weight: 300;
     margin-left: .1em;
   }
   a[href].direct-link,

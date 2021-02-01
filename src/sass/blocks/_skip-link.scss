@@ -1,0 +1,32 @@
+.skip-link {
+    display: inline-block;
+    padding: 0.7rem 1rem 0.5rem 1rem;
+    background: $lightestblue;
+    color: $navy;
+    text-decoration: none;
+    font-family: $sans;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    z-index: 600;
+  }
+
+
+  .skip-link:hover {
+    background: $navy;
+    color: $lightestblue;
+  }
+  
+  .skip-link:not(:focus) {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: auto;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap;
+  }

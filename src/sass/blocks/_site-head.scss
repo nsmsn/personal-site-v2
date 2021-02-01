@@ -1,0 +1,70 @@
+.site-head {
+    padding: 0.6rem 0;
+    line-height: 1.1;
+  }
+  
+  
+  .site-head__inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0 1rem;
+  }
+  
+  .site-head__brand {
+    display: block;
+    width: 3rem;
+  }
+
+.home {
+    font-family: $mono;
+    font-weight: 400;
+    padding: 0 1rem;
+    margin: 1rem 0; /* 16px /16 */
+    font-size: var(--size2); 
+    text-transform: uppercase;
+    z-index: 300;
+    display: flex;
+    flex-direction: column;
+    width: 7rem;
+  
+  }
+
+.home-id {
+    padding: 1em .25em;
+    font-size: 12px;
+    letter-spacing: 1px;
+    display: inline-flex;
+    color: $medgray;
+    text-decoration: underline;
+    transform: rotate(90deg);
+    margin-left: -3rem;
+
+    @media screen and (max-width: 60em) {
+        display: none;
+      }
+
+  }
+
+.home a:hover .home-id {
+  color: $red;
+}
+
+
+.home a:hover .logo .logo-path1, .home a:hover .logo .logo-path2 {
+    fill: $darkred;
+  }
+
+
+.home a:hover .logo {
+  animation-name: spin;
+  animation-duration: 3000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+}
+
+@keyframes spin {
+  from { transform:rotate(0deg); }
+  to { transform:rotate(360deg); }
+}  

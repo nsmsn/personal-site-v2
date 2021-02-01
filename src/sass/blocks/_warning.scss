@@ -1,8 +1,11 @@
 /* Warning */
 .warning {
-    background-color: var(--lightyellow);
+    background-color: $lightyellow;
     padding: 1em 0.625em; /* 16px 10px /16 */
-    text-indent: -.825em;
+
+    @media screen and (min-width:60em){
+      text-indent: -.825em;
+    }
   }
   .warning ol:only-child {
     margin: 0;
