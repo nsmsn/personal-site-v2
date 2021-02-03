@@ -1096,6 +1096,10 @@ a[href].direct-link:focus:visited,
   background-color: #faf9f9;
 }
 
+.img-circle {
+  border-radius: 50%;
+}
+
 @media (min-width: 40em) {
   img.book {
     max-width: 240px;

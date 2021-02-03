@@ -11,16 +11,12 @@ permalink: /info/
 
 <div class="row">
 
-<div class="grid-third flow">
-      <figure>
-        <img src="/img/misc/2015-headshot-mono.jpg" alt="Nick Simson" width="240"/>
-        <figcaption>Photo by Peter Jakubowski</figcaption>
-      </figure>
-
+<div class="grid-fourth grid-last flow">
+        <img src="/img/misc/diffuse-nick-profile.png" alt="Nick Simson" width="300" class="img-circle"/>
 &nbsp;
 </div>
 
-<div class="grid-two-thirds flow">
+<div class="grid-three-fourths flow">
 
 ## Profile
 
