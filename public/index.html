@@ -49,10 +49,15 @@
       </div>
       <!-- Stop deleting -->
 
-    <main id="main-content"  class="tmpl-home flow wrapper">
+    <main id="main-content"  class="tmpl-home flow container">
 
-      <img src="/img/misc/victory.png" alt="a hand with two extended fingers flashing the V for Victory or peace sign" class="float-right" width="300" height="300"/>
-<h1>
+      
+<div class="row flow">
+  <div class="grid-third grid-last flow">
+  <img src="/img/misc/victory.png" alt="a hand with two extended fingers flashing the V for Victory or peace sign" width="300" height="300"/>
+  </div>
+  <div class="grid-two-thirds flow">
+    <h1>
       <script language="JavaScript">
         var myDate = new Date();
         if ( myDate.getHours() < 12 ) { document.write("Good morning."); }
@@ -62,22 +67,22 @@
       </script>
       <noscript>Howdy.</noscript>
     </h1>
-<p class="lede">My name is Nick, which means <em class="bg-ivory">“victory of the people.”</em> I design things for screens&nbsp;(mostly), paper&nbsp;(sometimes), and humans&nbsp;(always).</p>
+    <p class="lede">My name is Nick, which means <em class="bg-ivory">“victory of the people.”</em> I design things for screens&nbsp;(mostly), paper&nbsp;(sometimes), and humans&nbsp;(always).</p>
 
-&nbsp;
+    &nbsp;
 
-<p>I live in Knoxville, Tenn. and work as a public sector communication designer. You can learn more <a href="/info/">about&nbsp;me</a> or see what I’m up to&nbsp;<a href="/now/">now</a>.</p>
+    <p>I live in Knoxville, Tenn. and work as a public sector communication designer. You can learn more <a href="/info/">about&nbsp;me</a> or see what I’m up to&nbsp;<a href="/now/">now</a>.</p>
 
-&nbsp;
+    &nbsp;
 
-<h2>Lately...</h2>
-  <div class="panel">
-  
-  <p>You can read my latest post:</p>
+    <h2>Lately...</h2>
+      <div class="panel">
+      
+      <p>You can read my latest post:</p>
 
-  
-  
-  <ol reversed class="postlist" style="counter-reset: start-from 20">
+      
+      
+      <ol reversed class="postlist" style="counter-reset: start-from 20">
 
   <li class="postlist-item">
     
@@ -94,9 +99,10 @@
 
 </ol>
 
-  <p>You’ll find plenty more to read in <a href="/posts/">the archive</a>.</p>
+      <p>You’ll find plenty more to read in <a href="/posts/">the archive</a>.</p>
  
-
+  </div>
+</div>
 
 <style>
 html, body {
@@ -136,13 +142,13 @@ html, body {
 }
 
 a.post-tag {
-  background-color: var(--darkgray);
-  color: var(--lightgray)!important;
+  background-color: rgba(255,255,255,0.5);
+  color:var(-color-dark) !important;
 }
 
 a.post-tag:hover {
-  background-color: var(--navy);
-  color: var(--gold)!important;
+  background-color: rgba(0,0,0,0.75);
+  color: #fff !important;
 }
 
 </style>

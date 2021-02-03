@@ -44,12 +44,20 @@ a:not([class]) {
   text-decoration-skip-ink: auto;
 }
 
-/* Make images easier to work with */
+/* Prevent img and video elements from spilling outside of the page on smaller screens. */
+ img,
+ video {
+   max-width: 100%;
+   height: auto;
+   display: block;
+ }
+
+/* Make images easier to work with 
 img,
 picture {
   max-width: 100%;
   display: block;
-}
+}*/
 
 /* Inherit fonts for inputs and buttons */
 input,

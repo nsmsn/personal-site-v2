@@ -4,11 +4,11 @@ code {
   font-size: .875em;
   line-height: 1.5;
   color: var(--black);
-  background-color: var(--lightgray);
+  background-color: $lightgray;
   padding: 0 .25em;
 }
 pre {
-  font-size: 14px;
+  font-size: .875em;
   line-height: 1.375;
   direction: ltr;
   text-align: left;
@@ -24,7 +24,7 @@ pre {
   hyphens: none;
   padding: 1em;
   margin: .5em 0;
-  background-color: var(--lightgray);
+  background-color: $lightgray;
 }
 
 pre p {

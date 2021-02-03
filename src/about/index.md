@@ -7,10 +7,20 @@ eleventyNavigation:
   order: 3
 permalink: /info/  
 ---
-<figure class="float-left">
-<img src="/img/misc/2015-headshot-mono.jpg" alt="Nick Simson" width="220"/>
-<figcaption>Photo by Peter Jakubowski</figcaption>
-</figure>
+
+
+<div class="row">
+
+<div class="grid-third flow">
+      <figure>
+        <img src="/img/misc/2015-headshot-mono.jpg" alt="Nick Simson" width="240"/>
+        <figcaption>Photo by Peter Jakubowski</figcaption>
+      </figure>
+
+&nbsp;
+</div>
+
+<div class="grid-two-thirds flow">
 
 ## Profile
 
@@ -45,3 +55,5 @@ Email is still the <strong>best</strong> way to reach me, but I do maintain a pr
 
 ## About this Website
 This is my personal website and blog. Like most websites, this one is perpetually under development. You can track its progress at [this GitHub repo](https://github.com/nsmsn/nicksimsondotcom). I build and deploy this with [Eleventy](https://11ty.dev/) and [Netlify](https://netlify.com), and I am prioritizing performance and accessibility. For those interested in digging deeper, I’m [writing a series of posts](/tags/redesign/) as I fine tune the design and tech behind the site.
+    </div>
+</div>

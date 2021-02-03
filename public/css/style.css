@@ -65,13 +65,20 @@ a:not([class]) {
   text-decoration-skip-ink: auto;
 }
 
-/* Make images easier to work with */
+/* Prevent img and video elements from spilling outside of the page on smaller screens. */
+img,
+video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Make images easier to work with 
 img,
 picture {
   max-width: 100%;
   display: block;
-}
-
+}*/
 /* Inherit fonts for inputs and buttons */
 input,
 button,
@@ -123,8 +130,7 @@ p:last-child {
 }
 
 p,
-.tmpl-post li,
-img {
+.tmpl-post li {
   max-width: 37.5em;
   /* 600px /16 */
 }
@@ -166,6 +172,77 @@ hr {
   height: 0;
   border-top: 1px solid rgba(0, 0, 0, 0.4);
   border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+pre,
+code {
+  font-family: "IBM Plex Mono", Consolas, Menlo, Monaco, "Andale Mono", "Lucida Console", "Courier New", Courier, monospace;
+  font-size: 0.875em;
+  line-height: 1.5;
+  color: var(--black);
+  background-color: #e0e0e0;
+  padding: 0 0.25em;
+}
+
+pre {
+  font-size: 0.875em;
+  line-height: 1.375;
+  direction: ltr;
+  text-align: left;
+  overflow: auto;
+  white-space: pre;
+  word-wrap: normal;
+  -moz-tab-size: 2;
+  -o-tab-size: 2;
+  tab-size: 2;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+  padding: 1em;
+  margin: 0.5em 0;
+  background-color: #e0e0e0;
+}
+
+pre p {
+  font-family: "IBM Plex Mono", Consolas, Menlo, Monaco, "Andale Mono", "Lucida Console", "Courier New", Courier, monospace;
+}
+
+.highlight-line {
+  display: block;
+  padding: 0.125em 1em;
+  text-decoration: none;
+  /* override del, ins, mark defaults */
+  color: inherit;
+  /* override del, ins, mark defaults */
+}
+
+/* allow highlighting empty lines */
+.highlight-line:empty:before {
+  content: " ";
+}
+
+/* avoid double line breaks when using display: block; */
+.highlight-line + br {
+  display: none;
+}
+
+.highlight-line-isdir {
+  color: #b0b0b0;
+  background-color: #222;
+}
+
+.highlight-line-active {
+  background-color: #444;
+  background-color: rgba(69, 69, 69, 0.8);
+}
+
+.highlight-line-add {
+  background-color: #45844b;
+}
+
+.highlight-line-remove {
+  background-color: #902f2f;
 }
 
 h1,
@@ -322,6 +399,70 @@ header, footer {
   font-size: 0.75em;
 }
 
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 88%;
+  width: 45em;
+}
+
+/**
+ * Grids
+ */
+@media (min-width: 40em) {
+  .row {
+    display: flex;
+    margin-left: -0.4375em;
+    margin-right: -0.4375em;
+    justify-content: space-between;
+  }
+
+  .row-reverse {
+    flex-direction: row-reverse;
+  }
+
+  .grid-auto,
+.grid-fourth,
+.grid-third,
+.grid-two-thirds,
+.grid-half,
+.grid-three-fourths {
+    margin-left: 0.4375em;
+    margin-right: 0.4375em;
+  }
+
+  .grid-auto {
+    flex: 1 1;
+  }
+
+  .grid-fourth {
+    width: 25%;
+  }
+
+  .grid-third {
+    width: 33.33333%;
+  }
+
+  .grid-two-thirds {
+    width: 66.66666%;
+  }
+
+  .grid-half {
+    width: 50%;
+  }
+
+  .grid-three-fourths {
+    width: 75%;
+  }
+
+  .grid-first {
+    order: -1;
+  }
+
+  .grid-last {
+    order: 1;
+  }
+}
 .skip-link {
   display: inline-block;
   padding: 0.7rem 1rem 0.5rem 1rem;
@@ -403,11 +544,11 @@ header, footer {
 }
 
 .home a:hover .home-id {
-  color: #EE453B;
+  color: #1a2249;
 }
 
 .home a:hover .logo .logo-path1, .home a:hover .logo .logo-path2 {
-  fill: #c91c11;
+  fill: #1a2249;
 }
 
 .home a:hover .logo {
@@ -955,6 +1096,14 @@ a[href].direct-link:focus:visited,
   background-color: #faf9f9;
 }
 
+@media (min-width: 40em) {
+  img.book {
+    max-width: 240px;
+    height: auto;
+    float: right;
+    margin: 0 0 0.5em 1em;
+  }
+}
 /**
  * a11y-dark theme for JavaScript, CSS, and HTML
  * Based on the okaidia theme: https://github.com/PrismJS/prism/blob/gh-pages/themes/prism-okaidia.css
