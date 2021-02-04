@@ -2,6 +2,9 @@
 .warning {
     background-color: $lightyellow;
     padding: 1em 0.625em; /* 16px 10px /16 */
+    width: 100%;
+    max-width: 50em;
+    margin: 0 auto;
 
     @media screen and (min-width:60em){
       text-indent: -.825em;

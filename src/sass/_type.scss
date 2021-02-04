@@ -12,6 +12,7 @@ h6{
 h1 {
     font-size: $size6;
     letter-spacing: -1px;
+    max-width: 28ch;
         @media screen and (min-width: 36em) {
           font-size: $size8;
         }

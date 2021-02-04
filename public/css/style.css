@@ -259,6 +259,7 @@ h6 {
 h1 {
   font-size: 1.75em;
   letter-spacing: -1px;
+  max-width: 28ch;
 }
 @media screen and (min-width: 36em) {
   h1 {
@@ -403,7 +404,7 @@ header, footer {
   margin-left: auto;
   margin-right: auto;
   max-width: 88%;
-  width: 45em;
+  width: 50em;
 }
 
 /**
@@ -539,7 +540,15 @@ header, footer {
 }
 @media screen and (max-width: 60em) {
   .home-id {
-    display: none;
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: auto;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap;
   }
 }
 
@@ -727,6 +736,9 @@ a[href].direct-link:focus:visited,
   background-color: #fbf1a9;
   padding: 1em 0.625em;
   /* 16px 10px /16 */
+  width: 100%;
+  max-width: 50em;
+  margin: 0 auto;
 }
 @media screen and (min-width: 60em) {
   .warning {
