@@ -254,3 +254,35 @@
 .bg-ivory {
     background-color: $ivory;
 }
+
+.bg-color-cycle {
+    -webkit-animation: gradient 60s infinite alternate linear;
+            animation: gradient 60s infinite alternate linear;
+    background: hsl(0, 100%, 93.73%);
+  }
+  @-webkit-keyframes gradient {
+    25% {
+      background: hsl(52.68, 91.11%, 82.35%);
+    }
+    50% {
+      background: hsl(157.14, 84%, 95.1%);
+    }
+    75% {
+      background: hsl(202.8, 100%, 90.2%);
+    }
+  }
+  @keyframes gradient {
+    25% {
+      background: hsl(52.68, 91.11%, 82.35%);
+    }
+    50% {
+      background: hsl(157.14, 84%, 95.1%);
+    }
+    75% {
+      background: hsl(202.8, 100%, 90.2%);
+    }
+  }
+
+.bg-color-cycle img{
+    mix-blend-mode: multiply;
+}

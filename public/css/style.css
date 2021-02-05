@@ -830,6 +830,38 @@ a[href].direct-link:focus:visited,
   margin-top: 0.25em;
 }
 
+.padding-0 {
+  padding: 0.25em;
+}
+
+.padding-1 {
+  padding: 0.5em;
+}
+
+.padding-2 {
+  padding: 0.75em;
+}
+
+.padding-3 {
+  padding: 1em;
+}
+
+.padding-4 {
+  padding: 1.25em;
+}
+
+.padding-5 {
+  padding: 1.5em;
+}
+
+.padding-6 {
+  padding: 1.75em;
+}
+
+.padding-7 {
+  padding: 2em;
+}
+
 .list-unstyled {
   list-style: none;
   padding: 0;
@@ -1106,6 +1138,38 @@ a[href].direct-link:focus:visited,
 
 .bg-ivory {
   background-color: #faf9f9;
+}
+
+.bg-color-cycle {
+  -webkit-animation: gradient 60s infinite alternate linear;
+  animation: gradient 60s infinite alternate linear;
+  background: #ffdfdf;
+}
+
+@-webkit-keyframes gradient {
+  25% {
+    background: #fbf1a9;
+  }
+  50% {
+    background: #e8fdf5;
+  }
+  75% {
+    background: #cdecff;
+  }
+}
+@keyframes gradient {
+  25% {
+    background: #fbf1a9;
+  }
+  50% {
+    background: #e8fdf5;
+  }
+  75% {
+    background: #cdecff;
+  }
+}
+.bg-color-cycle img {
+  mix-blend-mode: multiply;
 }
 
 .img-circle {

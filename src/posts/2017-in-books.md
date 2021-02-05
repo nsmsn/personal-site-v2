@@ -77,7 +77,7 @@ Again, not all of these books are endorsements. I did read a bunch of recent bes
     &nbsp;
 
 13. <i>The Information: A History, a Theory, a Flood</i> ⭐
-    by Author
+    by James Gleick
     <small>Finished on <time datetime="2017-04-27">April 27</time></small>
     &nbsp;
 
