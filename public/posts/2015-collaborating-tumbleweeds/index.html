@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="/css/style.css">
     <!--<link rel="stylesheet" href="/css/prism-base16-monokai.dark.css">-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,400..900;1,400..800&family=IBM+Plex+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Literata:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,400..900;1,400..800&family=IBM+Plex+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Literata:ital,wght@0,300..700;1,300..700&display=optional" rel="stylesheet">
     <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Nick Simson">
     <link rel="alternate" href="/feed/feed.json" type="application/json" title="Nick Simson">
 
@@ -73,23 +73,23 @@
 </ol>
 <p>Other priorities we discussed were featuring large images of the band on the front page, featuring the logo as a large header image, and including video of a few performances. I made it clear early that I would plan to build responsively, making the site accessible and loading quickly on smaller screens.</p>
  <div class="row">
-        <div class="grid-half"><img src="/img/post-images/2015-03-tw-sketchbook-01.jpg" alt="Image of sketchbook with notes" />
+        <div class="grid-half"><img src="/img/post-images/2015-03-tw-sketchbook-01.jpg" alt="Image of sketchbook with notes" loading="lazy"/>
         <figcaption>Notes from the Google Hangout discussion.</figcaption></div>
-        <div class="grid-half"><img src="/img/post-images/2015-03-tw-sketchbook-02.jpg" alt="Image of sketchbook with notes and wireframe drawings"/><figcaption>More notes and thumbnail sketches for content/strucutre.</figcaption>
+        <div class="grid-half"><img src="/img/post-images/2015-03-tw-sketchbook-02.jpg" alt="Image of sketchbook with notes and wireframe drawings" loading="lazy"/><figcaption>More notes and thumbnail sketches for content/strucutre.</figcaption>
         </div>
     </div>
 <p>In the course of this initial meeting we defined roles: Byron, as the client would be responsible for final approvals and serve as liason with the rest of the band. He would also be chiefly responsible for gathering and editing website content. Whit, as developer would be configuring the domain and hosting, and most major CMS development. As designer, my role was in structuring the content, visual design (type, image, and color) and developing a mockup as a static HTML/CSS prototype.</p>
 <p>We also determined what the content needed to be, how much was already available and what may need to be written. Byron and I had previously used Dropbox when I worked on the Tumbleweeds' first CD &quot;Roll On&quot;, so we used the same shared folder and created a new subfolder for the website project:</p>
-<img class="browser" src="/img/post-images/2015-03-tw-dropbox-folders.jpg" alt="Screenshot of Dropbox folder">
+<img class="browser" src="/img/post-images/2015-03-tw-dropbox-folders.jpg" alt="Screenshot of Dropbox folder" loading="lazy">
 <p>We used Dropbox to store the latest versions of written content, hi-res photos and links to externally hosted items. The folders are named by content type, not necessarily navigation items, knowing that this could change in the course of the project timeline.</p>
 <h2 id="prototyping-design">Prototyping Design <a class="direct-link" href="#prototyping-design">#</a></h2>
 <p>With a few pages, images and bios completed after Thanksgiving, I had enough content to start prototyping. This was truly an exercise in <a href="http://www.markboulton.co.uk/journal/structure-first-content-always">&quot;content-first&quot;</a> design. Instead of using image editing software like Photoshop or Illustrator to create a &quot;mockup&quot; of a page, I planned to write the design as a structured HTML document and use CSS to style the layout. I prefer designing this way because it forces you to consider the content (and the code) that will end up in the final product early and often. One of my favorite prototyping tools is <a href="http://mixture.io/">Mixture</a>,an app that fires up a little development server on your local computer complete with a templating engine and preprocessor support.</p>
 <p>I had recently relaunched my personal site in late November, and used a <a href="https://github.com/nsmsn/tw/tree/master/assets/sass">similar approach</a> to writing my CSS styles in the Sass syntax. This approach works well on fairly simple sites like this one and the Tumbleweeds, and keeps me thinking about the cascade of the compiled file itself. I like being able to find all different parts listed alphabetically in one folder, and using the <code>@import</code> function to manage the cascade order.</p>
 <p>I had an opportunity to build up a visual identity for the band over time, initially with the Tumbleweeds logo and a bumper sticker, followed a CD package. The key parts of this visual language are a rich color pallette anchored by a warm red, and period/genre appropriate typefaces and lettering. Designing a site with multiple pages, video and audio presented an opportunity to expand this graphic identity a little further. I chose two slab serif typefaces available as webfonts from Google. The display type (<a href="https://www.google.com/fonts/specimen/Vast+Shadow">Vast</a>), looks like it comes out of an old playbill or Hollywood western movie poster. The subheadings and body text uses <a href="http://www.huertatipografica.com/fonts/bitter-ht">Bitter</a>, a very readable font for the screen.</p>
 <div class="row">
-<div class="grid-half"><figure><img src="/img/post-images/2015-03-tw-colors.png" alt="Screenshot of color pallette"/>
+<div class="grid-half"><figure><img src="/img/post-images/2015-03-tw-colors.png" alt="Screenshot of color pallette" loading="lazy" />
 <figcaption>I used Adobe Illustrator to develop the color palette and went back into the code editor to add color to the static prototype</figcaption></figure></div>
-<div class="grid-half"><img src="/img/post-images/2015-03-tw-proto.jpg" alt="Screenshot of web prototype"/></div>
+<div class="grid-half"><img src="/img/post-images/2015-03-tw-proto.jpg" alt="Screenshot of web prototype" loading="lazy" /></div>
     </div>
 <p>Once I had worked some of the fonts, colors and logo into my HTML documents, I sent screenshots to Byron to show the visual direction I was going in. Working with live embeddable media from YouTube and Bandcamp was also helpful at this early stage for writing responsive breakpoints and containers to house multimedia content in. Bandcamp's audio player, for example, adapts to its container width.</p>
 <p>I had already created two versions of the Tumbleweeds logo back in 2011, a horizontal banner and a logo contained in a circular shape. One of my favorite details of the site is how this logo changes from mobile and tablet styles to desktop.</p>
@@ -98,9 +98,9 @@
 <p>In our kickoff meeting we decided to explore WordPress as a possible CMS since it was something Whit and I were both accustomed to working with, and fairly user-friendly. While I was prototyping, Whit set up WordPress on Byron's hosting plan and created logins for all 3 of us. I had used the <a href="http://gigpress.com/">Gigpress</a> plugin before, and suggested we try it out for managing the calendar. GigPress comes with a customizable stylesheet, so I was able to use this as a fundation to build table styles in a CSS file to use later in production.</p>
 <p>I hadn't sent off an interactive prototype like this to another developer before, so I wasn't sure what to expect. I created a <a href="https://github.com/nsmsn/tw">GitHub repo for the prototype</a> where Whit could download my CSS, JavaScript and HTML to use in a WordPress theme. The handoff went smoothly, and Whit worked dilligently and integrated some simple, intuitive functionality into the backend. A metabox in the WordPress editor for the home page controls the quote and slideshow images, and the order of the images can be changed by dragging and dropping them around. The grid layouts for various pages are achieved in metaboxes for different sections, or as shortcodes in the content editor itself.</p>
 <div class="row">
-        <div class="grid-half"><img src="/img/post-images/2015-03-tw-gigpress.jpg" alt="WordPress back-end dropdown selector">
+        <div class="grid-half"><img src="/img/post-images/2015-03-tw-gigpress.jpg" alt="WordPress back-end dropdown selector" loading="lazy" />
 <figcaption>The GigPress plugin in action: Calendar events are super-easy to create with a set of fields in the editor.</figcaption> </div>
-        <div class="grid-half"><img src="/img/post-images/2015-03-tw-slideshow.jpg" alt="WordPress back-end slideshow editor">
+        <div class="grid-half"><img src="/img/post-images/2015-03-tw-slideshow.jpg" alt="WordPress back-end slideshow editor" loading="lazy" />
 <figcaption>A home page metabox in the WordPress editor makes it really simple to change out the front page slideshow.</figcaption></div>
     </div>
 <p>Whit set up a new SSH-connected <a href="https://github.com/littleRm/tumbleweedsband">GitHub repo for the theme files</a>, making further collaboration and revision control possible. The site went live toward the end of February, and we got together on another video chat to evaluate the project, exchange notes and chat about music/life events. Its always a pleasure to work with the Tumbleweeds, and Byron and his bandmates sounded very pleased with the result.</p>

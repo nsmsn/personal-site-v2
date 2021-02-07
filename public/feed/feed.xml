@@ -5,12 +5,87 @@
 	
 	<link href="https://nicksimson.com/feed/feed.xml" rel="self"/>
 	<link href="https://nicksimson.com/"/>
-	<updated>2021-01-29T19:00:00-05:00</updated>
+	<updated>2021-02-06T19:00:00-05:00</updated>
 	<id>https://nicksimson.com/</id>
 	<author>
 		<name>Nick Simson</name>
 		<email>nick@nicksimson.com</email>
 	</author>
+	
+	<entry>
+		<title>Accessibility and Performance</title>
+		<link href="https://nicksimson.com/posts/2021-redesign-a11y-perf/"/>
+		<updated>2021-02-06T19:00:00-05:00</updated>
+		<id>https://nicksimson.com/posts/2021-redesign-a11y-perf/</id>
+		<content type="html">&lt;p&gt;I have read and agree with Robin Rendle&#39;s sentiment: &lt;a href=&quot;https://css-tricks.com/accessibility-and-web-performance-are-not-features-theyre-the-baseline/&quot;&gt;accessibility and web performance are not features, they’re the baseline &lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;That said, I want to spend a little bit of time highlighting some of the front end code I&#39;m excited about that keeps my website fast and usable.&lt;/p&gt;
+&lt;h2 id=&quot;skip-link&quot;&gt;Skip Link &lt;a class=&quot;direct-link&quot; href=&quot;#skip-link&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;If you inspect the markup of each page the very first link in the &lt;code&gt;body&lt;/code&gt; of my website is a &amp;quot;Skip to Content Link&amp;quot;, an anchor tag that links to the &lt;code&gt;main&lt;/code&gt; element with an ID of &amp;quot;main-content&amp;quot;. When you select the link the page will scroll down to the &amp;quot;main-content&amp;quot; ID applied to the &lt;code&gt;main&lt;/code&gt; element, &lt;em&gt;skipping&lt;/em&gt; all the navigation links on its way down.&lt;/p&gt;
+&lt;p&gt;When CSS is loaded, the skip link is visually hidden by the following CSS:&lt;/p&gt;
+&lt;pre&gt;
+&lt;code&gt;
+  .skip-link:not(:focus) {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: auto;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap;
+  }
+&lt;/code&gt;
+&lt;/pre&gt;
+&lt;p&gt;This visually hidden code snippet can also be found on &lt;a href=&quot;https://piccalil.li/quick-tip/visually-hidden&quot;&gt;Andy Bell&#39;s website&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Tabbing through the &lt;code&gt;header&lt;/code&gt; element with a keyboard reveals the Skip to Content link, styled as a large button (you can&#39;t miss it):&lt;/p&gt;
+&lt;img src=&quot;https://nicksimson.com/img/post-images/2021-skip-link.png&quot; loading=&quot;lazy&quot; alt=&quot;Light blue Skip to content link visible on Nick Simson dot com&quot; width=&quot;603&quot;&gt;
+&lt;p&gt;The styled link also has a hover style applied:&lt;/p&gt;
+&lt;img src=&quot;https://nicksimson.com/img/post-images/2021-skip-link-hover.png&quot; loading=&quot;lazy&quot; alt=&quot;Navy blue Skip to content link with hover styles applied&quot; width=&quot;603&quot;&gt;
+&lt;p&gt;The following CSS gives a smooth-scrolling animation to all in-page links (as long as &lt;a href=&quot;https://caniuse.com/css-scroll-behavior&quot;&gt;the browser supports the &lt;code&gt;scroll-behavior&lt;/code&gt; property&lt;/a&gt;):&lt;/p&gt;
+&lt;pre&gt;
+&lt;code&gt;
+html {
+  scroll-behavior: smooth;
+}
+&lt;/code&gt;
+&lt;/pre&gt;
+&lt;p&gt;If &lt;code&gt;scroll-behavior&lt;/code&gt; is not supported, the link still works and will just jump to the section of the page. This will be the behavior if the visitor has disabled motion and animation in their browser preferences:&lt;/p&gt;
+&lt;pre&gt;
+&lt;code&gt;
+/* Remove all animations and transitions for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+&lt;/code&gt;
+&lt;/pre&gt;
+&lt;p&gt;Again, these snippets are courtesy of Andy Bell, via his &lt;a href=&quot;https://piccalil.li/blog/a-modern-css-reset&quot;&gt;modern CSS reset&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;optional-web-fonts&quot;&gt;Optional Web Fonts &lt;a class=&quot;direct-link&quot; href=&quot;#optional-web-fonts&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;This one may prove controversial. I am implementing the following in all @font-face declarations since I am using &lt;a href=&quot;https://nicksimson.com/posts/2020-redesign-webfonts-html/&quot;&gt;three webfonts&lt;/a&gt;:&lt;/p&gt;
+&lt;pre&gt;
+&lt;code&gt;
+ @font-face {
+    font-display: optional;
+  }
+&lt;/code&gt;
+&lt;/pre&gt;
+&lt;p&gt;If any of the fonts take longer than 100 milliseconds to render on the initial page load, the fallback font will display instead. The fonts will be visible on refresh, or the next page a visitor reaches. Since I picked typefaces that are close to the proportions of the system defaults, this isn&#39;t a huge deal to me, and I almost how many people will notice. But for the same reason, any Flash of Unstyled Text or layout shift in the design isn&#39;t a huge deal, and I could easily revert back to &lt;code&gt;font-display: swap&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Since I am serving the fonts with Google&#39;s CDN, I am also using &lt;code&gt;link rel=&amp;quot;preconnect&amp;quot;&lt;/code&gt; before the font stylesheet to speed up the delivery of the fonts, which I&#39;m treating as an enhancement to the page layout.&lt;/p&gt;
+&lt;p&gt;Simon Hearne has a big, long write-up on strategies to &lt;a href=&quot;https://simonhearne.com/2021/layout-shifts-webfonts/&quot;&gt;avoid layout shifts caused by web fonts&lt;/a&gt;, if you&#39;re interested in more of this topic.&lt;/p&gt;
+&lt;h2 id=&quot;native-lazy-loading&quot;&gt;Native Lazy Loading &lt;a class=&quot;direct-link&quot; href=&quot;#native-lazy-loading&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Since this starting landing in web browsers in summer 2019, I&#39;m getting in the habit of writing &lt;code&gt;loading=&amp;quot;lazy&amp;quot;&lt;/code&gt; as an attribute on my images in posts, and adding this to previous posts on this site. This is an instruction to the browser to wait to load the image until it is close to coming in frame of the viewpoert. Thankfully, I&#39;m not using a lot of images on a single page, but this will be handy if/when I add a portfolio to this site.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://web.dev/browser-level-image-lazy-loading/&quot;&gt;Web.dev&lt;/a&gt; and &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/Performance/Lazy_loading&quot;&gt;MDN Web Docs&lt;/a&gt; both have information on how this feature works.&lt;/p&gt;
+&lt;h2 id=&quot;wrapping-up&quot;&gt;Wrapping Up &lt;a class=&quot;direct-link&quot; href=&quot;#wrapping-up&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;If I add more code that enhances accessibility or performance, I will either add to this post or include snippets in a future follow-up post. In the meantime, you can catch up on my other &lt;a href=&quot;https://nicksimson.com/tags/redesign/&quot;&gt;posts tagged &#39;Redesign&#39;&lt;/a&gt;.&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Design Justice Principles</title>
@@ -503,7 +578,7 @@ This area needs some work.&lt;/p&gt;
 &lt;p&gt;Everyone handles emergencies differently. I think my experience of the first six weeks of the global COVID-19 pandemic was better than the following nine months. We were not in a &amp;quot;hot spot&amp;quot; for several weeks, but Knox County shut down much like the rest of the country. We started refreshing the now-ubiquitous daily case count dashboards and made a bunch of homemade face coverings from old shirts and fabric scraps. I built a table and set up a home office in our living room. I didn&#39;t start baking daily (although I did execute a good gluten-free pizza crust) or attempt a novel. My plague year project was to develop a regular exercise regiment (I chose jogging and &lt;a href=&quot;http://www.c25k.com/&quot;&gt;Couch to 5K&lt;/a&gt;), and to avoid getting the virus or spreading it.&lt;/p&gt;
 &lt;p&gt;Homemade yard signs, window painting, and sidewalk chalk interventions sprang up in our neighborhood to thank healthcare workers. Eventually these were supplemanted or replaced with more yard signs and other sporadic interventions declaring solidarity with the Black Lives Matter movement. Then more general election yard signs and a handful of Trump flags appeared during my morning jogs or dog walks later in the summer. I proved that I could work at home for six months and still get things done, for the most part. &lt;a href=&quot;https://oak.is/thinking/working-remotely-covid-19-principles/&quot;&gt;Expectations of what is &amp;quot;productive&amp;quot;&lt;/a&gt; may have shifted during the global pandemic.&lt;/p&gt;
 &lt;figure&gt;
-&lt;img src=&quot;https://nicksimson.com/img/post-images/2020-holzer-survival.jpg&quot; width=&quot;600&quot; height=&quot;430&quot;&gt;
+&lt;img src=&quot;https://nicksimson.com/img/post-images/2020-holzer-survival.jpg&quot; loading=&quot;lazy&quot; width=&quot;800&quot; height=&quot;573&quot;&gt;
 &lt;figcaption&gt;Jenny Holzer
 &lt;p&gt;American, b. 1950&lt;/p&gt;
 &lt;p&gt;Survival Series: In a Dream You Saw a Way…, 1997&lt;/p&gt;&lt;/figcaption&gt;&lt;p&gt;&lt;/p&gt;
@@ -1518,23 +1593,23 @@ Mary Ruefle, &amp;ldquo;Short Lecture on Your Own Happiness&amp;rdquo;, from &lt
 &lt;/ol&gt;
 &lt;p&gt;Other priorities we discussed were featuring large images of the band on the front page, featuring the logo as a large header image, and including video of a few performances. I made it clear early that I would plan to build responsively, making the site accessible and loading quickly on smaller screens.&lt;/p&gt;
  &lt;div class=&quot;row&quot;&gt;
-        &lt;div class=&quot;grid-half&quot;&gt;&lt;img src=&quot;https://nicksimson.com/img/post-images/2015-03-tw-sketchbook-01.jpg&quot; alt=&quot;Image of sketchbook with notes&quot;&gt;
+        &lt;div class=&quot;grid-half&quot;&gt;&lt;img src=&quot;https://nicksimson.com/img/post-images/2015-03-tw-sketchbook-01.jpg&quot; alt=&quot;Image of sketchbook with notes&quot; loading=&quot;lazy&quot;&gt;
         &lt;figcaption&gt;Notes from the Google Hangout discussion.&lt;/figcaption&gt;&lt;/div&gt;
-        &lt;div class=&quot;grid-half&quot;&gt;&lt;img src=&quot;https://nicksimson.com/img/post-images/2015-03-tw-sketchbook-02.jpg&quot; alt=&quot;Image of sketchbook with notes and wireframe drawings&quot;&gt;&lt;figcaption&gt;More notes and thumbnail sketches for content/strucutre.&lt;/figcaption&gt;
+        &lt;div class=&quot;grid-half&quot;&gt;&lt;img src=&quot;https://nicksimson.com/img/post-images/2015-03-tw-sketchbook-02.jpg&quot; alt=&quot;Image of sketchbook with notes and wireframe drawings&quot; loading=&quot;lazy&quot;&gt;&lt;figcaption&gt;More notes and thumbnail sketches for content/strucutre.&lt;/figcaption&gt;
         &lt;/div&gt;
     &lt;/div&gt;
 &lt;p&gt;In the course of this initial meeting we defined roles: Byron, as the client would be responsible for final approvals and serve as liason with the rest of the band. He would also be chiefly responsible for gathering and editing website content. Whit, as developer would be configuring the domain and hosting, and most major CMS development. As designer, my role was in structuring the content, visual design (type, image, and color) and developing a mockup as a static HTML/CSS prototype.&lt;/p&gt;
 &lt;p&gt;We also determined what the content needed to be, how much was already available and what may need to be written. Byron and I had previously used Dropbox when I worked on the Tumbleweeds&#39; first CD &amp;quot;Roll On&amp;quot;, so we used the same shared folder and created a new subfolder for the website project:&lt;/p&gt;
-&lt;img class=&quot;browser&quot; src=&quot;https://nicksimson.com/img/post-images/2015-03-tw-dropbox-folders.jpg&quot; alt=&quot;Screenshot of Dropbox folder&quot;&gt;
+&lt;img class=&quot;browser&quot; src=&quot;https://nicksimson.com/img/post-images/2015-03-tw-dropbox-folders.jpg&quot; alt=&quot;Screenshot of Dropbox folder&quot; loading=&quot;lazy&quot;&gt;
 &lt;p&gt;We used Dropbox to store the latest versions of written content, hi-res photos and links to externally hosted items. The folders are named by content type, not necessarily navigation items, knowing that this could change in the course of the project timeline.&lt;/p&gt;
 &lt;h2 id=&quot;prototyping-design&quot;&gt;Prototyping Design &lt;a class=&quot;direct-link&quot; href=&quot;#prototyping-design&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;With a few pages, images and bios completed after Thanksgiving, I had enough content to start prototyping. This was truly an exercise in &lt;a href=&quot;http://www.markboulton.co.uk/journal/structure-first-content-always&quot;&gt;&amp;quot;content-first&amp;quot;&lt;/a&gt; design. Instead of using image editing software like Photoshop or Illustrator to create a &amp;quot;mockup&amp;quot; of a page, I planned to write the design as a structured HTML document and use CSS to style the layout. I prefer designing this way because it forces you to consider the content (and the code) that will end up in the final product early and often. One of my favorite prototyping tools is &lt;a href=&quot;http://mixture.io/&quot;&gt;Mixture&lt;/a&gt;,an app that fires up a little development server on your local computer complete with a templating engine and preprocessor support.&lt;/p&gt;
 &lt;p&gt;I had recently relaunched my personal site in late November, and used a &lt;a href=&quot;https://github.com/nsmsn/tw/tree/master/assets/sass&quot;&gt;similar approach&lt;/a&gt; to writing my CSS styles in the Sass syntax. This approach works well on fairly simple sites like this one and the Tumbleweeds, and keeps me thinking about the cascade of the compiled file itself. I like being able to find all different parts listed alphabetically in one folder, and using the &lt;code&gt;@import&lt;/code&gt; function to manage the cascade order.&lt;/p&gt;
 &lt;p&gt;I had an opportunity to build up a visual identity for the band over time, initially with the Tumbleweeds logo and a bumper sticker, followed a CD package. The key parts of this visual language are a rich color pallette anchored by a warm red, and period/genre appropriate typefaces and lettering. Designing a site with multiple pages, video and audio presented an opportunity to expand this graphic identity a little further. I chose two slab serif typefaces available as webfonts from Google. The display type (&lt;a href=&quot;https://www.google.com/fonts/specimen/Vast+Shadow&quot;&gt;Vast&lt;/a&gt;), looks like it comes out of an old playbill or Hollywood western movie poster. The subheadings and body text uses &lt;a href=&quot;http://www.huertatipografica.com/fonts/bitter-ht&quot;&gt;Bitter&lt;/a&gt;, a very readable font for the screen.&lt;/p&gt;
 &lt;div class=&quot;row&quot;&gt;
-&lt;div class=&quot;grid-half&quot;&gt;&lt;figure&gt;&lt;img src=&quot;https://nicksimson.com/img/post-images/2015-03-tw-colors.png&quot; alt=&quot;Screenshot of color pallette&quot;&gt;
+&lt;div class=&quot;grid-half&quot;&gt;&lt;figure&gt;&lt;img src=&quot;https://nicksimson.com/img/post-images/2015-03-tw-colors.png&quot; alt=&quot;Screenshot of color pallette&quot; loading=&quot;lazy&quot;&gt;
 &lt;figcaption&gt;I used Adobe Illustrator to develop the color palette and went back into the code editor to add color to the static prototype&lt;/figcaption&gt;&lt;/figure&gt;&lt;/div&gt;
-&lt;div class=&quot;grid-half&quot;&gt;&lt;img src=&quot;https://nicksimson.com/img/post-images/2015-03-tw-proto.jpg&quot; alt=&quot;Screenshot of web prototype&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;grid-half&quot;&gt;&lt;img src=&quot;https://nicksimson.com/img/post-images/2015-03-tw-proto.jpg&quot; alt=&quot;Screenshot of web prototype&quot; loading=&quot;lazy&quot;&gt;&lt;/div&gt;
     &lt;/div&gt;
 &lt;p&gt;Once I had worked some of the fonts, colors and logo into my HTML documents, I sent screenshots to Byron to show the visual direction I was going in. Working with live embeddable media from YouTube and Bandcamp was also helpful at this early stage for writing responsive breakpoints and containers to house multimedia content in. Bandcamp&#39;s audio player, for example, adapts to its container width.&lt;/p&gt;
 &lt;p&gt;I had already created two versions of the Tumbleweeds logo back in 2011, a horizontal banner and a logo contained in a circular shape. One of my favorite details of the site is how this logo changes from mobile and tablet styles to desktop.&lt;/p&gt;
@@ -1543,9 +1618,9 @@ Mary Ruefle, &amp;ldquo;Short Lecture on Your Own Happiness&amp;rdquo;, from &lt
 &lt;p&gt;In our kickoff meeting we decided to explore WordPress as a possible CMS since it was something Whit and I were both accustomed to working with, and fairly user-friendly. While I was prototyping, Whit set up WordPress on Byron&#39;s hosting plan and created logins for all 3 of us. I had used the &lt;a href=&quot;http://gigpress.com/&quot;&gt;Gigpress&lt;/a&gt; plugin before, and suggested we try it out for managing the calendar. GigPress comes with a customizable stylesheet, so I was able to use this as a fundation to build table styles in a CSS file to use later in production.&lt;/p&gt;
 &lt;p&gt;I hadn&#39;t sent off an interactive prototype like this to another developer before, so I wasn&#39;t sure what to expect. I created a &lt;a href=&quot;https://github.com/nsmsn/tw&quot;&gt;GitHub repo for the prototype&lt;/a&gt; where Whit could download my CSS, JavaScript and HTML to use in a WordPress theme. The handoff went smoothly, and Whit worked dilligently and integrated some simple, intuitive functionality into the backend. A metabox in the WordPress editor for the home page controls the quote and slideshow images, and the order of the images can be changed by dragging and dropping them around. The grid layouts for various pages are achieved in metaboxes for different sections, or as shortcodes in the content editor itself.&lt;/p&gt;
 &lt;div class=&quot;row&quot;&gt;
-        &lt;div class=&quot;grid-half&quot;&gt;&lt;img src=&quot;https://nicksimson.com/img/post-images/2015-03-tw-gigpress.jpg&quot; alt=&quot;WordPress back-end dropdown selector&quot;&gt;
+        &lt;div class=&quot;grid-half&quot;&gt;&lt;img src=&quot;https://nicksimson.com/img/post-images/2015-03-tw-gigpress.jpg&quot; alt=&quot;WordPress back-end dropdown selector&quot; loading=&quot;lazy&quot;&gt;
 &lt;figcaption&gt;The GigPress plugin in action: Calendar events are super-easy to create with a set of fields in the editor.&lt;/figcaption&gt; &lt;/div&gt;
-        &lt;div class=&quot;grid-half&quot;&gt;&lt;img src=&quot;https://nicksimson.com/img/post-images/2015-03-tw-slideshow.jpg&quot; alt=&quot;WordPress back-end slideshow editor&quot;&gt;
+        &lt;div class=&quot;grid-half&quot;&gt;&lt;img src=&quot;https://nicksimson.com/img/post-images/2015-03-tw-slideshow.jpg&quot; alt=&quot;WordPress back-end slideshow editor&quot; loading=&quot;lazy&quot;&gt;
 &lt;figcaption&gt;A home page metabox in the WordPress editor makes it really simple to change out the front page slideshow.&lt;/figcaption&gt;&lt;/div&gt;
     &lt;/div&gt;
 &lt;p&gt;Whit set up a new SSH-connected &lt;a href=&quot;https://github.com/littleRm/tumbleweedsband&quot;&gt;GitHub repo for the theme files&lt;/a&gt;, making further collaboration and revision control possible. The site went live toward the end of February, and we got together on another video chat to evaluate the project, exchange notes and chat about music/life events. Its always a pleasure to work with the Tumbleweeds, and Byron and his bandmates sounded very pleased with the result.&lt;/p&gt;

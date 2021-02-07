@@ -28,9 +28,9 @@ The three of us got together via Google Hangout in mid-November to discuss the p
 Other priorities we discussed were featuring large images of the band on the front page, featuring the logo as a large header image, and including video of a few performances. I made it clear early that I would plan to build responsively, making the site accessible and loading quickly on smaller screens.
 
  <div class="row">
-        <div class="grid-half"><img src="/img/post-images/2015-03-tw-sketchbook-01.jpg" alt="Image of sketchbook with notes" />
+        <div class="grid-half"><img src="/img/post-images/2015-03-tw-sketchbook-01.jpg" alt="Image of sketchbook with notes" loading="lazy"/>
         <figcaption>Notes from the Google Hangout discussion.</figcaption></div>
-        <div class="grid-half"><img src="/img/post-images/2015-03-tw-sketchbook-02.jpg" alt="Image of sketchbook with notes and wireframe drawings"/><figcaption>More notes and thumbnail sketches for content/strucutre.</figcaption>
+        <div class="grid-half"><img src="/img/post-images/2015-03-tw-sketchbook-02.jpg" alt="Image of sketchbook with notes and wireframe drawings" loading="lazy"/><figcaption>More notes and thumbnail sketches for content/strucutre.</figcaption>
         </div>
     </div>
 
@@ -38,7 +38,7 @@ In the course of this initial meeting we defined roles: Byron, as the client wou
 
 We also determined what the content needed to be, how much was already available and what may need to be written. Byron and I had previously used Dropbox when I worked on the Tumbleweeds' first CD "Roll On", so we used the same shared folder and created a new subfolder for the website project:
 
-<img class="browser" src="/img/post-images/2015-03-tw-dropbox-folders.jpg" alt="Screenshot of Dropbox folder">
+<img class="browser" src="/img/post-images/2015-03-tw-dropbox-folders.jpg" alt="Screenshot of Dropbox folder" loading="lazy">
 
 We used Dropbox to store the latest versions of written content, hi-res photos and links to externally hosted items. The folders are named by content type, not necessarily navigation items, knowing that this could change in the course of the project timeline.
 
@@ -52,10 +52,10 @@ I had an opportunity to build up a visual identity for the band over time, initi
 
 <div class="row">
 
-<div class="grid-half"><figure><img src="/img/post-images/2015-03-tw-colors.png" alt="Screenshot of color pallette"/>
+<div class="grid-half"><figure><img src="/img/post-images/2015-03-tw-colors.png" alt="Screenshot of color pallette" loading="lazy" />
 <figcaption>I used Adobe Illustrator to develop the color palette and went back into the code editor to add color to the static prototype</figcaption></figure></div>
 
-<div class="grid-half"><img src="/img/post-images/2015-03-tw-proto.jpg" alt="Screenshot of web prototype"/></div>
+<div class="grid-half"><img src="/img/post-images/2015-03-tw-proto.jpg" alt="Screenshot of web prototype" loading="lazy" /></div>
     </div>
 
 Once I had worked some of the fonts, colors and logo into my HTML documents, I sent screenshots to Byron to show the visual direction I was going in. Working with live embeddable media from YouTube and Bandcamp was also helpful at this early stage for writing responsive breakpoints and containers to house multimedia content in. Bandcamp's audio player, for example, adapts to its container width.
@@ -71,9 +71,9 @@ In our kickoff meeting we decided to explore WordPress as a possible CMS since i
 I hadn't sent off an interactive prototype like this to another developer before, so I wasn't sure what to expect. I created a [GitHub repo for the prototype](https://github.com/nsmsn/tw) where Whit could download my CSS, JavaScript and HTML to use in a WordPress theme. The handoff went smoothly, and Whit worked dilligently and integrated some simple, intuitive functionality into the backend. A metabox in the WordPress editor for the home page controls the quote and slideshow images, and the order of the images can be changed by dragging and dropping them around. The grid layouts for various pages are achieved in metaboxes for different sections, or as shortcodes in the content editor itself.
 
 <div class="row">
-        <div class="grid-half"><img src="/img/post-images/2015-03-tw-gigpress.jpg" alt="WordPress back-end dropdown selector">
+        <div class="grid-half"><img src="/img/post-images/2015-03-tw-gigpress.jpg" alt="WordPress back-end dropdown selector" loading="lazy" />
 <figcaption>The GigPress plugin in action: Calendar events are super-easy to create with a set of fields in the editor.</figcaption> </div>
-        <div class="grid-half"><img src="/img/post-images/2015-03-tw-slideshow.jpg" alt="WordPress back-end slideshow editor">
+        <div class="grid-half"><img src="/img/post-images/2015-03-tw-slideshow.jpg" alt="WordPress back-end slideshow editor" loading="lazy" />
 <figcaption>A home page metabox in the WordPress editor makes it really simple to change out the front page slideshow.</figcaption></div>
     </div>
 

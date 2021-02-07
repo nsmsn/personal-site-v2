@@ -258,12 +258,12 @@ h6 {
 
 h1 {
   font-size: 1.75em;
-  letter-spacing: -1px;
   max-width: 28ch;
 }
 @media screen and (min-width: 36em) {
   h1 {
     font-size: 2.25em;
+    letter-spacing: -1px;
   }
 }
 @media screen and (min-width: 60em) {
@@ -538,7 +538,7 @@ header, footer {
   transform: rotate(90deg);
   margin-left: -3rem;
 }
-@media screen and (max-width: 60em) {
+@media screen and (max-width: 70em) {
   .home-id {
     border: 0;
     clip: rect(0 0 0 0);
@@ -588,7 +588,7 @@ header, footer {
 }
 
 .navigation a {
-  font-weight: 500;
+  font-weight: 600;
   text-decoration: none;
   color: currentColor;
 }
@@ -603,8 +603,8 @@ header, footer {
 }
 
 .navigation-item-active {
-  font-weight: 820;
-  border-bottom: 6px solid #f18680;
+  font-weight: 700;
+  border-bottom: 4px solid #f18680;
 }
 
 /* Posts list */
@@ -1193,7 +1193,7 @@ code[class*=language-],
 pre[class*=language-] {
   color: var(--black);
   background: none;
-  font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+  font-family: "IBM Plex Mono", Consolas, Menlo, Monaco, "Andale Mono", "Lucida Console", "Courier New", Courier, monospace;
   text-align: left;
   white-space: pre;
   word-spacing: normal;

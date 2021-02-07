@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessibility and Performance</title>
+    <meta name="description" content="A few handy code snippets and more.">
+    <link rel="stylesheet" href="/css/style.css">
+    <!--<link rel="stylesheet" href="/css/prism-base16-monokai.dark.css">-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,400..900;1,400..800&family=IBM+Plex+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Literata:ital,wght@0,300..700;1,300..700&display=optional" rel="stylesheet">
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Nick Simson">
+    <link rel="alternate" href="/feed/feed.json" type="application/json" title="Nick Simson">
+
+    <link rel="icon" href="/img/meta/favicon.svg" type="image/svg+xml" />
+  
+  </head>
+  <body>
+    <header class="site-head">
+    <a href="#main-content" class="skip-link">Skip to content</a>
+  <div class="wrapper">
+    <div class="site-head__inner">
+
+      <h1 class="home"><a href="/"><span class="home-id">Nick Simson</span><svg class="logo" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 100 100" xml:space="preserve" width="40" height="40">
+  <style>
+    .logo-path1{fill:#ee453b}
+    .logo-path2{fill:#ee453b}
+  </style>
+  <g id="Layer_1_2_">
+    <path class="logo-path1" d="M82.7 16.7C66.8.8 41.1.8 25.3 16.7 9.6 32.3 9.4 57.4 24.5 73.3l17.9-37c.2-.5.8-.6 1.2-.2l10.3 10.3c.3.3.8.3 1.1 0l27.7-29.7z"/>
+    <path class="logo-path2" d="M17.3 83.3c15.9 15.9 41.6 15.9 57.4 0 15.6-15.6 15.8-40.7.8-56.6l-17.9 37c-.2.5-.8.6-1.2.2L46.2 53.6c-.3-.3-.8-.3-1.1 0L17.3 83.3z"/>
+  </g>
+</svg></a></h1>
+    <nav class="navigation" aria-label="primary">
+      <ul role="list">
+        <li class="navigation-item"><a href="/">Home</a></li>
+        <li class="navigation-item"><a href="/posts/">Archive</a></li>
+        <li class="navigation-item"><a href="/info/">Info</a></li>
+      </ul>
+    </nav>
+  </div>
+  </div>
+    </header>
+
+      <!-- Delete this message -->
+      <div class="warning flow">
+        🚩 <em>This website is undergoing an <a href="/tags/redesign/">open redesign</a>, so if anything looks wonky, that’s&nbsp;why.</em>
+      </div>
+      <!-- Stop deleting -->
+
+    <main id="main-content"  class="tmpl-post flow container">
+
+      <h1>Accessibility and Performance</h1>
+
+<small class="timestamp">Published <time datetime="2021-02-07">07 Feb 2021</time></small>
+
+<p>I have read and agree with Robin Rendle's sentiment: <a href="https://css-tricks.com/accessibility-and-web-performance-are-not-features-theyre-the-baseline/">accessibility and web performance are not features, they’re the baseline </a>.</p>
+<p>That said, I want to spend a little bit of time highlighting some of the front end code I'm excited about that keeps my website fast and usable.</p>
+<h2 id="skip-link">Skip Link <a class="direct-link" href="#skip-link">#</a></h2>
+<p>If you inspect the markup of each page the very first link in the <code>body</code> of my website is a &quot;Skip to Content Link&quot;, an anchor tag that links to the <code>main</code> element with an ID of &quot;main-content&quot;. When you select the link the page will scroll down to the &quot;main-content&quot; ID applied to the <code>main</code> element, <em>skipping</em> all the navigation links on its way down.</p>
+<p>When CSS is loaded, the skip link is visually hidden by the following CSS:</p>
+<pre>
+<code>
+  .skip-link:not(:focus) {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: auto;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap;
+  }
+</code>
+</pre>
+<p>This visually hidden code snippet can also be found on <a href="https://piccalil.li/quick-tip/visually-hidden">Andy Bell's website</a></p>
+<p>Tabbing through the <code>header</code> element with a keyboard reveals the Skip to Content link, styled as a large button (you can't miss it):</p>
+<img src="/img/post-images/2021-skip-link.png" loading="lazy" alt="Light blue Skip to content link visible on Nick Simson dot com" width="603">
+<p>The styled link also has a hover style applied:</p>
+<img src="/img/post-images/2021-skip-link-hover.png" loading="lazy" alt="Navy blue Skip to content link with hover styles applied" width="603">
+<p>The following CSS gives a smooth-scrolling animation to all in-page links (as long as <a href="https://caniuse.com/css-scroll-behavior">the browser supports the <code>scroll-behavior</code> property</a>):</p>
+<pre>
+<code>
+html {
+  scroll-behavior: smooth;
+}
+</code>
+</pre>
+<p>If <code>scroll-behavior</code> is not supported, the link still works and will just jump to the section of the page. This will be the behavior if the visitor has disabled motion and animation in their browser preferences:</p>
+<pre>
+<code>
+/* Remove all animations and transitions for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+</code>
+</pre>
+<p>Again, these snippets are courtesy of Andy Bell, via his <a href="https://piccalil.li/blog/a-modern-css-reset">modern CSS reset</a>.</p>
+<h2 id="optional-web-fonts">Optional Web Fonts <a class="direct-link" href="#optional-web-fonts">#</a></h2>
+<p>This one may prove controversial. I am implementing the following in all @font-face declarations since I am using <a href="/posts/2020-redesign-webfonts-html/">three webfonts</a>:</p>
+<pre>
+<code>
+ @font-face {
+    font-display: optional;
+  }
+</code>
+</pre>
+<p>If any of the fonts take longer than 100 milliseconds to render on the initial page load, the fallback font will display instead. The fonts will be visible on refresh, or the next page a visitor reaches. Since I picked typefaces that are close to the proportions of the system defaults, this isn't a huge deal to me, and I almost how many people will notice. But for the same reason, any Flash of Unstyled Text or layout shift in the design isn't a huge deal, and I could easily revert back to <code>font-display: swap</code>.</p>
+<p>Since I am serving the fonts with Google's CDN, I am also using <code>link rel=&quot;preconnect&quot;</code> before the font stylesheet to speed up the delivery of the fonts, which I'm treating as an enhancement to the page layout.</p>
+<p>Simon Hearne has a big, long write-up on strategies to <a href="https://simonhearne.com/2021/layout-shifts-webfonts/">avoid layout shifts caused by web fonts</a>, if you're interested in more of this topic.</p>
+<h2 id="native-lazy-loading">Native Lazy Loading <a class="direct-link" href="#native-lazy-loading">#</a></h2>
+<p>Since this starting landing in web browsers in summer 2019, I'm getting in the habit of writing <code>loading=&quot;lazy&quot;</code> as an attribute on my images in posts, and adding this to previous posts on this site. This is an instruction to the browser to wait to load the image until it is close to coming in frame of the viewpoert. Thankfully, I'm not using a lot of images on a single page, but this will be handy if/when I add a portfolio to this site.</p>
+<p><a href="https://web.dev/browser-level-image-lazy-loading/">Web.dev</a> and <a href="https://developer.mozilla.org/en-US/docs/Web/Performance/Lazy_loading">MDN Web Docs</a> both have information on how this feature works.</p>
+<h2 id="wrapping-up">Wrapping Up <a class="direct-link" href="#wrapping-up">#</a></h2>
+<p>If I add more code that enhances accessibility or performance, I will either add to this post or include snippets in a future follow-up post. In the meantime, you can catch up on my other <a href="/tags/redesign/">posts tagged 'Redesign'</a>.</p>
+
+
+&nbsp;
+
+<footer class="pagination">
+
+<hr>
+<ul class="list-unstyled pagination__inner"><li class="">Previous: <a href="/posts/2021-design-justice-principles/">Design Justice Principles</a></li>
+</ul>
+</footer>
+    </main>
+
+    <footer role="contentinfo" class="footer wrapper flow">
+	<p>© 2021 Nick Simson. Thanks for stopping by.</p>
+</footer>
+
+    <!-- Current page: /posts/2021-redesign-a11y-perf/ -->
+  </body>
+</html>
