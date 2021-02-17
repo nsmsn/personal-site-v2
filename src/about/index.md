@@ -13,7 +13,7 @@ permalink: /info/
 
 <div class="grid-fourth grid-last flow">
 <div class="bg-color-cycle img-circle" style="max-width:240px">
-        <img src="/img/misc/diffuse-nick-profile.png" alt="Nick Simson" width="240" class="img-circle"/>
+        <img src="/img/misc/diffuse-nick-profile.png" alt="Nick Simson" width="240" class="img-circle img-multiply"/>
         </div>
 &nbsp;
 </div>

@@ -1,0 +1,34 @@
+.lib-item{
+    font-size: $size2;
+    padding: $size3 $size3 $size3 0;
+}
+
+.lib-title{
+    font-family: $sans;
+    font-weight: 600;
+}
+
+.lib-cover{
+    height: 200px;
+    width: auto;
+    border: 1px solid $gray;
+}
+
+.lib-title:hover img.lib-cover{
+mix-blend-mode: multiply;
+opacity: 70%;
+}
+
+.purchase-link{
+    font-family: $sans;
+    text-decoration: none;
+    background-color: $lightgray;
+    vertical-align: text-bottom;
+    padding: 4px 6px;
+    border-radius: 0.25em;
+}
+
+.purchase-link:hover {
+    background-color: $washedred;
+    color: $darkred;
+  }

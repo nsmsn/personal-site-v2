@@ -8,5 +8,22 @@ eleventyNavigation:
 
 <h1>Archive</h1>
 
+<div class="row">
+<div class="grid-third grid-last">
+<div class="panel flow">
+<p>Sort posts by tags:</p>
+  {% for tag in collections.tagList %}
+  {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+<a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
+{% endfor %}
+</div>
+
+<p>&nbsp;</p>
+
+</div>
+
+<div class="grid-two-thirds flow">
 {% set postslist = collections.posts %}
 {% include "postslist.njk" %}
+</div>
+</div>

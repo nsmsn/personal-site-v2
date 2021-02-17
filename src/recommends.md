@@ -23,9 +23,6 @@ Whether you need 50 cards or 5,000 cards, [my Moo.com link](https://refer.moo.c
 ## Trying to learn photoshop? 
 [Skillshare](http://skl.sh/2llW7t3) is an awesome service of on-demand video classes for a variety of creative and business skills—17,000 online courses total! [This Skillshare link](http://skl.sh/2llW7t3) will get you two months of Premium Membership free.
 
-## Need a cell phone?
-I've been using [Mint Mobile](http://fbuy.me/qVQsM) for a couple years and pretty happy with my coverage and the price. Plans start at $15 a month, and [this Mint Mobile link](http://fbuy.me/qVQsM) will get you $15 for free.
-
 ## Need a domain name for your next web project?
 [Hover.com](https://hover.com/XPPd44AV) makes the whole process simple, transparent, and hassle-free. Use [my hover.com link](https://hover.com/XPPd44AV) for $2 off your first domain name purchase, and I’ll get credit toward my account for my growing collection of crazy domain names.
 
@@ -34,3 +31,9 @@ My [Digital Ocean link](https://m.do.co/c/26e5d88478bb) will give you $10 credit
 
 ## Are you using WordPress?
 You should consider [Flywheel](https://share.getf.ly/k32e3v) to manage your site(s). They have great performance, reliability, security and support, and hire experts in the world of WordPress.
+
+## Need a cell phone?
+I've been using [Mint Mobile](http://fbuy.me/qVQsM) for a couple years and pretty happy with my coverage and the price. Plans start at $15 a month, and [this Mint Mobile link](http://fbuy.me/qVQsM) will get you $15 for free.
+
+## Looking for a good book?
+I have curated some of my favorite nonfiction titles in an online store on [Bookshop](https://bookshop.org/shop/nsmsn). My bookshelves include [America](https://bookshop.org/lists/america), [Design and Creativity](https://bookshop.org/lists/design-and-creativity), and [Working on the Web](https://bookshop.org/lists/working-on-the-web). Disclosure: I am an affiliate of Bookshop.org and I will earn a 10% commission if you click through and make a purchase.

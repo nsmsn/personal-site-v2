@@ -7,7 +7,7 @@ eleventyNavigation:
 
 <div class="row flow">
   <div class="grid-third grid-last flow">
-  <img src="/img/misc/victory.png" alt="a hand with two extended fingers flashing the V for Victory or peace sign" width="300" height="300"/>
+  <img src="/img/misc/victory-600.png" alt="a hand with two extended fingers flashing the V for Victory or peace sign" width="300" height="300" class="img-multiply"/>
   </div>
   <div class="grid-two-thirds flow">
     <h1>
@@ -20,7 +20,7 @@ eleventyNavigation:
       </script>
       <noscript>Howdy.</noscript>
     </h1>
-    <p class="lede">My name is Nick, which means <em class="bg-ivory">“victory of the people.”</em> I design things for screens&nbsp;(mostly), paper&nbsp;(sometimes), and humans&nbsp;(always).</p>
+    <p class="lede">My name is Nick, which means <em class="bg-ivory">“victory of the people.”</em> I&nbsp;design things for screens&nbsp;(mostly), paper&nbsp;(sometimes), and humans&nbsp;(always).</p>
 
     &nbsp;
 
@@ -29,7 +29,7 @@ eleventyNavigation:
     &nbsp;
 
     <h2>Lately...</h2>
-      <div class="panel">
+      <div class="panel bg-color-cycle">
       {% set maxPosts = collections.posts.length | min(1) %}
       <p>You can read my latest {% if maxPosts == 1 %}post{% else %}{{ maxPosts }} posts{% endif %}:</p>
 
@@ -43,7 +43,7 @@ eleventyNavigation:
 </div>
 
 <style>
-html, body {
+/*html, body {
   -webkit-animation: gradient 60s infinite alternate linear;
           animation: gradient 60s infinite alternate linear;
   background: hsl(0, 100%, 93.73%);
@@ -69,9 +69,9 @@ html, body {
   75% {
     background: hsl(202.8, 100%, 90.2%);
   }
-}
+}*/
 
-.warning, .bg-ivory, .panel {
+.warning, .bg-ivory {
   background-color: rgba(0,0,0,0.05);
 }
 

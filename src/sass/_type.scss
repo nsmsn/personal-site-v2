@@ -67,6 +67,8 @@ blockquote {
     padding: .5rem 1.25rem;
     border-left: 4px solid $lightred;
     color: $medgray;
+    font-family: $sans;
+    font-weight: 400;
     max-width: 60ch;
     
   
@@ -117,4 +119,8 @@ dl dd {
 
 sup a {
     text-decoration: none;
+}
+
+.list-unstyled {
+    list-style: none;
 }

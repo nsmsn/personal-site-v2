@@ -8,11 +8,13 @@
     <link rel="stylesheet" href="/css/style.css">
     <!--<link rel="stylesheet" href="/css/prism-base16-monokai.dark.css">-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,400..900;1,400..800&family=IBM+Plex+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Literata:ital,wght@0,300..700;1,300..700&display=optional" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,400..900;1,400..800&family=IBM+Plex+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Literata:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
     <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Nick Simson">
     <link rel="alternate" href="/feed/feed.json" type="application/json" title="Nick Simson">
 
-    <link rel="icon" href="/img/meta/favicon.svg" type="image/svg+xml" />
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="icon" href="/img/meta/favicon.svg" type="image/svg+xml" />
   
   </head>
   <body>
@@ -48,12 +50,12 @@
       </div>
       <!-- Stop deleting -->
 
-    <main id="main-content"  class="tmpl-home flow container">
+    <main id="main-content"  class="tmpl-home flow container animate__animated animate__fadeIn">
 
       
 <div class="row flow">
   <div class="grid-third grid-last flow">
-  <img src="/img/misc/victory.png" alt="a hand with two extended fingers flashing the V for Victory or peace sign" width="300" height="300"/>
+  <img src="/img/misc/victory-600.png" alt="a hand with two extended fingers flashing the V for Victory or peace sign" width="300" height="300" class="img-multiply"/>
   </div>
   <div class="grid-two-thirds flow">
     <h1>
@@ -66,7 +68,7 @@
       </script>
       <noscript>Howdy.</noscript>
     </h1>
-    <p class="lede">My name is Nick, which means <em class="bg-ivory">“victory of the people.”</em> I design things for screens&nbsp;(mostly), paper&nbsp;(sometimes), and humans&nbsp;(always).</p>
+    <p class="lede">My name is Nick, which means <em class="bg-ivory">“victory of the people.”</em> I&nbsp;design things for screens&nbsp;(mostly), paper&nbsp;(sometimes), and humans&nbsp;(always).</p>
 
     &nbsp;
 
@@ -75,21 +77,21 @@
     &nbsp;
 
     <h2>Lately...</h2>
-      <div class="panel">
+      <div class="panel bg-color-cycle">
       
       <p>You can read my latest post:</p>
 
       
       
-      <ol reversed class="postlist" style="counter-reset: start-from 21">
+      <ol reversed class="postlist" style="counter-reset: start-from 22">
 
   <li class="postlist-item">
     
-    <a href="/posts/2021-redesign-a11y-perf/" class="postlist-link">Accessibility and Performance</a>
+    <a href="/posts/2021-engine-building-garden/" class="postlist-link">An engine, a building, a garden</a>
 
-    <span class="postlist-blurb">A few handy code snippets and more.</span>
+    <span class="postlist-blurb">Thoughts on personal websites, including this one.</span>
 
-    <time class="postlist-date" datetime="2021-02-07">07 Feb 2021</time>
+    <time class="postlist-date" datetime="2021-02-17">17 Feb 2021</time>
     
     
       <a href="/tags/redesign/" class="post-tag">redesign</a>
@@ -104,7 +106,7 @@
 </div>
 
 <style>
-html, body {
+/*html, body {
   -webkit-animation: gradient 60s infinite alternate linear;
           animation: gradient 60s infinite alternate linear;
   background: hsl(0, 100%, 93.73%);
@@ -130,9 +132,9 @@ html, body {
   75% {
     background: hsl(202.8, 100%, 90.2%);
   }
-}
+}*/
 
-.warning, .bg-ivory, .panel {
+.warning, .bg-ivory {
   background-color: rgba(0,0,0,0.05);
 }
 
@@ -155,6 +157,14 @@ a.post-tag:hover {
     </main>
 
     <footer role="contentinfo" class="footer wrapper flow">
+  <nav>
+  <ul>
+  <li><a href="/library">Library</a></li>
+  <li><a href="/html">Style Guide</a></li>
+  <li><a href="/recommends">/recommends</a></li>
+  <li><a href="/now">/now</a></li>
+  </ul>
+  </nav>
 	<p>© 2021 Nick Simson. Thanks for stopping by.</p>
 </footer>
 

@@ -35,4 +35,15 @@ header, footer {
 	margin-right: auto;
 	max-width: 88%;
 	width: 50em;
+  padding-bottom: 10vh;
+}
+
+.auto-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(var(--auto-grid-min-size,10rem),2fr));
+  grid-gap: 1.5rem;
+}
+
+.gap-top-base {
+  margin-top: 1rem;
 }
