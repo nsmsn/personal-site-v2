@@ -5,13 +5,19 @@
 
 .lib-title{
     font-family: $sans;
-    font-weight: 600;
+    font-weight: 600;    
+    text-decoration-thickness: 2px;
+    text-decoration-color: $lightblue;
 }
 
 .lib-cover{
     height: 200px;
     width: auto;
     border: 1px solid $gray;
+}
+
+.lib-title:hover {
+    text-decoration-color: $washedred;
 }
 
 .lib-title:hover img.lib-cover{

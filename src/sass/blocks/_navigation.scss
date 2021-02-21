@@ -36,9 +36,14 @@
     padding: 0 2em 0 0;
   }
 
-  .footer nav ul li a{
+  .footer nav ul li a, .footer a{
     font-weight: 500;
     color: $darkblue;
     text-decoration-thickness: 2px;
     text-decoration-color: $lightblue;
+  }
+
+  .footer nav ul li a:hover, .footer a:hover{
+    color: $red;
+    text-decoration-color: $washedred;
   }

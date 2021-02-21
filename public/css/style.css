@@ -635,11 +635,16 @@ header, footer {
   padding: 0 2em 0 0;
 }
 
-.footer nav ul li a {
+.footer nav ul li a, .footer a {
   font-weight: 500;
   color: #334492;
   text-decoration-thickness: 2px;
   text-decoration-color: #A4BFEB;
+}
+
+.footer nav ul li a:hover, .footer a:hover {
+  color: #EE453B;
+  text-decoration-color: #ffdfdf;
 }
 
 /* Posts list */
@@ -818,12 +823,18 @@ a[href].direct-link:focus:visited,
 .lib-title {
   font-family: "Epilogue", "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 600;
+  text-decoration-thickness: 2px;
+  text-decoration-color: #A4BFEB;
 }
 
 .lib-cover {
   height: 200px;
   width: auto;
   border: 1px solid #C0C0C0;
+}
+
+.lib-title:hover {
+  text-decoration-color: #ffdfdf;
 }
 
 .lib-title:hover img.lib-cover {
@@ -935,6 +946,38 @@ a[href].direct-link:focus:visited,
 
 .padding-7 {
   padding: 2em;
+}
+
+.pt-0 {
+  padding-top: 0.25em;
+}
+
+.pt-1 {
+  padding-top: 0.5em;
+}
+
+.pt-2 {
+  padding-top: 0.75em;
+}
+
+.pt-3 {
+  padding-top: 1em;
+}
+
+.pt-4 {
+  padding-top: 1.25em;
+}
+
+.pt-5 {
+  padding-top: 1.5em;
+}
+
+.pt-6 {
+  padding-top: 1.75em;
+}
+
+.pt-7 {
+  padding-top: 2em;
 }
 
 .list-unstyled {

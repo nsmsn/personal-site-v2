@@ -1,0 +1,49 @@
+{
+    "items": [
+      {
+        "title": "posts",
+        "description": "Blog archive (2014 - current)",
+        "url": "/posts"
+      },
+      {
+        "title": "tags",
+        "description": "Browse posts by tag",
+        "url": "/posts"
+      },
+      {
+        "title": "info",
+        "description": "Profile / About this site",
+        "url": "/info"
+      },
+      {
+        "title": "library",
+        "description": "A collection of books",
+        "url": "/library"
+      },
+      {
+        "title": "recommends",
+        "description": "Honest to goodness recommendations",
+        "url": "/recommends"
+      },
+      {
+        "title": "html",
+        "description": "Barebones style guide",
+        "url": "/html"
+      },
+      {
+        "title": "now",
+        "description": "Like an about page, but more immediate",
+        "url": "/now"
+      },
+      {
+        "title": "404",
+        "description": "Page not found",
+        "url": "/404"
+      },
+      {
+        "title": "blank",
+        "description": "This page intentionally left blank",
+        "url": "/blank"
+      }
+    ]
+  }
