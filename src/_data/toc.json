@@ -8,7 +8,7 @@
       {
         "title": "tags",
         "description": "Browse posts by tag",
-        "url": "/posts"
+        "url": "/tags"
       },
       {
         "title": "info",

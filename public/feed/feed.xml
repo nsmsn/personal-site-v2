@@ -5,12 +5,31 @@
 	
 	<link href="https://nicksimson.com/feed/feed.xml" rel="self"/>
 	<link href="https://nicksimson.com/"/>
-	<updated>2021-02-16T19:00:00-05:00</updated>
+	<updated>2021-02-20T19:00:00-05:00</updated>
 	<id>https://nicksimson.com/</id>
 	<author>
 		<name>Nick Simson</name>
 		<email>nick@nicksimson.com</email>
 	</author>
+	
+	<entry>
+		<title>Learn Javascript with Morten Rand-Hendriksen</title>
+		<link href="https://nicksimson.com/posts/2021-javascript-with-morten/"/>
+		<updated>2021-02-20T19:00:00-05:00</updated>
+		<id>https://nicksimson.com/posts/2021-javascript-with-morten/</id>
+		<content type="html">&lt;p&gt;I’ve learned a lot of technical skills from Morten Rand-Hendriksen’s courses on LinkedIn Learning (a.k.a. &lt;a href=&quot;http://lynda.com/&quot;&gt;Lynda.com&lt;/a&gt;). I met Morten in person in 2019 and had the chance to tell him this in person. Great guy.&lt;/p&gt;
+&lt;p&gt;One of Morten’s latest offerings is the latest, redesigned &lt;a href=&quot;https://www.linkedin.com/learning/javascript-essential-training/&quot;&gt;JavaScript Essential Training&lt;/a&gt;, which was released in January 2021, with the &lt;a href=&quot;https://github.com/LinkedInLearning/javascript-essential-training-2832077&quot;&gt;excercise files on GitHub&lt;/a&gt;. At the time of publication, the videos are all available for free, no subscription required.&lt;/p&gt;
+&lt;p&gt;I’m very intrigued by the design of course, which Morten explains in the &lt;a href=&quot;https://www.linkedin.com/learning/javascript-essential-training/learning-javascript-backward&quot;&gt;lesson 9 video&lt;/a&gt;:&lt;/p&gt;
+&lt;figure&gt;
+ &lt;blockquote cite=&quot;https://www.linkedin.com/learning/javascript-essential-training/learning-javascript-backward&quot;&gt;
+When you learn JavaScript for the first time you typically start with the basics, variables then functions, then more advanced subjects. But, due to the popularity of JavaScript frameworks, like React and View, today the first introduction people have to JavaScript is often through advanced objects and methods. For this reason, I&#39;ve chosen to turn our course on its head. We&#39;ll start with objects and methods, then look at other data types and the DOM, and finally cover methods, functions, and events at the very end.
+ &lt;/blockquote&gt;
+&lt;figcaption&gt;—Morten Rand-Hendriksen, on &lt;cite&gt;&lt;a href=&quot;https://www.linkedin.com/learning/javascript-essential-training/learning-javascript-backward&quot;&gt;Learning JavaScript Backward&lt;/a&gt;.&lt;/cite&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;When friends and coworkers ask me about learning to design for the web, I always suggest learning HTML, CSS and JavaScript in that order. When you work on the web, you never stop learning these technologies because they are always evolving. For me, JavaScript was the most difficult to learn, and I would not consider my JS skills at the mastery level. Much like the years of Spanish language I took, I can read JavaScript better than I write or speak it.&lt;/p&gt;
+&lt;p&gt;I’m excited to dig in and re-learn the fundamentals through this course, and hopefully be on my way to mastery.&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>An engine, a building, a garden</title>
