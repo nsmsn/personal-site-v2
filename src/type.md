@@ -16,7 +16,7 @@ Headlines are set in <b>[Epilogue](https://etceteratype.co/epilogue)</b>, a sans
 - [Google Fonts](https://fonts.google.com/specimen/Epilogue)
 - [GitHub](https://github.com/Etcetera-Type-Co/epilogue)
 
-Figure captions, <code>code</code>, citations and other supportive text is rendered in <b>IBM Plex Mono</b>, a monospace typeface from the [Plex family](https://www.ibm.com/plex/), developed by a worldwide team led by IBM Design and Bold Monday.
+Figure captions, citations, <code>code</code>, and other supportive text is set in <b>IBM Plex Mono</b>, a monospace typeface from the [Plex family](https://www.ibm.com/plex/), developed by a worldwide team led by IBM Design and Bold Monday.
 
 - [IBM Plex website](https://www.ibm.com/plex/)
 - [Google Fonts](https://fonts.google.com/specimen/IBM+Plex+Mono)
