@@ -21,19 +21,24 @@
         "url": "/library"
       },
       {
+        "title": "html",
+        "description": "Bare-bones style guide",
+        "url": "/html"
+      },
+      {
         "title": "recommends",
         "description": "Honest to goodness recommendations",
         "url": "/recommends"
       },
       {
-        "title": "html",
-        "description": "Barebones style guide",
-        "url": "/html"
-      },
-      {
         "title": "now",
         "description": "Like an about page, but more immediate",
         "url": "/now"
+      },
+      {
+        "title": "type",
+        "description": "A note on the type",
+        "url": "/type"
       },
       {
         "title": "404",
