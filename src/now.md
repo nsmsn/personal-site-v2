@@ -1,25 +1,25 @@
 ---
-layout: layouts/page.njk
+layout: layouts/now.njk
 title: /now
 templateClass: tmpl-page
 permalink: /now/
 ---
 
-<small class="timestamp">Updated <time datetime="2021-02-21">Feb. 21, 2021</time></small>
+<small class="timestamp">Updated <time datetime="2021-02-23">Feb. 23, 2021</time></small>
 
 ## Lockdown
 
-Since the coronavirus pandemic is continuing to rage across the United States, I’m living in a state of semi-lockdown this winter and mainly working from home. I’m staving off cabin fever with a few home improvement projects and working on my personal site once more after a dormant period. [Follow along with my redesign posts](/tags/redesign/).
+Since the coronavirus pandemic is continuing to rage across the United States, I’m sheltering in place this winter and mainly working from home. I’m resisting doomscrolling and fighting off boredom by working on my personal site once more after a dormant period. [Follow along with my redesign posts](/tags/redesign/).
 
 ## Learning
 
-In the coming year, I am hoping to revisit each core web technology (HTML, CSS, JavaScript) and learn this medium with more breadth and depth. I am also exploring [certification as an accessibility professional](https://www.accessibilityassociation.org/certification).
+This year, I am honing my web skills by revisiting each core web technology (HTML, CSS, JavaScript) and re-learning this medium with more breadth and depth. I am also exploring [certification as an accessibility professional](https://www.accessibilityassociation.org/certification).
 
 ## Reading
 
-I am continuing the Nick Simson tradition of reading one printed book 📖 , one ebook 📱, and one audiobook 🎧 simultaneously. Here are my current titles:
+The days are starting to get longer, and so are the books. Here are my current titles:
 
-- <a href="http://www.worldcat.org/oclc/1029245735"><i>Black reconstruction in America</i></a> by W.E.B.&nbsp;Du&nbsp;Bois 🎧
+- <a href="http://www.worldcat.org/oclc/1029245735"><i>Black Reconstruction in America</i></a> by W.E.B.&nbsp;Du&nbsp;Bois 🎧
 
 - <a href="https://www.worldcat.org/title/mason-and-dixon/oclc/243705730"><i>Mason and Dixon</i></a> by Thomas&nbsp;Pynchon 📱
 
@@ -30,3 +30,7 @@ I am continuing the Nick Simson tradition of reading one printed book 📖 , one
 I’m serving my final year as a vestry member at [St. James’ Episcopal Church](http://stjamesknox.org) in 2021.
 
 We’re continuing to build <strong>people power</strong> with [Justice Knox](http://justiceknox.org) in this organization’s fifth year. I’m getting involved with affordable housing research and leading a network team again.
+
+## Knoxville
+
+The Scruffy Little City continues to be home base. I’ve been enjoying learning more local history by attending the [Knoxville History Project](https://knoxvillehistoryproject.org/)’s regular [events on Zoom](https://knoxvillehistoryproject.org/events/).

@@ -4,9 +4,9 @@
   padding: 0;
 }
 .postlist-item {
-/* counter-increment: start-from -1;*/
+  /* counter-increment: start-from -1;*/
   margin-bottom: 1.95em;
-  display:block;
+  display: block;
 }
 
 .postlist-item time {
@@ -22,9 +22,9 @@
   text-align: right;
 }*/
 
-.postlist-blurb{
+.postlist-blurb {
   display: block;
-  margin-bottom: .4em;
+  margin-bottom: 0.4em;
   max-width: 45ch;
 }
 
@@ -40,7 +40,14 @@
 .postlist-link {
   display: block;
   font-family: $sans;
-  padding: 0.25em 0 .125em 0; 
+  text-decoration-thickness: 2px;
+  text-decoration-color: $lightblue;
+  padding: 0.25em 0 0.125em 0;
+}
+
+.postlist-link:hover {
+  color: $red;
+  text-decoration-color: $washedred;
 }
 
 .postlist-item-active .postlist-link {

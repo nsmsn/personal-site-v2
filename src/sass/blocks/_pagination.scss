@@ -1,22 +1,28 @@
 .pagination {
-    font-family: $mono;
-    font-size: .75em;
-    color: $medgray;
+  font-family: $mono;
+  font-size: 0.75em;
+  color: $medgray;
 
-    &__inner {  
-      display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
-    }
-  
-    // Pushes a sole "next" link out to the right
-    &__inner > [data-direction='forwards'] {
-      margin-inline-start: auto;
-    }
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
   }
 
-.pagination a{
-    font-family: $sans;
-    font-weight: 600;
-    font-size: 1.1em;
-}  
+  // Pushes a sole "next" link out to the right
+  &__inner > [data-direction="forwards"] {
+    margin-inline-start: auto;
+  }
+}
+
+.pagination a {
+  font-family: $sans;
+  text-decoration-thickness: 2px;
+  text-decoration-color: $lightblue;
+  font-weight: 600;
+  font-size: 1.1em;
+}
+
+.pagination a:hover {
+  text-decoration-color: $washedred;
+}

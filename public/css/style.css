@@ -691,7 +691,14 @@ header, footer {
 .postlist-link {
   display: block;
   font-family: "Epilogue", "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-decoration-thickness: 2px;
+  text-decoration-color: #A4BFEB;
   padding: 0.25em 0 0.125em 0;
+}
+
+.postlist-link:hover {
+  color: #EE453B;
+  text-decoration-color: #ffdfdf;
 }
 
 .postlist-item-active .postlist-link {
@@ -811,8 +818,14 @@ a[href].direct-link:focus:visited,
 
 .pagination a {
   font-family: "Epilogue", "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-decoration-thickness: 2px;
+  text-decoration-color: #A4BFEB;
   font-weight: 600;
   font-size: 1.1em;
+}
+
+.pagination a:hover {
+  text-decoration-color: #ffdfdf;
 }
 
 .lib-item {
