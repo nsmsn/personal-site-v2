@@ -5,7 +5,7 @@ templateClass: tmpl-page
 permalink: /now/
 ---
 
-<small class="timestamp">Updated <time datetime="2021-02-23">Feb. 23, 2021</time></small>
+<small class="timestamp">Updated <time datetime="2021-03-01">March 1, 2021</time></small>
 
 ## Lockdown
 
@@ -19,7 +19,7 @@ This year, I am honing my web skills by revisiting each core web technology (HTM
 
 The days are starting to get longer, and so are the books. Here are my current titles:
 
-- <a href="http://www.worldcat.org/oclc/1029245735"><i>Black Reconstruction in America</i></a> by W.E.B.&nbsp;Du&nbsp;Bois 🎧
+- <a href="http://www.worldcat.org/oclc/1137087735"><i>The Wind-Up Bird Chronicle</i></a> by Haruki&nbsp;Murakami 🎧
 
 - <a href="https://www.worldcat.org/title/mason-and-dixon/oclc/243705730"><i>Mason and Dixon</i></a> by Thomas&nbsp;Pynchon 📱
 
