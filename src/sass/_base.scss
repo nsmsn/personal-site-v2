@@ -1,59 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: $serif;
+  font-weight: 350;
+  color: $darkgray;
+  background-color: $ivory;
+}
+p:last-child {
+  margin-bottom: 0;
+}
+p,
+.tmpl-post li {
+  max-width: 37.5em; /* 600px /16 */
+}
+p,
+.tmpl-post li {
+  line-height: 1.6;
+}
+a[href] {
+  color: $darkblue;
+}
 
-  * {
-    box-sizing: border-box;
-  }
-  html,
-  body {
-    padding: 0;
-    margin: 0;
-    font-family: $serif;
-    font-weight: 350;
-    color: $darkgray;
-    background-color: $ivory;
-  }
-  p:last-child {
-    margin-bottom: 0;
-  }
-  p,
-  .tmpl-post li {
-    max-width: 37.5em; /* 600px /16 */
-  }
-  p,
-  .tmpl-post li {
-    line-height: 1.6;
-  }
-  a[href] {
-    color: $darkblue;
-  }
+b,
+strong {
+  font-weight: 700;
+}
 
-  b, strong{
-    font-weight: 700;
-  }
+a:hover {
+  color: $red;
+}
 
-  a:hover {
-    color: $red;
-  }
+main {
+  padding: 1rem;
+}
+main :first-child {
+  margin-top: 0;
+}
 
-  main {
-    padding: 1rem;
-  }
-  main :first-child {
-    margin-top: 0;
-  }
+table {
+  margin: 1em 0;
+  border-collapse: collapse;
+}
+td,
+th {
+  border: 1px solid $lightgray;
+  padding: 0.5rem 1em;
+  text-align: left;
+}
 
-  table {
-    margin: 1em 0;
-    border-collapse: collapse;
-  } 
-  td, th {
-    border: 1px solid $lightgray;
-    padding: 0.5rem 1em;
-    text-align: left;
-  }
-
-  hr {
-    border: 0;
-    height: 0;
-    border-top: 1px solid rgba(0, 0, 0, 0.4);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+hr {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.4);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.6);
 }

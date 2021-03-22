@@ -112,12 +112,12 @@
   </url>
   
   <url>
-    <loc>https://nicksimson.com/tags/design/</loc>
+    <loc>https://nicksimson.com/tags/process/</loc>
     <lastmod>2020-12-24</lastmod>
   </url>
   
   <url>
-    <loc>https://nicksimson.com/tags/redesign/</loc>
+    <loc>https://nicksimson.com/tags/design/</loc>
     <lastmod>2020-12-24</lastmod>
   </url>
   
@@ -127,12 +127,12 @@
   </url>
   
   <url>
-    <loc>https://nicksimson.com/tags/scholarship/</loc>
+    <loc>https://nicksimson.com/tags/redesign/</loc>
     <lastmod>2020-12-24</lastmod>
   </url>
   
   <url>
-    <loc>https://nicksimson.com/tags/process/</loc>
+    <loc>https://nicksimson.com/tags/scholarship/</loc>
     <lastmod>2020-12-24</lastmod>
   </url>
   
@@ -199,5 +199,10 @@
   <url>
     <loc>https://nicksimson.com/type/</loc>
     <lastmod>2021-02-22</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nicksimson.com/work/</loc>
+    <lastmod>2021-03-07</lastmod>
   </url>
 </urlset>

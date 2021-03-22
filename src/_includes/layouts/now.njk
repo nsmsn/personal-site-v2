@@ -6,4 +6,6 @@ templateClass: tmpl-page
 
 {{ content | safe }}
 
-<iframe id="forecast_embed" type="text/html" frameborder="0" loading="lazy" height="320" width="100%" src="https://forecast.io/embed/#lat=35.9647&lon=-83.918&name=Knoxville”></iframe>
+<iframe id="forecast_embed" type="text/html" frameborder="0" loading="lazy" height="280" width="100%" src="https://forecast.io/embed/#lat=35.9647&lon=-83.918&name=Knoxville&color=#676767&font=Courier" onload="this.before((this.contentDocument.body || this.contentDocument).children[0]);this.remove()"></iframe>
+
+<small>This page was inspired by Derek Sivers’ <a href="https://nownownow.com/about">nownownow.com</a>.</small>

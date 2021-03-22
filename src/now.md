@@ -5,11 +5,7 @@ templateClass: tmpl-page
 permalink: /now/
 ---
 
-<small class="timestamp">Updated <time datetime="2021-03-01">March 1, 2021</time></small>
-
-## Lockdown
-
-Since the coronavirus pandemic is continuing to rage across the United States, I’m sheltering in place this winter and mainly working from home. I’m resisting doomscrolling and fighting off boredom by working on my personal site once more after a dormant period. [Follow along with my redesign posts](/tags/redesign/).
+<small class="timestamp">Updated <time datetime="2021-03-22">March 22, 2021</time></small>
 
 ## Learning
 
@@ -17,7 +13,7 @@ This year, I am honing my web skills by revisiting each core web technology (HTM
 
 ## Reading
 
-The days are starting to get longer, and so are the books. Here are my current titles:
+The days are getting longer, and so are the books. Here are my current titles:
 
 - <a href="http://www.worldcat.org/oclc/1137087735"><i>The Wind-Up Bird Chronicle</i></a> by Haruki&nbsp;Murakami 🎧
 
@@ -33,4 +29,4 @@ We’re continuing to build <strong>people power</strong> with [Justice Knox](ht
 
 ## Knoxville
 
-The Scruffy Little City continues to be home base. I’ve been enjoying learning more local history by attending the [Knoxville History Project](https://knoxvillehistoryproject.org/)’s regular [events on Zoom](https://knoxvillehistoryproject.org/events/).
+The Scruffy Little City continues to be home base. Now that it’s getting warmer, I’ve been enjoying all the great parks in town and nearby, allergies be damned.

@@ -1,6 +1,11 @@
 {
     "items": [
       {
+        "title": "work",
+        "description": "My design portfolio",
+        "url": "/work"
+      },
+      {
         "title": "posts",
         "description": "Blog archive (2014 - current)",
         "url": "/posts"
