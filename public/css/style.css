@@ -1005,6 +1005,38 @@ a[href].direct-link:focus:visited,
   padding-top: 2em;
 }
 
+.pr-0 {
+  padding-right: 0.25em;
+}
+
+.pr-1 {
+  padding-right: 0.5em;
+}
+
+.pr-2 {
+  padding-right: 0.75em;
+}
+
+.pr-3 {
+  padding-right: 1em;
+}
+
+.pr-4 {
+  padding-right: 1.25em;
+}
+
+.pr-5 {
+  padding-right: 1.5em;
+}
+
+.pr-6 {
+  padding-right: 1.75em;
+}
+
+.pr-7 {
+  padding-right: 2em;
+}
+
 .list-unstyled {
   list-style: none;
   padding: 0;
