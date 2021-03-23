@@ -1,5 +1,5 @@
 ---
-title: Learn Javascript with Morten Rand-Hendriksen
+title: Learn JavaScript with Morten Rand-Hendriksen
 description: Learn the web’s scripting language in 10 chapters.
 date: 2021-02-21
 tags:
@@ -20,6 +20,6 @@ When you learn JavaScript for the first time you typically start with the basics
 <figcaption>—Morten Rand-Hendriksen, on <cite><a href="https://www.linkedin.com/learning/javascript-essential-training/learning-javascript-backward">Learning JavaScript Backward</a>.</cite></figcaption>
 </figure>
 
-When friends and coworkers ask me about learning to design for the web, I always suggest learning HTML, CSS and JavaScript in that order. When you work on the web, you never stop learning these technologies because they are always evolving. For me, JavaScript was the most difficult to learn, and I would not consider my JS skills at the mastery level. Much like the years of Spanish language I took, I can read JavaScript better than I write or speak it.
+When friends and coworkers ask me about learning to design for the web, I always suggest learning HTML, CSS and JavaScript in that order. When you work on the web, you never stop learning these technologies because they are always evolving. For me, JavaScript was the most difficult to learn, and because of the kinds of sites I tend to build, one I reach for the least. In terms of mastery, I think I am proficient at HTML and CSS. JavaScript? I’m <em>competent</em>. I can read it, I can write it, but sadly I haven’t been paying attention to the newest features.
 
 I’m excited to dig in and re-learn the fundamentals through this course, and hopefully be on my way to mastery.
