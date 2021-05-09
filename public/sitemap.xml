@@ -102,17 +102,12 @@
   </url>
   
   <url>
-    <loc>https://nicksimson.com/tags/learning/</loc>
-    <lastmod>2020-12-24</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nicksimson.com/tags/design/</loc>
-    <lastmod>2020-12-24</lastmod>
-  </url>
-  
-  <url>
     <loc>https://nicksimson.com/tags/process/</loc>
+    <lastmod>2020-12-24</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nicksimson.com/tags/learning/</loc>
     <lastmod>2020-12-24</lastmod>
   </url>
   
@@ -122,7 +117,7 @@
   </url>
   
   <url>
-    <loc>https://nicksimson.com/tags/personal/</loc>
+    <loc>https://nicksimson.com/tags/design/</loc>
     <lastmod>2020-12-24</lastmod>
   </url>
   
@@ -132,7 +127,17 @@
   </url>
   
   <url>
+    <loc>https://nicksimson.com/tags/personal/</loc>
+    <lastmod>2020-12-24</lastmod>
+  </url>
+  
+  <url>
     <loc>https://nicksimson.com/tags/scholarship/</loc>
+    <lastmod>2020-12-24</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nicksimson.com/tags/creativity/</loc>
     <lastmod>2020-12-24</lastmod>
   </url>
   
@@ -204,5 +209,10 @@
   <url>
     <loc>https://nicksimson.com/work/</loc>
     <lastmod>2021-03-07</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nicksimson.com/posts/2021-mothersbaugh-computer-history/</loc>
+    <lastmod>2021-05-09</lastmod>
   </url>
 </urlset>

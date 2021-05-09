@@ -5,15 +5,17 @@ templateClass: tmpl-page
 permalink: /now/
 ---
 
-<small class="timestamp">Updated <time datetime="2021-03-22">March 22, 2021</time></small>
+<small class="timestamp">Updated <time datetime="2021-05-09">May 9, 2021</time></small>
+
+As of May 7, I’m fully vaccinated against COVID-19. Just putting that here.
 
 ## Learning
 
-This year, I am honing my web skills by revisiting each core web technology (HTML, CSS, JavaScript) and re-learning this medium with more breadth and depth. I am also exploring [certification as an accessibility professional](https://www.accessibilityassociation.org/certification).
+This year, I am honing my web skills by revisiting each core web technology (HTML, CSS, JavaScript). My goal is to get up to speed on the modern stuff, and re-learn the medium with more breadth and depth. I am also exploring [certification as an accessibility professional](https://www.accessibilityassociation.org/certification).
 
 ## Reading
 
-The days are getting longer, and so are the books. Here are my current titles:
+Still working on these titles:
 
 - <a href="http://www.worldcat.org/oclc/1137087735"><i>The Wind-Up Bird Chronicle</i></a> by Haruki&nbsp;Murakami 🎧
 
@@ -21,12 +23,6 @@ The days are getting longer, and so are the books. Here are my current titles:
 
 - <a href="https://www.worldcat.org/title/regeneration-through-violence-the-mythology-of-the-american-frontier-1600-1860/oclc/333612"><i>Regeneration Through Violence: The Mythology of the American frontier, 1600-1860</i></a> by Richard Slotkin 📖
 
-## Volunteering
-
-I’m serving my final year as a vestry member at [St. James’ Episcopal Church](http://stjamesknox.org) in 2021.
-
-We’re continuing to build <strong>people power</strong> with [Justice Knox](http://justiceknox.org) in this organization’s fifth year. I’m getting involved with affordable housing research and leading a network team again.
-
 ## Knoxville
 
-The Scruffy Little City continues to be home base. Now that it’s getting warmer, I’ve been enjoying all the great parks in town and nearby, allergies be damned.
+The Scruffy Little City continues to be home base. Spring and fall are the best seasons in East Tennessee. You should visit.

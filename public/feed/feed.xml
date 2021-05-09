@@ -5,12 +5,38 @@
 	
 	<link href="https://nicksimson.com/feed/feed.xml" rel="self"/>
 	<link href="https://nicksimson.com/"/>
-	<updated>2021-02-20T19:00:00-05:00</updated>
+	<updated>2021-05-08T20:00:00-04:00</updated>
 	<id>https://nicksimson.com/</id>
 	<author>
 		<name>Nick Simson</name>
 		<email>nick@nicksimson.com</email>
 	</author>
+	
+	<entry>
+		<title>Mark Mothersbaugh on creativity and technology</title>
+		<link href="https://nicksimson.com/posts/2021-mothersbaugh-computer-history/"/>
+		<updated>2021-05-08T20:00:00-04:00</updated>
+		<id>https://nicksimson.com/posts/2021-mothersbaugh-computer-history/</id>
+		<content type="html">&lt;p&gt;Once you stumble upon it on YouTube, the Computer History Museum&#39;s &lt;a href=&quot;https://www.youtube.com/playlist?list=PLQsxaNhYv8daKdGi7s85ubzbWdTB36-_q&quot;&gt;Oral History series&lt;/a&gt; is a wonderful trove of technologists, pioneers, and inventors sharing their histories in their own words. Composer and DEVO frontman Mark Mothersbaugh &lt;a href=&quot;https://archive.computerhistory.org/resources/access/text/2018/02/102738588-05-01-acc.pdf&quot;&gt;sat down with CHM&lt;/a&gt; a few years ago to talk about his synthesizers, his process, and his beginnings in Akron, Ohio.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&quot;https://www.youtube.com/watch?v=YfeLBV3J6NI&quot;&gt;video below&lt;/a&gt; was recorded in 2017:&lt;/p&gt;
+&lt;div class=&quot;video-container&quot;&gt;
+&lt;iframe src=&quot;https://www.youtube-nocookie.com/embed/YfeLBV3J6NI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;p&gt;Mothersbaugh’s &lt;a href=&quot;http://mutato.com/&quot;&gt;studio in Los Angeles&lt;/a&gt; is famous for its collection of synths, &lt;a href=&quot;https://en.wikipedia.org/wiki/Circuit_bending&quot;&gt;circuit-bended&lt;/a&gt; instruments, and sound technology going back decades, including &lt;a href=&quot;https://en.wikipedia.org/wiki/Electronium&quot;&gt;Raymond Scott’s Electronium&lt;/a&gt;. A highlight of this interview is hearing him compare his relationship to the Mini Moog to that of a soldier and his rifle.&lt;/p&gt;
+&lt;p&gt;My favorite part of this video is toward the end (around the &lt;a href=&quot;https://youtu.be/YfeLBV3J6NI?t=4098&quot;&gt;01:08:18&lt;/a&gt; mark), when Mothersbaugh pulls out a postage stamp collector’s binder filled with drawings on paper:&lt;/p&gt;
+&lt;blockquote&gt;
+Everyday, I draw on paper... I draw on paper everyday, since 19...early 70s. I was into mail art, is how it started. And I found that a nobody from Akron, Ohio, that nobody’d ever heard of, called Mark Mothersbaugh, could take a piece of paper and send it to Robert Indiana, or send it to Jasper Johns,or Irene Dogmatic, or Mr. Peanut, and there was a good chance they would send something back to me. And it was like, to get something in the mail from Robert Indiana was such a... it was amazing. I felt like I was on the map...So I was doing these drawings all the time and sending them out, and then I was also putting together a band. And in the process of that, I was sending something out to somebody, and I said, “Hey, these... this could be&amp;ndash;if we ever get to do a record, this could be the cover for it.” And I started to put it in the mail, and then I said, “Wait a second. Maybe I should be saving this stuff.”
+&lt;/blockquote&gt;
+&lt;p&gt;I especially love the consistency of these sketchbooks: choosing the same size paper to draw on each day and cataloguing them all in hundreds of stamp binders. You can see some of &lt;a href=&quot;https://markmothersbaughart.com/art/&quot;&gt;Mothersbaugh’s visual art on his website&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We &lt;a href=&quot;https://pitchfork.com/news/devos-mark-mothersbaugh-opens-up-about-covid-19-hospitalization-and-recovery/&quot;&gt;nearly lost Mark Mothersbaugh last year to COVID-19&lt;/a&gt;. Thankfully he’ll still be producing art and music for years to come, adding to his impressive archive.&lt;/p&gt;
+&lt;p&gt;Visit the Computer History Museum online at &lt;a href=&quot;https://computerhistory.org/&quot;&gt;computerhistory.org&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bonus video:&lt;/strong&gt; A friend with two young kids reminded me that Mark Mothersbaugh was a regular on the children’s TV show &lt;i&gt;Yo Gabba Gabba&lt;/i&gt;, contributing segments where he would make a drawing and interact with the animated sketch:&lt;/p&gt;
+&lt;div class=&quot;video-container&quot;&gt;
+&lt;iframe src=&quot;https://www.youtube-nocookie.com/embed/OAhgmddOoYU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Learn JavaScript with Morten Rand-Hendriksen</title>
