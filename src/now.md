@@ -9,6 +9,7 @@ permalink: /now/
 
 As of May 7, I’m fully vaccinated against COVID-19. Just putting that here.
 
+
 ## Learning
 
 This year, I am honing my web skills by revisiting each core web technology (HTML, CSS, JavaScript). My goal is to get up to speed on the modern stuff, and re-learn the medium with more breadth and depth. I am also exploring [certification as an accessibility professional](https://www.accessibilityassociation.org/certification).

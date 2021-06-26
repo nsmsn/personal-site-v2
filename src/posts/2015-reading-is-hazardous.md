@@ -1,5 +1,6 @@
 ---
 title: Reading is hazardous
+id: 003
 description: Mary Ruefle’s writing is a blow to the skull and a balm to the soul.
 date: 2015-05-17
 tags:
@@ -9,9 +10,9 @@ layout: layouts/post.njk
 
 <a href="http://www.wavepoetry.com/products/madness-rack-and-honey"><img class="book" src="/img/post-images/ruefle-madness.jpg" alt="Cover of Madness, Rack, and Honey" /></a>
 
-I became aware of Mary Ruefle's collection of "lectures" with an unusual title after reading the reflections by [Mandy Brown](http://aworkinglibrary.com/reading/madness-rack-and-honey/) and [Frank Chimero](https://frankchimero.com/blog/2014/madness-and-rowing/) on their personal blogs. When two or more sources I trust recommend the same thing, I usually start paying attention. 
+I became aware of Mary Ruefle's collection of "lectures" with an unusual title after reading the reflections by [Mandy Brown](http://aworkinglibrary.com/reading/madness-rack-and-honey/) and [Frank Chimero](https://frankchimero.com/blog/2014/madness-and-rowing/) on their personal blogs. When two or more sources I trust recommend the same thing, I usually start paying attention.
 
-I keep "lectures" in quotations, as the author herself points out that each was carefully written before delivered orally, despite the fact she was told her graduate students would prefer informal, spontaneous talks. Ruefle maintains that writing is her "natural act", and as individual essays, these lectures work wonderfully. 
+I keep "lectures" in quotations, as the author herself points out that each was carefully written before delivered orally, despite the fact she was told her graduate students would prefer informal, spontaneous talks. Ruefle maintains that writing is her "natural act", and as individual essays, these lectures work wonderfully.
 
 Ruefle's prose is marked by an economic use of words fitting for a poet, and she prioritizes her allegiances to poetry and art over knowledge and intelligence. Two mini-collections within the volume are titled "Twenty-Two Short Lectures" and "Lectures I Will Never Give", and contain several vignettes that could be delivered in under two minutes.
 

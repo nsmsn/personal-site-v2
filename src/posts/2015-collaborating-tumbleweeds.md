@@ -1,6 +1,8 @@
 ---
 title: Collaborating on the new Tumbleweeds site
-description: Communication, prototyping, and tools to build a simple, beautiful site that
+id: 002
+description:
+  Communication, prototyping, and tools to build a simple, beautiful site that
   works everywhere.
 date: 2015-03-07
 tags:
@@ -11,15 +13,15 @@ layout: layouts/post.njk
 <figure><a href="http://tumbleweedsband.com/"><img src="/img/post-images/tw-web-preview.jpg" alt="Screenshots of The Tumbleweeds website" /></a>
 <figcaption>A simple, responsive website design for the Tumblweeds band. <a href="http://tumbleweedsband.com/">View it live</a> in the browser.</figcaption></figure>
 
-I was contacted in the fall of 2014 by Byron Ripley about designing a website for his band, [the Tumbleweeds](http://tumbleweedsband.com/). They play classic country and dance tunes in the Honky Tonk and Western Swing tradition. I've been friends with Byron for about ten years now, and remember the ealy days of the  Tumbleweeds duo (Byron and Joe Carter) in Flagstaff/Williams, AZ. 
+I was contacted in the fall of 2014 by Byron Ripley about designing a website for his band, [the Tumbleweeds](http://tumbleweedsband.com/). They play classic country and dance tunes in the Honky Tonk and Western Swing tradition. I've been friends with Byron for about ten years now, and remember the ealy days of the Tumbleweeds duo (Byron and Joe Carter) in Flagstaff/Williams, AZ.
 
-The Tumbleweeds have had an online presence on [facebook](https://www.facebook.com/TumbleweedsMusic) and [bandcamp](http://tumbleweedsmusic.bandcamp.com/) for a number of years, and felt it was time to create a proper website to match the look and feel of their music. Byron's brother [Whitney Ripley](https://github.com/littleRm) is a web developer and offered to build the new site. In 2011, I had the pleasure and opportunity to create a new logo and design a few promo items for the band, shortly after they relaunched in Albuquerque. After doing a CD package for them a couple years ago I was really glad to get called on to help translate this visual identity to the web. 
-
+The Tumbleweeds have had an online presence on [facebook](https://www.facebook.com/TumbleweedsMusic) and [bandcamp](http://tumbleweedsmusic.bandcamp.com/) for a number of years, and felt it was time to create a proper website to match the look and feel of their music. Byron's brother [Whitney Ripley](https://github.com/littleRm) is a web developer and offered to build the new site. In 2011, I had the pleasure and opportunity to create a new logo and design a few promo items for the band, shortly after they relaunched in Albuquerque. After doing a CD package for them a couple years ago I was really glad to get called on to help translate this visual identity to the web.
 
 ## Kickoff Meeting
-The three of us got together via Google Hangout in mid-November to discuss the project and what needed to get done. Byron shared some of his goals for the site: 
 
-1. Make it easy for visitors and fans to find out when the band is playing. 
+The three of us got together via Google Hangout in mid-November to discuss the project and what needed to get done. Byron shared some of his goals for the site:
+
+1. Make it easy for visitors and fans to find out when the band is playing.
 
 2. Make contact information easy to find to book gigs.
 
@@ -43,12 +45,12 @@ We also determined what the content needed to be, how much was already available
 We used Dropbox to store the latest versions of written content, hi-res photos and links to externally hosted items. The folders are named by content type, not necessarily navigation items, knowing that this could change in the course of the project timeline.
 
 ## Prototyping Design
+
 With a few pages, images and bios completed after Thanksgiving, I had enough content to start prototyping. This was truly an exercise in ["content-first"](http://www.markboulton.co.uk/journal/structure-first-content-always) design. Instead of using image editing software like Photoshop or Illustrator to create a "mockup" of a page, I planned to write the design as a structured HTML document and use CSS to style the layout. I prefer designing this way because it forces you to consider the content (and the code) that will end up in the final product early and often. One of my favorite prototyping tools is [Mixture](http://mixture.io/),an app that fires up a little development server on your local computer complete with a templating engine and preprocessor support.
 
 I had recently relaunched my personal site in late November, and used a [similar approach](https://github.com/nsmsn/tw/tree/master/assets/sass) to writing my CSS styles in the Sass syntax. This approach works well on fairly simple sites like this one and the Tumbleweeds, and keeps me thinking about the cascade of the compiled file itself. I like being able to find all different parts listed alphabetically in one folder, and using the <code>@import</code> function to manage the cascade order.
 
-I had an opportunity to build up a visual identity for the band over time, initially with the Tumbleweeds logo and a bumper sticker, followed a CD package. The key parts of this visual language are a rich color pallette anchored by a warm red, and period/genre appropriate typefaces and lettering. Designing a site with multiple pages, video and audio presented an opportunity to expand this graphic identity a little further. I chose two slab serif typefaces available as webfonts from Google. The display type ([Vast](https://www.google.com/fonts/specimen/Vast+Shadow)), looks like it comes out of an old playbill or Hollywood western movie poster. The subheadings and body text uses [Bitter](http://www.huertatipografica.com/fonts/bitter-ht), a very readable font for the screen. 
-
+I had an opportunity to build up a visual identity for the band over time, initially with the Tumbleweeds logo and a bumper sticker, followed a CD package. The key parts of this visual language are a rich color pallette anchored by a warm red, and period/genre appropriate typefaces and lettering. Designing a site with multiple pages, video and audio presented an opportunity to expand this graphic identity a little further. I chose two slab serif typefaces available as webfonts from Google. The display type ([Vast](https://www.google.com/fonts/specimen/Vast+Shadow)), looks like it comes out of an old playbill or Hollywood western movie poster. The subheadings and body text uses [Bitter](http://www.huertatipografica.com/fonts/bitter-ht), a very readable font for the screen.
 
 <div class="row">
 
@@ -64,9 +66,9 @@ I had already created two versions of the Tumbleweeds logo back in 2011, a horiz
 
 By late December, most of the site content was already finalized except for a few musician bios. There were enough finished bios and photos that it was clear how those individual items would be eventually structured. Mixture outputs static HTML and I used the ['Public' folder in Dropbox](http://www.dropboxwiki.com/tips-and-tricks/host-websites-with-dropbox) to host a live interactive prototype with the primary navigation. We were able to make revisions in the browser fairly quickly, and after 3 iterations, the site was ready for production.
 
-
 ### Getting Ready for the Handoff
-In our kickoff meeting we decided to explore WordPress as a possible CMS since it was something Whit and I were both accustomed to working with, and fairly user-friendly. While I was prototyping, Whit set up WordPress on Byron's hosting plan and created logins for all 3 of us. I had used the [Gigpress](http://gigpress.com/) plugin before, and suggested we try it out for managing the calendar. GigPress comes with a customizable stylesheet, so I was able to use this as a fundation to build table styles in a CSS file to use later in production. 
+
+In our kickoff meeting we decided to explore WordPress as a possible CMS since it was something Whit and I were both accustomed to working with, and fairly user-friendly. While I was prototyping, Whit set up WordPress on Byron's hosting plan and created logins for all 3 of us. I had used the [Gigpress](http://gigpress.com/) plugin before, and suggested we try it out for managing the calendar. GigPress comes with a customizable stylesheet, so I was able to use this as a fundation to build table styles in a CSS file to use later in production.
 
 I hadn't sent off an interactive prototype like this to another developer before, so I wasn't sure what to expect. I created a [GitHub repo for the prototype](https://github.com/nsmsn/tw) where Whit could download my CSS, JavaScript and HTML to use in a WordPress theme. The handoff went smoothly, and Whit worked dilligently and integrated some simple, intuitive functionality into the backend. A metabox in the WordPress editor for the home page controls the quote and slideshow images, and the order of the images can be changed by dragging and dropping them around. The grid layouts for various pages are achieved in metaboxes for different sections, or as shortcodes in the content editor itself.
 
@@ -76,7 +78,6 @@ I hadn't sent off an interactive prototype like this to another developer before
         <div class="grid-half"><img src="/img/post-images/2015-03-tw-slideshow.jpg" alt="WordPress back-end slideshow editor" loading="lazy" />
 <figcaption>A home page metabox in the WordPress editor makes it really simple to change out the front page slideshow.</figcaption></div>
     </div>
-
 
 Whit set up a new SSH-connected [GitHub repo for the theme files](https://github.com/littleRm/tumbleweedsband), making further collaboration and revision control possible. The site went live toward the end of February, and we got together on another video chat to evaluate the project, exchange notes and chat about music/life events. Its always a pleasure to work with the Tumbleweeds, and Byron and his bandmates sounded very pleased with the result.
 

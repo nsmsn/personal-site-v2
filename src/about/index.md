@@ -44,6 +44,7 @@ Email is still the <strong>best</strong> way to reach me, but I do maintain a pr
 - [Huffduffer](https://huffduffer.com/nsmsn)
 - [Instagram](https://instagram.com/n.smsn)
 - [LinkedIn](https://www.linkedin.com/in/nsmsn/)
+- [Literal](https://literal.club/nsmsn)
 - [Reading.am](https://reading.am/nsmsn)
 - [Twitter](https://twitter.com/nsmsn)
 

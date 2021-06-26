@@ -13,7 +13,7 @@
   --color-light: #ffffff;
   --color-light-shade: #faf9f9;
   --color-dark: #212121;
-  --color-primary: #EE453B;
+  --color-primary: #ee453b;
   --color-primary-shade: #c91c11;
   --flow-space: 1em;
   font-size: calc(1rem + 0.275vw);
@@ -151,7 +151,7 @@ strong {
 }
 
 a:hover {
-  color: #EE453B;
+  color: #ee453b;
 }
 
 main {
@@ -641,11 +641,11 @@ header, footer {
   font-weight: 500;
   color: #334492;
   text-decoration-thickness: 2px;
-  text-decoration-color: #A4BFEB;
+  text-decoration-color: #a4bfeb;
 }
 
 .footer nav ul li a:hover, .footer a:hover {
-  color: #EE453B;
+  color: #ee453b;
   text-decoration-color: #ffdfdf;
 }
 
@@ -694,12 +694,12 @@ header, footer {
   display: block;
   font-family: "Epilogue", "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-decoration-thickness: 2px;
-  text-decoration-color: #A4BFEB;
+  text-decoration-color: #a4bfeb;
   padding: 0.25em 0 0.125em 0;
 }
 
 .postlist-link:hover {
-  color: #EE453B;
+  color: #ee453b;
   text-decoration-color: #ffdfdf;
 }
 
@@ -821,7 +821,7 @@ a[href].direct-link:focus:visited,
 .pagination a {
   font-family: "Epilogue", "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-decoration-thickness: 2px;
-  text-decoration-color: #A4BFEB;
+  text-decoration-color: #a4bfeb;
   font-weight: 600;
   font-size: 1.1em;
 }
@@ -839,13 +839,13 @@ a[href].direct-link:focus:visited,
   font-family: "Epilogue", "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 600;
   text-decoration-thickness: 2px;
-  text-decoration-color: #A4BFEB;
+  text-decoration-color: #a4bfeb;
 }
 
 .lib-cover {
   height: 200px;
   width: auto;
-  border: 1px solid #C0C0C0;
+  border: 1px solid #c0c0c0;
 }
 
 .lib-title:hover {
@@ -1068,11 +1068,11 @@ a[href].direct-link:focus:visited,
 }
 
 .red {
-  color: #EE453B;
+  color: #ee453b;
 }
 
 .bg-red {
-  background-color: #EE453B;
+  background-color: #ee453b;
 }
 
 .lightred {
@@ -1172,11 +1172,11 @@ a[href].direct-link:focus:visited,
 }
 
 .green {
-  color: #06B58C;
+  color: #06b58c;
 }
 
 .bg-green {
-  background-color: #06B58C;
+  background-color: #06b58c;
 }
 
 .lightgreen {
@@ -1212,11 +1212,11 @@ a[href].direct-link:focus:visited,
 }
 
 .lightblue {
-  color: #A4BFEB;
+  color: #a4bfeb;
 }
 
 .bg-lightblue {
-  background-color: #A4BFEB;
+  background-color: #a4bfeb;
 }
 
 .lightestblue {
@@ -1284,11 +1284,11 @@ a[href].direct-link:focus:visited,
 }
 
 .gray {
-  color: #C0C0C0;
+  color: #c0c0c0;
 }
 
 .bg-gray {
-  background-color: #C0C0C0;
+  background-color: #c0c0c0;
 }
 
 .lightgray {
