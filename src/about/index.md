@@ -42,7 +42,6 @@ Email is still the <strong>best</strong> way to reach me, but I do maintain a pr
 - [GitHub](https://github.com/nsmsn)
 - [Goodreads](https://goodreads.com/nsmsn)
 - [Huffduffer](https://huffduffer.com/nsmsn)
-- [Instagram](https://instagram.com/n.smsn)
 - [LinkedIn](https://www.linkedin.com/in/nsmsn/)
 - [Literal](https://literal.club/nsmsn)
 - [Reading.am](https://reading.am/nsmsn)
