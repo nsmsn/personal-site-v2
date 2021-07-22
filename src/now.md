@@ -5,14 +5,15 @@ templateClass: tmpl-page
 permalink: /now/
 ---
 
-<small class="timestamp">Updated <time datetime="2021-05-09">May 9, 2021</time></small>
+<small class="timestamp">Updated <time datetime="2021-07-21">July 21, 2021</time></small>
 
-As of May 7, I’m fully vaccinated against COVID-19. Just putting that here.
-
+As of May 7, I’m fully vaccinated against COVID-19. I strongly encourage you to [get the vaccine](https://www.vaccines.gov/) too, if available in your area. Just putting that here.
 
 ## Learning
 
-This year, I am honing my web skills by revisiting each core web technology (HTML, CSS, JavaScript). My goal is to get up to speed on the modern stuff, and re-learn the medium with more breadth and depth. I am also exploring [certification as an accessibility professional](https://www.accessibilityassociation.org/certification).
+This year, I am honing my web skills by [revisiting each core web technology](/tags/learning) (HTML, CSS, JavaScript). My goal is to get up to speed on the modern stuff, and re-learn the medium with more breadth and depth.
+
+I am also exploring [certification as an accessibility professional](https://www.accessibilityassociation.org/certification).
 
 ## Reading
 

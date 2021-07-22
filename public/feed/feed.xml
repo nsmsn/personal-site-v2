@@ -5,12 +5,27 @@
 	
 	<link href="https://nicksimson.com/feed/feed.xml" rel="self"/>
 	<link href="https://nicksimson.com/"/>
-	<updated>2021-05-08T20:00:00-04:00</updated>
+	<updated>2021-07-20T20:00:00-04:00</updated>
 	<id>https://nicksimson.com/</id>
 	<author>
 		<name>Nick Simson</name>
 		<email>nick@nicksimson.com</email>
 	</author>
+	
+	<entry>
+		<title>Gridlessness and modern CSS</title>
+		<link href="https://nicksimson.com/posts/2021-gridless-modern-css/"/>
+		<updated>2021-07-20T20:00:00-04:00</updated>
+		<id>https://nicksimson.com/posts/2021-gridless-modern-css/</id>
+		<content type="html">&lt;p&gt;I just finished reading &lt;a href=&quot;https://gridless.design/&quot;&gt;gridless.design&lt;/a&gt;, Donnie D’Amato’s thesis (in the form of a website) for doing away with the &lt;i&gt;n&lt;/i&gt;-column grid or the &lt;i&gt;n&lt;/i&gt;-pixel grid in the web design process. &lt;a href=&quot;https://gridless.design/&quot;&gt;Go read it&lt;/a&gt;, if you haven’t already.&lt;/p&gt;
+&lt;p&gt;I’m convinced by his argument, being someone who has designed and implemented designs from both sides of the fence. I’ve reached for frameworks like the &lt;a href=&quot;https://960.gs/&quot;&gt;960 grid system&lt;/a&gt; or &lt;a href=&quot;https://getbootstrap.com/docs/5.0/layout/grid/&quot;&gt;Bootstrap&#39;s 12-column grid&lt;/a&gt; in the past. I’m not going to come down as hard on Donnie on these kinds of tools–I still think they have their place. You can build a serviceable website with a ready to go UI quickly and cheaply. This very website uses the flexbox-based grid from Chris Ferdinandi &lt;a href=&quot;https://cferdinandi.github.io/kraken/components.html&quot;&gt;Kraken project&lt;/a&gt; in places, because sometimes frankly, you need to split up a &lt;code&gt;.container&lt;/code&gt; class into halves, or thirds, or fourths.&lt;/p&gt;
+&lt;p&gt;The Bootstrap 12-column grid, like all frameworks, was a product of a specific time and place. The best practical argument against reaching for these kinds of things today is that we just have better, more powerful tools for layout that can accomplish much more (in fewer lines of code).&lt;/p&gt;
+&lt;p&gt;One of my new favorite websites (and newsletters) to learn from is &lt;a href=&quot;https://moderncss.dev/&quot;&gt;ModernCSS.dev&lt;/a&gt; by Stephanie Eckles. Newer CSS features and properties are making me re-think the number of &lt;code&gt;@media&lt;/code&gt; queries and breakpoints I am writing, even in responsive designs. The best advice on breakpoints I’ve found is to write them when your design is breaking. Thanks to relative units, tools like &lt;code&gt;clamp&lt;/code&gt;, you can design layouts with fluid typography that don’t break often, if at all.&lt;/p&gt;
+&lt;p&gt;Stephanie’s &lt;a href=&quot;https://thinkdobecreate.com/links/&quot;&gt;many other projects&lt;/a&gt; are worth checking out; I’m particularly a fan of &lt;a href=&quot;https://11ty.rocks/&quot;&gt;11ty Rocks!&lt;/a&gt; as well as &lt;a href=&quot;https://smolcss.dev/&quot;&gt;SmolCSS&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Another great resource for learning modern CSS was written by Andy Bell, commissioned by Google, at the enviable URL &lt;a href=&quot;https://web.dev/learn/css/&quot;&gt;web.dev/learn/css/&lt;/a&gt;. Each lesson in this course is self-contained, meaning you don’t need to move from the course from start to finish. And it is not just layout, either. There’s an entire lesson on CSS animation, and an entire lesson on gradients, for example.&lt;/p&gt;
+&lt;p&gt;There’s never been a better time to learn CSS than now. It’s also a good time to time to re-learn CSS, especially if you are like me: tired of doing old hacks, and craving more elegant code.&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Mark Mothersbaugh on creativity and technology</title>
