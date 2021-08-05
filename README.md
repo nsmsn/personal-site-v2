@@ -1,6 +1,6 @@
 # Being the personal website of one Nick Simson
 
-In late 2020/early 2021 I am going to try rebuilding and relaunching my long-dormant blog with [Eleventy](https://github.com/11ty/eleventy), a static site generator. 
+In late 2020/early 2021 I rebuilt and relaunched my long-dormant blog with [Eleventy](https://github.com/11ty/eleventy), a static site generator. 
 
 
 ## Starter Files
