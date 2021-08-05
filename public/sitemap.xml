@@ -77,81 +77,6 @@
   </url>
   
   <url>
-    <loc>https://nicksimson.com/info/</loc>
-    <lastmod>2020-12-24</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nicksimson.com/posts/</loc>
-    <lastmod>2020-12-24</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nicksimson.com/</loc>
-    <lastmod>2020-12-24</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nicksimson.com/page-list/</loc>
-    <lastmod>2020-12-24</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nicksimson.com/tags/</loc>
-    <lastmod>2020-12-24</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nicksimson.com/tags/learning/</loc>
-    <lastmod>2020-12-24</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nicksimson.com/tags/design/</loc>
-    <lastmod>2020-12-24</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nicksimson.com/tags/process/</loc>
-    <lastmod>2020-12-24</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nicksimson.com/tags/books/</loc>
-    <lastmod>2020-12-24</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nicksimson.com/tags/redesign/</loc>
-    <lastmod>2020-12-24</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nicksimson.com/tags/personal/</loc>
-    <lastmod>2020-12-24</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nicksimson.com/tags/scholarship/</loc>
-    <lastmod>2020-12-24</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nicksimson.com/tags/creativity/</loc>
-    <lastmod>2020-12-24</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nicksimson.com/html/</loc>
-    <lastmod>2020-12-24</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nicksimson.com/now/</loc>
-    <lastmod>2020-12-27</lastmod>
-  </url>
-  
-  <url>
     <loc>https://nicksimson.com/posts/2020-redesign-scaffolding/</loc>
     <lastmod>2020-12-30</lastmod>
   </url>
@@ -159,16 +84,6 @@
   <url>
     <loc>https://nicksimson.com/posts/2020-in-books/</loc>
     <lastmod>2020-12-31</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nicksimson.com/blank/</loc>
-    <lastmod>2021-01-02</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nicksimson.com/recommends/</loc>
-    <lastmod>2021-01-07</lastmod>
   </url>
   
   <url>
@@ -187,11 +102,6 @@
   </url>
   
   <url>
-    <loc>https://nicksimson.com/library/</loc>
-    <lastmod>2021-02-13</lastmod>
-  </url>
-  
-  <url>
     <loc>https://nicksimson.com/posts/2021-engine-building-garden/</loc>
     <lastmod>2021-02-17</lastmod>
   </url>
@@ -202,16 +112,6 @@
   </url>
   
   <url>
-    <loc>https://nicksimson.com/type/</loc>
-    <lastmod>2021-02-22</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nicksimson.com/work/</loc>
-    <lastmod>2021-03-07</lastmod>
-  </url>
-  
-  <url>
     <loc>https://nicksimson.com/posts/2021-mothersbaugh-computer-history/</loc>
     <lastmod>2021-05-09</lastmod>
   </url>
@@ -219,5 +119,105 @@
   <url>
     <loc>https://nicksimson.com/posts/2021-gridless-modern-css/</loc>
     <lastmod>2021-07-21</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nicksimson.com/info/</loc>
+    <lastmod>2021-07-24</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nicksimson.com/posts/</loc>
+    <lastmod>2021-07-24</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nicksimson.com/blank/</loc>
+    <lastmod>2021-07-24</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nicksimson.com/html/</loc>
+    <lastmod>2021-07-24</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nicksimson.com/</loc>
+    <lastmod>2021-07-24</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nicksimson.com/library/</loc>
+    <lastmod>2021-07-24</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nicksimson.com/now/</loc>
+    <lastmod>2021-07-24</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nicksimson.com/page-list/</loc>
+    <lastmod>2021-07-24</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nicksimson.com/recommends/</loc>
+    <lastmod>2021-07-24</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nicksimson.com/tags/</loc>
+    <lastmod>2021-07-24</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nicksimson.com/tags/process/</loc>
+    <lastmod>2021-07-24</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nicksimson.com/tags/learning/</loc>
+    <lastmod>2021-07-24</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nicksimson.com/tags/books/</loc>
+    <lastmod>2021-07-24</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nicksimson.com/tags/design/</loc>
+    <lastmod>2021-07-24</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nicksimson.com/tags/personal/</loc>
+    <lastmod>2021-07-24</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nicksimson.com/tags/redesign/</loc>
+    <lastmod>2021-07-24</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nicksimson.com/tags/scholarship/</loc>
+    <lastmod>2021-07-24</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nicksimson.com/tags/creativity/</loc>
+    <lastmod>2021-07-24</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nicksimson.com/type/</loc>
+    <lastmod>2021-07-24</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nicksimson.com/work/</loc>
+    <lastmod>2021-07-24</lastmod>
   </url>
 </urlset>
