@@ -2,16 +2,20 @@
 layout: layouts/base.njk
 templateClass: tmpl-post
 ---
+
+<article class="h-entry flow">
+
 <h1>{{ title }}</h1>
 
-<small class="timestamp">Published <time datetime="{{ date | htmlDateString }}">{{ date | readableDate }}</time></small>
+<small class="timestamp">Published <time class="dt-published" datetime="{{ date | htmlDateString }}">{{ date | readableDate }}</time></small>
 
 {{ content | safe }}
+
+</article>
 
 &nbsp;
 
 <footer class="pagination">
-
 <hr>
 <ul class="list-unstyled pagination__inner">
   {%- set nextPost = collections.posts | getNextCollectionItem(page) %}
