@@ -4,25 +4,11 @@ In late 2020/early 2021 I rebuilt and relaunched my long-dormant blog with [Elev
 
 
 ## Starter Files
-I'm using the popular [eleventy-base-blog](https://github.com/11ty/eleventy-base-blog) as a starting point, and porting my previous content over, starting with my posts.
+I used the popular [eleventy-base-blog](https://github.com/11ty/eleventy-base-blog) as a starting point, and ported my previous content over, starting with my posts. Along the way I added Node-Sass support which I forked into a new [eleventy-base-blog-sass](https://github.com/nsmsn/eleventy-base-blog-sass) project.
 
-* [Netlify](https://eleventy-base-blog.netlify.com/)
-* [GitHub Pages](https://11ty.github.io/eleventy-base-blog/)
-* [Remix on Glitch](https://glitch.com/~11ty-eleventy-base-blog)
-* [Deploy your own starter site on Netlify](https://app.netlify.com/start/deploy?repository=https://github.com/11ty/eleventy-base-blog)
-* [Deploy your own starter site on Vercel](https://vercel.com/import/project?template=11ty%2Feleventy-base-blog)
+## Syndication
+My posts are available in a [RSS feed](https://www.nicksimson.com/feed/feed.xml) and a [JSON feed](https://www.nicksimson.com/feed/feed.json)
 
+## IndieWeb Support
+This site uses h-card and h-entry [microformats](https://microformats.org/wiki/Main_Page) and is a part of [an IndieWeb Webring](https://xn--sr8hvo.ws/).
 
-### Implementation Notes
-
-* `about/index.md` shows how to add a content page.
-* `posts/` has the blog posts but really they can live in any directory. They need only the `post` tag to be added to this collection.
-* Add the `nav` tag to add a template to the top level site navigation. For example, this is in use on `index.njk` and `about/index.md`.
-* Content can be any template format (blog posts needn’t be markdown, for example). Configure your supported templates in `.eleventy.js` -> `templateFormats`.
-	* Because `css` and `png` are listed in `templateFormats` but are not supported template types, any files with these extensions will be copied without modification to the output (while keeping the same directory structure).
-* The blog post feed template is in `feed/feed.njk`. This is also a good example of using a global data files in that it uses `_data/metadata.json`.
-* This example uses three layouts:
-  * `_includes/layouts/base.njk`: the top level HTML structure
-  * `_includes/layouts/home.njk`: the home page template (wrapped into `base.njk`)
-  * `_includes/layouts/post.njk`: the blog post template (wrapped into `base.njk`)
-* `_includes/postlist.njk` is a Nunjucks include and is a reusable component used to display a list of all the posts. `index.njk` has an example of how to use it.
