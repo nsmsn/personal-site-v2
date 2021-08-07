@@ -15,11 +15,27 @@ A smattering of projects I’ve been fortunate to work on during the past severa
 
 &nbsp;
 
+## The Ordinary Things
+
+<div class="row flow">
+    <div class="grid-half smol-centering">
+    <a href="https://theordinarythings.com"><img src="/img/work/theordinarythings.jpg" class="work-website" alt="Screenshot of the ordinary things dot com" /></a>
+    </div>
+    <div class="flow grid-half padding-3 smol-centering">
+    <span class="work-keywords">Web Design</span>
+    <p>I helped Albuquerque’s favorite indie rock trio launch their first website, powered by Jekyll and Siteleaf.</p>
+    <p>Visit <a href="https://theordinarythings.com">theordinarythings.com</a></p>
+    </div>
+
+</div>
+
+<hr />
+
 ## Eleanor Aldrich
 
 <div class="row flow">
     <div class="grid-half smol-centering">
-    <a href="https://eleanoraldrich.com"><img src="/img/work/eleanor-aldrich.jpg" class="work-website" alt="A grid of nine images of abstract paintings" loading="lazy" /></a>
+    <a href="https://eleanoraldrich.com"><img src="/img/work/eleanor-aldrich.jpg" class="work-website" alt="A grid of nine images of abstract paintings" /></a>
     </div>
     <div class="flow grid-half padding-3 smol-centering">
     <span class="work-keywords">Branding, WordPress Customization</span>

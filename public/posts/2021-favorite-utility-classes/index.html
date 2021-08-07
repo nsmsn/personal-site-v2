@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My six favorite utility classes</title>
+    <meta name="description" content="Bits of CSS I re-use in almost every project">
+    <link rel="stylesheet" href="/css/style.css">
+    <!--<link rel="stylesheet" href="/css/prism-base16-monokai.dark.css">-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,400..900;1,400..800&family=IBM+Plex+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Literata:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Nick Simson">
+    <link rel="alternate" href="/feed/feed.json" type="application/json" title="Nick Simson">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="icon" href="/img/meta/favicon.svg" type="image/svg+xml" />
+  
+  </head>
+  <body>
+    <header class="site-head">
+    <a href="#main-content" class="skip-link">Skip to content</a>
+  <div class="wrapper">
+    <div class="site-head__inner">
+
+      <h1 class="home"><a href="/"><span class="home-id">Nick Simson</span><svg class="logo" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 100 100" xml:space="preserve" width="40" height="40">
+  <style>
+    .logo-path1{fill:#ee453b}
+    .logo-path2{fill:#ee453b}
+  </style>
+  <g id="Layer_1_2_">
+    <path class="logo-path1" d="M82.7 16.7C66.8.8 41.1.8 25.3 16.7 9.6 32.3 9.4 57.4 24.5 73.3l17.9-37c.2-.5.8-.6 1.2-.2l10.3 10.3c.3.3.8.3 1.1 0l27.7-29.7z"/>
+    <path class="logo-path2" d="M17.3 83.3c15.9 15.9 41.6 15.9 57.4 0 15.6-15.6 15.8-40.7.8-56.6l-17.9 37c-.2.5-.8.6-1.2.2L46.2 53.6c-.3-.3-.8-.3-1.1 0L17.3 83.3z"/>
+  </g>
+</svg></a></h1>
+    <nav class="navigation" aria-label="primary">
+      <ul role="list">
+        <li class="navigation-item"><a href="/work/">Work</a></li>
+        <li class="navigation-item"><a href="/posts/">Archive</a></li>
+        <li class="navigation-item"><a href="/info/">Info</a></li>
+      </ul>
+    </nav>
+  </div>
+  </div>
+    </header>
+
+      <!-- Delete this message
+      <div class="warning flow">
+        🚩 <em>Warning message goes here.</em>
+      </div>
+       -->
+
+    <main id="main-content"  class="tmpl-post flow container animate__animated animate__fadeIn">
+
+      
+<article class="h-entry">
+
+<h1 class="p-name">My six favorite utility classes</h1>
+
+<small class="timestamp">Published <time class="dt-published" datetime="2021-08-07">07 Aug 2021</time></small>
+
+<div class="e-content flow">
+<p>My approach to writing CSS these days lays somewhere in between Andy Bell’s <a href="https://cube.fyi/">CUBE CSS</a> and Harry Roberts’ <a href="https://www.xfive.co/blog/itcss-scalable-maintainable-css-architecture/">ITCSS</a>. I prefer Andy’s definition of a utility class from the CUBE CSS docs:</p>
+<blockquote>
+A utility, in the context of CUBE CSS, is a CSS class that does one job and does that one job well.
+</blockquote>
+<p>I’m writing this post to keep track of all of my favorite utilities–things I find myself reusing in almost every project.</p>
+<h2 id="visually-hidden">Visually Hidden <a class="direct-link" href="#visually-hidden">#</a></h2>
+<pre>
+<code>
+.vis-hidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: auto;
+    margin: 0;
+    overflow: hidden;
+    padding: 0; 
+    position: absolute;
+    width: 1px;
+    white-space: nowrap;
+  }
+</code>
+</pre>
+<p>If you ever used Bootstrap, you may recognize this as the <code>sr-only</code> class—in which sr stands for screen reader. I learned something from <a href="https://melanie-richards.com/blog/learning-log-2106/">Melanie Richards’ recent learning log</a> and am using the <code>vis-hidden</code> class name from now on:</p>
+<blockquote>
+This content is visually hidden; screen readers are not the only assistive tech that can access the hidden text on behalf of the user.
+</blockquote>
+<h2 id="uppercase-text">Uppercase Text <a class="direct-link" href="#uppercase-text">#</a></h2>
+<pre>
+<code>
+.text-uppercase {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+</code>
+</pre>
+<p>When you want something displayed in all capital letters, but you need <a href="https://blogs.lanecc.edu/webteam/2017/03/07/using-all-capital-letters/">assistive technology to read it predictably</a>. Adding in a little bit of letter spacing makes it a little easier to read a word set in all caps.</p>
+<h2 id="circular-images">Circular Images <a class="direct-link" href="#circular-images">#</a></h2>
+<pre>
+<code>
+.img-circle {
+    border-radius: 50%;
+}
+</code>
+</pre>
+<p>This is great, whether you need a circular image for a user's avatar or in an &quot;art-directed&quot; post.</p>
+<h2 id="flex-objects">Flex Objects <a class="direct-link" href="#flex-objects">#</a></h2>
+<pre>
+<code>
+.flexo {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -0.5em;
+  }
+  
+  .flexo > * {
+    flex: 1 0 18em;
+    margin: 0.75em;
+  }
+</code>
+</pre>
+<p>A G-rated version of Heydon Pickering’s &quot;<a href="https://github.com/Heydon/fukol-grids">Fukol Grid</a>&quot;. Turns anything nested in a <code>div</code> with a class of <code>flexo</code> into a flexible object (<a href="https://codepen.io/nsmsn/pen/yodeeo">View demo</a>).</p>
+<h2 id="unstyled-list">Unstyled List <a class="direct-link" href="#unstyled-list">#</a></h2>
+<pre>
+<code>
+.list-unstyled {
+    list-style: none;
+    padding: 0;
+  }
+</code>
+</pre>
+<p>Another one you may recognize from Bootstrap. Sometimes you may need to remove the bullets in an unordered list or (less common) the numbers in an ordered list.</p>
+<h2 id="multicolumn-list">Multicolumn List <a class="direct-link" href="#multicolumn-list">#</a></h2>
+<pre>
+<code>
+.list-multi-col{
+	column-width: 12em;
+	column-gap: 2em;
+}
+</code>
+</pre>
+<p>Helpful for displaying long lists of short words or terms. Think of a donor wall at a museum for a real-life example. I’ve used this pattern on <a href="https://advocacy.tennessee.edu/ut-impact/">advocacy.tennessee.edu</a> and <a href="https://data.tennessee.edu/impact-by-county/">data.tennessee.edu</a>.</p>
+<p>In fact, I’ve found these so useful, all six of these utilities (plus a few more) have made their way into the <a href="https://github.com/nsmsn/nicksimsondotcom/tree/master/src/sass">nicksimson.com codebase</a>.</p>
+
+</div>
+</article>
+
+&nbsp;
+
+<footer class="pagination">
+<hr>
+<ul class="list-unstyled pagination__inner"><li class="">Previous: <a href="/posts/2021-gridless-modern-css/">Gridlessness and modern CSS</a></li>
+</ul>
+</footer>
+    </main>
+
+    <footer role="contentinfo" class="footer pt-7">
+
+	<p>Images and text © 2021 <span class="h-card">
+ <a href="https://nicksimson.com/" rel="me"  class="u-url u-uid">Nick Simson</a>. 
+ I’m <strong class="p-nickname">@nsmsn</strong> on <a href="https://twitter.com/nsmsn" rel="me" class="u-url">Twitter</a>, <a href="https://github.com/nsmsn" rel="me" class="u-url">GitHub</a>, and <a href="/info/#get-in-touch">a few other places</a>.</span> 
+ Thanks for stopping by. ☺<br/>
+ &nbsp;</p>
+
+<div>
+🕸💍
+ <p><a href="https://xn--sr8hvo.ws/%E2%9C%8D%F0%9F%9A%96%F0%9F%8C%BF/previous" class="webring-arrow">←</a>
+  <a href="https://xn--sr8hvo.ws/">an IndieWebring</a>
+  <a href="https://xn--sr8hvo.ws/%E2%9C%8D%F0%9F%9A%96%F0%9F%8C%BF/next" class="webring-arrow">→</a></p>
+<div>
+
+</footer>
+
+    <!-- Current page: /posts/2021-favorite-utility-classes/ -->
+  </body>
+</html>

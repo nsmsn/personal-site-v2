@@ -23,11 +23,22 @@ header, footer {
   }
 
 .footer {
+    width: 90%;
+    max-width: 65rem;
+    margin: 0 auto;
     margin-top: auto;
-    padding: $size3 $size2;
-    text-align: center;
     font-family: $sans;
     font-size: $size2;
+    opacity: 87%;
+}
+
+@media screen and (min-width: 62em) {
+  .footer {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-template-rows: auto;
+    gap: 2rem;
+  }
 }
 
 .container {

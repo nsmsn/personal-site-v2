@@ -177,17 +177,17 @@
   </url>
   
   <url>
+    <loc>https://nicksimson.com/tags/design/</loc>
+    <lastmod>2021-07-24</lastmod>
+  </url>
+  
+  <url>
     <loc>https://nicksimson.com/tags/books/</loc>
     <lastmod>2021-07-24</lastmod>
   </url>
   
   <url>
     <loc>https://nicksimson.com/tags/process/</loc>
-    <lastmod>2021-07-24</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nicksimson.com/tags/design/</loc>
     <lastmod>2021-07-24</lastmod>
   </url>
   
@@ -219,5 +219,10 @@
   <url>
     <loc>https://nicksimson.com/work/</loc>
     <lastmod>2021-07-24</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nicksimson.com/posts/2021-favorite-utility-classes/</loc>
+    <lastmod>2021-08-07</lastmod>
   </url>
 </urlset>

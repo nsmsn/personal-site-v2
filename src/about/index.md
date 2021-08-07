@@ -57,7 +57,7 @@ Email is still the <strong>best</strong> way to reach me, but I do maintain a pr
 
 This is my personal website and blog. At some point I decided that a respectable web designer needs their own place to experiment and try things out. I tinker with this site’s writing, design, and code as I feel motivated, mainly during evenings and weekends.
 
-You can track this site’s progress and iterations at [this GitHub repo](https://github.com/nsmsn/nicksimsondotcom). This site is built and deployed with [Eleventy](https://11ty.dev/) and [Netlify](https://netlify.com). I prioritize performance and accessibility. You can read [a note on the type](/type) to learn about the fonts in use.
+You can track this site’s progress and iterations at [this GitHub repo](https://github.com/nsmsn/nicksimsondotcom). This site is built and deployed with [Eleventy](https://11ty.dev/) and [Netlify](https://netlify.com). My blog posts are available in both [RSS](https://www.nicksimson.com/feed/feed.xml) and [JSON](https://www.nicksimson.com/feed/feed.json). I prioritize performance and accessibility. You can read [a note on the type](/type) to learn about the fonts in use.
 
 </div>
 

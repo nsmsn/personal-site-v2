@@ -3,14 +3,15 @@ layout: layouts/base.njk
 templateClass: tmpl-post
 ---
 
-<article class="h-entry flow">
+<article class="h-entry">
 
-<h1>{{ title }}</h1>
+<h1 class="p-name">{{ title }}</h1>
 
 <small class="timestamp">Published <time class="dt-published" datetime="{{ date | htmlDateString }}">{{ date | readableDate }}</time></small>
 
+<div class="e-content flow">
 {{ content | safe }}
-
+</div>
 </article>
 
 &nbsp;

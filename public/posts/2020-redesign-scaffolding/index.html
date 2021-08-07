@@ -53,12 +53,13 @@
     <main id="main-content"  class="tmpl-post flow container animate__animated animate__fadeIn">
 
       
-<article class="h-entry flow">
+<article class="h-entry">
 
-<h1>Scaffolding</h1>
+<h1 class="p-name">Scaffolding</h1>
 
 <small class="timestamp">Published <time class="dt-published" datetime="2020-12-30">30 Dec 2020</time></small>
 
+<div class="e-content flow">
 <p>A few things have changed visually since <a href="http://web.archive.org/web/20201221200650/http://nicksimson.com/">the last snapshot</a>: Some of the base styles, the header, the footer, the <a href="https://nicksimson.com">home page</a>. I want to write a little about some things happening behind the scenes.</p>
 <p>As I mentioned previously, I started out with the <a href="https://github.com/11ty/eleventy-base-blog">eleventy-base-blog</a> starter project, mainly to get the github/netlify deployment set up quickly and painlessly. Since then, as I started modifying base styles, I quickly realized that I wanted to break up my CSS into smaller pieces, much in the way the site templates are seperated in the <code>_includes / layouts</code> directory.</p>
 <p>I explored some of the other <a href="https://www.11ty.dev/docs/starter/">starter projects in Eleventy's documentation</a> to see how CSS is being used. In addition to every possible CSS flavor (Tailwind, Sass, PostCSS) you can imagine, I found a couple projects that keep a <code>src</code> directory with the templates and content seperate from the <code>.eleventy.js</code> and <code>.package.json</code> files and other configuration stuff.</p>
@@ -108,7 +109,7 @@ sass
 <p>As I develop and add more to the site, I expect these files may change a little, but the structure is designed for living projects, and designed to scale. The CSS I'm writing these days follows concepts similar to Andy Bell's <a href="https://piccalil.li/cube-css/">CUBE CSS</a> and Harry Roberts' <a href="https://www.xfive.co/blog/itcss-scalable-maintainable-css-architecture/">ITCSS</a> projects. I invite you to check both approaches out if you are either starting out in web development or looking for a way to write object-oriented styles for more maintainable stylesheets.</p>
 <p><em>This was the third post in the <a href="/tags/redesign/">'redesign' series</a>.</em></p>
 
-
+</div>
 </article>
 
 &nbsp;
@@ -120,15 +121,21 @@ sass
 </footer>
     </main>
 
-    <footer role="contentinfo" class="footer wrapper flow">
+    <footer role="contentinfo" class="footer pt-7">
+
 	<p>Images and text © 2021 <span class="h-card">
  <a href="https://nicksimson.com/" rel="me"  class="u-url u-uid">Nick Simson</a>. 
- I’m <strong>@nsmsn</strong> on <a href="https://twitter.com/nsmsn" rel="me" class="u-url">Twitter</a>, <a href="https://github.com/nsmsn" rel="me" class="u-url">GitHub</a></span>, and <a href="/info/#get-in-touch">a few other places</a>. 
- Thanks for stopping by. ☺</p>
+ I’m <strong class="p-nickname">@nsmsn</strong> on <a href="https://twitter.com/nsmsn" rel="me" class="u-url">Twitter</a>, <a href="https://github.com/nsmsn" rel="me" class="u-url">GitHub</a>, and <a href="/info/#get-in-touch">a few other places</a>.</span> 
+ Thanks for stopping by. ☺<br/>
+ &nbsp;</p>
 
- <p><a href="https://xn--sr8hvo.ws/%E2%9C%8D%F0%9F%9A%96%F0%9F%8C%BF/previous">←</a>
-  An IndieWeb Webring 🕸💍
-  <a href="https://xn--sr8hvo.ws/%E2%9C%8D%F0%9F%9A%96%F0%9F%8C%BF/next">→</a></p>
+<div>
+🕸💍
+ <p><a href="https://xn--sr8hvo.ws/%E2%9C%8D%F0%9F%9A%96%F0%9F%8C%BF/previous" class="webring-arrow">←</a>
+  <a href="https://xn--sr8hvo.ws/">an IndieWebring</a>
+  <a href="https://xn--sr8hvo.ws/%E2%9C%8D%F0%9F%9A%96%F0%9F%8C%BF/next" class="webring-arrow">→</a></p>
+<div>
+
 </footer>
 
     <!-- Current page: /posts/2020-redesign-scaffolding/ -->
