@@ -23,7 +23,7 @@
   <div class="wrapper">
     <div class="site-head__inner">
 
-      <h1 class="home"><a href="{{ '/' | url }}" class="u-url u-uid" rel="author"><span class="home-id">{{ metadata.title }}</span>{% include "partials/brand.svg" %}</a></h1>
+      <h1 class="home"><a href="{{ '/' | url }}" rel="author"><span class="home-id u-id p-name">{{ metadata.title }}</span>{% include "partials/brand.svg" %}</a></h1>
 
     {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
     <nav class="navigation" aria-label="primary">
@@ -50,7 +50,7 @@
 
     <footer role="contentinfo" class="footer pt-7">
 
-	<p>Images and text © {{ helpers.currentYear() }} <a href="https://nicksimson.com/" rel="me" >Nick Simson</a>. Thanks for stopping by. ☺<br/>
+	<p>Images and text © {{ helpers.currentYear() }} <a class="u-url" href="https://nicksimson.com/" rel="me" >Nick Simson</a>. Thanks for stopping by. ☺<br/>
  &nbsp;</p>
 
 <div>
