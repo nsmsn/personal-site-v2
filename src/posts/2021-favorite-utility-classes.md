@@ -1,6 +1,6 @@
 ---
 title: My six favorite utility classes 
-description: Bits of CSS I re-use in almost every project
+description: Bits of CSS I re-use in almost every project.
 date: 2021-08-07
 tags:
   - redesign

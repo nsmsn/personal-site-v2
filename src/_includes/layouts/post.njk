@@ -7,14 +7,16 @@ templateClass: tmpl-post
 
 <h1 class="p-name">{{ title }}</h1>
 
-<small class="timestamp">Published <time class="dt-published" datetime="{{ date | htmlDateString }}">{{ date | readableDate }}</time></small>
+<small class="timestamp">Published <time class="dt-published" datetime="{{ date | htmlDateString }}"><a class="u-url" href="{{ post.url | url }}">{{ date | readableDate }}</a></time> by <a rel="author" class="p-author h-card" href="/info/">Nick</a></small>
 
 <div class="e-content flow">
 {{ content | safe }}
 </div>
 </article>
 
+<div>
 &nbsp;
+</div>
 
 <footer class="pagination">
 <hr>

@@ -12,7 +12,7 @@ permalink: /info/
 
 <div class="grid-fourth grid-last flow">
 <div class="bg-color-cycle img-circle" style="max-width:240px">
-        <img src="/img/misc/diffuse-nick-profile-blue.png" alt="Nick Simson" width="240" class="img-circle img-multiply"/>
+        <img src="/img/misc/diffuse-nick-profile-blue.png" alt="Nick Simson" width="240" class="img-circle img-multiply u-photo"/>
         </div>
 &nbsp;
 </div>
@@ -35,21 +35,18 @@ Send me email: [nick@nicksimson.com](mailto:nick@nicksimson.com).
 
 Email is still the <strong>best</strong> way to reach me, but I do maintain a presence at the&nbsp;following:
 
-<div class="list-multi-col">
 
-- [Are.na](https://www.are.na/nick-simson)
-- [Dribbble](https://dribbble.com/nsmsn/)
-- [GitHub](https://github.com/nsmsn)
-- [Goodreads](https://goodreads.com/nsmsn)
-- [Huffduffer](https://huffduffer.com/nsmsn)
-- [LinkedIn](https://www.linkedin.com/in/nsmsn/)
-- [Literal](https://literal.club/nsmsn)
-- [Reading.am](https://reading.am/nsmsn)
-- [Twitter](https://twitter.com/nsmsn)
-
-</div>
-
-(Most of the other Nick Simsons out there are not me)
+<ul class="list-multi-col">
+<li><a href="https://www.are.na/nick-simson" rel="me">Are.na</a></li>
+<li><a href="https://dribbble.com/nsmsn/" rel="me">Dribbble</a></li>
+<li><a href="https://github.com/nsmsn" rel="me">GitHub</a></li>
+<li><a href="https://goodreads.com/nsmsn" rel="me">Goodreads</a></li>
+<li><a href="https://huffduffer.com/nsmsn" rel="me">Huffduffer</a></li>
+<li><a href="https://www.linkedin.com/in/nsmsn/" rel="me">LinkedIn</a></li>
+<li><a href="https://literal.club/nsmsn" rel="me">Literal</a></li>
+<li><a href="https://reading.am/nsmsn" rel="me">Reading.am</a></li>
+<li><a href="https://twitter.com/nsmsn" rel="me">Twitter</a></li>
+</ul>
 
 &nbsp;
 

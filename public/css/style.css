@@ -408,12 +408,12 @@ header, footer {
 
 .footer {
   width: 90%;
-  max-width: 65rem;
+  max-width: 60rem;
   margin: 0 auto;
   margin-top: auto;
   font-family: "Epilogue", "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 0.75em;
-  opacity: 87%;
+  opacity: 78%;
 }
 
 @media screen and (min-width: 62em) {
