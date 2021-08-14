@@ -16,14 +16,16 @@
   <link rel="apple-touch-icon" href="icon.png">
   <link rel="icon" href="/img/meta/favicon.svg" type="image/svg+xml" />
   
+  <link rel="webmention" href="https://webmention.io/www.nicksimson.com/webmention" />
+  <link rel="pingback" href="https://webmention.io/www.nicksimson.com/xmlrpc" />
   </head>
-  <body class="h-card">
+  <body>
     <header class="site-head">
     <a href="#main-content" class="skip-link">Skip to content</a>
   <div class="wrapper">
     <div class="site-head__inner">
 
-      <h1 class="home"><a href="{{ '/' | url }}" rel="author"><span class="home-id u-id p-name">{{ metadata.title }}</span>{% include "partials/brand.svg" %}</a></h1>
+      <h1 class="home"><a href="{{ '/' | url }}" rel="author"><span class="home-id">{{ metadata.title }}</span>{% include "partials/brand.svg" %}</a></h1>
 
     {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
     <nav class="navigation" aria-label="primary">
@@ -50,7 +52,7 @@
 
     <footer role="contentinfo" class="footer pt-7">
 
-	<p>Images and text © {{ helpers.currentYear() }} <a class="u-url" href="https://nicksimson.com" rel="me" >Nick Simson</a>. Thanks for stopping by. ☺<br/>
+	<p>Images and text © {{ helpers.currentYear() }} <a href="https://nicksimson.com" rel="author" >Nick Simson</a>. Thanks for stopping by. ☺<br/>
  &nbsp;</p>
 
 <div>
