@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/nsmsn
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://nicksimson.com
+  * I am nsmsn (https://keybase.io/nsmsn) on keybase.
+  * I have a public key with fingerprint 5E20 1322 B3DE 47AB 0FFF  04B7 0764 C7E9 3BB0 25C0
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101c2a4f343fe0f261ba652cf89cacac189ad88c83edcefa2cedb67555f2615f0a00a",
+      "fingerprint": "5e201322b3de47ab0fff04b70764c7e93bb025c0",
+      "host": "keybase.io",
+      "key_id": "0764c7e93bb025c0",
+      "kid": "0101c2a4f343fe0f261ba652cf89cacac189ad88c83edcefa2cedb67555f2615f0a00a",
+      "uid": "1b6367182507974022613330cc00cc19",
+      "username": "nsmsn"
+    },
+    "service": {
+      "hostname": "nicksimson.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1629050690,
+  "expire_in": 157680000,
+  "prev": "eb4c74aba4f0c1f285f78f08932dd3b0ece9edd8d351407dfb0297a5de8d86df",
+  "seqno": 9,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.13
+Comment: https://keybase.io/crypto
+
+yMIgAnicrVJdSFRBFN6tTPKHjCiKoqULJdUWc/9/KNJMpIgiIhWzlrkzc7fL7t67
+7b27JbIPLlkEFihiDyVSGSKkRWb1kGCLZNRLYgX1FCXtQ1b0DxVrc62eem2GYZhz
+vu+bcz7OWOlcX5G/re9cQL08VO9/eLcr6YPL67Y1M7qNmxitmYmQ2YtEMXHcUMTE
+jMYAFrCIg4LBC7xBgMFJrA4lkUOGoiJIN6uoECsKUniCETEghwjWJVkURQ8rGgAC
+AJkgY5hWmCTiCdNyqaxIOMDyHKfzmAgy1IFhGEDQZSBLApKJyus64EQEKPGw7XgM
+WpwOHbLJtGmMPkK/y/sX/5/rTs7KsbrESzKrcCKQVVkAHMXwPA8QAvSwqgd0SMKC
+MULRlhNzLCYdZGgoZSLiueq18Tdtoohjxhzb2oTsGKXGE7ZrIztKc4ddN+5oHtdt
+invgo0QP/ZEJ6aaFqY2UkSIJx7QtRmMpErmmp8tKnApEIKkgyJBjcTNBQqaHEGVJ
+AXR5/5AUlSQ69UyAOnUHINbgFNGQFQMoKs9hzOuAIKISjBXMi6wAZGxQb1UZipgo
+WJGwwXiNHbFsRlNpmTBMJR0zbEE3mSBMOjvaOM/nL/LNL5jjjZevaEHZ36E7lCic
+IRsuTt3KHMzN0XJX6sVWuAqWD7URdePKwA+sdpy9sbr7TPpCtZTOZJfEvuRf5P3P
+aoYXvTKXuiuWT/QdNV+ODO9JZrfU+h8FKtqN0pJR4Xv1+9GTvc7kvlODm9eoYN3A
+k6b8vdb+SN/1wPG333qqmHCmctoXzRcOwuluf3X966rHj8dfViwcWJyJ5jZ07Hya
+qcnVNQwUBy378666cMPQ6QMzn7jN5++XLEtFnpQOX106qY93Dj6/s+hBzdoPMXVs
+LvJPtLy7eal4evfP4tudU9e0Hb1tFesz2ca9XSPmp8rUgpnAx6/55Jt+bYLU7i94
+dGIr1Ho6yqa2t1SWt/8C3yVApw==
+=TOu9
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/nsmsn
+
+==================================================================
