@@ -416,7 +416,7 @@ header, footer {
   opacity: 78%;
 }
 
-@media screen and (min-width: 62em) {
+@media screen and (min-width: 65em) {
   .footer {
     display: grid;
     grid-template-columns: 4fr 1fr;

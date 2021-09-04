@@ -187,12 +187,12 @@
   </url>
   
   <url>
-    <loc>https://nicksimson.com/tags/books/</loc>
+    <loc>https://nicksimson.com/tags/design/</loc>
     <lastmod>2021-08-07</lastmod>
   </url>
   
   <url>
-    <loc>https://nicksimson.com/tags/design/</loc>
+    <loc>https://nicksimson.com/tags/books/</loc>
     <lastmod>2021-08-07</lastmod>
   </url>
   
@@ -203,6 +203,11 @@
   
   <url>
     <loc>https://nicksimson.com/tags/personal/</loc>
+    <lastmod>2021-08-07</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nicksimson.com/tags/websites/</loc>
     <lastmod>2021-08-07</lastmod>
   </url>
   
@@ -224,5 +229,10 @@
   <url>
     <loc>https://nicksimson.com/work/</loc>
     <lastmod>2021-08-07</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nicksimson.com/posts/2021-commonplace-books/</loc>
+    <lastmod>2021-09-04</lastmod>
   </url>
 </urlset>

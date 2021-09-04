@@ -50,7 +50,7 @@ Email is still the <strong>best</strong> way to reach me, but I do maintain a pr
 
 &nbsp;
 
-## About this Website
+## About this website
 
 This is my personal website and blog. At some point I decided that a respectable web designer needs their own place to experiment and try things out. I tinker with this site’s writing, design, and code as I feel motivated, mainly during evenings and weekends.
 

@@ -5,12 +5,47 @@
 	
 	<link href="https://nicksimson.com/feed/feed.xml" rel="self"/>
 	<link href="https://nicksimson.com/"/>
-	<updated>2021-08-07T00:00:00Z</updated>
+	<updated>2021-09-04T00:00:00Z</updated>
 	<id>https://nicksimson.com/</id>
 	<author>
 		<name>Nick Simson</name>
 		<email>nick@nicksimson.com</email>
 	</author>
+	
+	<entry>
+		<title>Commonplace books, gardens, and streams</title>
+		<link href="https://nicksimson.com/posts/2021-commonplace-books/"/>
+		<updated>2021-09-04T00:00:00Z</updated>
+		<id>https://nicksimson.com/posts/2021-commonplace-books/</id>
+		<content type="html">&lt;p&gt;Earlier this summer I discovered that the &lt;a href=&quot;https://events.indieweb.org/&quot;&gt;Homebrew Website Club&lt;/a&gt; is meeting each week virtually. Due to my time zone and work schedule, I’ve only been able to attend a few club meetings so far. I’ve found it to be a great chance to stay up late and meet other folks passionate about the web, sharing what we’re working on, as well as sources of inspiration.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&quot;https://events.indieweb.org/2021/09/homebrew-website-club-the-americas-KTJy7nR6Xe8V&quot;&gt;September 1&lt;/a&gt; meeting opened with about 20 minutes of quiet writing time, mainly to generate topics of discussion for the evening. I ended up sharing &lt;a href=&quot;https://piperhaywood.com/&quot;&gt;Piper Haywood’s website&lt;/a&gt; and her open source &lt;a href=&quot;https://github.com/piperhaywood/commonplace-wp-theme&quot;&gt;Commonplace WordPress theme&lt;/a&gt;, two links I discovered during the past weekend.&lt;/p&gt;
+&lt;p&gt;I stumbled on Piper’s site after seeing the work she did on &lt;a href=&quot;https://gemmacope.land/&quot;&gt;Gemma Copeland’s site&lt;/a&gt;, powered by &lt;a href=&quot;https://11ty.dev/&quot;&gt;Eleventy&lt;/a&gt; and &lt;a href=&quot;http://are.na/&quot;&gt;Are.na&lt;/a&gt;. Piper has kept her own site as a personal notebook since 2014. I’m especially drawn to the way her site handles an &lt;a href=&quot;https://piperhaywood.com/archive/&quot;&gt;archive template&lt;/a&gt; as well as &lt;a href=&quot;https://piperhaywood.com/index/&quot;&gt;displaying tags as an index&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Wanting to learn more, I quickly found &lt;a href=&quot;https://piperhaywood.com/commonplace-wordpress-theme/&quot;&gt;Piper’s&lt;/a&gt; and &lt;a href=&quot;https://log.becworth.info/what-could-a-commonplace-book-feel-like-on-the-web/&quot;&gt;Bec Worth’s&lt;/a&gt; posts about commonplace books, a concept that until this week was new to me.&lt;/p&gt;
+&lt;figure&gt;
+ &lt;blockquote&gt;
+  &lt;p&gt;Paraphrasing the &lt;a href=&quot;https://en.wikipedia.org/wiki/Commonplace_book&quot;&gt;Wikipedia entry&lt;/a&gt;, Commonplace Books have been used since antiquity as an aid for remembering useful concepts or facts. They are inherently unique to their author and contain, but are not limited to recipes, quotes, letters, poems, tables of weights and measures, proverbs, prayers, legal formulas, observations and definitions. Unlike a diary or journal, they are not chronological or introspective, though some entries may include personal responses. Rather, entries are organised according to subject.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;figcaption&gt;&lt;footer&gt;- Bec Worth, &lt;cite&gt;&quot;&lt;a href=&quot;https://log.becworth.info/what-could-a-commonplace-book-feel-like-on-the-web/&quot;&gt;What could a Commonplace Book feel like on the web?&lt;/a&gt;&quot;&lt;/cite&gt;&lt;/footer&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;&lt;a href=&quot;https://nicksimson.com/posts/2021-engine-building-garden/&quot;&gt;I’m a big fan of personal websites&lt;/a&gt; and the creative expression and quality of &lt;em&gt;thinking in public&lt;/em&gt; they have always brought to the web. So I was delighted to discover a historical thread—a centuries-old practice being made digital with the added power of metadata and URLs!&lt;/p&gt;
+&lt;p&gt;Other longtime Homebrew attendees were quick to point out that IndieWeb community members have widely &lt;a href=&quot;https://indieweb.org/commonplace_book#IndieWeb_examples&quot;&gt;embraced the term&lt;/a&gt;. Someone mentioned &lt;a href=&quot;https://boffosocko.com/&quot;&gt;Chris Aldrich&lt;/a&gt;, who refers to his site as a commonplace book and uses a &lt;a href=&quot;https://boffosocko.com/tag/commonplace-books/&quot;&gt;commonplace books tag&lt;/a&gt;, with more historical and contemporary examples. As it turns out there is an &lt;a href=&quot;https://indieweb.org/commonplace_book&quot;&gt;IndieWeb wiki entry on the commonplace book&lt;/a&gt;, where Piper Haywood herself is quoted:&lt;/p&gt;
+&lt;blockquote&gt;
+“The best personal blogs I’ve come across feel like a glimpse in to someone’s personal notebook, something filled mostly with notes written with the author in mind first and foremost vs notes that have been written with a wider audience in mind.”
+&lt;/blockquote&gt;
+&lt;p&gt;Lesson learned: Always consult the wiki. The phrase &lt;em&gt;digital gardens&lt;/em&gt; also pops up often in the wiki entry on commonplace books. There is some question whether the two concepts should be used interchangably.  Whatever the name or taxonomy, the contours of this kind of site are shaped around &lt;em&gt;discovery&lt;/em&gt; and letting ideas germinate. I’m totally on board for more of this.&lt;/p&gt;
+&lt;p&gt;Some other wonderful examples:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://maggieappleton.com/&quot;&gt;Maggie Appleton’s digital garden&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://notes.andymatuschak.org/About_these_notes&quot;&gt;Andy Matuschak’s evergreen notes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://tomcritchlow.com/wiki/&quot;&gt;Tom Critchlow’s wiki&lt;/a&gt; (be sure to check out &lt;a href=&quot;https://tomcritchlow.com/2019/02/17/building-digital-garden/&quot;&gt;his blog post&lt;/a&gt; too)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.gwern.net/index&quot;&gt;Gwern Branwen’s website&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Ane-Laure Le Cunff’s &lt;a href=&quot;https://www.mentalnodes.com/about&quot;&gt;Mental Nodes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Aaron Z. Lewis’ &lt;a href=&quot;https://aaronzlewis.com/blog/&quot;&gt;blog&lt;/a&gt; and &lt;a href=&quot;https://aaronzlewis.com/cocoon/&quot;&gt;cocoon&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Buster Benson’s &lt;a href=&quot;https://notes.busterbenson.com/&quot;&gt;notes&lt;/a&gt; and &lt;a href=&quot;https://notes.busterbenson.com/piles&quot;&gt;piles&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;IndieWebCamp is hosting a &lt;a href=&quot;https://events.indieweb.org/2021/09/gardens-and-streams-ii-pPUbyYME33V4&quot;&gt;&#39;Gardens and Streams&#39; virtual event&lt;/a&gt; on Saturday Sept. 25. I&#39;m going to try to hop on and listen in for at least part of the day. If you are building a personal site for yourself or are curious about digital gardens and commonplace books, you should plan to attend!&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>My six favorite utility classes</title>
