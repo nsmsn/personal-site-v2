@@ -382,6 +382,18 @@ sup a {
   letter-spacing: 1px;
 }
 
+.serif {
+  font-family: "Literata", Georgia, serif;
+}
+
+.sans {
+  font-family: "Epilogue", "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.mono {
+  font-family: "IBM Plex Mono", Consolas, Menlo, Monaco, "Andale Mono", "Lucida Console", "Courier New", Courier, monospace;
+}
+
 body {
   display: flex;
   flex-direction: column;

@@ -46,15 +46,20 @@ Email is still the <strong>best</strong> way to reach me, but I do maintain a pr
 <li><a href="https://literal.club/nsmsn" rel="me">Literal</a></li>
 <li><a href="https://reading.am/nsmsn" rel="me">Reading.am</a></li>
 <li><a href="https://twitter.com/nsmsn" rel="me">Twitter</a></li>
+<li><a href="https://keybase.io/nsmsn" rel="me">Keybase</a><br /><small class="mono">(PGP Key: 0764 C7E9 3BB0 25C0)</small></li>
 </ul>
 
 &nbsp;
 
 ## About this website
 
-This is my personal website and blog. At some point I decided that a respectable web designer needs their own place to experiment and try things out. I tinker with this site’s writing, design, and code as I feel motivated, mainly during evenings and weekends.
+This is my personal website. At some point I decided that a respectable web designer needs their own place to experiment and try things out. I tinker with this site’s writing, design, and code as I feel motivated, mainly during evenings and weekends.
+
+<strong>This website does not track you.</strong> There are no third-party cookies here, and your data isn’t collected when using this site.
 
 You can track this site’s progress and iterations at [this GitHub repo](https://github.com/nsmsn/nicksimsondotcom). This site is built and deployed with [Eleventy](https://11ty.dev/) and [Netlify](https://netlify.com). My blog posts are available in both [RSS](https://www.nicksimson.com/feed/feed.xml) and [JSON](https://www.nicksimson.com/feed/feed.json). I prioritize performance and accessibility. You can read [a note on the type](/type) to learn about the fonts in use.
+
+Want even more? You can check out my public notes at [log.nicksimson.com](https://log.nicksimson.com/).
 
 </div>
 
