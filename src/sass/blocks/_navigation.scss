@@ -17,12 +17,12 @@
   }
 
   .navigation-item a[href] {
-    color: $darkblue;
+    color: var(--link-color);
     text-decoration: none;
   }
 
   .navigation-item a:hover {
-    color: $darkred;
+    color: var(--link-hover);
   }
 
   .navigation-item-active {
@@ -38,12 +38,10 @@
 
   .footer nav ul li a, .footer a{
     font-weight: 500;
-    color: $darkblue;
     text-decoration-thickness: 2px;
     text-decoration-color: $lightblue;
   }
 
   .footer nav ul li a:hover, .footer a:hover{
-    color: $red;
     text-decoration-color: $washedred;
   }

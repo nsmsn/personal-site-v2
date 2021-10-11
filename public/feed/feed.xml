@@ -5,12 +5,88 @@
 	
 	<link href="https://nicksimson.com/feed/feed.xml" rel="self"/>
 	<link href="https://nicksimson.com/"/>
-	<updated>2021-09-07T00:00:00Z</updated>
+	<updated>2021-10-10T00:00:00Z</updated>
 	<id>https://nicksimson.com/</id>
 	<author>
 		<name>Nick Simson</name>
 		<email>nick@nicksimson.com</email>
 	</author>
+	
+	<entry>
+		<title>Now with dark mode</title>
+		<link href="https://nicksimson.com/posts/2021-redesign-dark-mode/"/>
+		<updated>2021-10-10T00:00:00Z</updated>
+		<id>https://nicksimson.com/posts/2021-redesign-dark-mode/</id>
+		<content type="html">&lt;p&gt;If your device supports a dark mode, and you’ve set this as your preference, you can now view my website in a darker color scheme. I worked on it this weekend during an &lt;a href=&quot;https://events.indieweb.org/2021/10/indieweb-create-day-ZKw5v2nFDu6f&quot;&gt;IndieWeb Create Day&lt;/a&gt;—one day dedicated to working on our personal websites or various IndieWeb projects out in the open.&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img src=&quot;https://nicksimson.com/img/post-images/2021-10-lightmode-darkmode.jpg&quot; class=&quot;panel&quot; alt=&quot;NickSimson dot com slash info&quot; /&gt;
+    &lt;figcaption&gt;My info page in both light mode and dark mode&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;I launched my site with an off-white background, so the &amp;quot;light mode&amp;quot; design will be my default design. Adding dark mode support is pretty straightforward. There is a media query for dark color scheme preference:&lt;/p&gt;
+&lt;pre&gt;
+
+@media (prefers-color-scheme: dark) {
+    
+    */ Write your dark mode styles here /*
+
+  }
+
+&lt;/pre&gt;
+&lt;p&gt;Within that rule you can write in any overrides you desire. The complexity is going to depend on how your CSS is structured. I’m using Sass on &lt;a href=&quot;http://nicksimson.com/&quot;&gt;nicksimson.com&lt;/a&gt;, and I have several places where I am declaring colors. First, I have a &lt;code&gt;_config.scss&lt;/code&gt; file where I have fonts, colors, and sizes declared as Sass variables. The colors are named things like &lt;code&gt;$darkblue&lt;/code&gt; and &lt;code&gt;$lightyellow&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Throughout my various &lt;code&gt;.scss&lt;/code&gt; files I have colors applied to the &lt;code&gt;body&lt;/code&gt;, base elements like &lt;code&gt;h1&lt;/code&gt;, and classes like &lt;code&gt;.post-tag&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;To get started, I fired up Eleventy and localhost, set my OS preferences to dark mode, and created a new &lt;code&gt;_darkmode.scss&lt;/code&gt; file. I started writing a few rules on &lt;code&gt;body&lt;/code&gt; to see how the browser rendered my site. The easiest place for me to start was to swap the text color and background color:&lt;/p&gt;
+&lt;pre&gt;
+
+@media (prefers-color-scheme: dark) {
+    
+    body {
+        background: $darkgray;
+        color: $ivory;
+    }
+
+  }
+
+&lt;/pre&gt;
+&lt;p&gt;This base rule quickly shows how many places where you may need to adjust colors to fix contrast issues. My &lt;code&gt;$darkblue&lt;/code&gt; hyperlinks for example, started to disappear into the background. I already have a &lt;a href=&quot;https://nicksimson.com/html&quot;&gt;page that displays every html element&lt;/a&gt; so I used this to quicky diagnose other elements to override. My site is not minimal in that it uses white black and blue. I have supporting text in medium gray, I apply subtle background colors to elements like &lt;code&gt;pre&lt;/code&gt; and &lt;code&gt;code&lt;/code&gt;, not to mention classes like &lt;code&gt;.post-tag&lt;/code&gt; and &lt;code&gt;.panel&lt;/code&gt;. When you highlight text on my site, it applies a high contrast highlight color scheme, so another thing I needed to override too.&lt;/p&gt;
+&lt;p&gt;Remember how I said I had several classes in several &lt;code&gt;.scss&lt;/code&gt; files applying color rules? For organizations sake it makes more sense to include the dark mode overrides in each file, rather than putting all these random elements and classes in one file. At the same time I didn&#39;t want to have to add the media query after every rule that apllied a color in the stylesheet.&lt;/p&gt;
+&lt;h2 id=&quot;css-variables-to-the-rescue&quot;&gt;CSS variables to the rescue &lt;a class=&quot;direct-link&quot; href=&quot;https://nicksimson.com/posts/2021-redesign-dark-mode/#css-variables-to-the-rescue&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;From a couple dozen colors declared in my config file, I narrowed down the big five that make up my core color scheme. I wrote these values as CSS variables on the &lt;code&gt;root&lt;/code&gt; element, named by purpose instead of color value. These are background color, text color, light text (heading levels 5 and 6 plus supporting text like &lt;code&gt;figcaption&lt;/code&gt;), link color and link hover color.&lt;/p&gt;
+&lt;pre&gt;
+
+:root {
+  --bg-color: #faf9f9;
+  --text-color: #343434;
+  --light-text: #676767;
+  --link-color: #334492;
+  --link-hover: #ee453b;
+}
+
+&lt;/pre&gt;
+&lt;p&gt;This involved changing some rules from Sass variables to these new CSS variables, like on the body element for example:&lt;/p&gt;
+&lt;pre&gt;
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+&lt;/pre&gt;
+&lt;p&gt;Going back to my &lt;code&gt;_darkmode.scss&lt;/code&gt; file, I erased my body rules and changed these root colors within the dark mode media query:&lt;/p&gt;
+&lt;pre&gt;
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg-color: #343434;
+        --text-color: #faf9f9;
+        --light-text: #c0c0c0;
+        --link-color: #a4bfeb;
+        --link-hover: #f18680;
+      }
+  }
+&lt;/pre&gt;
+&lt;p&gt;This covers most of my dark mode needs. Beyond these variables, I am still including dark mode overrides on other &lt;code&gt;.scss&lt;/code&gt; files, at the end of each stylesheet. There are only a few of these, and again they are on files like &lt;code&gt;_panel.scss&lt;/code&gt; and &lt;code&gt;_tags.scss&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;It only took a few hours and it was fun to share my work at the end of the day on Zoom with a few others in the IndieWeb community. Now I’m happy to share it with the world.&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Behold, a log!</title>

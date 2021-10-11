@@ -1,0 +1,24 @@
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg-color: #343434;
+        --text-color: #faf9f9;
+        --light-text: #c0c0c0;
+        --link-color: #a4bfeb;
+        --link-hover: #f18680;
+      }
+
+    pre, code {
+        background-color: $black;
+        color: $lightyellow;
+    }  
+
+    mark {
+        background: $pink;
+    }  
+
+    #forecast_embed{
+        background: $lightgray;
+    }
+
+  }
+  

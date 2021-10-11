@@ -1,7 +1,7 @@
 .pagination {
   font-family: $mono;
   font-size: 0.75em;
-  color: $medgray;
+  color: var(--light-text);
 
   &__inner {
     display: flex;

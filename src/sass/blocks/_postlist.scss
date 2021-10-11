@@ -31,7 +31,6 @@
 .postlist-date,
 .postlist-item:before {
   font-size: 0.8em;
-  color: $darkgray;
 }
 .postlist-date {
   word-spacing: -0.5px;
@@ -46,7 +45,7 @@
 }
 
 .postlist-link:hover {
-  color: $red;
+  color: var(--link-hover);
   text-decoration-color: $washedred;
 }
 

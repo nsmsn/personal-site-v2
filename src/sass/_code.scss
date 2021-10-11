@@ -3,7 +3,6 @@ code {
   font-family: $mono;
   font-size: .875em;
   line-height: 1.5;
-  color: var(--black);
   background-color: $lightgray;
   padding: 0 .25em;
 }
@@ -24,7 +23,6 @@ pre {
   hyphens: none;
   padding: 1em;
   margin: .5em 0;
-  background-color: $lightgray;
 }
 
 pre p {

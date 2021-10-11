@@ -94,3 +94,12 @@ mark::selection {
     background-color: $pink;
     color: black;
 }
+
+@media (prefers-color-scheme: dark) {
+
+  ::selection {
+    background: rgba(251,241,169,0.99);
+    color: $navy;
+  }
+
+}

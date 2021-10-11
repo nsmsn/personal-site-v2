@@ -51,6 +51,9 @@ Email is still the <strong>best</strong> way to reach me, but I do maintain a pr
 
 &nbsp;
 
+<small>I am not the urologist or the hockey player that share a name and Google results.</small>
+
+
 ## About this website
 
 This is my personal website. At some point I decided that a respectable web designer needs their own place to experiment and try things out. I tinker with this site’s writing, design, and code as I feel motivated, mainly during evenings and weekends.

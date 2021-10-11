@@ -36,7 +36,7 @@
     font-size: 12px;
     letter-spacing: 1px;
     display: inline-flex;
-    color: $medgray;
+    color: var(--text-light);
     text-decoration: underline;
     transform: rotate(90deg);
     margin-left: -3rem;
@@ -76,3 +76,15 @@
   from { transform:rotate(0deg); }
   to { transform:rotate(360deg); }
 }  
+
+@media (prefers-color-scheme: dark) {
+  .home a:hover .home-id {
+    color: $gold;
+  }
+  
+  
+  .home a:hover .logo .logo-path1, .home a:hover .logo .logo-path2 {
+      fill: $gold;
+    }
+
+}

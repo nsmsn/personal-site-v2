@@ -17,7 +17,7 @@ layout: layouts/home.njk
       </script>
       <noscript>Howdy.</noscript>
     </h1>
-    <p class="lede">My name is Nick, which means <em class="bg-ivory">“victory of the people.”</em> I&nbsp;design things for screens&nbsp;(mostly), paper&nbsp;(sometimes), and humans&nbsp;(always).</p>
+    <p class="lede">My name is Nick, which means <em class="highlight">“victory of the people.”</em> I&nbsp;design things for screens&nbsp;(mostly), paper&nbsp;(sometimes), and humans&nbsp;(always).</p>
 
     &nbsp;
 
@@ -28,7 +28,7 @@ layout: layouts/home.njk
     &nbsp;
 
     <h2>Lately...</h2>
-      <div class="panel bg-color-cycle">
+      <div class="panel">
       {% set maxPosts = collections.posts.length | min(1) %}
       <p>You can read my latest {% if maxPosts == 1 %}post{% else %}{{ maxPosts }} posts{% endif %}:</p>
 
@@ -60,27 +60,8 @@ layout: layouts/home.njk
 
 <style>
 
-.warning, .bg-ivory {
-  background-color: rgba(0,0,0,0.05);
-}
-
-.panel {
-  border-color: rgba(0,0,0,0.075);
-}
-
-a.post-tag {
-  background-color: rgba(0,0,0,0.075);
-  color:var(-color-dark) !important;
-}
-
-a.post-tag:hover {
-  background-color: rgba(0,0,0,0.9);
-  color: #fff !important;
-}
-
-a.postlist-link {
-  color: rgba(0,0,0,0.7);
-  text-decoration-color: rgba(0,0,0,0.3);
+.highlight {
+  background-color: rgba(0,0,0,0.125);
 }
 
 </style>

@@ -16,6 +16,11 @@
   --color-primary: #ee453b;
   --color-primary-shade: #c91c11;
   --flow-space: 1em;
+  --bg-color: #faf9f9;
+  --text-color: #343434;
+  --light-text: #676767;
+  --link-color: #334492;
+  --link-hover: #ee453b;
   font-size: calc(1rem + 0.275vw);
 }
 
@@ -112,18 +117,24 @@ mark::selection {
   color: black;
 }
 
+@media (prefers-color-scheme: dark) {
+  ::selection {
+    background: rgba(251, 241, 169, 0.99);
+    color: #1a2249;
+  }
+}
 * {
   box-sizing: border-box;
 }
 
 html,
 body {
-  padding: 0;
-  margin: 0;
+  background-color: var(--bg-color);
+  color: var(--text-color);
   font-family: "Literata", Georgia, serif;
   font-weight: 350;
-  color: #343434;
-  background-color: #faf9f9;
+  margin: 0;
+  padding: 0;
 }
 
 p:last-child {
@@ -142,7 +153,7 @@ p,
 }
 
 a[href] {
-  color: #334492;
+  color: var(--link-color);
 }
 
 b,
@@ -151,7 +162,7 @@ strong {
 }
 
 a:hover {
-  color: #ee453b;
+  color: var(--link-hover);
 }
 
 main {
@@ -186,7 +197,6 @@ code {
   font-family: "IBM Plex Mono", Consolas, Menlo, Monaco, "Andale Mono", "Lucida Console", "Courier New", Courier, monospace;
   font-size: 0.875em;
   line-height: 1.5;
-  color: var(--black);
   background-color: #e0e0e0;
   padding: 0 0.25em;
 }
@@ -208,7 +218,6 @@ pre {
   hyphens: none;
   padding: 1em;
   margin: 0.5em 0;
-  background-color: #e0e0e0;
 }
 
 pre p {
@@ -260,7 +269,7 @@ h5,
 h6 {
   font-family: "Epilogue", "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
-  color: #343434;
+  color: var(--text-color);
 }
 
 h1 {
@@ -311,7 +320,7 @@ h5 {
   font-weight: 620;
   text-transform: uppercase;
   letter-spacing: 1.5px;
-  color: #676767;
+  color: var(--light-text);
 }
 
 h6 {
@@ -319,14 +328,14 @@ h6 {
   font-weight: 520;
   text-transform: uppercase;
   letter-spacing: 1.5px;
-  color: #676767;
+  color: var(--light-text);
 }
 
 blockquote {
   margin: 1em 0;
   padding: 0.5rem 1.25rem;
   border-left: 4px solid #f18680;
-  color: #676767;
+  color: var(--light-text);
   font-family: "Epilogue", "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
   max-width: 60ch;
@@ -346,7 +355,7 @@ figcaption {
   font-family: "IBM Plex Mono", Consolas, Menlo, Monaco, "Andale Mono", "Lucida Console", "Courier New", Courier, monospace;
   font-size: 0.75em;
   font-style: italic;
-  color: #676767;
+  color: var(--light-text);
 }
 
 p {
@@ -369,7 +378,7 @@ dl dd {
   font-family: "IBM Plex Mono", Consolas, Menlo, Monaco, "Andale Mono", "Lucida Console", "Courier New", Courier, monospace;
   font-size: 0.75em;
   display: block;
-  color: #676767;
+  color: var(--light-text);
   margin-bottom: 3rem;
 }
 
@@ -580,7 +589,7 @@ header, footer {
   font-size: 12px;
   letter-spacing: 1px;
   display: inline-flex;
-  color: #676767;
+  color: var(--text-light);
   text-decoration: underline;
   transform: rotate(90deg);
   margin-left: -3rem;
@@ -622,6 +631,15 @@ header, footer {
     transform: rotate(360deg);
   }
 }
+@media (prefers-color-scheme: dark) {
+  .home a:hover .home-id {
+    color: #ffb700;
+  }
+
+  .home a:hover .logo .logo-path1, .home a:hover .logo .logo-path2 {
+    fill: #ffb700;
+  }
+}
 .navigation ul {
   display: flex;
   flex-wrap: wrap;
@@ -641,12 +659,12 @@ header, footer {
 }
 
 .navigation-item a[href] {
-  color: #334492;
+  color: var(--link-color);
   text-decoration: none;
 }
 
 .navigation-item a:hover {
-  color: #c91c11;
+  color: var(--link-hover);
 }
 
 .navigation-item-active {
@@ -662,13 +680,11 @@ header, footer {
 
 .footer nav ul li a, .footer a {
   font-weight: 500;
-  color: #334492;
   text-decoration-thickness: 2px;
   text-decoration-color: #a4bfeb;
 }
 
 .footer nav ul li a:hover, .footer a:hover {
-  color: #ee453b;
   text-decoration-color: #ffdfdf;
 }
 
@@ -705,7 +721,6 @@ header, footer {
 .postlist-date,
 .postlist-item:before {
   font-size: 0.8em;
-  color: #343434;
 }
 
 .postlist-date {
@@ -722,7 +737,7 @@ header, footer {
 }
 
 .postlist-link:hover {
-  color: #ee453b;
+  color: var(--link-hover);
   text-decoration-color: #ffdfdf;
 }
 
@@ -746,6 +761,7 @@ header, footer {
   padding: 2px 4px;
   margin-left: 0.8em;
   /* 8px /10 */
+  border: 1px solid #ffdfdf;
   background-color: #ffdfdf;
   border-radius: 0.25em;
   /* 3px /12 */
@@ -765,6 +781,22 @@ a[href].post-tag:visited {
   color: #1a2249;
 }
 
+@media (prefers-color-scheme: dark) {
+  .post-tag {
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  a[href].post-tag,
+a[href].post-tag:visited {
+    color: #ffdfdf;
+  }
+
+  a[href].post-tag:hover {
+    color: #ffb700;
+    background-color: rgba(0, 0, 0, 0);
+    border-color: #ffb700;
+  }
+}
 /* Direct Links / Markdown Headers */
 .direct-link {
   font-family: "Epilogue", "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -802,6 +834,10 @@ a[href].direct-link:focus:visited,
   border: 0;
 }
 
+.photo-border {
+  border: 1px solid rgba(0, 0, 0, 0.075);
+}
+
 /* Warning */
 .warning {
   background-color: #fbf1a9;
@@ -823,14 +859,19 @@ a[href].direct-link:focus:visited,
 
 .panel {
   background-color: white;
-  border: 1px solid #e0e0e0;
+  border: 1px solid rgba(0, 0, 0, 0.075);
   padding: 1em;
 }
 
+@media (prefers-color-scheme: dark) {
+  .panel {
+    background: #212121;
+  }
+}
 .pagination {
   font-family: "IBM Plex Mono", Consolas, Menlo, Monaco, "Andale Mono", "Lucida Console", "Courier New", Courier, monospace;
   font-size: 0.75em;
-  color: #676767;
+  color: var(--light-text);
 }
 .pagination__inner {
   display: flex;
@@ -868,7 +909,7 @@ a[href].direct-link:focus:visited,
 .lib-cover {
   height: 200px;
   width: auto;
-  border: 1px solid #c0c0c0;
+  border: 1px solid rgba(0, 0, 0, 0.075);
 }
 
 .lib-title:hover {
@@ -897,7 +938,7 @@ a[href].direct-link:focus:visited,
 .work-keywords {
   font-family: "IBM Plex Mono", Consolas, Menlo, Monaco, "Andale Mono", "Lucida Console", "Courier New", Courier, monospace;
   font-size: 0.75em;
-  color: #676767;
+  color: var(--light-text);
 }
 
 .work-website {
@@ -2905,6 +2946,28 @@ a[href].direct-link:focus:visited,
   animation-name: fadeOutBottomLeft;
 }
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-color: #343434;
+    --text-color: #faf9f9;
+    --light-text: #c0c0c0;
+    --link-color: #a4bfeb;
+    --link-hover: #f18680;
+  }
+
+  pre, code {
+    background-color: #212121;
+    color: #fbf1a9;
+  }
+
+  mark {
+    background: #ff80cc;
+  }
+
+  #forecast_embed {
+    background: #e0e0e0;
+  }
+}
 /**
  * a11y-dark theme for JavaScript, CSS, and HTML
  * Based on the okaidia theme: https://github.com/PrismJS/prism/blob/gh-pages/themes/prism-okaidia.css

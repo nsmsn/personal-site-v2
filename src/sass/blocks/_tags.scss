@@ -6,6 +6,7 @@
     font-size: 0.625em; /* 10px /16 */
     padding: 2px 4px;
     margin-left: 0.8em; /* 8px /10 */
+    border: 1px solid $washedred;
     background-color: $washedred;
     border-radius: 0.25em; /* 3px /12 */
     text-decoration: none;
@@ -22,4 +23,21 @@
   a[href].post-tag,
   a[href].post-tag:visited {
     color:$navy;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .post-tag {
+      background-color: rgba(0,0,0,0);
+    }
+
+    a[href].post-tag,
+    a[href].post-tag:visited {
+      color:$washedred;
+    }
+
+    a[href].post-tag:hover {
+      color: $gold;
+      background-color: rgba(0,0,0,0);
+      border-color: $gold;
+    }
   }
