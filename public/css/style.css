@@ -2958,7 +2958,7 @@ a[href].direct-link:focus:visited,
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg-color: #343434;
+    --bg-color: #292929;
     --text-color: #faf9f9;
     --light-text: #c0c0c0;
     --link-color: #a4bfeb;
