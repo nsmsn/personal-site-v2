@@ -552,6 +552,16 @@ header, footer {
   white-space: nowrap;
 }
 
+@media (prefers-color-scheme: dark) {
+  .skip-link {
+    background-color: #5e2ca5;
+    color: #fff !important;
+  }
+
+  .skip-link:hover {
+    background: #046b53;
+  }
+}
 .site-head {
   padding: 0.6rem 0;
   line-height: 1.1;
@@ -2965,7 +2975,7 @@ a[href].direct-link:focus:visited,
   }
 
   #forecast_embed {
-    background: #e0e0e0;
+    background: #b682f5;
   }
 }
 /**

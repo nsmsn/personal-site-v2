@@ -30,3 +30,15 @@
     width: 1px;
     white-space: nowrap;
   }
+
+  @media (prefers-color-scheme: dark) {
+    .skip-link {
+      background-color: $purple;
+      color: #fff !important;
+    }
+
+    .skip-link:hover {
+      background: $darkgreen;
+    }
+
+  }
