@@ -21,7 +21,7 @@ I am working on the following:
 
 - <a href="http://www.worldcat.org/oclc/855246544"><i>Dune</i></a> by Frank&nbsp;Herbert 🎧
 
-- <a href="http://www.worldcat.org/oclc/881826433"><i>Bird on Fire : Lessons from the world's least sustainable city</i></a> by Andrew&nbsp;Ross 📱
+- <a href="http://www.worldcat.org/oclc/881826433"><i>Bird on Fire: Lessons from the world's least sustainable city</i></a> by Andrew&nbsp;Ross 📱
 
 - <a href="http://www.worldcat.org/oclc/1000318148"><i>Arbitrary Stupid Goal</i></a> by Tamara&nbsp;Shopsin 📖
 
