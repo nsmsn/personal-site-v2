@@ -5,9 +5,9 @@ templateClass: tmpl-page
 permalink: /now/
 ---
 
-<small class="timestamp">Updated <time datetime="2022-01-02">January 2, 2022</time></small>
+<small class="timestamp">Updated <time datetime="2022-03-13">March 13, 2022</time></small>
 
-My spouse and I are expecting our first child, somewhere around the first week of March. I am looking forward to becoming a parent! 
+We recently welcomed the arrival of our <a href="/posts/2022-lullabies/">first child</a>! I’m taking several weeks for parental leave and getting to know this new tiny person.
 
 ## Learning
 
@@ -17,13 +17,7 @@ I am also working toward [certification as an accessibility professional](https:
 
 ## Reading
 
-I am working on the following:
-
-- <a href="http://www.worldcat.org/oclc/855246544"><i>Dune</i></a> by Frank&nbsp;Herbert 🎧
-
-- <a href="http://www.worldcat.org/oclc/881826433"><i>Bird on Fire: Lessons from the world's least sustainable city</i></a> by Andrew&nbsp;Ross 📱
-
-- <a href="http://www.worldcat.org/oclc/1000318148"><i>Arbitrary Stupid Goal</i></a> by Tamara&nbsp;Shopsin 📖
+I am currently reading <a href="https://www.versobooks.com/books/3945-the-south"><i>The South: Jim Crow and Its Afterlives</i></a> by Adolph L. Reed, Jr.
 
 ## Knoxville
 
