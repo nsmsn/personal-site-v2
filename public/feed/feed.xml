@@ -255,21 +255,6 @@ body {
 	</entry>
 	
 	<entry>
-		<title>Behold, a log!</title>
-		<link href="https://nicksimson.com/posts/2021-behold-a-log/"/>
-		<updated>2021-09-07T00:00:00Z</updated>
-		<id>https://nicksimson.com/posts/2021-behold-a-log/</id>
-		<content type="html">&lt;p&gt;After an excited burst &lt;a href=&quot;https://nicksimson.com/posts/2021-commonplace-books/&quot;&gt;writing about commonplace books and mind gardens&lt;/a&gt;, I spent a small chunk of my Labor Day weekend setting up a new site for public note-taking. For now, I’m referring to it as my &lt;a href=&quot;https://log.nicksimson.com/&quot;&gt;log&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;I find myself the owner of not one, but two personal sites now. Let’s see how long this will last.&lt;/p&gt;
-&lt;p&gt;Privately, I take a lot of notes. For digital notes, I’ve used &lt;a href=&quot;https://evernote.com/&quot;&gt;Evernote&lt;/a&gt; going back to January 2013. Analog notes are taken on paper, preferably in a &lt;a href=&quot;https://rhodiapads.com/collections_dot_top_wirebound.php&quot;&gt;spiral-bound Rhodia dot-grid pad&lt;/a&gt;. My social feeds on &lt;a href=&quot;https://www.are.na/nick-simson&quot;&gt;Are.na&lt;/a&gt; and &lt;a href=&quot;https://reading.am/nsmsn&quot;&gt;Reading.am&lt;/a&gt; are full of signals: bits of the internet I feel compelled to curate or share, for whatever reason. And then there are highlights in Instapaper, highlights in my eBook reading apps, the occasional &lt;a href=&quot;https://twitter.com/nsmsn&quot;&gt;tweet&lt;/a&gt; and other bits of digital ephemera.&lt;/p&gt;
-&lt;p&gt;I envision &lt;a href=&quot;https://log.nicksimson.com/&quot;&gt;log.nicksimson.com&lt;/a&gt; to be the place where I can make sense of all this &lt;em&gt;stuff&lt;/em&gt;: sharing the meaningful parts of the books, articles, and media I consume; sharing the details of a new typeface for possible use in a later project; publishing notes during the development or after the launch of new website.&lt;/p&gt;
-&lt;p&gt;The brief notes in the log will feed the longer, more sporadic posts on this main website. Or maybe the twenty-something posts here will migrate to the log. I haven’t decided yet. I wrote &lt;a href=&quot;https://log.nicksimson.com/hello-world/&quot;&gt;an introductory post&lt;/a&gt; detailing more of the possibilities for the log.&lt;/p&gt;
-&lt;p&gt;I’m using WordPress’ &lt;a href=&quot;https://wordpress.org/support/article/post-formats/&quot;&gt;post formats&lt;/a&gt; to publish these things, and the power of categories and &lt;a href=&quot;https://log.nicksimson.com/index/&quot;&gt;tags&lt;/a&gt; to catalog it all. The log is &lt;a href=&quot;https://indieweb.org/&quot;&gt;IndieWeb&lt;/a&gt; enabled, thanks to a &lt;a href=&quot;https://notiz.blog/projects/autonomie/&quot;&gt;beautiful theme by Matthias Pfefferle&lt;/a&gt;, and &lt;a href=&quot;https://wordpress.org/plugins/tags/indieweb/&quot;&gt;plugins&lt;/a&gt; by Pfefferle, &lt;a href=&quot;https://david.shanske.com/&quot;&gt;David Shanske&lt;/a&gt;, and others.&lt;/p&gt;
-&lt;p&gt;There’s only a few posts up now, but you can &lt;a href=&quot;https://log.nicksimson.com/&quot;&gt;have a look&lt;/a&gt; and let me know if anything’s buggy. Feel free to grab the &lt;a href=&quot;https://log.nicksimson.com/feed&quot;&gt;RSS feed&lt;/a&gt;, or &lt;a href=&quot;https://log.nicksimson.com/wp-json/wp/v2/posts&quot;&gt;JSON feed&lt;/a&gt; if that’s your jam.&lt;/p&gt;
-</content>
-	</entry>
-	
-	<entry>
 		<title>Commonplace books, gardens, and streams</title>
 		<link href="https://nicksimson.com/posts/2021-commonplace-books/"/>
 		<updated>2021-09-04T00:00:00Z</updated>
