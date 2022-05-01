@@ -56,7 +56,7 @@ Email is still the <strong>best</strong> way to reach me, but I do maintain a pr
 
 ## About this website
 
-This is my personal website. At some point I decided that a respectable web designer needs their own place to experiment and try things out. I tinker with this site’s writing, design, and code as I feel motivated, mainly during evenings and weekends.
+This is my personal website. I use this as my own place to experiment and try things out. I tinker with this site’s writing, design, and code as I feel motivated, mainly during evenings and weekends.
 
 <strong>This website does not track you.</strong> There are no third-party cookies here, and your data isn’t collected when using this site.
 
