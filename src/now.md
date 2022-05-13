@@ -5,9 +5,9 @@ templateClass: tmpl-page
 permalink: /now/
 ---
 
-<small class="timestamp">Updated <time datetime="2022-03-13">March 13, 2022</time></small>
+<small class="timestamp">Updated <time datetime="2022-05-13T12:16:48Z">May 13, 2022</time></small>
 
-We recently welcomed the arrival of our <a href="/posts/2022-lullabies/">first child</a>! I’m taking several weeks for parental leave and getting to know this new tiny person.
+I’m back at work from parental leave and reconciling my old routine and responsibilities with my new ones. Our baby seems to be doing pretty well so far.
 
 ## Learning
 
@@ -17,7 +17,9 @@ I am also working toward [certification as an accessibility professional](https:
 
 ## Reading
 
-I am currently reading <a href="https://www.versobooks.com/books/3945-the-south"><i>The South: Jim Crow and Its Afterlives</i></a> by Adolph L. Reed, Jr.
+I set up a <a href="https://log.nicksimson.com/nightstand/">nightstand</a> over on my [microblog](https://log.nicksimson.com/), which is updated automatically as I use Micro.blog to track my reading habits.
+
+Current titles (as of this update) include <a href="http://www.worldcat.org/oclc/763157781"><i>Bird on Fire: Lessons from the World’s Least Sustainable City</i></a> by Andrew Ross and <a href="http://www.worldcat.org/oclc/1309129003"><i>Worn: a People's History of Clothing</i></a> by Sofi Thanhauser.
 
 ## Knoxville
 
