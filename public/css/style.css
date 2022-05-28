@@ -1442,6 +1442,19 @@ a[href].direct-link:focus:visited,
     margin: 0 0 0.5em 1em;
   }
 }
+.literal-book-item a {
+  text-decoration: none;
+  font-family: "Epilogue", "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#literal-widget .literal-book-item__title {
+  color: var(--text-color) !important;
+}
+
+#literal-widget .literal-book-item__authors {
+  color: var(--light-text) !important;
+}
+
 .img-multiply {
   mix-blend-mode: multiply;
 }

@@ -5,7 +5,7 @@ templateClass: tmpl-page
 permalink: /now/
 ---
 
-<small class="timestamp">Updated <time datetime="2022-05-13T12:16:48Z">May 13, 2022</time></small>
+<small class="timestamp">Updated <time datetime="2022-05-28T12:16:48Z">May 28, 2022</time></small>
 
 I’m back at work from parental leave and reconciling my old routine and responsibilities with my new ones. Our baby seems to be doing pretty well so far.
 
@@ -17,9 +17,10 @@ I am also working toward [certification as an accessibility professional](https:
 
 ## Reading
 
-I set up a <a href="https://log.nicksimson.com/nightstand/">nightstand</a> over on my [microblog](https://log.nicksimson.com/), which is updated automatically as I use Micro.blog to track my reading habits.
+There are no reading goals for 2022 except to read a little each day. I am using both [Literal](https://literal.club/nsmsn/is-reading) and <a href="https://log.nicksimson.com/categories/books/">Micro.blog</a> to track my reading.
 
-Current titles (as of this update) include <a href="http://www.worldcat.org/oclc/763157781"><i>Bird on Fire: Lessons from the World’s Least Sustainable City</i></a> by Andrew Ross and <a href="http://www.worldcat.org/oclc/1309129003"><i>Worn: a People's History of Clothing</i></a> by Sofi Thanhauser.
+<div id="literal-widget" handle="nsmsn" status="IS_READING" layout="list"></div>
+<script src="https://literal.club/js/widget.js"></script>
 
 ## Knoxville
 
