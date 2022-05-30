@@ -5,12 +5,35 @@
 	
 	<link href="https://nicksimson.com/feed/feed.xml" rel="self"/>
 	<link href="https://nicksimson.com/"/>
-	<updated>2022-05-01T20:18:23Z</updated>
+	<updated>2022-05-30T11:23:57Z</updated>
 	<id>https://nicksimson.com/</id>
 	<author>
 		<name>Nick Simson</name>
 		<email>nick@nicksimson.com</email>
 	</author>
+	
+	<entry>
+		<title>Adding an accessibility statement</title>
+		<link href="https://nicksimson.com/posts/2022-writing-a11y-statement/"/>
+		<updated>2022-05-30T11:23:57Z</updated>
+		<id>https://nicksimson.com/posts/2022-writing-a11y-statement/</id>
+		<content type="html">&lt;p&gt;With the latest deployment of this website, you should be able to see a link labeled “Accessibility” in the &lt;code&gt;footer&lt;/code&gt;. This will take you to my &lt;a href=&quot;https://nicksimson.com/accessibility/&quot;&gt;accessibility statement&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Why publish an accessibility statement on a personal website? These things are far more common on government websites, or education institutions, and many large corporations. In many cases these organizations are leagally required to provide such a statement.&lt;/p&gt;
+&lt;p&gt;Recently, I discovered &lt;a href=&quot;https://ethanmarcotte.com/wrote/an-accessibility-statement/&quot;&gt;Ethan Marcotte’s blog post about his website accessibility statement&lt;/a&gt;. He quotes the &lt;a href=&quot;https://www.w3.org/WAI/planning/statements/&quot;&gt;Web Accessibility Initiative&lt;/a&gt; on why an accessibility statement is helpful:&lt;/p&gt;
+&lt;blockquote&gt;
+Accessibility statements are important for several reasons:
+&lt;ul&gt;
+&lt;li&gt;Show your users that you care about accessibility and about them&lt;/li&gt;
+&lt;li&gt;Provide them with information about the accessibility of your content&lt;/li&gt;
+&lt;li&gt;Demonstrate commitment to accessibility, and to social responsibility&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;When I set out to &lt;a href=&quot;https://nicksimson.com/posts/2020-newww-year/&quot;&gt;redesign my site in December 2020&lt;/a&gt;, providing an accessible experience was top of mind. With every new feature and page I add to my website, I consider accessibility and do my best to address it.&lt;/p&gt;
+&lt;p&gt;Often times this looks like running a URL through an automated accessibility checker. I personally love browser-based tools, and my longtime favorites are &lt;a href=&quot;https://wave.webaim.org/&quot;&gt;WAVE&lt;/a&gt; and &lt;a href=&quot;https://tenon.io/&quot;&gt;Tenon&lt;/a&gt;. These tools are good, and it’s fun or challenging to get a “score”. But they’re only capable of catching &lt;a href=&quot;https://marcysutton.com/evinced-automated-accessibility-testing&quot;&gt;30-50% of accessibility issues on a page&lt;/a&gt;, so it’s important to do some manual checks.&lt;/p&gt;
+&lt;p&gt;I &lt;a href=&quot;https://github.com/nsmsn/nicksimsondotcom/commit/929d7530e076763228f86a0775178f3b530688bb&quot;&gt;fixed an issue&lt;/a&gt; recently on my &lt;a href=&quot;https://nicksimson.com/library/&quot;&gt;Library page&lt;/a&gt;, when I discovered redundant alt text on linked images. In this case, I had both a book cover image and book title linked and going to the same destination, and I was using the book title as the image’s &lt;code&gt;alt&lt;/code&gt; attribute. I was trained to always use alt text on a linked image, but in this case if there is text in the link describing the link destination, it is OK to use an empty &lt;code&gt;alt=&amp;quot;&amp;quot;&lt;/code&gt;. &lt;a href=&quot;https://blog.pope.tech/2020/03/13/linked-image-missing-alternative-text-example/&quot;&gt;Pope Tech has a great blog post on this&lt;/a&gt;, using an image card component as an example.&lt;/p&gt;
+&lt;p&gt;An accessibility statement is not going to prevent me from running into issues like this, but it does communicate my dedication to fixing these things as I discover them. I also included two ways my audience can report accessibility issues or barriers to me. Finally, I thought it was important to state that I am always learning new things about digital accessibility and will share what I learn.&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Ditch Twitter. And Instagram. And Goodreads.</title>

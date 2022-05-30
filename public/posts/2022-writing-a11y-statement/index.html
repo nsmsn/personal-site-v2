@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adding an accessibility statement</title>
+    <meta name="description" content="An important new feature to this site.">
+    <link rel="stylesheet" href="/css/style.css">
+    <!--<link rel="stylesheet" href="/css/prism-base16-monokai.dark.css">-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,400..900;1,400..800&family=IBM+Plex+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Literata:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Nick Simson">
+    <link rel="alternate" href="/feed/feed.json" type="application/json" title="Nick Simson">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="icon" href="/img/meta/favicon.svg" type="image/svg+xml" />
+  
+  <link rel="webmention" href="https://webmention.io/www.nicksimson.com/webmention" />
+  <link rel="pingback" href="https://webmention.io/www.nicksimson.com/xmlrpc" />
+  </head>
+  <body>
+    <header class="site-head">
+    <a href="#main-content" class="skip-link">Skip to content</a>
+  <div class="wrapper">
+    <div class="site-head__inner">
+
+      <h1 class="home"><a href="/" rel="author"><span class="home-id">Nick Simson</span><svg class="logo" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 100 100" xml:space="preserve" width="40" height="40">
+  <style>
+    .logo-path1{fill:#ee453b}
+    .logo-path2{fill:#ee453b}
+  </style>
+  <g id="Layer_1_2_">
+    <path class="logo-path1" d="M82.7 16.7C66.8.8 41.1.8 25.3 16.7 9.6 32.3 9.4 57.4 24.5 73.3l17.9-37c.2-.5.8-.6 1.2-.2l10.3 10.3c.3.3.8.3 1.1 0l27.7-29.7z"/>
+    <path class="logo-path2" d="M17.3 83.3c15.9 15.9 41.6 15.9 57.4 0 15.6-15.6 15.8-40.7.8-56.6l-17.9 37c-.2.5-.8.6-1.2.2L46.2 53.6c-.3-.3-.8-.3-1.1 0L17.3 83.3z"/>
+  </g>
+</svg></a></h1>
+    <nav class="navigation" aria-label="primary">
+      <ul role="list">
+        <li class="navigation-item"><a href="/work/">Work</a></li>
+        <li class="navigation-item"><a href="/posts/">Archive</a></li>
+        <li class="navigation-item"><a href="/info/">Info</a></li>
+      </ul>
+    </nav>
+  </div>
+  </div>
+    </header>
+
+      <!-- Delete this message
+      <div class="warning flow">
+        🚩 <em>Warning message goes here.</em>
+      </div>
+       -->
+
+    <main id="main-content"  class="tmpl-post flow container animate__animated animate__fadeIn">
+
+      
+<article class="h-entry">
+
+<h1 class="p-name">Adding an accessibility statement</h1>
+
+<small class="timestamp">Published <time class="dt-published" datetime="2022-05-30"><a class="u-url" href=".">30 May 2022</a></time> by <a rel="author" class="p-author h-card" href="/info/">Nick</a></small>
+
+<div class="e-content flow">
+<p>With the latest deployment of this website, you should be able to see a link labeled “Accessibility” in the <code>footer</code>. This will take you to my <a href="/accessibility/">accessibility statement</a>.</p>
+<p>Why publish an accessibility statement on a personal website? These things are far more common on government websites, or education institutions, and many large corporations. In many cases these organizations are leagally required to provide such a statement.</p>
+<p>Recently, I discovered <a href="https://ethanmarcotte.com/wrote/an-accessibility-statement/">Ethan Marcotte’s blog post about his website accessibility statement</a>. He quotes the <a href="https://www.w3.org/WAI/planning/statements/">Web Accessibility Initiative</a> on why an accessibility statement is helpful:</p>
+<blockquote>
+Accessibility statements are important for several reasons:
+<ul>
+<li>Show your users that you care about accessibility and about them</li>
+<li>Provide them with information about the accessibility of your content</li>
+<li>Demonstrate commitment to accessibility, and to social responsibility</li>
+</ul>
+</blockquote>
+<p>When I set out to <a href="/posts/2020-newww-year/">redesign my site in December 2020</a>, providing an accessible experience was top of mind. With every new feature and page I add to my website, I consider accessibility and do my best to address it.</p>
+<p>Often times this looks like running a URL through an automated accessibility checker. I personally love browser-based tools, and my longtime favorites are <a href="https://wave.webaim.org">WAVE</a> and <a href="https://tenon.io/">Tenon</a>. These tools are good, and it’s fun or challenging to get a “score”. But they’re only capable of catching <a href="https://marcysutton.com/evinced-automated-accessibility-testing">30-50% of accessibility issues on a page</a>, so it’s important to do some manual checks.</p>
+<p>I <a href="https://github.com/nsmsn/nicksimsondotcom/commit/929d7530e076763228f86a0775178f3b530688bb">fixed an issue</a> recently on my <a href="/library/">Library page</a>, when I discovered redundant alt text on linked images. In this case, I had both a book cover image and book title linked and going to the same destination, and I was using the book title as the image’s <code>alt</code> attribute. I was trained to always use alt text on a linked image, but in this case if there is text in the link describing the link destination, it is OK to use an empty <code>alt=&quot;&quot;</code>. <a href="https://blog.pope.tech/2020/03/13/linked-image-missing-alternative-text-example/">Pope Tech has a great blog post on this</a>, using an image card component as an example.</p>
+<p>An accessibility statement is not going to prevent me from running into issues like this, but it does communicate my dedication to fixing these things as I discover them. I also included two ways my audience can report accessibility issues or barriers to me. Finally, I thought it was important to state that I am always learning new things about digital accessibility and will share what I learn.</p>
+
+</div>
+</article>
+
+<div>
+&nbsp;
+</div>
+
+<footer class="pagination">
+<hr>
+<ul class="list-unstyled pagination__inner"><li class="">Previous: <a href="/posts/2022-ditch-twitter/">Ditch Twitter. And Instagram. And Goodreads.</a></li>
+</ul>
+</footer>
+    </main>
+
+    <footer role="contentinfo" class="footer pt-7">
+
+	<p>Images and text © 2022 <a href="https://nicksimson.com" rel="author" >Nick Simson</a>.
+ &nbsp;</p>
+
+<div>
+<a href="/accessibility/">Accessibility</a> &nbsp; &#8226; &nbsp; <a href="#top">Back to top</a>
+<div>
+
+</footer>
+
+    <!-- Current page: /posts/2022-writing-a11y-statement/ -->
+  </body>
+</html>

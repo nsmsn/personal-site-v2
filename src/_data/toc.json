@@ -26,9 +26,9 @@
         "url": "/library"
       },
       {
-        "title": "html",
-        "description": "Bare-bones style guide",
-        "url": "/html"
+        "title": "accessibility",
+        "description": "My accessibility statement",
+        "url": "/accessibility/"
       },
       {
         "title": "recommends",
@@ -40,6 +40,11 @@
         "description": "Like an about page, but more immediate",
         "url": "/now"
       },
+      {
+        "title": "html",
+        "description": "Bare-bones style guide",
+        "url": "/html"
+      },      
       {
         "title": "type",
         "description": "A note on the type",
