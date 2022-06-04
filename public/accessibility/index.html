@@ -71,7 +71,7 @@
 <h2 id="features">Features <a class="direct-link" href="#features">#</a></h2>
 <p>Pages are structured with semantic elements like <code>header</code>, <code>nav</code>, <code>main</code>, and <code>footer</code>, which may help you move around more quickly. The main content area of each page is marked with a <code>h1</code> (heading level 1), and each page’s structure should follow a logical heading order from there.</p>
 <p>Each page on this website has a “skip to content” link at the top, and a “back to top” link at the very bottom.</p>
-<p>Images are described with text alternatives, using the <code>alt</code> attribute. This website’s colors were chosen to ensure there is sufficient color contrast between elements on each page. My site has been coded to honor user device preferences whenever possible.</p>
+<p>Images are described with <a href="https://www.a11yproject.com/posts/alt-text/">text alternatives</a>, using the <code>alt</code> attribute. This website’s colors were chosen to ensure there is sufficient color contrast between elements on each page. My site has been coded to honor user device preferences whenever possible.</p>
 <p>I strive to use <a href="https://www.plainlanguage.gov/about/definitions/">plain language</a> throughout this site and use a <a href="https://readabilityformulas.com/free-readability-formula-tests.php">readability checker</a> to test my content and improve my writing.</p>
 <h2 id="known-issues">Known Issues <a class="direct-link" href="#known-issues">#</a></h2>
 <p>I use a third-party weather widget on my <a href="/now/">/now page</a> that includes dark red text when there is a Weather Advisory for the Knoxville area. Visitors using the site in dark mode may experience text contrast issues with this dark red text.</p>
@@ -80,6 +80,19 @@
 <p>I am personally committed to educating myself on digital accessibility, sharing what I learn, and putting it into practice. That said, if you encounter any difficulty using my site, please let me know! You may <a href="https://github.com/nsmsn/nicksimsondotcom/issues">file an issue on GitHub</a> or <a href="mailto:nick@nicksimson.com">email me directly</a>. I take these issues very seriously and welcome your feedback and suggestions.</p>
 <p> </p>
 <p><small>This page is heavily influenced by (and borrows liberally from) statements by <a href="https://ericwbailey.design/accessibility-statement/">Eric Bailey</a>, <a href="https://cariefisher.com/accessibility/">Carie Fisher</a>,<a href="https://ethanmarcotte.com/accessibility/">Ethan Marcotte</a>, and <a href="https://marcysutton.com/accessibility">Marcy Sutton</a>. You should check out their work and writing.</small></p>
+<p> </p>
+<p> </p>
+<h2 id="a11y*-resources">A11y* Resources <a class="direct-link" href="#a11y*-resources">#</a></h2>
+<p>The links below have helped me in my ongoing accessibility education. Most of these are beginner-friendly entry points to what can be a broad and sometimes complex topic. There are many more resources out there, but these are a few of my favorites.</p>
+<ul>
+<li><a href="https://www.a11yproject.com/">The A11y Project</a></li>
+<li><a href="https://webaim.org/">WebAIM.org</a></li>
+<li><a href="https://a11ymyths.com/">Accessibility Myths</a></li>
+<li><a href="https://a11yweekly.com/">Accessibility Weekly</a> <small>(email newsletter)</small></li>
+<li><a href="https://a11ytalks.com/">A11y Talks</a> <small>(virtual meetup)</small></li>
+<li><a href="https://equalizedigital.com/wordpress-accessibility-meetup/">WordPress Accessibility Meetup</a> <small>(virtual meetup)</small></li>
+</ul>
+<p>*<small><strong>A11y</strong> is a compact abbreviation for <em>accessibility</em> with <strong>11</strong> (eleven) representing the count of letters between the letter <strong>a</strong> and the letter <strong>y</strong>.</small></p>
 
 
 
@@ -87,12 +100,12 @@
 
     <footer role="contentinfo" class="footer pt-7">
 
-	<p>Images and text © 2022 <a href="https://nicksimson.com" rel="author" >Nick Simson</a>.
- &nbsp;</p>
+	<div>Images and text © 2022 <a href="https://nicksimson.com" rel="author" class="footer-link" >Nick Simson</a>.
+ &nbsp;</div>
 
-<div>
-<a href="/accessibility/">Accessibility</a> &nbsp; &#8226; &nbsp; <a href="#top">Back to top</a>
-<div>
+<div class="footer-links">
+<a href="/accessibility/" class="footer-link">Accessibility</a> &nbsp; &#8226; &nbsp; <a href="#top"><span class="footer-link">Back to top</span> <span class="manicule">☝️</span></a>
+</div>
 
 </footer>
 

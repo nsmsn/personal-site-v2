@@ -32,12 +32,16 @@ header, footer {
     opacity: 78%;
 }
 
-@media screen and (min-width: 65em) {
+@media screen and (min-width: 88em) {
   .footer {
     display: grid;
     grid-template-columns: 4fr 1fr;
     grid-template-rows: auto;
     gap: 2rem;
+  }
+
+  .footer div.footer-links{
+    margin-top: -.25em;
   }
 }
 

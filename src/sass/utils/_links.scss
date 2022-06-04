@@ -2,3 +2,20 @@
     text-decoration: none;
     font-size: larger;
 }
+
+.footer-link, a.footer-link{
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: $lightblue;
+}
+
+.footer-link:hover, a.footer-link:hover{
+    text-decoration-color: $washedred;
+  }
+
+.manicule{
+    text-decoration: none !important;
+    font-size: $size4;
+    -webkit-filter: grayscale(100%);
+   filter: grayscale(100%);
+}
