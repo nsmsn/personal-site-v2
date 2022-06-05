@@ -117,6 +117,10 @@ mark::selection {
   color: black;
 }
 
+mark a {
+  color: black !important;
+}
+
 @media (prefers-color-scheme: dark) {
   ::selection {
     background: rgba(251, 241, 169, 0.99);
@@ -374,6 +378,10 @@ dl dd {
   padding-bottom: 0.75em;
 }
 
+ol, ul {
+  padding: 0 1em;
+}
+
 .timestamp {
   font-family: "IBM Plex Mono", Consolas, Menlo, Monaco, "Andale Mono", "Lucida Console", "Courier New", Courier, monospace;
   font-size: 0.75em;
@@ -447,6 +455,11 @@ header, footer {
 
   .footer div.footer-links {
     margin-top: -0.25em;
+  }
+}
+@media screen and (max-width: 45em) {
+  .superfluous {
+    display: block;
   }
 }
 .container {

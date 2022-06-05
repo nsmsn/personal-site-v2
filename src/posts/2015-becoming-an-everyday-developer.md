@@ -99,5 +99,5 @@ Also, the technology industry is rotten with misogyny, racism, and entitlement; 
 - Stephen Hay, <em><a href="http://www.the-haystack.com/2015/07/03/my-name-is-stephen-and-im-a-generalist/">My name is Stephen and I'm a generalist</a></em>
 - David Kadavy, [How to Learn Web Design](http://designforhackers.com/blog/how-to-learn-web-design/)
 - Erik Runyon, [Lessons learned from my first semester of teaching](http://erikrunyon.com/2014/01/lessons-learned-from-my-first-semester-of-teaching/)
-- Kylie Timpani, [Dear Developer. Love, Designer.](http://humaan.com/dear-developer-love-designer/)
+- Kylie Timpani, [Dear Developer. Love, Designer.](https://humaan.com/blog/dear-developer-love-designer/)
 - The Web Ahead, ep. 101: [Structuring Content with Eileen Webb](http://thewebahead.net/101)

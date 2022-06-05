@@ -62,17 +62,13 @@
 <small class="timestamp">Published <time class="dt-published" datetime="2022-05-30"><a class="u-url" href=".">30 May 2022</a></time> by <a rel="author" class="p-author h-card" href="/info/">Nick</a></small>
 
 <div class="e-content flow">
-<p>With the latest deployment of this website, you should be able to see a link labeled “Accessibility” in the <code>footer</code>. This will take you to my <a href="/accessibility/">accessibility statement</a>.</p>
-<p>Why publish an accessibility statement on a personal website? These things are far more common on government websites, or education institutions, and many large corporations. In many cases these organizations are leagally required to provide such a statement.</p>
-<p>Recently, I discovered <a href="https://ethanmarcotte.com/wrote/an-accessibility-statement/">Ethan Marcotte’s blog post about his website accessibility statement</a>. He quotes the <a href="https://www.w3.org/WAI/planning/statements/">Web Accessibility Initiative</a> on why an accessibility statement is helpful:</p>
-<blockquote>
-Accessibility statements are important for several reasons:
+<p>With the latest deployment of this website, you should be able to see a link labeled “Accessibility” in the <code>footer</code>. This will take you to my <a href="/accessibility/">accessibility statement</a>. This is important to me for a few reasons:</p>
 <ul>
-<li>Show your users that you care about accessibility and about them</li>
-<li>Provide them with information about the accessibility of your content</li>
-<li>Demonstrate commitment to accessibility, and to social responsibility</li>
+<li>I tried to make all the features and content on my site as accessible as I know how to do. I want my users to know I care about them.</li>
+<li>I want people who work with me to understand the importance of digital accessibility and my commitment to ongoing learning and social responsibility.</li>
+<li>If there are errors or accessibility issues on my site, I need to know about them so I can go about fixing them as quickly as possible.</li>
 </ul>
-</blockquote>
+<p>It’s far more common to see accessibility statements where they may be legally required, such as large corporations, governments, and education websites. I have noticed a few people I look up to include statements on their personal sites, and I’ve linked to them on my own page. I hope this is a trend that continues!</p>
 <p>When I set out to <a href="/posts/2020-newww-year/">redesign my site in December 2020</a>, providing an accessible experience was top of mind. With every new feature and page I add to my website, I consider accessibility and do my best to address it.</p>
 <p>Often times this looks like running a URL through an automated accessibility checker. I personally love browser-based tools, and my longtime favorites are <a href="https://wave.webaim.org">WAVE</a> and <a href="https://tenon.io/">Tenon</a>. These tools are good, and it’s fun or challenging to get a “score”. But they’re only capable of catching <a href="https://marcysutton.com/evinced-automated-accessibility-testing">30-50% of accessibility issues on a page</a>, so it’s important to do some manual checks.</p>
 <p>I <a href="https://github.com/nsmsn/nicksimsondotcom/commit/929d7530e076763228f86a0775178f3b530688bb">fixed an issue</a> recently on my <a href="/library/">Library page</a>, when I discovered redundant alt text on linked images. In this case, I had both a book cover image and book title linked and going to the same destination, and I was using the book title as the image’s <code>alt</code> attribute. I was trained to always use alt text on a linked image, but in this case if there is text in the link describing the link destination, it is OK to use an empty <code>alt=&quot;&quot;</code>. <a href="https://blog.pope.tech/2020/03/13/linked-image-missing-alternative-text-example/">Pope Tech has a great blog post on this</a>, using an image card component as an example.</p>
@@ -94,11 +90,37 @@ Accessibility statements are important for several reasons:
 
     <footer role="contentinfo" class="footer pt-7">
 
-	<div>Images and text © 2022 <a href="https://nicksimson.com" rel="author" class="footer-link" >Nick Simson</a>.
- &nbsp;</div>
+	<div>
+  <small>Images and text © 2022 <a href="https://nicksimson.com" rel="author" class="footer-link" >Nick Simson</a>.</small> 
+  
+  <script type="text/javascript">
+<!--
+var r_text = new Array ();
+r_text[0] = "Thanks for stopping by.";
+r_text[1] = "For all your nicksimsondotcom needs.";
+r_text[2] = "Duty now for the future.";
+r_text[3] = "Batteries not included.";
+r_text[4] = "Part of a balanced breakfast.";
+r_text[5] = "All you fascists are bound to lose.";
+r_text[6] = "This is smaller text (so you know it’s important).";
+r_text[7] = "Insert clever footer text here.";
+r_text[8] = "Made with 🍕 in Knoxville, Tenn.";
+r_text[9] = "Have a wonderful day.";
+r_text[10] = "Now, more than ever.";
+r_text[11] = "Remember to update your copyright date on New Year’s Day.";
+r_text[12] = "Some rights reserved.";
+r_text[13] = "Your mileage may vary.";
+r_text[14] = "Now with 18% more Dad Rock.";
+r_text[15] = "Your friendly neighborhood graphic designer.";
+var i = Math.floor(16*Math.random())
+document.write('<small class="superfluous">' + r_text[i] + '</small>');
+//-->
+</script>
+<noscript><small class="superfluous">Thanks for stopping by.</small></noscript>
+  </div>
 
 <div class="footer-links">
-<a href="/accessibility/" class="footer-link">Accessibility</a> &nbsp; &#8226; &nbsp; <a href="#top"><span class="footer-link">Back to top</span> <span class="manicule">☝️</span></a>
+<small><a href="/accessibility/" class="footer-link">Accessibility</a> &nbsp; &#8226; &nbsp; <a href="#top"><span class="footer-link">Back to top</span> <span class="manicule">☝️</span></a></small>
 </div>
 
 </footer>

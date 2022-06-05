@@ -95,6 +95,8 @@ mark::selection {
     color: black;
 }
 
+mark a{color: black !important;}
+
 @media (prefers-color-scheme: dark) {
 
   ::selection {

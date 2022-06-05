@@ -7,20 +7,13 @@ tags:
 layout: layouts/post.njk
 ---
 
-With the latest deployment of this website, you should be able to see a link labeled “Accessibility” in the <code>footer</code>. This will take you to my [accessibility statement](/accessibility/).
+With the latest deployment of this website, you should be able to see a link labeled “Accessibility” in the <code>footer</code>. This will take you to my [accessibility statement](/accessibility/). This is important to me for a few reasons:
 
-Why publish an accessibility statement on a personal website? These things are far more common on government websites, or education institutions, and many large corporations. In many cases these organizations are leagally required to provide such a statement. 
+* I tried to make all the features and content on my site as accessible as I know how to do. I want my users to know I care about them.
+* I want people who work with me to understand the importance of digital accessibility and my commitment to ongoing learning and social responsibility.
+* If there are errors or accessibility issues on my site, I need to know about them so I can go about fixing them as quickly as possible.
 
-Recently, I discovered [Ethan Marcotte’s blog post about his website accessibility statement](https://ethanmarcotte.com/wrote/an-accessibility-statement/). He quotes the [Web Accessibility Initiative](https://www.w3.org/WAI/planning/statements/) on why an accessibility statement is helpful: 
-
-<blockquote>
-Accessibility statements are important for several reasons:
-<ul>
-<li>Show your users that you care about accessibility and about them</li>
-<li>Provide them with information about the accessibility of your content</li>
-<li>Demonstrate commitment to accessibility, and to social responsibility</li>
-</ul>
-</blockquote>
+It’s far more common to see accessibility statements where they may be legally required, such as large corporations, governments, and education websites. I have noticed a few people I look up to include statements on their personal sites, and I’ve linked to them on my own page. I hope this is a trend that continues!
 
 When I set out to [redesign my site in December 2020](/posts/2020-newww-year/), providing an accessible experience was top of mind. With every new feature and page I add to my website, I consider accessibility and do my best to address it.
 

@@ -109,6 +109,10 @@ dl dd {
     padding-bottom: .75em;
 }
 
+ol,ul{
+    padding: 0 1em;
+}
+
 .timestamp {
     font-family: $mono;
     font-size: $size2;

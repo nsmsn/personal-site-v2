@@ -45,6 +45,12 @@ header, footer {
   }
 }
 
+@media screen and (max-width: 45em) {
+  .superfluous{
+    display: block;
+  }
+}
+
 .container {
 	margin-left: auto;
 	margin-right: auto;
