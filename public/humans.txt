@@ -1,0 +1,58 @@
+nicksimson.com
+https://nicksimson.com
+
+
+## The Human Responsible
+- Nick Simson
+  - Designer
+  - Knoxville, TN
+  - nick@nicksimson.com
+  - @nsmsn
+
+
+## Thanks
+- Eleanor and O.C.
+- Mom and Dad
+- My friends and family
+- Coworkers past and present
+- Clients past and future
+
+
+## Built With
+- Standards
+  - HTML (https://www.w3.org/TR/html5/)
+  - CSS (https://www.w3.org/TR/2001/WD-css3-roadmap-20010523/)
+  - JavaScript (https://www.javascript.com/)
+  - Markdown (https://www.markdownguide.org/)
+  - SVG (https://www.w3.org/TR/SVG/)
+
+- Components
+  - Eleventy (https://www.11ty.dev/)
+  - Git (https://git-scm.com/)
+  - GitHub (https://github.com/)
+  - Netlify (https://www.netlify.com/)
+  - Node.js (https://nodejs.org/en/)
+  - Sass (https://sass-lang.com/)
+
+- Libraries and Approaches
+  - animate.css (https://github.com/daneden/animate.css)
+  - CUBE CSS (https://cube.fyi/)
+  - ITCSS (https://csswizardry.com/2018/11/itcss-and-skillshare/)
+
+- Third-Party Widgets
+  - Dark Sky (https://darksky.net/)
+  - Literal (https://literal.club/pages/widget)
+
+- Browsers
+  - Chrome (https://www.google.com/chrome/)
+  - Edge (https://www.microsoft.com/en-us/windows/microsoft-edge)
+  - Firefox (https://www.mozilla.org/en-US/firefox/new/)
+  - Safari (http://www.apple.com/safari/)
+
+- Software
+  - MacOS (http://www.apple.com/macos/)
+  - NVDA (http://www.nvaccess.org/)
+  - VoiceOver (https://www.apple.com/accessibility/mac/vision/)
+  - VS Code (https://code.visualstudio.com/)
+  - WAVE (https://wave.webaim.org/)
+  - Windows 10 (https://www.microsoft.com/en-us/windows)
