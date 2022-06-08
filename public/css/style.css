@@ -411,6 +411,10 @@ sup a {
   font-family: "IBM Plex Mono", Consolas, Menlo, Monaco, "Andale Mono", "Lucida Console", "Courier New", Courier, monospace;
 }
 
+.home-heading {
+  font-size: clamp(1.8em, 4vw, 3.75rem);
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -451,10 +455,11 @@ header, footer {
     grid-template-columns: 4fr 1fr;
     grid-template-rows: auto;
     gap: 2rem;
+    font-size: 14px;
   }
 
   .footer div.footer-links {
-    margin-top: -0.25em;
+    margin-top: -4px;
   }
 }
 @media screen and (max-width: 45em) {

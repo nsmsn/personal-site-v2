@@ -38,10 +38,11 @@ header, footer {
     grid-template-columns: 4fr 1fr;
     grid-template-rows: auto;
     gap: 2rem;
+    font-size: 14px;
   }
 
   .footer div.footer-links{
-    margin-top: -.25em;
+    margin-top: -4px;
   }
 }
 

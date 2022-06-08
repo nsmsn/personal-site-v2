@@ -141,3 +141,7 @@ sup a {
 .mono {
     font-family: $mono;
 }
+
+.home-heading {
+    font-size: clamp(1.8em, 4vw, 3.75rem);
+}
