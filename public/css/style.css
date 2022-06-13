@@ -1493,6 +1493,10 @@ a[href].direct-link:focus:visited,
   color: var(--light-text) !important;
 }
 
+#literal-widget .literal-book-item__image_cover__outer img {
+  border: 1px solid rgba(0, 0, 0, 0.125) !important;
+}
+
 .img-multiply {
   mix-blend-mode: multiply;
 }
@@ -3026,7 +3030,7 @@ a[href].direct-link:focus:visited,
   }
 
   #forecast_embed {
-    background: #b682f5;
+    background: #c6c6c6;
   }
 }
 /**

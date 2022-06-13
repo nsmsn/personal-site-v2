@@ -5,9 +5,9 @@ templateClass: tmpl-page
 permalink: /now/
 ---
 
-<small class="timestamp">Updated <time datetime="2022-05-28T12:16:48Z">May 28, 2022</time></small>
+<small class="timestamp">Updated <time datetime="2022-06-13T12:23:24Z">June 13, 2022</time></small>
 
-I’m back at work from parental leave and reconciling my old routine and responsibilities with my new ones. Our baby seems to be doing pretty well so far.
+My wife and I welcomed the arrival of our [first child](/posts/2022-lullabies/) in March. I’ve been back at work from parental leave and I am reconciling my old routine and responsibilities with my new ones. We’ll be spending this summer introducing our little one to her grandparents, aunts, uncle and cousins. She seems to be doing pretty well so far.
 
 ## Learning
 

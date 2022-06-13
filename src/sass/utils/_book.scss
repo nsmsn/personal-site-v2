@@ -22,3 +22,7 @@
 #literal-widget .literal-book-item__authors {
     color: var(--light-text)!important;
 }
+
+#literal-widget .literal-book-item__image_cover__outer img {
+    border: 1px solid rgba(0,0,0,0.125)!important;
+}
