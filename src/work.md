@@ -160,3 +160,16 @@ A smattering of projects I’ve been fortunate to work on during the past severa
     </div>
 
 </div>
+
+<hr />
+
+&nbsp;
+
+## Design Career Bucket List
+
+<ul>
+<li><del>Design a graphic for a drum kit cover</del></li>
+<li><del>Design a cover for a vinyl record</del></li>
+<li><del>Design a graphic for the Jumbotron at a stadium or sports arena</del></li>
+<li>Design something that gets launched into space</li>
+</ul>
