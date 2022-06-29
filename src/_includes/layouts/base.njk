@@ -7,8 +7,8 @@
     <meta name="description" content="{{ description or metadata.description }}">
     <link rel="stylesheet" href="{{ '/css/style.css' | url }}">
     <!--<link rel="stylesheet" href="{{ '/css/prism-base16-monokai.dark.css' | url }}">-->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,400..900;1,400..800&family=IBM+Plex+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Literata:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+    <!--<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,400..900;1,400..800&family=IBM+Plex+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Literata:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">-->
     <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
     <link rel="alternate" href="{{ metadata.jsonfeed.path | url }}" type="application/json" title="{{ metadata.title }}">
 
@@ -59,7 +59,7 @@ Images and text © {{ helpers.currentYear() }} <a href="https://nicksimson.com" 
 <!--
 var r_text = new Array ();
 r_text[0] = "Thanks for stopping by.";
-r_text[1] = "This website does not track you.";
+r_text[1] = "This website does not track you";
 r_text[2] = "Some rights reserved";
 r_text[3] = "Batteries not included.";
 r_text[4] = "Part of a balanced breakfast.";
