@@ -10,5 +10,5 @@ I used the popular [eleventy-base-blog](https://github.com/11ty/eleventy-base-bl
 My posts are available in a [RSS feed](https://www.nicksimson.com/feed/feed.xml) and a [JSON feed](https://www.nicksimson.com/feed/feed.json)
 
 ## IndieWeb Support
-This site uses h-card and h-entry [microformats](https://microformats.org/wiki/Main_Page) and is a part of [an IndieWeb Webring](https://xn--sr8hvo.ws/).
+This site uses h-card and h-entry [microformats](https://microformats.org/wiki/Main_Page). I am working on adding more IndieWeb features.
 

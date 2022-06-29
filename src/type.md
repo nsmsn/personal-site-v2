@@ -32,4 +32,4 @@ Figure captions, citations, <code>code</code>, timestamps, and other supportive 
 - [Google Fonts](https://fonts.google.com/specimen/IBM+Plex+Mono)
 - [GitHub](https://github.com/IBM/plex/)
 
-All type on this website is currently served via [Google Fonts](https://fonts.google.com/).
+&nbsp;
