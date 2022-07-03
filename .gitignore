@@ -4,3 +4,6 @@ package-lock.json
 public/img/misc/.diffuse-nick-profile~imageoptim.png
 .env
 public/img/meta/.DS_Store
+public/.DS_Store
+public/fonts/.DS_Store
+src/fonts/.DS_Store

@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>These webfonts do not track you</title>
+    <meta name="description" content="Self-hosting web typography for privacy and performance enhancements.">
+    <link rel="stylesheet" href="/css/style.css">
+    <!--<link rel="stylesheet" href="/css/prism-base16-monokai.dark.css">-->
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Nick Simson">
+    <link rel="alternate" href="/feed/feed.json" type="application/json" title="Nick Simson">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="icon" href="/img/meta/favicon.svg" type="image/svg+xml" />
+
+  <link rel="webmention" href="https://webmention.io/www.nicksimson.com/webmention" />
+  <link rel="pingback" href="https://webmention.io/www.nicksimson.com/xmlrpc" />
+  </head>
+  <body>
+    <header class="site-head">
+    <a href="#main-content" class="skip-link">Skip to content</a>
+  <div class="wrapper">
+    <div class="site-head__inner">
+
+      <h1 class="home"><a href="/" rel="author"><span class="home-id">Nick Simson</span><svg class="logo" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 100 100" xml:space="preserve" width="40" height="40">
+  <style>
+    .logo-path1{fill:#ee453b}
+    .logo-path2{fill:#ee453b}
+  </style>
+  <g id="Layer_1_2_">
+    <path class="logo-path1" d="M82.7 16.7C66.8.8 41.1.8 25.3 16.7 9.6 32.3 9.4 57.4 24.5 73.3l17.9-37c.2-.5.8-.6 1.2-.2l10.3 10.3c.3.3.8.3 1.1 0l27.7-29.7z"/>
+    <path class="logo-path2" d="M17.3 83.3c15.9 15.9 41.6 15.9 57.4 0 15.6-15.6 15.8-40.7.8-56.6l-17.9 37c-.2.5-.8.6-1.2.2L46.2 53.6c-.3-.3-.8-.3-1.1 0L17.3 83.3z"/>
+  </g>
+</svg></a></h1>
+    <nav class="navigation" aria-label="primary">
+      <ul role="list">
+        <li class="navigation-item"><a href="/work/">Work</a></li>
+        <li class="navigation-item"><a href="/posts/">Archive</a></li>
+        <li class="navigation-item"><a href="/info/">Info</a></li>
+      </ul>
+    </nav>
+  </div>
+  </div>
+    </header>
+
+      <!-- Delete this message
+      <div class="warning flow">
+        🚩 <em>Warning message goes here.</em>
+      </div>
+       -->
+
+    <main id="main-content"  class="tmpl-post flow container animate__animated animate__fadeIn">
+
+      
+<article class="h-entry">
+
+<h1 class="p-name">These webfonts do not track you</h1>
+
+<small class="timestamp">Published <time class="dt-published" datetime="2022-07-03"><a class="u-url" href=".">03 Jul 2022</a></time> by <a rel="author" class="p-author h-card" href="/info/">Nick</a></small>
+
+<div class="e-content flow">
+<p>For a while I have proudly displayed the following statement on my about page:</p>
+<blockquote>
+<strong>This website does not track you.</strong> There are no third-party cookies here, and your data isn’t collected when using this site.
+</blockquote>
+<p>As of this writing, I can feel more confident in this statement: <a href="https://github.com/nsmsn/nicksimsondotcom/commit/38d338c633451909fbbbdfd8437084fb15158a1c#diff-f934e43e0f8ddbcd51317189e847c41f190ec983462fc3bd7169b8d7f1a99cf6">I switched from using the Google Fonts API</a> to hosting my font files on this domain.</p>
+<p>While I was catching up on some recent WordPress news, I learned that the themes team is now <a href="https://make.wordpress.org/themes/2022/06/18/complying-with-gdpr-when-using-google-fonts/">recommending theme authors to bundle Google fonts</a> with the theme files. The impetus for this announcement was a German court ruling (earlier this year) that <a href="https://wptavern.com/german-court-fines-website-owner-for-violating-the-gdpr-by-using-google-hosted-fonts">Google-hosted webfonts violate Europe's General Data Protection Regulation (GDPR)</a>.</p>
+<p>What it comes down to is that a person’s IP address can be exposed to Google just by them browsing a website using fonts hosted on Google’s CDN. On my personal website, I do not have a privacy policy more explicit than &quot;I don't want you to be tracked&quot;—I want this site to comply with GDPR, the California Consumer Privacy Act, and any and all other present and future data privacy laws, regardless of where my visitors live.</p>
+<p>The Google fonts issue was news to me, but not surprising. Here’s why I did not know about it: I use the <a href="https://www.ghostery.com/">Ghostery browser extension</a> for most of my web browsing and was relying on what that tool was reporting back to me. While Ghostery detects and blocks Google Analytics’ tracking scripts in everyday browsing, they apparently are unable to detect what a CDN could be collecting from you. And in addition to making your web browsing a little less pretty, blocking web fonts from rendering could also make entire web pages unusable if the web developer does not employ a <a href="https://www.zachleat.com/web/comprehensive-webfonts/">font-loading strategy</a> or select appropriate fallbacks.</p>
+<p>Google can of course make this easier on everyone by not collecting the IP address of everyone who accesses fonts from their CDN, but they also make their font library (each typeface in the collection is open-source) easily available for download. So I initially followed <a href="https://gomakethings.com/how-to-self-host-google-fonts/">Chris Ferdinandi's instructions and advice</a> to use the <a href="https://google-webfonts-helper.herokuapp.com/fonts/">Google Webfonts Helper app</a> to download the font files needed on my website.</p>
+<p>What Google’s own download feature  and the webfonts helper app won’t give you (as of this writing, Summer 2022) is the variable font files. This is a bit disappointing, since Google seems to have the best support for variable fonts, of all the typography services out there. <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide">Variable fonts</a> are a relatively new technology that enables many different variations of a typeface to be incorporated into a single file, rather than having a separate font file for every width, weight, or style. A big reason why <a href="posts/2020-redesign-webfonts-html/">I went with Google fonts with my redesign</a> was that I wanted to try out variable fonts on a production project.</p>
+<p>If you want to try hosting your own variable fonts from Google’s service, <a href="https://bnijenhuis.nl/notes/2021-04-13-how-to-add-self-hosted-variable-fonts-to-your-website">Bernard Nijenhuis has an excellent post with some technical instructions</a>. Henry Desroches has an even more <a href="https://henry.codes/writing/how-to-convert-variable-ttf-font-files-to-woff2/">technical tutorial on converting a variable TTF font file to WOFF2 format</a>. I did not need to refer to Henry's instructions. My two variable families are <a href="https://www.etceteratype.co/epilogue">Epilogue</a> and <a href="https://www.type-together.com/literata-3">Literata</a>, whose foundries have already made variable font file downloads available. From another <a href="https://github.com/jpamental/letter-from-birmingham-jail">open source project by Jason Pamental</a>, I found a subsetted version of Literata that is a bit smaller in size from the files downloaded from TypeTogether's website.</p>
+<p>If you like using Google’s API, but want a more GDPR-friendly CDN for font delivery, you could also try <a href="https://fonts.bunny.net/">fonts.bunny.net</a>. Bunny Fonts bills itself as a “drop-in replacement for Google Fonts”:</p>
+<blockquote class="flow">
+<p>The Bunny Fonts API was designed to be fully compatible with the Google Fonts CSS v1 API, making the switch as easy as changing the hostname.</p>
+<p>Simply swap "https://fonts.bunny.net/css" in place of "https://fonts.googleapis.com/css" on your website's source code and let your users enjoy better privacy.</p>
+</blockquote>
+<p>The caveat to using Bunny Fonts is that you may not be able to use the variable versions of the Google Fonts library, at least at the time of this writing.</p>
+<h2 id="performance-considerations">Performance Considerations <a class="direct-link" href="#performance-considerations">#</a></h2>
+<p>The <code>@font-face</code> declaration in CSS is not new technology—it was introduced in 1998. Browser support and font file specifications, however, varied a bit for at least a decade. Frankly, <a href="https://thehistoryoftheweb.com/web-fonts/">it was a tangled mess until 2009</a>, when font hosting services like Typekit emerged to take the technical complexity out of web designers’ hands and make licensing simpler for the foundries producing type families. After studying typography in a traditional graphic design program in the mid-to-late 2000s, I was really excited to start designing for the web again when Typekit (now <a href="https://fonts.adobe.com">Adobe Fonts</a> came out, having access to a range of expressive and well-designed typefaces.</p>
+<p>Even with wide browser support for <code>@font-face</code>, it took years for browsers to implement a standard webfont file format: Files with <code>.eot</code> extensions were used for Internet Explorer versions before IE 10; Safari, Android and iOS used <code>.ttf</code> files; the oldest versions of iOS that supported webfonts used <code>.svg</code> format. Services like Typekit and Google Fonts supported all these web font versions and let you connect to a CSS or Javascript file to make sure the right file reached your audience’s browsers.</p>
+<p>In a technical post, <a href="https://www.tunetheweb.com/blog/should-you-self-host-google-fonts/">Barry Pollard breaks down the many performance benefits</a> of self-hosting Google fonts. Nowadays, modern browsers all support the <code>.woff</code> format, and better compression is available with <code>.woff2</code>. With less complexity in file types and HTTP/2 available on web servers you <em>might not</em> need a CDN, or experience performance benefits from hosting assets on a CDN.</p>
+<p>I have not completely given up on Google. I am using their <a href="https://pagespeed.web.dev/">page speed insights tool</a> to figure out how I can continue to optimize my site for performance, while still displaying great typography. With <a href="https://docs.microsoft.com/en-us/lifecycle/announcements/internet-explorer-11-end-of-support">Internet Explorer officially sunsetted this summer</a>, I think I may be able to drop <code>.woff</code> [version 1] support and only host <code>.woff2</code> files. It’s a tricky balance since I’m not using analytics to find out which browsers are viewing my site. But I am already using <code>font-display: swap;</code> as my font loading strategy and treating the fonts themselves as progressive enhancement may be the way to go, at least for me personally. Almost 30 years later, <a href="https://en.wikipedia.org/wiki/Georgia_(typeface)">Matthew Carter’s Georgia</a> is still a great design, and very legible.</p>
+<p>I am currently exploring repos of various developers I look up to, to see how they are delivering their webfonts, variable and otherwise. If you have ideas for improving my web font performance, you can <a href="mailto:nick@nicksimson.com">email me</a> about this. I’d love to hear how you are implementing self-hosted and variable typography.</p>
+
+</div>
+</article>
+
+<div>
+&nbsp;
+</div>
+
+<footer class="pagination">
+<hr>
+<ul class="list-unstyled pagination__inner"><li class="">Previous: <a href="/posts/2022-writing-a11y-statement/">Adding an accessibility statement</a></li>
+</ul>
+</footer>
+    </main>
+
+    <footer role="contentinfo" class="footer pt-7">
+
+	<div>
+Images and text © 2022 <a href="https://nicksimson.com" rel="author" class="footer-link" >Nick Simson</a>.
+  
+  <script type="text/javascript">
+<!--
+var r_text = new Array ();
+r_text[0] = "Thanks for stopping by.";
+r_text[1] = "This website does not track you.";
+r_text[2] = "Some rights reserved.";
+r_text[3] = "Batteries not included.";
+r_text[4] = "Part of a balanced breakfast.";
+r_text[5] = "All you fascists are bound to lose.";
+r_text[6] = "Sweating the small stuff since 1987.";
+r_text[7] = "Insert clever footer text here.";
+r_text[8] = "The large print giveth and the small print taketh away.";
+r_text[9] = "Have a wonderful day.";
+r_text[10] = "Now, more than ever.";
+r_text[11] = "Remember to update your copyright date on New Year’s Day.";
+r_text[12] = "Your mileage may vary.";
+r_text[13] = "Duty now for the future.";
+r_text[14] = "Now with 18% more 🎸 Dad Rock.";
+r_text[15] = "Your friendly neighborhood graphic designer.";
+r_text[16] = "Void where prohibited.";
+r_text[17] = "Congrats! You made it to the footer.";
+r_text[18] = "Only the finest ingredients.";
+r_text[19] = "Updated sporadically.";
+r_text[20] = "Powered by HTML, CSS, and JavaScript.";
+r_text[21] = "I like turtles.";
+r_text[22] = "Please design responsibly.";
+r_text[23] = "Millions of pixels served.";
+r_text[24] = "Built with semantics. Powered by some antics.";
+r_text[25] = "You can’t have too many eagles.";
+r_text[26] = "Be kind. Please rewind.";
+r_text[27] = "Made with ☕ in Knoxville, Tenn.";
+r_text[28] = "Made with 🥃 in Knoxville, Tenn.";
+r_text[29] = "Made with 🧡 in Knoxville, Tenn.";
+var i = Math.floor(30*Math.random())
+document.write('<span class="superfluous">' + r_text[i] + '</span>');
+//-->
+</script>
+<noscript><span class="superfluous">Thanks for stopping by.</span></noscript>
+  </div>
+
+<div class="footer-links">
+<a href="/accessibility/" class="footer-link">Accessibility</a> &nbsp; &#8226; &nbsp; <a href="#top"><span class="footer-link">Back to top</span> <span class="manicule">☝️</span></a>
+</div>
+
+</footer>
+
+    <!-- Current page: /posts/2022-these-webfonts-do-not-track-you/ -->
+  </body>
+</html>
