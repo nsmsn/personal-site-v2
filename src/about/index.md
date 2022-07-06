@@ -44,7 +44,6 @@ Email is still the <strong>best</strong> way to reach me, but I do maintain a pr
 <li><a href="https://www.linkedin.com/in/nsmsn/" rel="me">LinkedIn</a></li>
 <li><a href="https://literal.club/nsmsn" rel="me">Literal</a></li>
 <li><a href="http://micro.blog/nsmsn" rel="me">Micro.blog</a></li>
-<li><a href="https://reading.am/nsmsn" rel="me">Reading.am</a></li>
 <li><a href="https://twitter.com/nsmsn" rel="me">Twitter</a></li>
 <li><a href="https://keybase.io/nsmsn" rel="me">Keybase</a><br /><small class="mono">(PGP Key: 0764 C7E9 3BB0 25C0)</small></li>
 </ul>
