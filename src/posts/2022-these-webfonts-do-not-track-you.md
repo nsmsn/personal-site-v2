@@ -27,6 +27,8 @@ What Google’s own download feature  and the webfonts helper app won’t give y
 
 If you want to try hosting your own variable fonts from Google’s service, [Bernard Nijenhuis has an excellent post with some technical instructions](https://bnijenhuis.nl/notes/2021-04-13-how-to-add-self-hosted-variable-fonts-to-your-website). Henry Desroches has an even more [technical tutorial on converting a variable TTF font file to WOFF2 format](https://henry.codes/writing/how-to-convert-variable-ttf-font-files-to-woff2/). I did not need to refer to Henry's instructions. My two variable families are [Epilogue](https://www.etceteratype.co/epilogue) and [Literata](https://www.type-together.com/literata-3), whose foundries have already made variable font file downloads available. From another [open source project by Jason Pamental](https://github.com/jpamental/letter-from-birmingham-jail), I found a subsetted version of Literata that is a bit smaller in size from the files downloaded from TypeTogether's website.
 
+## Alternatives to Google Fonts
+
 If you like using Google’s API, but want a more GDPR-friendly CDN for font delivery, you could also try [fonts.bunny.net](https://fonts.bunny.net/). Bunny Fonts bills itself as a “drop-in replacement for Google Fonts”:
 
 <blockquote class="flow">
@@ -36,6 +38,8 @@ If you like using Google’s API, but want a more GDPR-friendly CDN for font del
 </blockquote>
 
 The caveat to using Bunny Fonts is that you may not be able to use the variable versions of the Google Fonts library, at least at the time of this writing.
+
+If you are looking to self-host variable fonts, many of the best designed variable fonts on Google fonts are available to download on [Fontshare](https://www.fontshare.com/), by the Indian Type Foundry (ITF). In addition to open source designs like [Literata](https://www.fontshare.com/fonts/literata) and [Epilogue](https://www.fontshare.com/fonts/epilogue), there are many “closed source” designs by ITF that you can also use under a free license. I’m particularly drawn to [Satoshi](https://www.fontshare.com/fonts/satoshi), [Zodiak](https://www.fontshare.com/fonts/zodiak), and [General Sans](https://www.fontshare.com/fonts/general-sans).
 
 
 ## Performance Considerations
