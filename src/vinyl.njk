@@ -1,0 +1,30 @@
+---
+layout: layouts/home.njk
+permalink: /vinyl/
+
+title: Vinyl
+description: A collection of music I’ve accumulated over the years.
+---
+
+<h1>Vinyl</h1>
+
+<p>A collection of music I’ve accumulated over the years. I only buy records I intend to listen to, so everything here has been played again and&nbsp;again.</p> 
+
+<p>Releases are organized alphabetically by artist, and chronologically by release date. It will be some time before the collection is fully cataloged, so this page is very much a work in&nbsp;progress.</p>
+
+
+<ul class="list-unstyled auto-grid">
+  {% for item in vinyl.items %}
+  <li>
+  <div class="lib-item">
+            <a class="lib-title" href="{{ item.url }}">
+            <img class="lib-cover" src="/img/vinyl/{{ item.cover }}" alt="" width="200" loading="lazy" />
+            <span>{{ item.title }}</span></a>
+            <p>{{ item.artist }}<br/>
+            <span class="lib-item-year">{{ item.year }}</span></p>
+    </div>
+  </li>
+  {% endfor %}
+</ul>
+
+&nbsp;

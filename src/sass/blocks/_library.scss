@@ -10,6 +10,11 @@
     text-decoration-color: $lightblue;
 }
 
+.lib-item-year{
+    font-family: $mono;
+    color: var(--light-text);
+}
+
 .lib-cover{
     height: 200px;
     width: auto;

@@ -991,6 +991,11 @@ a[href].direct-link:focus:visited,
   text-decoration-color: #a4bfeb;
 }
 
+.lib-item-year {
+  font-family: "IBM Plex Mono", Consolas, Menlo, Monaco, "Andale Mono", "Lucida Console", "Courier New", Courier, monospace;
+  color: var(--light-text);
+}
+
 .lib-cover {
   height: 200px;
   width: auto;
