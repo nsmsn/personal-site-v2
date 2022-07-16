@@ -36,6 +36,13 @@
         "url": "https://www.discogs.com/master/79414-The-Black-Keys-Chulahoma"
       },
       {
+        "title": "Violin Concertos",
+        "artist": "Benjamin Britten, Ralph Vaughan Williams (Prague Symphony Orchestra)",
+        "cover": "prague-violin-concertos-1970.jpg",
+        "year": "1970",
+        "url": "https://www.discogs.com/release/6325458-Benjamin-Britten-Ralph-Vaughan-Williams-Nora-Gruml%C3%ADkov%C3%A1-Peter-Maag-Violin-Concerto-Violin-Concerto"
+      },
+      {
         "title": "David Bromberg",
         "artist": "David Bromberg",
         "cover": "bromberg-1971.jpg",
@@ -55,6 +62,20 @@
         "cover": "the-cars-1978.jpg",
         "year": "1978",
         "url": "https://www.discogs.com/release/190219-The-Cars-The-Cars"
+      },
+      {
+        "title": "Les Sylphides Ballet & Uirapurú (A Symphonic Poem)",
+        "artist": "Frédéric Chopin (New York Philharmonic)",
+        "cover": "chopin-les-sylphides-1950.jpg",
+        "year": "1950",
+        "url": "https://www.discogs.com/master/829808-Chopin-Heitor-Villa-Lobos-Efrem-Kurtz-Conducting-The-Philharmonic-Symphony-Orchestra-Of-New-York-Les"
+      },
+      {
+        "title": "Polonaises, Nocturne, Etudes, Mazurkas",
+        "artist": "Frédéric Chopin",
+        "cover": "chopin-family-library-1976.jpg",
+        "year": "1976",
+        "url": "https://www.discogs.com/master/468828-Chopin-Polonaises-Nocturne-Etudes-Mazurkas"
       },
       {
         "title": "Boston, Mass.",
@@ -113,6 +134,27 @@
         "url": "https://www.discogs.com/master/513925-The-Drifters-Their-Greatest-RecordingsEarly-Years"
       },
       {
+        "title": "Symphony No. 4 in G Major, Op. 88 / Scherzo Capriccioso, Op. 66",
+        "artist": "Antonín Dvořák (Sir John Barbirolli Conducting The Hallé Orchestra)",
+        "cover": "dvorak-everyman-1963.jpg",
+        "year": "1963",
+        "url": "https://www.discogs.com/release/7127759-Dvorak-Sir-John-Barbirolli-Conducting-The-Hall%C3%A9-Orchestra-Symphony-No-4-in-G-Major-Op-88-Scherzo-Ca"
+      },
+      {
+        "title": "Quintet In G Major (Op. 77) / Quintet In C Minor (Op. 52)",
+        "artist": "Antonín Dvořák, Louis Spohr (Vienna Octet)",
+        "cover": "dvorak-spohr.jpg",
+        "year": "Unknown",
+        "url": "https://www.discogs.com/release/10763639-Dv%C7%92%C5%95ak-Spohr-Members-Of-The-Vienna-Octet-Quintet-In-G-Major-Op-77-Quintet-In-C-Minor-Op-52"
+      },
+      {
+        "title": "Another Side of Bob Dylan",
+        "artist": "Bob Dylan",
+        "cover": "dylan-another-side-1964.jpg",
+        "year": "1964",
+        "url": "https://www.discogs.com/master/3730-Bob-Dylan-Another-Side-Of-Bob-Dylan"
+      },
+      {
         "title": "Nashville Skyline",
         "artist": "Bob Dylan",
         "cover": "dylan-nashville-skyline-1969.jpg",
@@ -155,6 +197,20 @@
         "url": "https://www.discogs.com/master/132721-The-Four-Tops-Meeting-Of-The-Minds"
       },
       {
+        "title": "Kreisler Favorites, Paganini Caprices",
+        "artist": "Zino Francescatti With Artur Balsam",
+        "cover": "kreisler-paganini.jpg",
+        "year": "1949",
+        "url": "https://www.discogs.com/master/1812015-Kreisler-Paganini-Zino-Francescatti-With-Artur-Balsam-Kreisler-Favorites-Paganini-Caprices-"
+      },
+      {
+        "title": "The Virtuoso Liszt",
+        "artist": "Gary Graffman",
+        "cover": "virtuoso-liszt-1960.jpg",
+        "year": "1960",
+        "url": "https://www.discogs.com/master/985370-Liszt-Graffman-The-Virtuoso-Liszt"
+      },
+      {
         "title": "Tim Hardin 3 Live In Concert",
         "artist": "Tim Hardin",
         "cover": "hardin-3-1968.jpg",
@@ -167,6 +223,20 @@
         "cover": "hartford-headin-down-1978.jpg",
         "year": "1978",
         "url": "https://www.discogs.com/master/821094-John-Hartford-Headin-Down-Into-The-Mystery-Below"
+      },
+      {
+        "title": "Levant Plays Gershwin",
+        "artist": "Oscar Levant",
+        "cover": "levant-plays-gershwin-1955.jpg",
+        "year": "1955",
+        "url": "https://www.discogs.com/release/1244862-Gershwin-Levant-Andre-Kostelanetz-Levant-Plays-Gershwin"
+      },
+      {
+        "title": "Piano Concerto No. 2 In A Major / Hungarian Rhapsody No. 6 / Hungarian Fantasy For Piano And Orchestra",
+        "artist": "Franz Liszt",
+        "cover": "liszt-family-library-1976.jpg",
+        "year": "1976",
+        "url": "https://www.discogs.com/release/1898285-Liszt-Piano-Concerto-No-2-In-A-Major-Hungarian-Rhapsody-No-6-Hungarian-Fantasy-For-Piano-And-Orchest"
       },
       {
         "title": "Complete Recorded Works, Volume 1",
@@ -225,11 +295,25 @@
         "url": "https://www.discogs.com/master/973059-Paul-Robeson-The-Essential-Paul-Robeson"
       },
       {
-        "title": "Piano-Music-Of-Erik-Satie",
+        "title": "Piano Music of Erik Satie",
         "artist": "Erik Satie, Jacques Février",
         "cover": "satie-piano-music-1970.jpg",
         "year": "1970",
         "url": "https://www.discogs.com/master/1009877-Erik-Satie-Jacques-F%C3%A9vrier-Piano-Music-Of-Erik-Satie"
+      },
+      {
+        "title": "String Quartets Nos. 7, 13 & 14",
+        "artist": "Dmitri Shostakovich, Fitzwilliam String Quartet",
+        "cover": "shostakovich-1975.jpg",
+        "year": "1975",
+        "url": "https://www.discogs.com/release/960272-Shostakovich-Fitzwilliam-String-Quartet-String-Quartets-Nos-7-13-14"
+      },
+      {
+        "title": "Also Sprach Zarathustra",
+        "artist": "Richard Strauss (Boston Symphony Orchestra, William Steinberg conductor)",
+        "cover": "zarathustra-1971.jpg",
+        "year": "1971",
+        "url": "https://www.discogs.com/master/345052-Richard-Strauss-Boston-Symphony-Orchestra-William-Steinberg-Also-Sprach-Zarathustra"
       },
       {
         "title": "Marquee Moon",
@@ -246,6 +330,13 @@
         "url": "https://www.discogs.com/master/6206-Television-Adventure"
       },
       {
+        "title": "Bach Organ Music, Vol. 2",
+        "artist": "Carl Weinrich",
+        "cover": "bach-organ-music-vol2-1963.jpg",
+        "year": "1963",
+        "url": "https://www.discogs.com/master/1056386-Carl-Weinrich-Bach-Organ-Music-Vol-2"
+      },
+      {
         "title": "Sky Blue Sky",
         "artist": "Wilco",
         "cover": "wilco-sky-blue-sky-2007.jpg",
@@ -258,6 +349,13 @@
         "cover": "young-after-gold-rush-1970.jpg",
         "year": "1970",
         "url": "https://www.discogs.com/master/38433-Neil-Young-After-The-Gold-Rush"
+      },
+      {
+        "title": "Decade",
+        "artist": "Neil Young",
+        "cover": "young-decade-1977.jpg",
+        "year": "1977",
+        "url": "https://www.discogs.com/master/38466-Neil-Young-Decade"
       },
       {
         "title": "Rust Never Sleeps",

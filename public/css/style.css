@@ -1000,6 +1000,7 @@ a[href].direct-link:focus:visited,
   height: 200px;
   width: auto;
   border: 1px solid rgba(0, 0, 0, 0.075);
+  background-color: #e0e0e0;
 }
 
 .lib-title:hover {
