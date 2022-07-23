@@ -19,7 +19,7 @@ A smattering of projects I’ve been fortunate to work on during the past severa
 
 <div class="row flow">
     <div class="grid-half smol-centering">
-    <a href="https://eleanoraldrich.com"><img src="/img/work/eleanor-aldrich.jpg" class="work-website" alt="A grid of nine images of abstract paintings" /></a>
+    <a href="https://eleanoraldrich.com"><img src="/img/work/eleanor-aldrich.jpg" class="work-image work-website" alt="A grid of nine images of abstract paintings" /></a>
     </div>
     <div class="flow grid-half padding-3 smol-centering">
     <span class="work-keywords">Branding, WordPress Customization</span>
@@ -35,7 +35,7 @@ A smattering of projects I’ve been fortunate to work on during the past severa
 
 <div class="row flow">
     <div class="grid-half smol-centering">
-    <a href="https://theordinarythings.com"><img src="/img/work/theordinarythings.jpg" class="work-website" alt="Screenshot of the ordinary things dot com" /></a>
+    <a href="https://theordinarythings.com"><img src="/img/work/theordinarythings.jpg" class="work-image work-website" alt="Screenshot of the ordinary things dot com" /></a>
     </div>
     <div class="flow grid-half padding-3 smol-centering">
     <span class="work-keywords">Web Design</span>
@@ -52,7 +52,7 @@ A smattering of projects I’ve been fortunate to work on during the past severa
 <div class="row flow">
     <div class="grid-half smol-centering">
     <figure>
-    <a href="https://tennessee.edu"><img src="/img/work/utsystem-homepage-2016.png" class="work-website" alt="Screenshot of a website with an image of Pat Summitt waving on the basketball court" loading="lazy" /></a>
+    <a href="https://tennessee.edu"><img src="/img/work/utsystem-homepage-2016.png" class="work-image work-website" alt="Screenshot of a website with an image of Pat Summitt waving on the basketball court" loading="lazy" /></a>
     <figcaption>The tennessee.edu homepage on June 28, 2016.</figcaption></figure>
     </div>
     <div class="flow grid-half padding-3 smol-centering">
@@ -65,11 +65,27 @@ A smattering of projects I’ve been fortunate to work on during the past severa
 
 <hr />
 
+## Everywhere You Look, UT
+
+<div class="row flow">
+    <div class="grid-half smol-centering">
+    <a href="https://everywhere.tennessee.edu/"><img src="/img/work/everywhere-ut.jpg" class="work-image work-website" alt="Screenshot of a website with images of brightly painted barns, walls, and water towers" loading="lazy" /></a>
+    </div>
+    <div class="flow grid-half padding-3 smol-centering">
+    <span class="work-keywords">Content Strategy, WordPress, Design</span>
+    <p>Marketing campaign website introducing a new tagline for Tennessee’s public university system.</p> 
+    <p>Visit <a href="https://tennessee.edu">everywhere.tennessee.edu</a></p>
+    </div>
+
+</div>
+
+<hr />
+
 ## Crystal Band
 
 <div class="row flow">
     <div class="grid-half smol-centering">
-    <img src="/img/work/crystal-band.png" alt="" loading="lazy" />
+    <img src="/img/work/crystal-band.png" alt="" class="work-image" loading="lazy" />
     </div>
     <div class="flow grid-half padding-3 smol-centering">
     <span class="work-keywords">Logo Design, Album packaging</span>
@@ -85,7 +101,7 @@ A smattering of projects I’ve been fortunate to work on during the past severa
 <div class="row flow">
     <div class="grid-half smol-centering">
     <figure>
-    <a href="https://globalpoultryconsults.com/"><img src="/img/work/gpc.png" class="work-website" alt="GPC home page with a logo of a chicken sitting on top of the world" loading="lazy" /></a>
+    <a href="https://globalpoultryconsults.com/"><img src="/img/work/gpc.png" class="work-image work-website" alt="GPC home page with a logo of a chicken sitting on top of the world" loading="lazy" /></a>
     </div>
     <div class="flow grid-half padding-3 smol-centering">
     <span class="work-keywords">Logo, Branding, Web Design</span>
@@ -101,7 +117,7 @@ A smattering of projects I’ve been fortunate to work on during the past severa
 
 <div class="row flow">
     <div class="grid-half smol-centering">
-    <img src="/img/work/tw-roll-on-pkg-1.jpg" alt="Roll On CD packaging featuring the California Zephyr" loading="lazy" />
+    <img src="/img/work/tw-roll-on-pkg-1.jpg" class="work-image" alt="Roll On CD packaging featuring the California Zephyr" loading="lazy" />
     </div>
     <div class="flow grid-half padding-3 smol-centering">
     <span class="work-keywords">Logo Design, Album packaging, Web Design</span>
@@ -118,7 +134,7 @@ A smattering of projects I’ve been fortunate to work on during the past severa
 <div class="row flow">
     <div class="grid-half smol-centering">
     <figure>
-    <a href="https://tnreversetransfer.org/"><img src="/img/work/tnreverse.jpg" class="work-website" alt="Home page with a young woman studying in a university building." loading="lazy" /></a>
+    <a href="https://tnreversetransfer.org/"><img src="/img/work/tnreverse.jpg" class="work-image work-website" alt="Home page with a young woman studying in a university building." loading="lazy" /></a>
     </div>
     <div class="flow grid-half padding-3 smol-centering">
     <span class="work-keywords">Logo, Branding, WordPress</span>
@@ -135,7 +151,7 @@ A smattering of projects I’ve been fortunate to work on during the past severa
 <div class="row flow">
     <div class="grid-half smol-centering">
     <figure>
-    <img src="/img/work/houseoftiny-boxes.jpg" alt="Matchboxes with washi tape and The House of Tiny stickers" loading="lazy" />
+    <img src="/img/work/houseoftiny-boxes.jpg" class="work-image" alt="Matchboxes with washi tape and The House of Tiny stickers" loading="lazy" />
     </div>
     <div class="flow grid-half padding-3 smol-centering">
     <span class="work-keywords">Logo Design, Branding</span>
@@ -151,7 +167,7 @@ A smattering of projects I’ve been fortunate to work on during the past severa
 <div class="row flow">
     <div class="grid-half smol-centering">
     <figure>
-    <a href="http://www.jasonoverall.com/home"><img src="/img/work/feature-joverall.jpg" class="work-website" alt="Home page with photos of a man writing sheet music, playing a pipe organ and conducting a vocal ensemble." loading="lazy" /></a>
+    <a href="http://www.jasonoverall.com/home"> <img src="/img/work/feature-joverall.jpg" class="work-image work-website" alt="Home page with photos of a man writing sheet music, playing a pipe organ and conducting a vocal ensemble." loading="lazy" /></a>
     </div>
     <div class="flow grid-half padding-3 smol-centering">
     <span class="work-keywords">Branding, Web Design</span>

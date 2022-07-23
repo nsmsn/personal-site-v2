@@ -4,6 +4,11 @@
   color: var(--light-text);
 }
 
+.work-img {
+  aspect-ratio: 4/3;
+  background-color: var(--light-text);
+}
+
 .work-website {
-  border: 1px solid $blue;
+  border: 2px solid rgba(0,0,0,0.075);
 }
