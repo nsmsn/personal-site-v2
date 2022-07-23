@@ -26,6 +26,11 @@
         "url": "/library"
       },
       {
+        "title": "vinyl",
+        "description": "My record collection (WIP)",
+        "url": "/vinyl"
+      },
+      {
         "title": "accessibility",
         "description": "My accessibility statement",
         "url": "/accessibility/"
@@ -34,6 +39,11 @@
         "title": "recommends",
         "description": "Honest to goodness recommendations",
         "url": "/recommends"
+      },
+      {
+        "title": "following",
+        "description": "People, studios, and orgs I follow (you should too!)",
+        "url": "/following"
       },
       {
         "title": "now",

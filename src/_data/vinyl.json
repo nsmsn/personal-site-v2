@@ -1,11 +1,25 @@
 {
     "items": [
       {
+        "title": "Nevada Jukebox",
+        "artist": "60,000,000 Buffalo",
+        "cover": "60m-buffalo-nevada-jukebox-1972.jpg",
+        "year": "1972",
+        "url": "https://www.discogs.com/master/726600-60000000-Buffalo-Nevada-Jukebox"
+      },      
+      {
         "title": "Toys in the Attic",
         "artist": "Aerosmith",
         "cover": "aerosmith-toys-1975.jpg",
         "year": "1975",
         "url": "https://www.discogs.com/master/36627-Aerosmith-Toys-In-The-Attic"
+      },
+      {
+        "title": "Stage Fright",
+        "artist": "The Band",
+        "cover": "band-stage-fright-1970.jpg",
+        "year": "1970",
+        "url": "https://www.discogs.com/master/81285-The-Band-Stage-Fright"
       },
       {
         "title": "Moondog Matinee",
@@ -55,6 +69,20 @@
         "cover": "buffalo-springfield-retrospective-1969.jpg",
         "year": "1969",
         "url": "https://www.discogs.com/master/14069-Buffalo-Springfield-Retrospective-The-Best-Of-Buffalo-Springfield"
+      },
+      {
+        "title": "The Best Of The Byrds Greatest Hits, Volume II",
+        "artist": "The Byrds",
+        "cover": "byrds-greatest-hits-vol2-1972.jpg",
+        "year": "1972",
+        "url": "https://www.discogs.com/release/2754865-The-Byrds-The-Best-Of-The-Byrds-Greatest-Hits-Volume-II-"
+      },
+      {
+        "title": "Carried to Dust",
+        "artist": "Calexico",
+        "cover": "calexico-carried-to-dust-2008.jpg",
+        "year": "2008",
+        "url": "https://www.discogs.com/master/64036-Calexico-Carried-To-Dust"
       },
       {
         "title": "The Cars",
@@ -188,6 +216,20 @@
         "cover": "ellington-paris-concert-1973.jpg",
         "year": "1973",
         "url": "https://www.discogs.com/master/478341-Duke-Ellington-And-His-Orchestra-The-Great-Paris-Concert"
+      },
+      {
+        "title": "The Felice Brothers",
+        "artist": "The Felice Brothers",
+        "cover": "felice-bros-2008.jpg",
+        "year": "2008",
+        "url": "https://www.discogs.com/master/147912-The-Felice-Brothers-The-Felice-Brothers"
+      },
+      {
+        "title": "Yonder is the Clock",
+        "artist": "The Felice Brothers",
+        "cover": "felice-bros-yonder-2009.jpg",
+        "year": "2009",
+        "url": "https://www.discogs.com/master/302513-The-Felice-Brothers-Yonder-Is-The-Clock"
       },
       {
         "title": "Meeting of the Minds",
@@ -330,6 +372,13 @@
         "url": "https://www.discogs.com/master/6206-Television-Adventure"
       },
       {
+        "title": "Mr. Gone",
+        "artist": "Weather Report",
+        "cover": "weather-report-mr-gone-1978.jpg",
+        "year": "1978",
+        "url": "https://www.discogs.com/master/21757-Weather-Report-Mr-Gone"
+      },
+      {
         "title": "Bach Organ Music, Vol. 2",
         "artist": "Carl Weinrich",
         "cover": "bach-organ-music-vol2-1963.jpg",
@@ -342,6 +391,13 @@
         "cover": "wilco-sky-blue-sky-2007.jpg",
         "year": "2007",
         "url": "https://www.discogs.com/release/3851147-Wilco-Sky-Blue-Sky"
+      },
+      {
+        "title": "Innervisions",
+        "artist": "Stevie Wonder",
+        "cover": "wonder-innervisions-1973.jpg",
+        "year": "1973",
+        "url": "https://www.discogs.com/master/86466-Stevie-Wonder-Innervisions"
       },
       {
         "title": "After the Gold Rush",
