@@ -10,19 +10,32 @@
       },
       {
         "name": "The Florence Project",
-        "url": " https://firrp.org/"
+        "url": " https://firrp.org/",
+        "meta": "(AZ)"
       },
       {
         "name": "Highlander Center",
-        "url": "https://highlandercenter.org/"
+        "url": "https://highlandercenter.org/",
+        "meta": "(TN)"
+      },
+      {
+        "name": "Interfaith Worker Justice",
+        "url": "https://www.iwj.org/"
+      },
+      {
+        "name": "Justice Knox",
+        "url": "https://justiceknox.org/",
+        "meta": "(TN)"
       },
       {
         "name": "No More Deaths",
-        "url": "https://nomoredeaths.org/en/"
+        "url": "https://nomoredeaths.org/en/",
+        "meta": "(AZ)"
       },
       {
         "name": "SOCM",
-        "url": "https://www.socm.org/"
+        "url": "https://www.socm.org/",
+        "meta": "(TN)"
       }
     ]
   }

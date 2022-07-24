@@ -19,7 +19,11 @@
     height: 200px;
     width: auto;
     border: 1px solid rgba(0,0,0,0.075);
-    background-color: $lightgray;
+    background-color: var(--light-text);
+}
+
+.lib-vinyl{
+    aspect-ratio: 1/1;
 }
 
 .lib-title:hover {

@@ -17,7 +17,7 @@ layout: layouts/home.njk
       </script>
       <noscript>Howdy.</noscript>
     </h1>
-    <p class="lede">My name is Nick, which means <em class="highlight">“victory of the people.”</em> I&nbsp;design things for screens&nbsp;(mostly), paper&nbsp;(sometimes), and humans&nbsp;(always).</p>
+    <p class="lede">My name is Nick, which means <mark><em>“victory of the people.”</em></mark> I&nbsp;design things for screens&nbsp;(mostly), paper&nbsp;(sometimes), and humans&nbsp;(always).</p>
 
     &nbsp;
 
@@ -45,16 +45,27 @@ layout: layouts/home.njk
 <div class="flow pt-7">
 
 <h2 class="pt-6">Contents</h2>
+<details>
+<summary>Directories</summary>
 <ul class="list-unstyled auto-grid">
   {% for item in toc.items %}
   <li>
   <div class="lib-item">
             <a class="lib-title" href="{{ item.url }}">/{{ item.title }}</a>
-            <p>{{ item.description }}</p>
+            <p class="text-meta">{{ item.description }}</p>
     </div>
   </li>
   {% endfor %}
 </ul>
+</details>
+
+<details>
+<summary>Subdomains</summary>
+<div class="lib-item">
+<a class="lib-title" href="https://log.nicksimson.com">log.nicksimson.com</a>
+<p class="text-meta">My micro blog</p>
+</div>
+</details>
 
 </div>
 

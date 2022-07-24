@@ -6,17 +6,19 @@ templateClass: tmpl-page
 permalink: /following/
 ---
 
-I am on Corporate Social Media™ less and less these days, preferring RSS (wherever applicable). This is my attempt to create a directory of interesting people and collectives I follow via RSS or would be following on Twitter, Instagram, etc. In earlier days, this might have looked like a [webring](https://indieweb.org/webring) or [blogroll](https://indieweb.org/blogroll). I call this my <em>affinity&nbsp;pool</em>.
+I’m spending less and less time on Corporate Social Media™ these days, preferring RSS (wherever applicable). Here’s my attempt to create a directory of interesting people and collectives I follow via RSS or would be following on Twitter, Instagram, etc. 
+
+In earlier days, this might have looked like a <em>[webring](https://indieweb.org/webring)</em> or <em>[blogroll](https://indieweb.org/blogroll)</em>. I call this my <em>affinity&nbsp;pool</em>.
 
 &nbsp;
 
 ## People
 
-People who have informed, influenced, or inspired me in some way. Some of these people I know, a few I have met (virtually or in person).
+Artists, designers, developers, educators, illustrators, writers, and others.
 
 <small><ul class="list-unstyled list-multi-col">
   {% for item in people.items %}
-  <li><a class="h-card" href="{{ item.url }}" target="_blank">{{ item.name }}</a>
+  <li><a class="h-card" href="{{ item.url }}" target="_blank">{{ item.name }}</a> <span class="text-meta">{{ item.meta }}</span>
   </li>
   {% endfor %}
 </ul></small>
@@ -25,11 +27,11 @@ People who have informed, influenced, or inspired me in some way. Some of these 
 
 ## Studios
 
-Design studios who consistently put out interesting work.
+Design studios creating interesting work.
 
 <small><ul class="list-unstyled list-multi-col">
   {% for item in studios.items %}
-  <li><a href="{{ item.url }}" target="_blank">{{ item.name }}</a>
+  <li><a href="{{ item.url }}" target="_blank">{{ item.name }}</a> <span class="text-meta">{{ item.meta }}</span>
   </li>
   {% endfor %}
 </ul></small>
@@ -38,11 +40,11 @@ Design studios who consistently put out interesting work.
 
 ## Organizations
 
-Nonprofits I actively support or donate toward when I can.
+Nonprofits I actively support or donate to when I can.
 
 <small><ul class="list-unstyled list-multi-col">
   {% for item in orgs.items %}
-  <li><a href="{{ item.url }}" target="_blank">{{ item.name }}</a>
+  <li><a href="{{ item.url }}" target="_blank">{{ item.name }}</a> <span class="text-meta">{{ item.meta }}</span>
   </li>
   {% endfor %}
 </ul></small>

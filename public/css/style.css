@@ -191,6 +191,7 @@ body {
   color: var(--text-color);
   font-family: "Literata", Georgia, serif;
   font-weight: 380;
+  font-variant-ligatures: common-ligatures;
   margin: 0;
   padding: 0;
 }
@@ -467,6 +468,12 @@ sup a {
 
 .home-heading {
   font-size: clamp(1.8em, 4vw, 3.75rem);
+}
+
+.text-meta {
+  font-family: "IBM Plex Mono", Consolas, Menlo, Monaco, "Andale Mono", "Lucida Console", "Courier New", Courier, monospace;
+  font-size: 0.75em;
+  color: var(--light-text);
 }
 
 body {
@@ -946,6 +953,7 @@ a[href].direct-link:focus:visited,
   background-color: white;
   border: 1px solid rgba(0, 0, 0, 0.075);
   padding: 1em;
+  margin-left: -1em;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -1000,7 +1008,11 @@ a[href].direct-link:focus:visited,
   height: 200px;
   width: auto;
   border: 1px solid rgba(0, 0, 0, 0.075);
-  background-color: #e0e0e0;
+  background-color: var(--light-text);
+}
+
+.lib-vinyl {
+  aspect-ratio: 1/1;
 }
 
 .lib-title:hover {

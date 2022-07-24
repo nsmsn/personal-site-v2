@@ -10,6 +10,14 @@
         "url": "https://clearleft.com/"
       },
       {
+        "name": "Faculty",
+        "url": "https://faculty.com/"
+      },
+      {
+        "name": "Fictive Kin",
+        "url": "https://fictivekin.com/"
+      },
+      {
         "name": "Firebelly",
         "url": "https://www.firebellydesign.com/"
       },
@@ -20,6 +28,10 @@
       {
         "name": "Fuzzco",
         "url": "https://fuzzco.com/"
+      },
+      {
+        "name": "Hicks Design",
+        "url": "https://hicks.design/"
       },
       {
         "name": "Hoodzpah",
@@ -38,8 +50,13 @@
         "url": "http://paulsahre.com/"
       },
       {
-        "name": "Palantir (the good one)",
-        "url": "https://www.palantir.net/"
+        "name": "Paravel",
+        "url": "https://paravelinc.com/"
+      },
+      {
+        "name": "Palantir",
+        "url": "https://www.palantir.net/",
+        "meta": "(the good one)"
       },
       {
         "name": "Position",

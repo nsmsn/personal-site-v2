@@ -145,3 +145,9 @@ sup a {
 .home-heading {
     font-size: clamp(1.8em, 4vw, 3.75rem);
 }
+
+.text-meta{
+    font-family: $mono;
+    font-size: $size2;
+    color: var(--light-text);
+}

@@ -5,8 +5,16 @@
         "url": "https://ireaderinokun.com/"
       },
       {
+        "name": "Charlie and Donna Aldrich",
+        "url": "http://aldrichgalleries.com/"
+      },
+      {
         "name": "Chris Aldrich",
         "url": "https://boffosocko.com/"
+      },
+      {
+        "name": "Eleanor Aldrich",
+        "url": "https://eleanoraldrich.com/"
       },
       {
         "name": "Rachel Andrew",
@@ -101,6 +109,10 @@
         "url": "https://www.hellogeri.com/"
       },
       {
+        "name": "Josh Comeau",
+        "url": "https://www.joshwcomeau.com/"
+      },
+      {
         "name": "Simon Collison",
         "url": "https://colly.com/"
       },
@@ -115,8 +127,16 @@
 
 
       {
+        "name": "Anna Debenham",
+        "url": "https://www.maban.co.uk/"
+      },
+      {
         "name": "Chris DeLorenzo",
         "url": "http://www.chrisdelorenzo.com/"
+      },
+      {
+        "name": "Henry Desroches",
+        "url": "https://henry.codes/"
       },
       {
         "name": "Nicole Dominguez",
@@ -163,8 +183,16 @@
         "url": "https://cariefisher.com/"
       },
       {
+        "name": "Lynn Fisher",
+        "url": "https://lynnandtonic.com/"
+      },
+      {
         "name": "Jean Flanagan",
         "url": "https://jeancflanagan.com/"
+      },
+      {
+        "name": "Andy Ford",
+        "url": "https://fordinteractive.com/"
       },
       {
         "name": "Paul Ford",
@@ -188,6 +216,14 @@
         "name": "James Gilyead",
         "url": "https://www.hustlersquad.net/"
       },
+      {
+        "name": "James Gleick",
+        "url": "https://www.around.com/"
+      },
+      {
+        "name": "Aaron Gustafson",
+        "url": "https://www.aaron-gustafson.com/"
+      },
 
 
       {
@@ -207,8 +243,16 @@
         "url": "https://www.jessicaharllee.com/"
       },
       {
+        "name": "Ian Hatcher-Williams",
+        "url": "https://ianwillia.ms/"
+      },
+      {
         "name": "Piper Haywood",
         "url": "https://piperhaywood.com/"
+      },
+      {
+        "name": "Lara Hogan",
+        "url": "https://larahogan.me/"
       },
       {
         "name": "Amy Hupe",
@@ -265,8 +309,9 @@
         "url": "https://aaronzlewis.com/"
       },
       {
-        "name": "Todd Libby 🦞",
-        "url": "https://toddl.dev/"
+        "name": "Todd Libby",
+        "url": "https://toddl.dev/",
+        "meta": "🦞"
       },
       {
         "name": "Paul Robert Lloyd",
@@ -295,12 +340,24 @@
         "url": "https://www.matuzo.at/"
       },
       {
+        "name": "Scott McCloud",
+        "url": "https://www.scottmccloud.com/"
+      },
+      {
+        "name": "Tressie McMillan Cottom",
+        "url": "https://tressiemc.com/"
+      },
+      {
         "name": "Peter Mendelsund",
         "url": "https://www.petermendelsund.com/"
       },
       {
         "name": "Eric Meyer",
         "url": "https://meyerweb.com/"
+      },
+      {
+        "name": "Eric Moe",
+        "url": "https://www.ericmoe.net/"
       },
       {
         "name": "Diana Mounter",
@@ -337,8 +394,16 @@
 
 
       {
+        "name": "Jason Pamental",
+        "url": "https://rwt.io"
+      },
+      {
         "name": "Oliver Pattison",
         "url": "https://olivermak.es/"
+      },
+      {
+        "name": "Rick Perlstein",
+        "url": "http://rickperlstein.org/"
       },
       {
         "name": "Heydon Pickering",
@@ -351,6 +416,14 @@
       {
         "name": "Kevin Powell",
         "url": "https://www.kevinpowell.co/"
+      },
+      {
+        "name": "Claire Porter",
+        "url": "http://clairemporter.com/"
+      },
+      {
+        "name": "Nick Porter",
+        "url": "http://porternick.com/"
       },
       {
         "name": "Ryan Putnam",
@@ -377,6 +450,14 @@
       {
         "name": "Melanie Richards",
         "url": "https://melanie-richards.com/"
+      },
+      {
+        "name": "Corey Robin",
+        "url": "https://coreyrobin.com/"
+      },
+      {
+        "name": "Paul Rogers",
+        "url": "https://www.paulrogersstudio.com/"
       },
       {
         "name": "Dave Rupert",
@@ -468,6 +549,10 @@
       {
         "name": "Trent Walton",
         "url": "https://trentwalton.com/"
+      },
+      {
+        "name": "Barbara Weissberger",
+        "url": "https://barbaraweissberger.net/"
       },
       {
         "name": "Amber Wilson",
