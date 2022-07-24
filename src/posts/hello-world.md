@@ -34,7 +34,7 @@ Who reads these things? I thought about my interests and topics and narrowed it 
 
 1. Anyone involved in the creation of web content, software, or design. Content strategists, developers, fellow designers and people who work with these sorts of people on a regular basis.
 2. People who are interested in learning about design, specializing, or working with a designer for the first time. I've been at this for almost ten years now, which feels like a long time, but in many ways I still feel like I'm just getting started.
-3. People who already know me---Colleagues, friends, and family (Hi mom!)---and are interested in what I'm up to.
+3. People who already know me&mdash;Colleagues, friends, and family (Hi mom!)&mdash;and are interested in what I'm up to.
 
 ## Content
 

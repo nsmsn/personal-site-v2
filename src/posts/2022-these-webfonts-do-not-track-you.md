@@ -34,7 +34,7 @@ If you like using Google’s API, but want a more GDPR-friendly CDN for font del
 <blockquote class="flow">
 <p>The Bunny Fonts API was designed to be fully compatible with the Google Fonts CSS v1 API, making the switch as easy as changing the hostname.</p>
 
-<p>Simply swap "https://fonts.bunny.net/css" in place of "https://fonts.googleapis.com/css" on your website's source code and let your users enjoy better privacy.</p>
+<p>Simply swap <code>"https://fonts.bunny.net/css"</code> in place of <code>"https://fonts.googleapis.com/css"</code> on your website's source code and let your users enjoy better privacy.</p>
 </blockquote>
 
 The caveat to using Bunny Fonts is that you may not be able to use the variable versions of the Google Fonts library, at least at the time of this writing.

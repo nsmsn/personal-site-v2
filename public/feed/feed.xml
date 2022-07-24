@@ -32,7 +32,7 @@
 &lt;p&gt;If you like using Google’s API, but want a more GDPR-friendly CDN for font delivery, you could also try &lt;a href=&quot;https://fonts.bunny.net/&quot;&gt;fonts.bunny.net&lt;/a&gt;. Bunny Fonts bills itself as a “drop-in replacement for Google Fonts”:&lt;/p&gt;
 &lt;blockquote class=&quot;flow&quot;&gt;
 &lt;p&gt;The Bunny Fonts API was designed to be fully compatible with the Google Fonts CSS v1 API, making the switch as easy as changing the hostname.&lt;/p&gt;
-&lt;p&gt;Simply swap &quot;https://fonts.bunny.net/css&quot; in place of &quot;https://fonts.googleapis.com/css&quot; on your website&#39;s source code and let your users enjoy better privacy.&lt;/p&gt;
+&lt;p&gt;Simply swap &lt;code&gt;&quot;https://fonts.bunny.net/css&quot;&lt;/code&gt; in place of &lt;code&gt;&quot;https://fonts.googleapis.com/css&quot;&lt;/code&gt; on your website&#39;s source code and let your users enjoy better privacy.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;The caveat to using Bunny Fonts is that you may not be able to use the variable versions of the Google Fonts library, at least at the time of this writing.&lt;/p&gt;
 &lt;p&gt;If you are looking to self-host variable fonts, many of the best designed variable fonts on Google fonts are available to download on &lt;a href=&quot;https://www.fontshare.com/&quot;&gt;Fontshare&lt;/a&gt;, by the Indian Type Foundry (ITF). In addition to open source designs like &lt;a href=&quot;https://www.fontshare.com/fonts/literata&quot;&gt;Literata&lt;/a&gt; and &lt;a href=&quot;https://www.fontshare.com/fonts/epilogue&quot;&gt;Epilogue&lt;/a&gt;, there are many “closed source” designs by ITF that you can also use under a free license. I’m particularly drawn to &lt;a href=&quot;https://www.fontshare.com/fonts/satoshi&quot;&gt;Satoshi&lt;/a&gt;, &lt;a href=&quot;https://www.fontshare.com/fonts/zodiak&quot;&gt;Zodiak&lt;/a&gt;, and &lt;a href=&quot;https://www.fontshare.com/fonts/general-sans&quot;&gt;General Sans&lt;/a&gt;.&lt;/p&gt;
@@ -2194,7 +2194,7 @@ Mary Ruefle, &amp;ldquo;Short Lecture on Your Own Happiness&amp;rdquo;, from &lt
 &lt;ol&gt;
 &lt;li&gt;Anyone involved in the creation of web content, software, or design. Content strategists, developers, fellow designers and people who work with these sorts of people on a regular basis.&lt;/li&gt;
 &lt;li&gt;People who are interested in learning about design, specializing, or working with a designer for the first time. I&#39;ve been at this for almost ten years now, which feels like a long time, but in many ways I still feel like I&#39;m just getting started.&lt;/li&gt;
-&lt;li&gt;People who already know me---Colleagues, friends, and family (Hi mom!)---and are interested in what I&#39;m up to.&lt;/li&gt;
+&lt;li&gt;People who already know me—Colleagues, friends, and family (Hi mom!)—and are interested in what I&#39;m up to.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&quot;content&quot;&gt;Content &lt;a class=&quot;direct-link&quot; href=&quot;https://nicksimson.com/posts/hello-world/#content&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;I&#39;ve drafted or am in the process of writing several blog posts to be published after this one. Before I started designing this site, I brainstormed a list of titles for the kinds of posts I eventually want to write. Most are aspirational. Some are satirical. A few are in need of a professional editor. Here are the ones I&#39;m most excited about:&lt;/p&gt;

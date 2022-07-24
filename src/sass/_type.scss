@@ -65,20 +65,27 @@ h6 {
 blockquote {
     margin: 1em 0;
     padding: .5rem 1.25rem;
+    margin-left: -1.45rem;
     border-left: 4px solid $lightred;
-    color: var(--light-text);
-    font-family: $sans;
+    font-family: $serif;
     font-weight: 400;
+    font-size: 1.15em;
+    font-style: italic;
+    font-variant-ligatures: common-ligatures discretionary-ligatures;
     max-width: 60ch;
     
   
     &,
     p {
-      font-size: $size3;
+      font-variant-ligatures: common-ligatures discretionary-ligatures;
     }
   
     + * {
       margin-top: 1rem;
+    }
+
+    + figcaption {
+      margin-top: $size1;
     }
   
     :last-child {
@@ -98,7 +105,8 @@ p {
 }
 
 p.lede {
-    font-size: $size4;
+    font-size: $size5;
+    font-variant-ligatures: common-ligatures discretionary-ligatures;
 }
 
 dl dt {

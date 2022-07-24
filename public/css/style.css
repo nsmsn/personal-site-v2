@@ -258,6 +258,7 @@ code {
   line-height: 1.5;
   background-color: #e0e0e0;
   padding: 0 0.25em;
+  font-style: normal;
 }
 
 pre {
@@ -393,18 +394,24 @@ h6 {
 blockquote {
   margin: 1em 0;
   padding: 0.5rem 1.25rem;
+  margin-left: -1.45rem;
   border-left: 4px solid #f18680;
-  color: var(--light-text);
-  font-family: "Epilogue", "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Literata", Georgia, serif;
   font-weight: 400;
+  font-size: 1.15em;
+  font-style: italic;
+  font-variant-ligatures: common-ligatures discretionary-ligatures;
   max-width: 60ch;
 }
 blockquote,
 blockquote p {
-  font-size: 1em;
+  font-variant-ligatures: common-ligatures discretionary-ligatures;
 }
 blockquote + * {
   margin-top: 1rem;
+}
+blockquote + figcaption {
+  margin-top: 0.5em;
 }
 blockquote :last-child {
   margin-bottom: 0;
@@ -422,7 +429,8 @@ p {
 }
 
 p.lede {
-  font-size: 1.25em;
+  font-size: 1.5em;
+  font-variant-ligatures: common-ligatures discretionary-ligatures;
 }
 
 dl dt {
