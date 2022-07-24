@@ -23,13 +23,17 @@ permalink: /info/
 
 I am a public sector communication designer with over a decade of professional experience. I spend most of my day designing, building, and maintaining websites at a large public university.
 
-I also occasionally contribute my graphic design and web development skills for small projects, independent artists and other worthy causes. I’m married to [Eleanor](https://eleanoraldrich.com), who makes paintings. We live in Knoxville with our daughter and our dog.
+I also occasionally contribute my graphic design and web development skills for small projects, independent artists and other worthy causes. I’m married to [Eleanor](https://eleanoraldrich.com), who makes paintings. We live in Knoxville with our daughter and a small [dog](https://dogsof.dev/dogs/zelda/).
 
 See what I’m up to [now](/now/).
+
+&nbsp;
 
 ### Get in touch
 
 Send me email: [nick@nicksimson.com](mailto:nick@nicksimson.com).
+
+&nbsp;
 
 ### Elsewhere
 
@@ -48,10 +52,9 @@ Email is still the <strong>best</strong> way to reach me, but I do maintain a pr
 <li><a href="https://keybase.io/nsmsn" rel="me">Keybase</a><br /><small class="mono">(PGP Key: 0764 C7E9 3BB0 25C0)</small></li>
 </ul>
 
-&nbsp;
-
 <small>I am not the urologist or the hockey player that share a name and Google results.</small>
 
+&nbsp;
 
 ## About this website
 
