@@ -5,7 +5,7 @@
         "url": "https://ireaderinokun.com/"
       },
       {
-        "name": "Charlie and Donna Aldrich",
+        "name": "Charlie & Donna Aldrich",
         "url": "http://aldrichgalleries.com/"
       },
       {
@@ -35,8 +35,16 @@
         "url": "https://ericwbailey.design/"
       },
       {
+        "name": "Ben Barry",
+        "url": "https://benbarry.com/"
+      },
+      {
         "name": "Andy Bell",
         "url": "https://andy-bell.co.uk/"
+      },
+      {
+        "name": "Raymond Biesinger",
+        "url": "https://fifteen.ca/"
       },
       {
         "name": "Nicholas Blechman",
@@ -71,6 +79,10 @@
         "url": "https://aworkinglibrary.com/"
       },
       {
+        "name": "Ivan Brunetti",
+        "url": "https://www.ivanbrunetti.com/"
+      },
+      {
         "name": "Daniel Burka",
         "url": "https://danielburka.com/"
       },
@@ -84,6 +96,10 @@
       },
 
 
+      {
+        "name": "Emily Campbell",
+        "url": "https://emilycampbell.co/"
+      },
       {
         "name": "Erik Carter",
         "url": "https://erikcarter.net/"
@@ -133,6 +149,10 @@
         "url": "https://annaecook.com/"
       },
       {
+        "name": "Dennis Cortés",
+        "url": "https://www.cortes.us/"
+      },
+      {
         "name": "Chris Coyier",
         "url": "https://chriscoyier.net/"
       },
@@ -169,11 +189,19 @@
         "url": "https://daneden.me/"
       },
       {
+        "name": "Frank Elavsky",
+        "url": "https://www.frank.computer/"
+      },
+      {
         "name": "Cory Etzkorn",
         "url": "https://www.coryetzkorn.com/"
       },
 
 
+      {
+        "name": "Jeremy Felt",
+        "url": "https://jeremyfelt.com/"
+      },
       {
         "name": "Max Fenton",
         "url": "https://maxfenton.com/"
@@ -211,6 +239,10 @@
         "url": "https://ftrain.com/"
       },
       {
+        "name": "Sarah L. Fossheim",
+        "url": "https://fossheim.io/"
+      },
+      {
         "name": "Brad Frost",
         "url": "https://bradfrost.com/"
       },
@@ -219,6 +251,14 @@
       {
         "name": "Brian Gardner",
         "url": "https://briangardner.com/"
+      },
+      {
+        "name": "Tom Gauld",
+        "url": "https://www.tomgauld.com/"
+      },
+      {
+        "name": "Rob Giampietro",
+        "url": "https://linedandunlined.com/"
       },
       {
         "name": "Ndigi Gichingiri",
@@ -273,6 +313,10 @@
 
 
       {
+        "name": "Brent Jackson",
+        "url": "https://jxnblk.com/"
+      },
+      {
         "name": "Eric Jacobsen",
         "url": "https://whiskyvangoghgo.com/"
       },
@@ -301,6 +345,10 @@
       {
         "name": "Erin Kissane",
         "url": "http://incisive.nu/"
+      },
+      {
+        "name": "Una Kravets",
+        "url": "https://una.im/"
       },
       {
         "name": "Hal Kurtz",
@@ -372,8 +420,20 @@
         "url": "https://meyerweb.com/"
       },
       {
+        "name": "Ryan Miyoshi",
+        "url": "https://ryry.io/"
+      },
+      {
         "name": "Eric Moe",
         "url": "https://www.ericmoe.net/"
+      },
+      {
+        "name": "Dwayne Monroe",
+        "url": "https://monroelab.net/"
+      },
+      {
+        "name": "Adam Morse",
+        "url": "https://mrmrs.cc/"
       },
       {
         "name": "Diana Mounter",
@@ -391,11 +451,19 @@
 
       {
         "name": "Christoph Niemann",
-        "url": " https://www.christophniemann.com/"
+        "url": "https://www.christophniemann.com/"
+      },
+      {
+        "name": "Nick Ng",
+        "url": "https://nickng.co/"
       },
       {
         "name": "Anders Noren",
         "url": "https://andersnoren.se/"
+      },
+      {
+        "name": "Christian Northeast",
+        "url": "http://christiannortheast.com/"
       },
 
 
@@ -514,6 +582,10 @@
         "url": "https://elanaschlenker.com/"
       },
       {
+        "name": "Leanne Shapton",
+        "url": "http://www.leanneshapton.com/"
+      },
+      {
         "name": "Sophie Shepherd",
         "url": "http://sophieshepherd.com/"
       },
@@ -538,6 +610,10 @@
         "url": "https://cattsmall.com/"
       },
       {
+        "name": "Montique Stevens",
+        "url": "https://mkstevens.dev"
+      },
+      {
         "name": "Sara Soueidan",
         "url": "https://www.sarasoueidan.com/"
       },
@@ -554,7 +630,12 @@
       {
         "name": "Rich Tabor",
         "url": "https://richtabor.com/"
-      },      {
+      },
+      {
+        "name": "David Dylan Thomas",
+        "url": "https://www.daviddylanthomas.com/"
+      },       
+      {
         "name": "Donny Trương",
         "url": "https://donnytruong.com/"
       },
@@ -577,6 +658,10 @@
       {
         "name": "Trent Walton",
         "url": "https://trentwalton.com/"
+      },
+      {
+        "name": "Blake Watson",
+        "url": "https://blakewatson.com/"
       },
       {
         "name": "Barbara Weissberger",

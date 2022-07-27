@@ -64,6 +64,13 @@
         "url": "https://www.discogs.com/master/460176-David-Bromberg-David-Bromberg"
       },
       {
+        "title": "Midnight on the Water",
+        "artist": "David Bromberg Band",
+        "cover": "bromberg-midnight-1975.jpg",
+        "year": "1975",
+        "url": "https://www.discogs.com/master/326897-David-Bromberg-Band-Midnight-On-The-Water"
+      },
+      {
         "title": "Retrospective - The Best Of Buffalo Springfield",
         "artist": "Buffalo Springfield",
         "cover": "buffalo-springfield-retrospective-1969.jpg",
@@ -92,6 +99,20 @@
         "url": "https://www.discogs.com/release/190219-The-Cars-The-Cars"
       },
       {
+        "title": "Modern Sounds In Country And Western Music",
+        "artist": "Ray Charles",
+        "cover": "charles-modern-sounds-one-1962.jpg",
+        "year": "1962",
+        "url": "https://www.discogs.com/master/141586-Ray-Charles-Modern-Sounds-In-Country-And-Western-Music"
+      },
+      {
+        "title": "Modern Sounds In Country And Western Music Vol. Two",
+        "artist": "Ray Charles",
+        "cover": "charles-modern-sounds-two-1962.jpg",
+        "year": "1962",
+        "url": "https://www.discogs.com/master/278388-Ray-Charles-Modern-Sounds-In-Country-And-Western-Music-Volume-Two"
+      },
+      {
         "title": "Les Sylphides Ballet & Uirapurú (A Symphonic Poem)",
         "artist": "Frédéric Chopin (New York Philharmonic)",
         "cover": "chopin-les-sylphides-1950.jpg",
@@ -104,6 +125,27 @@
         "cover": "chopin-family-library-1976.jpg",
         "year": "1976",
         "url": "https://www.discogs.com/master/468828-Chopin-Polonaises-Nocturne-Etudes-Mazurkas"
+      },
+      {
+        "title": "Trailer Park Weekend",
+        "artist": "Crawpatch",
+        "cover": "crawpatch-trailerparkweekend-1979.jpg",
+        "year": "1979",
+        "url": "https://www.discogs.com/master/1676122-Crawpatch-Trailer-Park-Weekend"
+      },
+      {
+        "title": "La Mer / Prelude To The Afternoon Of A Faun / Jeux",
+        "artist": "Claude Debussy (New Philharmonia Orch. conducted by Pierre Boulez)",
+        "cover": "debussy-boulez-1982.jpg",
+        "year": "1982",
+        "url": "https://www.discogs.com/release/4696361-Debussy-Boulez-New-Philharmonia-Orchestra-La-Mer-Prelude-To-The-Afternoon-Of-A-Faun-Jeux"
+      },
+      {
+        "title": "Bitches Brew",
+        "artist": "Miles Davis",
+        "cover": "davis-bitchesbrew-1970.jpg",
+        "year": "1970",
+        "url": "https://www.discogs.com/master/8260-Miles-Davis-Bitches-Brew"
       },
       {
         "title": "Boston, Mass.",
@@ -267,6 +309,13 @@
         "url": "https://www.discogs.com/master/821094-John-Hartford-Headin-Down-Into-The-Mystery-Below"
       },
       {
+        "title": "Misfits",
+        "artist": "The Kinks",
+        "cover": "kinks-misfits-1978.jpg",
+        "year": "1978",
+        "url": "https://www.discogs.com/master/101412-The-Kinks-Misfits"
+      },
+      {
         "title": "Levant Plays Gershwin",
         "artist": "Oscar Levant",
         "cover": "levant-plays-gershwin-1955.jpg",
@@ -279,6 +328,13 @@
         "cover": "liszt-family-library-1976.jpg",
         "year": "1976",
         "url": "https://www.discogs.com/release/1898285-Liszt-Piano-Concerto-No-2-In-A-Major-Hungarian-Rhapsody-No-6-Hungarian-Fantasy-For-Piano-And-Orchest"
+      },
+      {
+        "title": "Percussion Italiano",
+        "artist": "Charles Magnante",
+        "cover": "magnante-percussion-italiano-1961.jpg",
+        "year": "1961",
+        "url": "https://www.discogs.com/master/475198-Charles-Magnante-Percussion-Italiano"
       },
       {
         "title": "Complete Recorded Works, Volume 1",
@@ -337,6 +393,20 @@
         "url": "https://www.discogs.com/master/973059-Paul-Robeson-The-Essential-Paul-Robeson"
       },
       {
+        "title": "Let It Bleed",
+        "artist": "The Rolling Stones",
+        "cover": "rollingstones-letitbleed-1969.jpg",
+        "year": "1969",
+        "url": "https://www.discogs.com/master/52967-Rolling-Stones-Let-It-Bleed"
+      },
+      {
+        "title": "Exile on Main Street",
+        "artist": "The Rolling Stones",
+        "cover": "rollingstones-exileonmainst-1972.jpg",
+        "year": "1972",
+        "url": "https://www.discogs.com/master/30303-Rolling-Stones-Exile-On-Main-St"
+      },
+      {
         "title": "Piano Music of Erik Satie",
         "artist": "Erik Satie, Jacques Février",
         "cover": "satie-piano-music-1970.jpg",
@@ -349,6 +419,13 @@
         "cover": "shostakovich-1975.jpg",
         "year": "1975",
         "url": "https://www.discogs.com/release/960272-Shostakovich-Fitzwilliam-String-Quartet-String-Quartets-Nos-7-13-14"
+      },
+      {
+        "title": "Born To Run",
+        "artist": "Bruce Springsteen",
+        "cover": "springsteen-born-to-run-1975.jpg",
+        "year": "1975",
+        "url": "https://www.discogs.com/master/26725-Bruce-Springsteen-Born-To-Run"
       },
       {
         "title": "Also Sprach Zarathustra",

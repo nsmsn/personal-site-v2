@@ -21,9 +21,9 @@ permalink: /info/
 
 ## Profile
 
-I am a public sector communication designer with over a decade of professional experience. I spend most of my day designing, building, and maintaining websites at a large public university.
+I’m a public sector communication designer with over a decade of professional experience. I spend most of my day designing, building, and maintaining websites at a large public university.
 
-I also occasionally contribute my graphic design and web development skills for small projects, independent artists and other worthy causes. I’m married to [Eleanor](https://eleanoraldrich.com), who makes paintings. We live in Knoxville with our daughter and a small [dog](https://dogsof.dev/dogs/zelda/).
+I also occasionally contribute my graphic design and web development skills for small projects, independent artists and other worthy causes. I’m married to [Eleanor](https://eleanoraldrich.com), who makes paintings. We live in Knoxville with our daughter and a small&nbsp;[dog](https://dogsof.dev/dogs/zelda/).
 
 See what I’m up to [now](/now/).
 
