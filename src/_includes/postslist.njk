@@ -6,7 +6,7 @@
 
     <span class="postlist-blurb p-summary">{% if post.data.description %}{{ post.data.description}}{% else %}&nbsp;{% endif %}</span>
 
-    <time class="postlist-date dt-published" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
+    <time class="postlist-date dt-published" datetime="{{ post.date | w3Date }}">{{ post.date | longDate }}</time>
     
     {% for tag in post.data.tags %}
       {%- if collections.tagList.indexOf(tag) != -1 -%}

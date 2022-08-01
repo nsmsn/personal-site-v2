@@ -396,6 +396,7 @@ blockquote {
   padding: 0.5rem 1.25rem;
   margin-left: -1.45rem;
   border-left: 4px solid #f18680;
+  background-color: rgba(0, 0, 0, 0.05);
   font-family: "Literata", Georgia, serif;
   font-weight: 400;
   font-size: 1.15em;
@@ -417,6 +418,11 @@ blockquote :last-child {
   margin-bottom: 0;
 }
 
+@media (prefers-color-scheme: dark) {
+  blockquote {
+    background-color: rgba(0, 0, 0, 0.125);
+  }
+}
 figcaption {
   font-family: "IBM Plex Mono", Consolas, Menlo, Monaco, "Andale Mono", "Lucida Console", "Courier New", Courier, monospace;
   font-size: 0.75em;
@@ -821,6 +827,7 @@ header, footer {
 .postlist-date,
 .postlist-item:before {
   font-size: 0.8em;
+  color: var(--light-text);
 }
 
 .postlist-date {
@@ -3103,7 +3110,7 @@ a[href].direct-link:focus:visited,
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg-color: #292929;
+    --bg-color: #252523;
     --text-color: #faf9f9;
     --light-text: #c0c0c0;
     --link-color: #a4bfeb;

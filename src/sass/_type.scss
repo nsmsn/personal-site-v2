@@ -67,6 +67,7 @@ blockquote {
     padding: .5rem 1.25rem;
     margin-left: -1.45rem;
     border-left: 4px solid $lightred;
+    background-color: rgba(0,0,0,0.05);
     font-family: $serif;
     font-weight: 400;
     font-size: 1.15em;
@@ -91,6 +92,12 @@ blockquote {
     :last-child {
       margin-bottom: 0;
     }
+}
+
+@media (prefers-color-scheme: dark) {
+    blockquote{
+    background-color: rgba(0,0,0,0.125);
+}
 }
 
 figcaption{

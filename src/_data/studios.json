@@ -10,6 +10,10 @@
         "url": "https://clearleft.com/"
       },
       {
+        "name": "Decubing",
+        "url": "https://decubing.com/"
+      },
+      {
         "name": "Faculty",
         "url": "https://faculty.com/"
       },
@@ -28,10 +32,6 @@
       {
         "name": "Friends of the Web",
         "url": "https://friendsoftheweb.com/"
-      },
-      {
-        "name": "Fuzzco",
-        "url": "https://fuzzco.com/"
       },
       {
         "name": "Hicks Design",
@@ -66,9 +66,9 @@
         "url": "https://paravelinc.com/"
       },
       {
-        "name": "Palantir",
+        "name": "Palantir.net",
         "url": "https://www.palantir.net/",
-        "meta": "(the good one)"
+        "meta": ""
       },
       {
         "name": "Position",
@@ -85,6 +85,10 @@
       {
         "name": "Relays",
         "url": "https://www.relays.team/"
+      },
+      {
+        "name": "Scruples",
+        "url": "https://scruples.studio/"
       },
       {
         "name": "Set Studio",

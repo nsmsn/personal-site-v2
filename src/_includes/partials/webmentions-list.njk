@@ -1,36 +1,3 @@
----
-layout: layouts/base.njk
-templateClass: tmpl-post
----
-
-{%- set postMentionCount = webmentions | webmentionCountForPage -%}
-
-<article class="h-entry">
-
-<h1 class="p-name">{{ title }}</h1>
-
-<small class="timestamp">Published <time datetime="{{ page.date | w3Date }}" class="dt-published"><a class="u-url" href="{{ post.url | url }}">{{ page.date | longDate }}</a></time> by <a rel="author" class="p-author h-card" href="/info/">Nick</a></small>
-
-<small> <a href="#webmentions">{{ postMentionCount }} Response{%- if (postMentionCount !== 1) %}s{% endif %}</a></small>
-
-<div class="e-content flow">
-{{ content | safe }}
-</div>
-</article>
-
-<div>
-&nbsp;
-</div>
-
-<footer class="pagination">
-<hr>
-<ul class="list-unstyled pagination__inner">
-  {%- set nextPost = collections.posts | getNextCollectionItem(page) %}
-  {%- if nextPost %}<li class="">Next: <a href="{{ nextPost.url | url }}">{{ nextPost.data.title }}</a></li>{% endif %}
-  {%- set previousPost = collections.posts | getPreviousCollectionItem(page) %}
-  {%- if previousPost %}<li class="">Previous: <a href="{{ previousPost.url | url }}">{{ previousPost.data.title }}</a></li>{% endif %}
-</ul>
-
 {%- set postMentions = webmentions | webmentionsForPage -%}
 <article id="webmentions" class="webmentions">
   <header class="webmentions__header">
@@ -38,7 +5,7 @@ templateClass: tmpl-post
       {{ postMentions.total }} Response{%- if (postMentions.total !== 1) %}s{% endif %}
     </h2>
     <p>
-      <form action="https://webmention.io/nicksimson.com/webmention" method="post" class="form-webmention">
+      <form action="https://webmention.io/{{ site.domain }}/webmention" method="post" class="form-webmention">
         <label for="form-webmention-source" class="webmentions__form-label">Have you published your own post mentioning this
           one? Let me know the URL:</label>
         <div class="webmentions__field-wrapper">
@@ -96,5 +63,3 @@ templateClass: tmpl-post
       </ol>
     {% endif %}
   </article>
-
-</footer>
