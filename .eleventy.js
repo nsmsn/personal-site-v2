@@ -7,18 +7,15 @@ const markdownItAnchor = require("markdown-it-anchor");
 const { DateTime } = require('luxon');
 const Webmentions = require("eleventy-plugin-webmentions");
 
-module.exports = function (eleventyConfig) {
-  eleventyConfig.addPlugin(Webmentions, {
-    domain: "nicksimson.com",
-    token: "9ZigX3lR8nFE-2EGDfVupg",
-  });
-};
-
-
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(pluginSyntaxHighlight);
   eleventyConfig.addPlugin(pluginNavigation);
+
+  eleventyConfig.addPlugin(Webmentions, {
+    domain: "nicksimson.com",
+    token: "9ZigX3lR8nFE-2EGDfVupg",
+  });
 
   eleventyConfig.setDataDeepMerge(true);
 

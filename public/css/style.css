@@ -490,6 +490,54 @@ sup a {
   color: var(--light-text);
 }
 
+.bold {
+  font-weight: bold;
+}
+
+.size0 {
+  font-size: 0.25em;
+}
+
+.size1 {
+  font-size: 0.5em;
+}
+
+.size2 {
+  font-size: 0.75em;
+}
+
+.size3 {
+  font-size: 1em;
+}
+
+.size4 {
+  font-size: 1.25em;
+}
+
+.size5 {
+  font-size: 1.5em;
+}
+
+.size6 {
+  font-size: 1.75em;
+}
+
+.size7 {
+  font-size: 2em;
+}
+
+.size8 {
+  font-size: 2.25em;
+}
+
+.size9 {
+  font-size: 2.5em;
+}
+
+.size10 {
+  font-size: 3em;
+}
+
 body {
   display: flex;
   flex-direction: column;

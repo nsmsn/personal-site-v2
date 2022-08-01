@@ -14,11 +14,11 @@ In earlier days, this might have looked like a <em>[webring](https://indieweb.or
 
 ## People
 
-Artists, designers, developers, educators, illustrators, writers, and others.
+Artists, designers, developers, educators, illustrators, writers, and&nbsp;others.
 
 <small><ul class="list-unstyled list-multi-col">
   {% for item in people.items %}
-  <li><a class="h-card" href="{{ item.url }}" target="_blank">{{ item.name }}</a> <span class="text-meta">{{ item.meta }}</span>
+  <li><a href="{{ item.url }}" target="_blank">{{ item.name }}</a> <span class="text-meta">{{ item.meta }}</span>
   </li>
   {% endfor %}
 </ul></small>

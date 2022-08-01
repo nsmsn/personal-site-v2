@@ -121,6 +121,10 @@
         "url": "http://tantek.com/"
       },
       {
+        "name": "Chen Hui Jing",
+        "url": "https://chenhuijing.com/"
+      },
+      {
         "name": "Maurice Cherry",
         "url": "https://www.mauricecherry.com/"
       },
@@ -161,6 +165,10 @@
       {
         "name": "Anna Debenham",
         "url": "https://www.maban.co.uk/"
+      },
+      {
+        "name": "Katy DeCorah",
+        "url": "https://katydecorah.com/"
       },
       {
         "name": "Chris DeLorenzo",
@@ -351,6 +359,10 @@
         "url": "https://una.im/"
       },
       {
+        "name": "Scott Kubie",
+        "url": "https://kubie.co/"
+      },
+      {
         "name": "Hal Kurtz",
         "url": "https://vandaliacreative.com/"
       },
@@ -367,6 +379,10 @@
       {
         "name": "Aaron Z. Lewis",
         "url": "https://aaronzlewis.com/"
+      },
+      {
+        "name": "Jason Li",
+        "url": "https://byjasonli.com/"
       },
       {
         "name": "Todd Libby",
@@ -418,6 +434,10 @@
       {
         "name": "Eric Meyer",
         "url": "https://meyerweb.com/"
+      },
+      {
+        "name": "Luke Mitchell",
+        "url": "https://www.interroban.gg/"
       },
       {
         "name": "Ryan Miyoshi",
@@ -502,16 +522,16 @@
         "url": "http://pieratt.com/"
       },
       {
-        "name": "Kevin Powell",
-        "url": "https://www.kevinpowell.co/"
-      },
-      {
         "name": "Claire Porter",
         "url": "http://clairemporter.com/"
       },
       {
         "name": "Nick Porter",
         "url": "http://porternick.com/"
+      },
+      {
+        "name": "Kevin Powell",
+        "url": "https://www.kevinpowell.co/"
       },
       {
         "name": "Ryan Putnam",
@@ -574,12 +594,20 @@
 
 
       {
+        "name": "Viljami Salminen",
+        "url": "https://viljamis.com/"
+      },
+      {
         "name": "Michael Scharnagl",
         "url": "https://justmarkup.com/"
       },
       {
         "name": "Elana Schlenker",
         "url": "https://elanaschlenker.com/"
+      },
+      {
+        "name": "Ahmad Shadeed",
+        "url": "https://ishadeed.com/"
       },
       {
         "name": "Leanne Shapton",
@@ -632,6 +660,10 @@
         "url": "https://richtabor.com/"
       },
       {
+        "name": "Allen Tan",
+        "url": "https://www.tanmade.com/"
+      },
+      {
         "name": "David Dylan Thomas",
         "url": "https://www.daviddylanthomas.com/"
       },       
@@ -668,6 +700,10 @@
         "url": "https://barbaraweissberger.net/"
       },
       {
+        "name": "Rob Weychert",
+        "url": "https://robweychert.com/"
+      },
+      {
         "name": "Amber Wilson",
         "url": "https://amberwilson.co.uk/"
       },
@@ -683,6 +719,10 @@
       {
         "name": "Indi Young",
         "url": "https://indiyoung.com/"
+      },
+      {
+        "name": "Allan Yu",
+        "url": "https://allanyu.nyc/"
       },
 
       {

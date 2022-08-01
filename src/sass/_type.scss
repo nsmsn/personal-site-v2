@@ -97,7 +97,7 @@ blockquote {
 @media (prefers-color-scheme: dark) {
     blockquote{
     background-color: rgba(0,0,0,0.125);
-}
+    }
 }
 
 figcaption{
@@ -165,4 +165,52 @@ sup a {
     font-family: $mono;
     font-size: $size2;
     color: var(--light-text);
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.size0{
+    font-size: $size0
+}
+
+.size1{
+    font-size: $size1
+}
+
+.size2{
+    font-size: $size2
+}
+
+.size3{
+    font-size: $size3
+}
+
+.size4{
+    font-size: $size4
+}
+
+.size5{
+    font-size: $size5
+}
+
+.size6{
+    font-size: $size6
+}
+
+.size7{
+    font-size: $size7
+}
+
+.size8{
+    font-size: $size8
+}
+
+.size9{
+    font-size: $size9
+}
+
+.size10{
+    font-size: $size10
 }
