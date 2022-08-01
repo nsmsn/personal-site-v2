@@ -3,7 +3,7 @@ layout: layouts/base.njk
 templateClass: tmpl-post
 ---
 
-{%- set postMentionCount = webmentions | webmentionCountForPage -%}
+
 <article class="h-entry">
 
 <h1 class="p-name">{{ title }}</h1>
@@ -27,7 +27,5 @@ templateClass: tmpl-post
   {%- set previousPost = collections.posts | getPreviousCollectionItem(page) %}
   {%- if previousPost %}<li class="">Previous: <a href="{{ previousPost.url | url }}">{{ previousPost.data.title }}</a></li>{% endif %}
 </ul>
-
-{% include "partials/webmentions-list.njk" %}
 
 </footer>
