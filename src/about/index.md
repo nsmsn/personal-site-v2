@@ -39,7 +39,6 @@ Send me email: [nick@nicksimson.com](mailto:nick@nicksimson.com).
 
 Email is still the <strong>best</strong> way to reach me, but I do maintain a presence at the&nbsp;following:
 
-
 <ul class="list-multi-col">
 <li><a href="https://www.are.na/nick-simson" rel="me">Are.na</a></li>
 <li><a href="https://read.cv/nsmsn/" rel="me">CV</a></li>
@@ -53,17 +52,18 @@ Email is still the <strong>best</strong> way to reach me, but I do maintain a pr
 <li><a href="https://keybase.io/nsmsn" rel="me">Keybase</a><br /><small class="mono">(PGP Key: 0764 C7E9 3BB0 25C0)</small></li>
 </ul>
 
+
 <small>I am not the urologist or the hockey player that share a name and Google results.</small>
 
 &nbsp;
 
 ## About this website
 
-This is my personal website. I use this as my own place to experiment and try things out. I tinker with this site’s writing, design, and code as I feel motivated, mainly during evenings and weekends.
+This is my personal website. I use this as my place to experiment and try things out. I tinker with this site’s writing, design, and code as I feel motivated, mainly during evenings and weekends.
 
 <strong>This website does not track you.</strong> There are no third-party cookies here, and your data isn’t collected when using this site.
 
-You can track this site’s progress and iterations at [this GitHub repo](https://github.com/nsmsn/nicksimsondotcom). This site is built and deployed with [Eleventy](https://11ty.dev/) and [Netlify](https://netlify.com). My blog posts are available in both [RSS](https://www.nicksimson.com/feed/feed.xml) and [JSON](https://www.nicksimson.com/feed/feed.json). I prioritize performance and <a href="/accessibility">accessibility</a>. You can read [a note on the type](/type) to learn about the fonts in use.
+You can track this site’s progress and iterations at [this GitHub repo](https://github.com/nsmsn/nicksimsondotcom). This site is built with [Eleventy](https://11ty.dev/) and deployed to [Netlify](https://netlify.com). My blog posts are available in both [RSS](https://www.nicksimson.com/feed/feed.xml) and [JSON](https://www.nicksimson.com/feed/feed.json). I prioritize performance and <a href="/accessibility">accessibility</a>. You can read [a note on the type](/type) to learn about the fonts in use.
 
 Want even more? Check out [log.nicksimson.com](https://log.nicksimson.com).
 
