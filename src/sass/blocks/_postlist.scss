@@ -41,13 +41,13 @@
   display: block;
   font-family: $sans;
   text-decoration-thickness: 2px;
-  text-decoration-color: $lightblue;
+  text-decoration-color: var(--light-text);
   padding: 0.25em 0 0.125em 0;
 }
 
 .postlist-link:hover {
   color: var(--link-hover);
-  text-decoration-color: $washedred;
+  text-decoration-color: $lightred;
 }
 
 .postlist-item-active .postlist-link {

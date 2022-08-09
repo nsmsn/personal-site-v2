@@ -42,6 +42,7 @@ body {
 /* A elements that don't have a class get default styles */
 a:not([class]) {
   text-decoration-skip-ink: auto;
+  text-decoration-thickness: 1px;
 }
 
 /* Prevent img and video elements from spilling outside of the page on smaller screens. */
@@ -83,15 +84,15 @@ select {
     // We set this as an RGBA because that’s how you get a solid color, by using 0.99
     // alpha value. Browsers are wild.
     background: rgba(0,35,88,0.99);
-    color: $lightgreen;
+    color: $lightyellow;
   }
 
 mark{
-    background-color: $yellow;
+    background-color: $gold;
 }
 
 mark::selection {
-    background-color: $pink;
+    background-color: $washedred;
     color: black;
 }
 

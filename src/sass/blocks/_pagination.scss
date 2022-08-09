@@ -18,11 +18,11 @@
 .pagination a {
   font-family: $sans;
   text-decoration-thickness: 2px;
-  text-decoration-color: $lightblue;
+  text-decoration-color: var(--light-text);
   font-weight: 600;
   font-size: 1.1em;
 }
 
 .pagination a:hover {
-  text-decoration-color: $washedred;
+  text-decoration-color: $lightred;
 }

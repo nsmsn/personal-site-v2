@@ -5,12 +5,74 @@
 	
 	<link href="https://nicksimson.com/feed/feed.xml" rel="self"/>
 	<link href="https://nicksimson.com/"/>
-	<updated>2022-07-03T01:08:13Z</updated>
+	<updated>2022-08-09T23:37:55Z</updated>
 	<id>https://nicksimson.com/</id>
 	<author>
 		<name>Nick Simson</name>
 		<email>nick@nicksimson.com</email>
 	</author>
+	
+	<entry>
+		<title>Earth tones</title>
+		<link href="https://nicksimson.com/posts/2022-redesign-earth-tones/"/>
+		<updated>2022-08-09T23:37:55Z</updated>
+		<id>https://nicksimson.com/posts/2022-redesign-earth-tones/</id>
+		<content type="html">&lt;p&gt;Nope, it is not déjà vu. I revised my website colors again. This time, if you are viewing my website in in light mode, you are seeing a rich brown text on a creamy, ivory-colored background. In dark mode, you are likely seeing light text on a rich chocolatey dark brown background.&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img src=&quot;https://nicksimson.com/img/post-images/2022-08-lightmode-darkmode.jpg&quot; class=&quot;panel&quot; alt=&quot;NickSimson dot com slash info&quot; /&gt;
+    &lt;figcaption&gt;My info page in both light mode and dark mode&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;You can go ahead and read my post from October 2021 &lt;a href=&quot;https://nicksimson.com/posts/2021-redesign-dark-mode/&quot;&gt;detailing how I originally shipped a dark mode on this site&lt;/a&gt; to see a screenshot of the previous implementation. Not much has changed on the technical front. After a few months of using my own site, I decided to change the color scheme with these warmer, earthier colors, because the blue links left me feeling a bit cold, especially in dark mode.&lt;/p&gt;
+&lt;figure&gt;
+&lt;img class=&quot;panel&quot; src=&quot;https://nicksimson.com/img/post-images/2022-harvest-neil-young.jpg&quot; alt=&quot;Cover of Neil Young&#39;s 1972 album Harvest&quot; width=&quot;497&quot; height=&quot;487&quot; loading=&quot;lazy&quot; /&gt;
+&lt;figcaption&gt;This album cover may or may not have influenced my website’s current color scheme.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;Not much else to say design-wise. I have been using the Instapaper app for over a decade, as well as the reader view in Firefox (my main web browser of choice these days). Both of these reading apps support a “sepia” background option. Sometime last year, I stumbled across the &lt;a href=&quot;https://en.wikipedia.org/wiki/Cosmic_latte&quot;&gt;Wikipedia entry for cosmic latte&lt;/a&gt;, the alleged average color of the universe, represented by hex triplet &lt;code&gt;#FFF8E7&lt;/code&gt;. In addition to being a bit of trivia or a miserable inside joke, this particular shade of beige is pretty easy on the eyes for longform reading.&lt;/p&gt;
+&lt;img src=&quot;https://nicksimson.com/img/post-images/2022-color-blender-earthtones.png&quot; alt=&quot;Gradiation of beige to chocolate on Eric Meyer&#39;s color blender&quot; width=&quot;506&quot; height=&quot;494&quot; loading=&quot;lazy&quot; /&gt;
+&lt;p&gt;I used a shade that is just a bit lighter, and instead of charcoal or black I paired this with a color that reminded me of dark chocolate. I found I love my &lt;a href=&quot;https://nicksimson.com/type/&quot;&gt;type choices&lt;/a&gt; even more in this understated palette. To get a few midpoints (colors for card components, supporting text, etc.) I used a classic web design tool, &lt;a href=&quot;https://meyerweb.com/eric/tools/color-blend/&quot;&gt;Eric Meyer&#39;s Color Blender&lt;/a&gt;. Link color matches text color this time, except links will always be underlined.&lt;/p&gt;
+&lt;p&gt;With almost all blues eliminated in this new minimal palette, I thought it would be a good time to take stock of any CSS declarations I no longer needed and remove them. I used &lt;a href=&quot;https://cssstats.com/&quot;&gt;cssstats.com&lt;/a&gt; to audit these styles.&lt;/p&gt;
+&lt;figure&gt;
+&lt;a href=&quot;http://web.archive.org/web/20220807202952/https://cssstats.com/stats/?url=nicksimson.com&quot;&gt;&lt;img src=&quot;https://nicksimson.com/img/post-images/2022-css-color-stats.png&quot; alt=&quot;screenshot of CSS stats dot com&quot; loading=&quot;lazy&quot; /&gt;&lt;/a&gt;
+&lt;figcaption&gt;50 unique colors. 84 total color declarations. 44 unique background colors. 60 total background colors. (According to &lt;a href=&quot;http://web.archive.org/web/20220807202952/https://cssstats.com/stats/?url=nicksimson.com&quot;&gt;cssstats.com&lt;/a&gt;)&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;Wow, that’s a lot of color. When I started working on this site in 2020, I grabbed the whole &lt;a href=&quot;http://tachyons.io/docs/themes/skins/&quot;&gt;tachyons palette&lt;/a&gt;. I’m not sure what I was thinking at the time, perhaps I might be a little ambitious with a rainbow of different colors throughout my site. That didn’t really pan out, and so I was able to get rid of a big chunk of my &lt;code&gt;_config.scss&lt;/code&gt; file, plus a bunch of color utility classes it turns out I wasn’t using at all.&lt;/p&gt;
+&lt;p&gt;With my earlier implementation of dark mode, I also struggled a bit with how other user interface (UI) components should translate from light to dark. Should a card component be lighter or darker than the background color? What about &lt;code&gt;code&lt;/code&gt; and &lt;code&gt;pre&lt;/code&gt; elements? Does this relationship switch from one mode to another?&lt;/p&gt;
+&lt;p&gt;Accessibility, as always is a primary concern. To get a range of values that are interoperable in both light and dark modes, I put some of &lt;a href=&quot;https://meyerweb.com/eric/tools/color-blend/#F9F4EB:231C13:10:hex&quot;&gt;my color values from color blender&lt;/a&gt; into EightShapes’ &lt;a href=&quot;https://contrast-grid.eightshapes.com/?version=1.1.0&amp;amp;background-colors=&amp;amp;foreground-colors=%23ffffff%2C%20White%0D%0A%23f9f4eb%2C%20Ivory%0D%0A%23e6e0d7%2C%20LightGray%0D%0A%23aba59c%2C%20Gray%0D%0A%235d574e%2C%20MedGray%0D%0A%23433c33%2C%20DarkGray%0D%0A%23231c13%2C%20Black%0D%0A%23c11b11%2C%20DarkRed%0D%0A%23ee453b%2C%20BrandRed%0D%0A%23f18680%2C%20LightRed%0D%0A%23fac1bf%2C%20LightestRed&amp;amp;es-color-form__tile-size=compact&amp;amp;es-color-form__show-contrast=aaa&amp;amp;es-color-form__show-contrast=aa&amp;amp;es-color-form__show-contrast=aa18&quot;&gt;Contrast Grid tool&lt;/a&gt;. I also added shades and tints of my red brand color, since I want a link style to stand out for certain links, like my &lt;a href=&quot;https://nicksimson.com/tags/&quot;&gt;post tags&lt;/a&gt;. The contrast grid tool is one of my favorites. It allows you to test many foreground and background colors at once in compliances with WCAG 2.0’s minimum contrast requirements.&lt;/p&gt;
+&lt;figure&gt;
+&lt;a href=&quot;https://contrast-grid.eightshapes.com/?version=1.1.0&amp;background-colors=&amp;foreground-colors=%23ffffff%2C%20White%0D%0A%23f9f4eb%2C%20Ivory%0D%0A%23e6e0d7%2C%20LightGray%0D%0A%23aba59c%2C%20Gray%0D%0A%235d574e%2C%20MedGray%0D%0A%23433c33%2C%20DarkGray%0D%0A%23231c13%2C%20Black%0D%0A%23c11b11%2C%20DarkRed%0D%0A%23ee453b%2C%20BrandRed%0D%0A%23f18680%2C%20LightRed%0D%0A%23fac1bf%2C%20LightestRed&amp;es-color-form__tile-size=compact&amp;es-color-form__show-contrast=aaa&amp;es-color-form__show-contrast=aa&amp;es-color-form__show-contrast=aa18&quot;&gt;&lt;img src=&quot;https://nicksimson.com/img/post-images/2022-contrastgrid-earthtones.png&quot; alt=&quot;screenshot of accessible color combos in beige, brown and red&quot; loading=&quot;lazy&quot; /&gt;&lt;/a&gt;
+&lt;figcaption&gt;My latest color scheme, using EightShapes’ Contrast Grid&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;I wanted to make it easier on myself this time, using CSS variables again, and making the little UI decisions less &lt;em&gt;variable&lt;/em&gt; themselves. In light mode, the “card” background will be a bit darker than the background color, and in dark mode, the “card” will be a bit lighter. In my current case, “card” styles are &lt;code&gt;divs&lt;/code&gt; with a &lt;code&gt;.panel&lt;/code&gt; class applied, plus the &lt;code&gt;blockquote&lt;/code&gt;, &lt;code&gt;code&lt;/code&gt; and &lt;code&gt;pre&lt;/code&gt; elements. I am applying a strict rule to my internal brand guidelines not to mix these up too much. When I do (putting code samples in a blockquote for example), hopefully my type system sorts these out perceptively. Minimalism is harder than it looks!&lt;/p&gt;
+&lt;p&gt;So to review, that’s six different values: a &lt;code&gt;body&lt;/code&gt; background color, a “card” background color, a text color, a supporting (light) text color, a default link color (same as text color), and a hovered link color. Here’s those variables in action:&lt;/p&gt;
+&lt;pre&gt;
+
+:root {
+  --bg-color: #faf6ef;
+  --bg-card: #e6e0d7;
+  --text-color: #433c33;
+  --light-text: #5d574e;
+  --link-color: #433c33;
+  --link-hover: #ee453b;
+}
+
+&lt;/pre&gt;
+&lt;p&gt;And the colors for dark mode:&lt;/p&gt;
+&lt;pre&gt;
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg-color: #231c13;
+        --bg-card: #433c33;
+        --text-color: #f9f4eb;
+        --light-text: #e6e0d7;
+        --link-color: #f9f4eb;
+        --link-hover: #f18680;
+      }
+}
+&lt;/pre&gt;
+&lt;p&gt;I’ve found lately when working with CSS variables, and dark mode especially, that it is better to name classes and variables with the purpose of the color, rather than the color’s name. Now that I’m going down this road, there is probably a lot more in my stylesheets I can refactor, maybe embracing more repeatable utility classes for the different components that make up my site. It is always a work in progress.&lt;/p&gt;
+&lt;p&gt;I hope you like the new color scheme as much as I do.&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>These webfonts do not track you</title>
@@ -2070,27 +2132,27 @@ Rachel Andrew, &lt;cite&gt;&lt;a href=&quot;http://thewebahead.net/104&quot;&gt;
 		<updated>2015-05-17T00:00:00Z</updated>
 		<id>https://nicksimson.com/posts/2015-reading-is-hazardous/</id>
 		<content type="html">&lt;p&gt;&lt;a href=&quot;http://www.wavepoetry.com/products/madness-rack-and-honey&quot;&gt;&lt;img class=&quot;book&quot; src=&quot;https://nicksimson.com/img/post-images/ruefle-madness.jpg&quot; alt=&quot;Cover of Madness, Rack, and Honey&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;I became aware of Mary Ruefle&#39;s collection of &amp;quot;lectures&amp;quot; with an unusual title after reading the reflections by &lt;a href=&quot;http://aworkinglibrary.com/reading/madness-rack-and-honey/&quot;&gt;Mandy Brown&lt;/a&gt; and &lt;a href=&quot;https://frankchimero.com/blog/2014/madness-and-rowing/&quot;&gt;Frank Chimero&lt;/a&gt; on their personal blogs. When two or more sources I trust recommend the same thing, I usually start paying attention.&lt;/p&gt;
-&lt;p&gt;I keep &amp;quot;lectures&amp;quot; in quotations, as the author herself points out that each was carefully written before delivered orally, despite the fact she was told her graduate students would prefer informal, spontaneous talks. Ruefle maintains that writing is her &amp;quot;natural act&amp;quot;, and as individual essays, these lectures work wonderfully.&lt;/p&gt;
-&lt;p&gt;Ruefle&#39;s prose is marked by an economic use of words fitting for a poet, and she prioritizes her allegiances to poetry and art over knowledge and intelligence. Two mini-collections within the volume are titled &amp;quot;Twenty-Two Short Lectures&amp;quot; and &amp;quot;Lectures I Will Never Give&amp;quot;, and contain several vignettes that could be delivered in under two minutes.&lt;/p&gt;
+&lt;p&gt;I became aware of Mary Ruefle’s collection of “lectures” with an unusual title after reading the reflections by &lt;a href=&quot;http://aworkinglibrary.com/reading/madness-rack-and-honey/&quot;&gt;Mandy Brown&lt;/a&gt; and &lt;a href=&quot;https://frankchimero.com/blog/2014/madness-and-rowing/&quot;&gt;Frank Chimero&lt;/a&gt; on their personal blogs. When two or more sources I trust recommend the same thing, I usually start paying attention.&lt;/p&gt;
+&lt;p&gt;I keep “lectures” in quotations, as the author herself points out that each was carefully written before delivered orally, despite the fact she was told her graduate students would prefer informal, spontaneous talks. Ruefle maintains that writing is her “natural act”, and as individual essays, these lectures work wonderfully.&lt;/p&gt;
+&lt;p&gt;Ruefle’s prose is marked by an economic use of words fitting for a poet, and she prioritizes her allegiances to poetry and art over knowledge and intelligence. Two mini-collections within the volume are titled “Twenty-Two Short Lectures” and “Lectures I Will Never Give”, and contain several vignettes that could be delivered in under two minutes.&lt;/p&gt;
 &lt;figure&gt;
 An example:
 &lt;blockquote cite=&quot;https://nicksimson.com/posts/2015-reading-is-hazardous/Ruefle,%20Madness,%20Rack,%20and%20Honey,%20p.%20238&quot;&gt;
-    You know how to write poetry, it is all you need to be happy, but you will not be happy, you will be miserable, thinking you need so many other things, and in years and years of misery, you have only one thing, as poets, to look forward to, the day you will not want what you haven&#39;t got, the thing you have got is poetry, let nothing cheat, steal or deflect you from it, even poetry itself. Why are you sitting there? You should have fled before I finished the first sentence.
+    You know how to write poetry, it is all you need to be happy, but you will not be happy, you will be miserable, thinking you need so many other things, and in years and years of misery, you have only one thing, as poets, to look forward to, the day you will not want what you haven’t got, the thing you have got is poetry, let nothing cheat, steal or deflect you from it, even poetry itself. Why are you sitting there? You should have fled before I finished the first sentence.
 &lt;/blockquote&gt;
 &lt;figcaption&gt;
-Mary Ruefle, &amp;ldquo;Short Lecture on Your Own Happiness&amp;rdquo;, from &lt;cite&gt;&lt;em&gt;Madness, Rack, and Honey&lt;/em&gt;, p. 238&quot;&lt;/cite&gt;.&lt;/figcaption&gt;
+Mary Ruefle, &amp;ldquo;Short Lecture on Your Own Happiness&amp;rdquo;, from &lt;cite&gt;&lt;em&gt;Madness, Rack, and Honey&lt;/em&gt;, p. 238&lt;/cite&gt;.&lt;/figcaption&gt;
 &lt;/figure&gt;
-&lt;p&gt;Other chapters are fragmented with citations (Beckett, Kafka, Keats, Rilke, Roethke, Yeats, among many others) and memories, dictionary definitions, occasional advice, and haunting descriptions of art. An art installation by &lt;a href=&quot;https://www.youtube.com/watch?v=zg4jOBR083I&quot;&gt;Anna Schuleit Haber in Northampton, Mass&lt;/a&gt; supercedes Rufle&#39;s desire to deliver a lecture &amp;quot;on asylum&amp;quot;, but her description of the event is nonetheless startling and sublime. No fragment is incomplete on its own merits, but connections are made between various art forms in surprising and delightful ways.&lt;/p&gt;
-&lt;p&gt;She describes a memory, at age eighteen reading out loud the work of John Keats in a large field surrounded by cows &amp;quot;with bells around their necks&amp;quot;, and tears streaming down her own face. A minute later, my own synapses started firing off, and I couldn&#39;t help thinking of the &lt;a href=&quot;http://martinwestin.blogspot.com/2007/07/charlie-parker-in-sweden.html&quot;&gt;old myth about Charlie Parker&lt;/a&gt;, popularized in Ken Burns&#39; &lt;em&gt;Jazz&lt;/em&gt; documentary series, asking the tour bus to stop, and playing his saxophone to a herd of grazing cattle.&lt;/p&gt;
+&lt;p&gt;Other chapters are fragmented with citations (Beckett, Kafka, Keats, Rilke, Roethke, Yeats, among many others) and memories, dictionary definitions, occasional advice, and haunting descriptions of art. An art installation by &lt;a href=&quot;https://www.youtube.com/watch?v=zg4jOBR083I&quot;&gt;Anna Schuleit Haber in Northampton, Mass&lt;/a&gt; supercedes Rufle’s desire to deliver a lecture &amp;quot;on asylum&amp;quot;, but her description of the event is nonetheless startling and sublime. No fragment is incomplete on its own merits, but connections are made between various art forms in surprising and delightful ways.&lt;/p&gt;
+&lt;p&gt;She describes a memory, at age eighteen reading out loud the work of John Keats in a large field surrounded by cows &amp;quot;with bells around their necks&amp;quot;, and tears streaming down her own face. A minute later, my own synapses started firing off, and I couldn’t help thinking of the &lt;a href=&quot;http://martinwestin.blogspot.com/2007/07/charlie-parker-in-sweden.html&quot;&gt;old myth about Charlie Parker&lt;/a&gt;, popularized in Ken Burns’ &lt;em&gt;Jazz&lt;/em&gt; documentary series, asking the tour bus to stop, and playing his saxophone to a herd of grazing cattle.&lt;/p&gt;
 &lt;p&gt;Reufle writes as someone who feeds off of the written word, especially poetry, in the same way all of us need food, water, and sleep to survive. Poetry, like all other art forms, she explains in the titular essay, is a physical experience. Three pages in the &lt;em&gt;Oxford English Dictionary&lt;/em&gt; are devoted to the word &lt;em&gt;rack&lt;/em&gt;, she explains, describing the instrument of torture, the process of undergoing strain or dislocation, the act of tearing apart by force.&lt;/p&gt;
-&lt;blockquote&gt;It is what poetry does to the world, what poets do with words, and what words will do to a poet. And that&#39;s the rack of it. And if you have never experienced the rack of working on a poem, then you have never worked on a poem. Have you never put language in an extenuationg circumstance with dangerous limits until an acute physical sensation results?&lt;/blockquote&gt;
+&lt;blockquote&gt;It is what poetry does to the world, what poets do with words, and what words will do to a poet. And that’s the rack of it. And if you have never experienced the rack of working on a poem, then you have never worked on a poem. Have you never put language in an extenuationg circumstance with dangerous limits until an acute physical sensation results?&lt;/blockquote&gt;
 &lt;p&gt;To read this book is to inhabit her mind, and your enjoyment of the book will depend on your experience of briefly living inside this brain at work.&lt;/p&gt;
 &lt;p&gt;A lecture on irreverence and sincerity(p. 220) pauses abruptly for the following:&lt;/p&gt;
 &lt;blockquote&gt;There really &lt;em&gt;is&lt;/em&gt; a beach in Western Australia where kangaroos swim in the sea and sunbathe afterward, those short white forelegs stretched in the sand&lt;/blockquote&gt;
 &lt;p&gt;followed immediately by:&lt;/p&gt;
 &lt;blockquote&gt;Nothing would make me happier than to see an international ban on fact-checking. &lt;/blockquote&gt;
-&lt;p&gt;I don&#39;t know how to describe this book better than the two words &amp;quot;strange&amp;quot; and &amp;quot;beautiful&amp;quot;. It&#39;s funny too, occasionally hilarious. But buried just beneath the surface layer of the silliness lives a ton of wisdom. Highly recommended.&lt;/p&gt;
+&lt;p&gt;I don’t know how to describe this book better than the two words “strange” and “beautiful”. It’s funny too, occasionally hilarious. But buried just beneath the surface layer of the silliness lives a ton of wisdom. Highly recommended.&lt;/p&gt;
 </content>
 	</entry>
 	

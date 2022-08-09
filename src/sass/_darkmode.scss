@@ -1,23 +1,20 @@
 @media (prefers-color-scheme: dark) {
     :root {
-        --bg-color: #252523;
-        --text-color: #faf9f9;
-        --light-text: #c0c0c0;
-        --link-color: #a4bfeb;
+        --bg-color: #231c13;
+        --bg-card: #433c33;
+        --text-color: #f9f4eb;
+        --light-text: #e6e0d7;
+        --link-color: #f9f4eb;
         --link-hover: #f18680;
       }
 
-    pre, code {
-        background-color: $black;
+      pre, code {
+        background-color: $darkgray;
         color: $lightyellow;
-    }  
-
-    mark {
-        background: $pink;
-    }  
+      }
 
     #forecast_embed{
-        background: #c6c6c6;
+        background: $gray;
     }
 
   }

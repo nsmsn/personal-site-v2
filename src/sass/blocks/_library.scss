@@ -5,9 +5,7 @@
 
 .lib-title {
     font-family: $sans;
-    font-weight: 600;    
-    text-decoration-thickness: 2px;
-    text-decoration-color: $lightblue;
+    font-weight: 600;
 }
 
 .lib-item-year {
@@ -18,7 +16,7 @@
 .lib-cover {
     height: 200px;
     width: auto;
-    border: 1px solid rgba(0,0,0,0.075);
+    border: 1px solid rgba(0,0,0,0.0185);
     background-color: $gray;
 }
 
@@ -30,10 +28,6 @@
 
 .lib-vinyl {
     aspect-ratio: 1/1;
-}
-
-.lib-title:hover {
-    text-decoration-color: $washedred;
 }
 
 .lib-title:hover img.lib-cover {

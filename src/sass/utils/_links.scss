@@ -5,13 +5,11 @@
 
 .footer-link, a.footer-link{
     text-decoration: underline;
-    text-decoration-thickness: 2px;
-    text-decoration-color: $lightblue;
 }
 
 .footer-link:hover, a.footer-link:hover{
-    text-decoration-color: $washedred;
-  }
+    text-decoration-color: var(--link-hover);
+}
 
 .manicule{
     text-decoration: none !important;

@@ -1,14 +1,6 @@
 .panel{
-    background-color: white;
+    background-color: var(--bg-card);
     border: 1px solid rgba(0,0,0,0.075);
     padding: $size3;
     margin-left: -$size3;
 }
-
-@media (prefers-color-scheme: dark) {
-
-    .panel {
-        background: $black;
-    }
-
-  }
