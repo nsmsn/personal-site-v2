@@ -41,10 +41,12 @@ Email is still the <strong>best</strong> way to reach me, but I do maintain a pr
 
 <ul class="list-multi-col">
 <li><a href="https://www.are.na/nick-simson" rel="me">Are.na</a></li>
+<li><a href="https://bookshop.org/shop/nsmsn" rel="me">Bookshop</a></li>
 <li><a href="https://read.cv/nsmsn/" rel="me">CV</a></li>
 <li><a href="https://dribbble.com/nsmsn/" rel="me">Dribbble</a></li>
 <li><a href="https://github.com/nsmsn" rel="me">GitHub</a></li>
 <li><a href="https://huffduffer.com/nsmsn" rel="me">Huffduffer</a></li>
+<li><a href="https://indieweb.org/User:Nicksimson.com" rel="me">IndieWeb.org</a></li>
 <li><a href="https://www.linkedin.com/in/nsmsn/" rel="me">LinkedIn</a></li>
 <li><a href="https://literal.club/nsmsn" rel="me">Literal</a></li>
 <li><a href="http://micro.blog/nsmsn" rel="me">Micro.blog</a></li>
