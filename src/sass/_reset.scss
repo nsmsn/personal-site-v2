@@ -53,12 +53,12 @@ a:not([class]) {
    display: block;
  }
 
-/* Make images easier to work with 
+/* Make images easier to work with */
 img,
 picture {
   max-width: 100%;
   display: block;
-}*/
+}
 
 /* Inherit fonts for inputs and buttons */
 input,
@@ -67,6 +67,8 @@ textarea,
 select {
   font: inherit;
 }
+
+
 
 /* Remove all animations and transitions for people that prefer not to see them */
 @media (prefers-reduced-motion: reduce) {

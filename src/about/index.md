@@ -21,9 +21,7 @@ permalink: /info/
 
 ## Profile
 
-I’m a public sector communication designer with over a decade of professional experience. I spend most of my day designing, building, and maintaining websites at a large public university.
-
-I also occasionally contribute my graphic design and web development skills for small projects, independent artists and other worthy causes. I’m married to [Eleanor](https://eleanoraldrich.com), who makes paintings. We live in Knoxville with our daughter and a small&nbsp;[dog](https://dogsof.dev/dogs/zelda/).
+I’m a graphic / communication / interaction designer with over a decade of professional experience. Using a human-centered approach, I work with others to help organizations and the people they serve meet their goals. I’m married to [Eleanor](https://eleanoraldrich.com), who makes paintings. We live in Knoxville with our daughter and a small&nbsp;[dog](https://dogsof.dev/dogs/zelda/).
 
 See what I’m up to [now](/now/).
 
@@ -63,7 +61,7 @@ Email is still the <strong>best</strong> way to reach me, but I do maintain a pr
 
 This is my personal website. I use this as my place to experiment and try things out. I tinker with this site’s writing, design, and code as I feel motivated, mainly during evenings and weekends.
 
-<strong>This website does not track you.</strong> There are no third-party cookies here, and your data isn’t collected when using this site.
+<strong><a href="https://themarkup.org/blacklight?url=nicksimson.com">This website does not track you.</a></strong> There are no third-party cookies here, and your data isn’t collected when using this site.
 
 You can track this site’s progress and iterations at [this GitHub repo](https://github.com/nsmsn/nicksimsondotcom). This site is built with [Eleventy](https://11ty.dev/) and deployed to [Netlify](https://netlify.com). My blog posts are available in both [RSS](https://www.nicksimson.com/feed/feed.xml) and [JSON](https://www.nicksimson.com/feed/feed.json). I prioritize performance and <a href="/accessibility">accessibility</a>. You can read [a note on the type](/type) to learn about the fonts in use.
 
