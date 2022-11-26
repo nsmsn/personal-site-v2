@@ -5,12 +5,76 @@
 	
 	<link href="https://nicksimson.com/feed/feed.xml" rel="self"/>
 	<link href="https://nicksimson.com/"/>
-	<updated>2022-09-25T14:50:32Z</updated>
+	<updated>2022-11-26T18:42:26Z</updated>
 	<id>https://nicksimson.com/</id>
 	<author>
 		<name>Nick Simson</name>
 		<email>nick@nicksimson.com</email>
 	</author>
+	
+	<entry>
+		<title>Mastodon servers</title>
+		<link href="https://nicksimson.com/posts/2022-mastodon-servers/"/>
+		<updated>2022-11-26T18:42:26Z</updated>
+		<id>https://nicksimson.com/posts/2022-mastodon-servers/</id>
+		<content type="html">&lt;p&gt;I have an &lt;a href=&quot;https://mastodon.social/@nsmsn/&quot;&gt;account on Mastodon&lt;/a&gt; I created back in April 2017, mainly to claim my dumb five-character username. Now that many of the people (web developers, artists, academics, media people) I once followed on Twitter are migrating to the open-source, federated social network, I may find myself using this account more.&lt;/p&gt;
+&lt;p&gt;I still plan to use my &lt;a href=&quot;http://micro.blog/nsmsn&quot;&gt;Micro.blog&lt;/a&gt; for most of my microblogging, and will try to keep my &lt;a href=&quot;https://nicksimson.com/following/&quot;&gt;/following page&lt;/a&gt; on this website up to date. Generally, I’m interested in working on connecting the microblog to my main website and &lt;a href=&quot;https://indieweb.org/POSSE&quot;&gt;syndicating&lt;/a&gt; content to my other social channels. The websites of &lt;a href=&quot;https://adactio.com/&quot;&gt;Jeremy Keith&lt;/a&gt; and &lt;a href=&quot;https://paulrobertlloyd.com/notes/&quot;&gt;Paul Robert Lloyd&lt;/a&gt; are two of the best examples I’ve encountered.&lt;/p&gt;
+&lt;h2 id=&quot;finding-people-and-their-servers-on-mastodon&quot;&gt;Finding people and their servers on Mastodon &lt;a class=&quot;direct-link&quot; href=&quot;https://nicksimson.com/posts/2022-mastodon-servers/#finding-people-and-their-servers-on-mastodon&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://wattenberger.com/&quot;&gt;Amelia Wattenberger&lt;/a&gt; made a &lt;a href=&quot;https://mastodon-bridge.vercel.app/&quot;&gt;handy web app&lt;/a&gt; for finding people from Twitter with Mastodon accounts. The app organizes the people you follow based on the Mastodon instance their account is on. Earlier this week, I used this app to find and re-follow several people who’ve retired their Twitter accounts and moved to Mastodon in a large exodus.&lt;/p&gt;
+&lt;p&gt;This is not an exhaustive list of Mastodon servers, just a list (in late November 2022) where &lt;a href=&quot;https://mastodon.social/@nsmsn/following&quot;&gt;some the people I follow&lt;/a&gt; landed in the “fediverse”.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://mastodon.social/&quot;&gt;mastodon.social&lt;/a&gt;&lt;/strong&gt;: 12 people&lt;br /&gt;
+This is the original server operated by the Mastodon gGmbH non-profit, and where I created &lt;a href=&quot;https://mastodon.social/@nsmsn&quot;&gt;my account&lt;/a&gt; 5 years ago.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://front-end.social/&quot;&gt;front-end.social&lt;/a&gt;&lt;/strong&gt;: 11 people&lt;br /&gt;
+“A place for front-end web makers who value humans over technology, and embrace diversity on an open, accessible web.”&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://higheredweb.social/&quot;&gt;higheredweb.social&lt;/a&gt;&lt;/strong&gt;: 5 people&lt;br /&gt;
+“Higher Ed Web Social is a place for higher ed web folks (and friends from the +) to stay in touch with each other and chat about work and life.”&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://vis.social/&quot;&gt;vis.social&lt;/a&gt;&lt;/strong&gt;: 4 people&lt;br /&gt;
+“vis.social is an open social platform for creative people, especially anyone in SciArt, SciComm, data, visualization, creative coding, and related arts and research.”&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://xoxo.zone/&quot;&gt;xoxo.zone&lt;/a&gt;&lt;/strong&gt;: 3 people&lt;br /&gt;
+“A community space for attendees and speakers of the XOXO Festival, held in Portland, Oregon.”&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://mstdn.social/&quot;&gt;mstdn.social&lt;/a&gt;&lt;/strong&gt;: 3 people&lt;br /&gt;
+“A general-purpose Mastodon server with a 500 character limit. All languages are welcome.”&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://indieweb.social/&quot;&gt;indieweb.social&lt;/a&gt;&lt;/strong&gt;: 3 people&lt;br /&gt;
+“INDIEWEB.SOCIAL is an instance focused on the evolution of #Openeb, #Indieweb, #Fediverse, #Mastodon, #Humanetech and #Calm technologies.”&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://journa.host/&quot;&gt;journa.host&lt;/a&gt;&lt;/strong&gt;: 2 people&lt;br /&gt;
+“Journa.host is a reliable home for journalists on Mastodon.”&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://techhub.social/&quot;&gt;techhub.social&lt;/a&gt;&lt;/strong&gt;: 2 people&lt;br /&gt;
+“A hub primarily for passionate technologists, but everyone is welcome”&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://tech.lgbt/&quot;&gt;tech.lgbt&lt;/a&gt;&lt;/strong&gt;: 1 person&lt;br /&gt;
+“This Mastodon instance is for tech workers, academics, students, furries, and others interested in tech who are LGBTQIA+ or Allies. All are welcome to join us!”&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://botsin.space/&quot;&gt;botsin.space&lt;/a&gt;&lt;/strong&gt;: 1 “person”&lt;br /&gt;
+“A Mastodon instance for bots and bot allies.”&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://better.boston/&quot;&gt;Better.Boston&lt;/a&gt;&lt;/strong&gt;: 1 person&lt;br /&gt;
+“A server for people in Greater Boston and Massachusetts interested in a more inclusive, equitable, and sustainable region.”&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://sfba.social/&quot;&gt;sfba.social&lt;/a&gt;&lt;/strong&gt;: 1 person&lt;br /&gt;
+“A Mastodon instance for the San Francisco Bay Area. Come on in and join us!”&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://pdx.social/&quot;&gt;pdx.social&lt;/a&gt;&lt;/strong&gt;: 1 person&lt;br /&gt;
+“pdx.social is a community for the Portland, Oregon, USA region. 🌲 Established April 6th, 2017 🌲”&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://webperf.social/&quot;&gt;webperf.social&lt;/a&gt;&lt;/strong&gt;: 1 person&lt;br /&gt;
+“WEBPERF.SOCIAL is a place for those who care about web performance, from novices to professionals. Everyone in related fields is also welcome.”&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://universeodon.com/&quot;&gt;universeodon.com&lt;/a&gt;&lt;/strong&gt;: 1 person&lt;br /&gt;
+“Be one with the #fediverse.”&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://newsie.social/&quot;&gt;newsie.social&lt;/a&gt;&lt;/strong&gt;: 1 person&lt;br /&gt;
+“Newsie is the place for journalists, news-people, journalism educators and comms professionals. Server operated by the Fourth Estate®.”&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://glammr.us/&quot;&gt;glammr.us&lt;/a&gt;&lt;/strong&gt;: 1 person&lt;br /&gt;
+“&lt;a href=&quot;http://glammr.us/&quot;&gt;glammr.us&lt;/a&gt; is a space for folks interested in productive conversation about, well, galleries, libraries, archives, museums, memory work and records. It is pronounce “glamorous” as our work are often charmingly or fascinatingly attractive, especially in a mysterious or magical way. Sometimes it is also full of excitement, adventure, and unusual activity (oh, yes). It is also inspired by Toys’R’us to showcase the fun playful side of &lt;a href=&quot;http://glammr.us/&quot;&gt;glammr.us&lt;/a&gt; tooters. But you don&#39;t necessarily have to only post about GLAMMR-related topics, bring your whole self...”&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://dice.camp/&quot;&gt;dice.camp&lt;/a&gt;&lt;/strong&gt;: 1 person&lt;br /&gt;
+“A Mastodon server for RPG folks to hang out and talk. Not owned by a billionaire.”&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://fosstodon.org/&quot;&gt;fosstodon.org&lt;/a&gt;&lt;/strong&gt;: 1 person&lt;br /&gt;
+“Fosstodon is an English speaking Mastodon instance that is open to anyone who is interested in technology; particularly free &amp;amp; open source software.”&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://mastodon.online/&quot;&gt;mastodon.online&lt;/a&gt;&lt;/strong&gt;: 1 person&lt;br /&gt;
+“A newer server operated by the Mastodon gGmbH non-profit”&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://zirk.us/&quot;&gt;zirk.us&lt;/a&gt;&lt;/strong&gt;: 1 person&lt;br /&gt;
+“Literature, philosophy, film, music, culture, politics, history, architecture: join the circus of the arts and humanities! For readers, writers, academics or anyone wanting to follow the conversation.”&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://tilde.zone/&quot;&gt;tilde.zone&lt;/a&gt;&lt;/strong&gt;: 1 person&lt;br /&gt;
+“mastodon instance of the tildeverse, a collection of small public access *nix systems for collaboration, creativity, and socializing. a proud part of the small internet.”&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://fiasco.social/&quot;&gt;fiasco.social&lt;/a&gt;&lt;/strong&gt;: 1 person&lt;br /&gt;
+“Fiasco&#39;s private Mastodon”&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nicksimson.com/posts/2022-mastodon-servers/typetura.social&quot;&gt;typetura.social&lt;/a&gt;&lt;/strong&gt;: 1 person&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://follow.ethanmarcotte.com/&quot;&gt;follow.ethanmarcotte.com&lt;/a&gt;&lt;/strong&gt;: 1 person&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://mastodon.yupgup.com/&quot;&gt;mastodon.yupgup.com&lt;/a&gt;&lt;/strong&gt;: 1 person&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Never</title>
@@ -580,7 +644,7 @@ This content is visually hidden; screen readers are not the only assistive tech 
 		<link href="https://nicksimson.com/posts/2021-javascript-with-morten/"/>
 		<updated>2021-02-21T00:00:00Z</updated>
 		<id>https://nicksimson.com/posts/2021-javascript-with-morten/</id>
-		<content type="html">&lt;p&gt;I’ve learned a lot of technical skills from Morten Rand-Hendriksen’s courses on LinkedIn Learning (a.k.a. &lt;a href=&quot;http://lynda.com/&quot;&gt;Lynda.com&lt;/a&gt;). I met Morten in person in 2019 and had the chance to tell him this in person. Great guy.&lt;/p&gt;
+		<content type="html">&lt;p&gt;I’ve learned a lot of technical skills from Morten Rand-Hendriksen’s courses on LinkedIn Learning (a.k.a. &lt;a href=&quot;http://lynda.com/&quot;&gt;Lynda.com&lt;/a&gt;). I met Morten in person in 2019 and had the chance to tell him this in person.&lt;/p&gt;
 &lt;p&gt;One of Morten’s latest offerings is the latest, redesigned &lt;a href=&quot;https://www.linkedin.com/learning/javascript-essential-training/&quot;&gt;JavaScript Essential Training&lt;/a&gt;, which was released in January 2021, with the &lt;a href=&quot;https://github.com/LinkedInLearning/javascript-essential-training-2832077&quot;&gt;excercise files on GitHub&lt;/a&gt;. At the time of publication, the videos are all available for free, no subscription required.&lt;/p&gt;
 &lt;p&gt;I’m very intrigued by the design of course, which Morten explains in the &lt;a href=&quot;https://www.linkedin.com/learning/javascript-essential-training/learning-javascript-backward&quot;&gt;lesson 9 video&lt;/a&gt;:&lt;/p&gt;
 &lt;figure&gt;

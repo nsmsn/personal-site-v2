@@ -7,7 +7,7 @@ tags:
 layout: layouts/post.njk
 ---
 
-I’ve learned a lot of technical skills from Morten Rand-Hendriksen’s courses on LinkedIn Learning (a.k.a. Lynda.com). I met Morten in person in 2019 and had the chance to tell him this in person. Great guy.
+I’ve learned a lot of technical skills from Morten Rand-Hendriksen’s courses on LinkedIn Learning (a.k.a. Lynda.com). I met Morten in person in 2019 and had the chance to tell him this in person.
 
 One of Morten’s latest offerings is the latest, redesigned [JavaScript Essential Training](https://www.linkedin.com/learning/javascript-essential-training/), which was released in January 2021, with the [excercise files on GitHub](https://github.com/LinkedInLearning/javascript-essential-training-2832077). At the time of publication, the videos are all available for free, no subscription required.
 
