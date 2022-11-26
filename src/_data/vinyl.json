@@ -358,6 +358,13 @@
         "url": "https://www.discogs.com/master/81090-Randy-Newman-Good-Old-Boys"
       },
       {
+        "title": "Eureka",
+        "artist": "Jim O’Rourke",
+        "cover": "orourke-eureka.jpg",
+        "year": "1999",
+        "url": "https://www.discogs.com/release/1159835-Jim-ORourke-Eureka"
+      },
+      {
         "title": "Insignificance",
         "artist": "Jim O’Rourke",
         "cover": "orourke-insignificance-2001.jpg",
@@ -461,6 +468,13 @@
         "cover": "bach-organ-music-vol2-1963.jpg",
         "year": "1963",
         "url": "https://www.discogs.com/master/1056386-Carl-Weinrich-Bach-Organ-Music-Vol-2"
+      },
+      {
+        "title": "Out",
+        "artist": "White Heaven",
+        "cover": "whiteheaven-out.jpg",
+        "year": "1991 (2020 Reissue)",
+        "url": "https://www.discogs.com/release/14773032-White-Heaven-Out"
       },
       {
         "title": "Sky Blue Sky",
