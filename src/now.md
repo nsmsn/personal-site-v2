@@ -5,21 +5,23 @@ templateClass: tmpl-page
 permalink: /now/
 ---
 
-<small class="timestamp">Updated <time datetime="2022-08-09T23:37:55Z">August 9, 2022</time></small>
+<small class="timestamp">Updated <time datetime="2022-11-27T03:06:09Z">November 27, 2022</time></small>
+
+Happy holidays! ☃️
+
 
 ## 👶 Parenting
+Our little one is around 9 months old and is [self-propelled](https://www.healthychildren.org/English/ages-stages/baby/Pages/Crawling-Styles.aspx) now. We’ve been introducing her to a variety of foods. We try to be faithful to a routine, but allow for novelty as much as we can. Each day brings new joys and new challenges.
 
-Already five months old now, our little one has met her grandparents, aunts, uncle and cousins. We’ve taken her on her [first hike](https://www.alltrails.com/trail/us/tennessee/emory-gap-trail) and she really seems to enjoy being outside. As she gets ready to sit, crawl, and explore, we are getting more adventurous as well, planning our first overnight trips as a family of three.
+&nbsp;
+
+## 💼 Career update
+In late October I started a new role as **lead user interface designer** at a DC-based nonprofit. I’m excited for this new challenge, and to be specializing in UI work. I’m working with an excellent digital experience team, and I am enjoying being a work-at-home dad.
 
 &nbsp;
 
 ## 🤓 Learning
-
-I’m continuing to work on my proficiencies by [exploring each core web technology](/tags/learning) (HTML, CSS, JavaScript) with more breadth and depth.
-
-I’m also working toward [certification as an accessibility professional](https://www.accessibilityassociation.org/certification).
-
-Other design and tech topics/projects I am currently interested in:
+Here’s some of the design and tech topics/projects I’m currently interested in:
 
 * [Progressive Web Apps](https://web.dev/learn/pwa/) (PWA)
 * [Web components](https://developer.mozilla.org/en-US/docs/Web/Web_Components) and [Open UI](https://open-ui.org/)
@@ -30,8 +32,7 @@ Other design and tech topics/projects I am currently interested in:
 &nbsp;
 
 ## 📚 Reading
-
-I’m trying to read a little each day in 2022. I am currently using both [Literal](https://literal.club/nsmsn/is-reading) and <a href="https://log.nicksimson.com/categories/books/">Micro.blog</a> to track my reading.
+I’m still using both [Literal](https://literal.club/nsmsn/is-reading) and <a href="https://log.nicksimson.com/categories/books/">Micro.blog</a> to track my reading.
 
 <div id="literal-widget" handle="nsmsn" status="IS_READING" layout="list"></div>
 <script src="https://literal.club/js/widget.js"></script>
@@ -39,5 +40,4 @@ I’m trying to read a little each day in 2022. I am currently using both [Liter
 &nbsp;
 
 ## 📍 Knoxville
-
 The Scruffy Little City continues to be home base. Spring and fall are the best seasons here in East Tennessee. You should plan a visit.
