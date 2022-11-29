@@ -237,11 +237,6 @@
   </url>
   
   <url>
-    <loc>https://nicksimson.com/tags/learning/</loc>
-    <lastmod>2022-11-23T13:24:28.748Z</lastmod>
-  </url>
-  
-  <url>
     <loc>https://nicksimson.com/tags/process/</loc>
     <lastmod>2022-11-23T13:24:28.748Z</lastmod>
   </url>
@@ -257,7 +252,7 @@
   </url>
   
   <url>
-    <loc>https://nicksimson.com/tags/personal/</loc>
+    <loc>https://nicksimson.com/tags/learning/</loc>
     <lastmod>2022-11-23T13:24:28.748Z</lastmod>
   </url>
   
@@ -267,12 +262,17 @@
   </url>
   
   <url>
-    <loc>https://nicksimson.com/tags/scholarship/</loc>
+    <loc>https://nicksimson.com/tags/personal/</loc>
     <lastmod>2022-11-23T13:24:28.748Z</lastmod>
   </url>
   
   <url>
     <loc>https://nicksimson.com/tags/websites/</loc>
+    <lastmod>2022-11-23T13:24:28.748Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nicksimson.com/tags/scholarship/</loc>
     <lastmod>2022-11-23T13:24:28.748Z</lastmod>
   </url>
   
@@ -298,6 +298,6 @@
   
   <url>
     <loc>https://nicksimson.com/posts/2022-giving-tuesday/</loc>
-    <lastmod>2022-11-29T14:50:32.000Z</lastmod>
+    <lastmod>2022-11-29T11:26:26.000Z</lastmod>
   </url>
 </urlset>

@@ -1,7 +1,7 @@
 ---
 title: Giving Tuesday
 description: This holiday season, be generous. Radically.
-date: 2022-11-29T14:50:32+0000
+date: 2022-11-29T11:26:26+0000
 tags:
   - personal
 layout: layouts/post.njk
