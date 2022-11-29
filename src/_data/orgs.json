@@ -19,10 +19,6 @@
         "meta": "(TN)"
       },
       {
-        "name": "Interfaith Worker Justice",
-        "url": "https://www.iwj.org/"
-      },
-      {
         "name": "Justice Knox",
         "url": "https://justiceknox.org/",
         "meta": "(TN)"
@@ -36,6 +32,11 @@
         "name": "SOCM",
         "url": "https://www.socm.org/",
         "meta": "(TN)"
+      },
+      {
+        "name": "WJCNY",
+        "url": "https://www.wjcny.org/",
+        "meta": "(NY)"
       }
     ]
   }
