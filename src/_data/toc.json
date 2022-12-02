@@ -46,6 +46,11 @@
         "url": "/following"
       },
       {
+        "title": "links",
+        "description": "My other places and profiles",
+        "url": "/links"
+      },
+      {
         "title": "now",
         "description": "Like an about page, but more immediate",
         "url": "/now"

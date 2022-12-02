@@ -6,9 +6,11 @@ templateClass: tmpl-page
 permalink: /following/
 ---
 
-I’m spending less and less time on Corporate Social Media™ these days, preferring RSS (wherever applicable). Here’s my attempt to create a directory of interesting people and collectives I follow via RSS or would be following on Twitter, Instagram, etc. 
+Here’s my attempt to create a directory of interesting people and collectives I follow via RSS, newsletters, social media, etc. 
 
 In earlier days, this might have looked like a <em>[webring](https://indieweb.org/webring)</em> or <em>[blogroll](https://indieweb.org/blogroll)</em>. I call this my <em>affinity&nbsp;pool</em>.
+
+<small>If you want your name and link removed for any reason, just [email me](mailto:nick@nicksimson.com) and I’ll take it down <abbr title="as soon as possible">ASAP</abbr>. Sorry for being&nbsp;weird.</small>
 
 &nbsp;
 
