@@ -11,7 +11,7 @@ Here are links to my other projects and profiles around the <abbr title="World W
 &nbsp;
 
 ## Microblog
-I post regularly to [log.nicksimson.com](https://log.nicksimson.com), which syndicates to my Twitter and Mastodon accounts.
+I post regularly to [log.nicksimson.com](https://log.nicksimson.com), which syndicates to my Twitter and Mastodon accounts. It’s a mixture of links, photos, books, music,&nbsp;etc.
 
 &nbsp;
 

@@ -29,7 +29,7 @@ See what I’m up to [now](/now/).
 
 ### Get in touch
 
-Send me email: [nick@nicksimson.com](mailto:nick@nicksimson.com). This is the quickest way to reach me. 
+Send me email: [nick@nicksimson.com](mailto:nick@nicksimson.com). This is the quickest way to reach&nbsp;me. 
 
 I’m also on <a rel="me" href="https://mastodon.social/@nsmsn">Mastodon</a> and a few [other places](/links).
 
