@@ -567,13 +567,14 @@ header, footer {
 @media screen and (min-width: 88em) {
   .footer {
     display: grid;
-    grid-template-columns: 4fr 1fr;
+    grid-template-columns: 3fr 2fr;
     grid-template-rows: auto;
     gap: 2rem;
     font-size: 14px;
   }
   .footer div.footer-links {
     margin-top: -4px;
+    text-align: right;
   }
 }
 @media screen and (max-width: 45em) {

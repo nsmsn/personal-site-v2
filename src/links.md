@@ -6,7 +6,7 @@ templateClass: tmpl-page
 permalink: /links/
 ---
 
-Here are links to my other projects and profiles around the <abbr title="World Wide Web">www</abbr>. 
+Here are links to my other projects and profiles around the World&nbsp;Wide&nbsp;Web. 
 
 &nbsp;
 
@@ -24,7 +24,7 @@ I post regularly to [log.nicksimson.com](https://log.nicksimson.com), which synd
 <li><a href="https://github.com/nsmsn" rel="me">GitHub</a></li>
 <li><a href="https://www.linkedin.com/in/nsmsn/" rel="me">LinkedIn</a></li>
 <li><a href="https://literal.club/nsmsn" rel="me">Literal</a></li>
-<li><a href="https://mastodon.social/@nsmsn/" rel="me">Mastodon</a></li>
+<li><a rel="me" href="https://mastodon.social/@nsmsn">Mastodon</a></li>
 <li><a href="http://micro.blog/nsmsn" rel="me">Micro.blog</a></li>
 <li><a href="https://twitter.com/nsmsn" rel="me">Twitter</a></li>
 </ul>
@@ -40,5 +40,5 @@ I post regularly to [log.nicksimson.com](https://log.nicksimson.com), which synd
 
 &nbsp;
 
-You can also see lists of who I’m [following](/following).
+You can also see lists of the people, studios and orgs I’m&nbsp;[following](/following).
 

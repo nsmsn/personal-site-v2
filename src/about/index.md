@@ -21,7 +21,7 @@ permalink: /info/
 
 ## Profile
 
-I’m a graphic / communication / interaction designer with over a decade of professional experience. Using a human-centered approach, I work with others to help organizations and the people they serve meet their goals. I’m married to [Eleanor](https://eleanoraldrich.com), who makes paintings. We live in Knoxville with our daughter and a small&nbsp;[dog](https://dogsof.dev/dogs/zelda/).
+I’m a graphic / communication / interaction designer with over a decade of professional experience. I spent a long time as a generalist and thrive on learning new things. I’m married to [Eleanor](https://eleanoraldrich.com), who makes paintings. We live in Knoxville with our daughter and a small&nbsp;[dog](https://dogsof.dev/dogs/zelda/).
 
 See what I’m up to [now](/now/).
 
