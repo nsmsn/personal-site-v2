@@ -7,17 +7,21 @@ tags:
 layout: layouts/post.njk
 ---
 
-I have an [account on Mastodon](https://mastodon.social/@nsmsn/) I created back in April 2017, mainly to claim my dumb five-character username. Now that many of the people (web developers, artists, academics, media people) I once followed on Twitter are migrating to the open-source, federated social network, I may find myself using this account more.
+<div class="panel">
+Edited on <time datetime="2022-12-06">Dec. 6, 2022</time>: I recently moved to a smaller instance. <a href="https://mastodon.design">Mastodon.design</a> is a well-moderated instance of a few hundred people, and may be more “on brand” for me.
+</div>
+
+I created an account on Mastodon back in April 2017, mainly to claim my dumb five-character username. Now that many of the people (web developers, artists, academics, media people) I once followed on Twitter are migrating to the open-source, federated social network, I may find myself using this account more. *Update: You can now find me at [@nsmsn@mastodon.design](https://mastodon.design/@nsmsn)*
 
 I still plan to use my [Micro.blog](http://micro.blog/nsmsn) for most of my microblogging, and will try to keep my [/following page](/following/) on this website up to date. Generally, I’m interested in working on connecting the microblog to my main website and [syndicating](https://indieweb.org/POSSE) content to my other social channels. The websites of [Jeremy Keith](https://adactio.com/) and [Paul Robert Lloyd](https://paulrobertlloyd.com/notes/) are two of the best examples I’ve encountered.
 
 ## Finding people and their servers on Mastodon
 [Amelia Wattenberger](https://wattenberger.com/) made a [handy web app](https://mastodon-bridge.vercel.app/) for finding people from Twitter with Mastodon accounts. The app organizes the people you follow based on the Mastodon instance their account is on. Earlier this week, I used this app to find and re-follow several people who’ve retired their Twitter accounts and moved to Mastodon in a large exodus. 
 
-This is not an exhaustive list of Mastodon servers, just a list (in late November 2022) where [some the people I follow](https://mastodon.social/@nsmsn/following) landed in the “fediverse”.
+This is not an exhaustive list of Mastodon servers, just a list (in late November 2022) where some the people I follow landed in the “fediverse”.
 
 **[mastodon.social](https://mastodon.social)**: 12 people
-This is the original server operated by the Mastodon gGmbH non-profit, and where I created [my account](https://mastodon.social/@nsmsn) 5 years ago.
+This is the original server operated by the Mastodon gGmbH non-profit, and where I created my original account 5 years ago.
 
 **[front-end.social](https://front-end.social)**: 11 people
 “A place for front-end web makers who value humans over technology, and embrace diversity on an open, accessible web.”

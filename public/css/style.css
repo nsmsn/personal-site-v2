@@ -393,7 +393,6 @@ blockquote {
   padding: 0.5rem 1.25rem;
   margin-left: -1.45rem;
   border-left: 4px solid #f18680;
-  background-color: var(--bg-card);
   font-family: "Literata", Georgia, serif;
   font-weight: 400;
   font-size: 1.15em;
