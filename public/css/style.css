@@ -249,6 +249,14 @@ hr {
   border-bottom: 1px solid #aba59c;
 }
 
+details summary {
+  cursor: pointer;
+}
+
+details summary > * {
+  display: inline;
+}
+
 pre,
 code {
   font-family: "IBM Plex Mono", Consolas, Menlo, Monaco, "Andale Mono", "Lucida Console", "Courier New", Courier, monospace;

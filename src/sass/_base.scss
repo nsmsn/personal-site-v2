@@ -60,3 +60,11 @@ hr {
   border-top: 1px solid $gray;
   border-bottom: 1px solid $gray;
 }
+
+details summary { 
+  cursor: pointer;
+}
+
+details summary > * {
+  display: inline;
+}
