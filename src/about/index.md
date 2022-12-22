@@ -12,7 +12,7 @@ permalink: /info/
 
 <div class="grid-fourth grid-last flow">
 <div class="bg-color-cycle img-circle" style="max-width:240px">
-        <img src="/img/misc/grainy-nick-profile.png" alt="Nick Simson" width="240" class="img-circle img-multiply u-photo"/>
+        <img src="/img/misc/nick-profile.png" alt="Nick Simson" width="240" class="img-circle img-multiply u-photo"/>
         </div>
 &nbsp;
 </div>
@@ -21,7 +21,11 @@ permalink: /info/
 
 ## Profile
 
-I’m a graphic / communication / interaction designer with over a decade of professional experience. I spent a long time as a generalist and thrive on learning new things. I’m married to [Eleanor](https://eleanoraldrich.com), who makes paintings. We live in Knoxville with our daughter and a small&nbsp;[dog](https://dogsof.dev/dogs/zelda/).
+I’m an graphic / communication / interaction designer with over a decade of professional experience. Most of that time has been spent working at higher education institutions. Today I work remotely for a nonprofit member association. 
+
+I enjoy partnering with artists, musicians, scientists, and writers on smaller, short-term projects. I spent a long time as a generalist and thrive on learning new&nbsp;things. 
+
+I’m married to [Eleanor](https://eleanoraldrich.com), who makes paintings. We live in Knoxville with our daughter and a small&nbsp;[dog](https://dogsof.dev/dogs/zelda/).
 
 See what I’m up to [now](/now/).
 

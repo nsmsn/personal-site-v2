@@ -18,7 +18,6 @@ I post regularly to [log.nicksimson.com](https://log.nicksimson.com), which synd
 ## Social profiles
 <ul class="list-multi-col">
 <li><a href="https://www.are.na/nick-simson" rel="me">Are.na</a></li>
-<li><a href="https://bookshop.org/shop/nsmsn" rel="me">Bookshop</a></li>
 <li><a href="https://read.cv/nsmsn/" rel="me">CV</a></li>
 <li><a href="https://dribbble.com/nsmsn/" rel="me">Dribbble</a></li>
 <li><a href="https://github.com/nsmsn" rel="me">GitHub</a></li>
@@ -32,6 +31,7 @@ I post regularly to [log.nicksimson.com](https://log.nicksimson.com), which synd
 
 ## Miscellaneous
 <ul>
+<li><a href="https://bookshop.org/shop/nsmsn" rel="me">Bookshop</a></li>
 <li><a href="https://huffduffer.com/nsmsn" rel="me">Huffduffer</a></li>
 <li><a href="https://indieweb.org/User:Nicksimson.com" rel="me">IndieWeb.org</a></li>
 <li><a href="https://keybase.io/nsmsn" rel="me">Keybase</a><br /><small class="mono">(PGP Key: 0764 C7E9 3BB0 25C0)</small></li>

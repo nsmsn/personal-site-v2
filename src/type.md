@@ -12,6 +12,7 @@ The primary typeface used on this site is <b>[Literata](https://www.type-togethe
 
 - [TypeTogether](https://www.type-together.com/literata-font)
 - [Google Fonts](https://fonts.google.com/specimen/Literata)
+- [Bunny Fonts](https://fonts.bunny.net/family/literata)
 - [GitHub](https://github.com/googlefonts/literata)
 
 <pre>
@@ -26,6 +27,7 @@ Headlines are set in <b>[Epilogue](https://etceteratype.co/epilogue)</b>, a sans
 
 - [Etcetera Type Co](https://etceteratype.co/epilogue)
 - [Google Fonts](https://fonts.google.com/specimen/Epilogue)
+- [Bunny Fonts](https://fonts.bunny.net/family/epilogue)
 - [GitHub](https://github.com/Etcetera-Type-Co/epilogue)
 
 <pre>
@@ -40,6 +42,7 @@ Figure captions, citations, <code>code</code>, timestamps, and other supportive 
 
 - [IBM Plex website](https://www.ibm.com/plex/)
 - [Google Fonts](https://fonts.google.com/specimen/IBM+Plex+Mono)
+- [Bunny Fonts](https://fonts.bunny.net/family/ibm-plex-mono)
 - [GitHub](https://github.com/IBM/plex/)
 
 <pre>
