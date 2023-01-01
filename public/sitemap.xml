@@ -247,22 +247,22 @@
   </url>
   
   <url>
-    <loc>https://nicksimson.com/tags/books/</loc>
-    <lastmod>2022-11-23T13:24:28.748Z</lastmod>
-  </url>
-  
-  <url>
     <loc>https://nicksimson.com/tags/design/</loc>
     <lastmod>2022-11-23T13:24:28.748Z</lastmod>
   </url>
   
   <url>
-    <loc>https://nicksimson.com/tags/redesign/</loc>
+    <loc>https://nicksimson.com/tags/books/</loc>
     <lastmod>2022-11-23T13:24:28.748Z</lastmod>
   </url>
   
   <url>
     <loc>https://nicksimson.com/tags/personal/</loc>
+    <lastmod>2022-11-23T13:24:28.748Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nicksimson.com/tags/redesign/</loc>
     <lastmod>2022-11-23T13:24:28.748Z</lastmod>
   </url>
   
@@ -304,5 +304,10 @@
   <url>
     <loc>https://nicksimson.com/links/</loc>
     <lastmod>2022-12-02T02:43:48.452Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nicksimson.com/posts/2022-in-books/</loc>
+    <lastmod>2023-01-01T14:20:57.000Z</lastmod>
   </url>
 </urlset>
