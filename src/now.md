@@ -5,18 +5,18 @@ templateClass: tmpl-page
 permalink: /now/
 ---
 
-<small class="timestamp">Updated <time datetime="2022-11-27T03:06:09Z">November 27, 2022</time></small>
+<small class="timestamp">Updated <time datetime="2023-01-10T13:36:24Z">January 10, 2023</time></small>
 
-Happy holidays! <span class="home-heading">☃️</span>
+Here’s to a happy and healthy 2023! 🐇
 
 
 ## 👶 Parenting
-Our little one is around 9 months old and is [self-propelled](https://www.healthychildren.org/English/ages-stages/baby/Pages/Crawling-Styles.aspx) now. We’ve been introducing her to a variety of foods. We try to be faithful to a routine, but allow for novelty as much as we can. Each day brings new joys and new challenges.
+Our little one is quickly approaching her first birthday, and her personality is emerging in surprising ways. Not quite ready to take her first steps, but enjoying her newfound mobility.
 
 &nbsp;
 
 ## 💼 Career update
-In late October I started a new role as **lead user interface designer** at a DC-based nonprofit. I’m excited for this new challenge, and to be specializing in UI work. I’m working with a wonderful digital experience team, and I am enjoying being a work-at-home dad.
+Back in October I started a new role as **lead user interface designer** at the [Association of American Medical Colleges](https://www.aamc.org/) (AAMC). I’m excited to join this organization at this time, and to be digging deeper into UI work. I’ve been working with a wonderful digital experience team, and I am enjoying being a work-at-home dad.
 
 &nbsp;
 
