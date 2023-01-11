@@ -5,12 +5,41 @@
 	
 	<link href="https://nicksimson.com/feed/feed.xml" rel="self"/>
 	<link href="https://nicksimson.com/"/>
-	<updated>2023-01-01T14:20:57Z</updated>
+	<updated>2023-01-11T16:40:02Z</updated>
 	<id>https://nicksimson.com/</id>
 	<author>
 		<name>Nick Simson</name>
 		<email>nick@nicksimson.com</email>
 	</author>
+	
+	<entry>
+		<title>NewwwYear Itches</title>
+		<link href="https://nicksimson.com/posts/2023-newwwyear-itches/"/>
+		<updated>2023-01-11T16:40:02Z</updated>
+		<id>https://nicksimson.com/posts/2023-newwwyear-itches/</id>
+		<content type="html">&lt;p&gt;The &lt;a href=&quot;https://indieweb.org/newwwyear&quot;&gt;#NewwwYear hashtag&lt;/a&gt; was &lt;a href=&quot;https://twitter.com/jensimmons/status/943323088405581824&quot;&gt;popularized by Jen Simmons on Twitter in 2017&lt;/a&gt; for the purpose of making commitments and improvements to your personal website. The idea behind it is similar to New Year’s resolutions: taking small, but concrete steps toward building and improving one’s website.&lt;/p&gt;
+&lt;p&gt;The current version of my website (&lt;a href=&quot;https://nicksimson.com/posts/2020-newww-year/&quot;&gt;started in December 2020&lt;/a&gt;) embraces &lt;a href=&quot;https://nicksimson.com/tags/redesign/&quot;&gt;small, iterative changes&lt;/a&gt; over massive redesigns again and again. Overall, I am quite happy with this this design (for now!): There is very little friction for writing/publishing new posts and shipping new features. At the beginning of 2023 I want to continue building on this foundation and make a few improvements.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://indieweb.org/itches&quot;&gt;Itches&lt;/a&gt;, in the context of the indieweb, are individuals’s personal sources of annoyances using the web or in particular their own website, that they use to itemize and prioritize what to create, design, build, and improve on their own website...&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Not all of which follows are annoyances—some are simply cases of &lt;a href=&quot;https://www.are.na/nick-simson/the-art-of-the-personal-website&quot;&gt;personal site envy&lt;/a&gt;. As my internet presence has sprawled and changed in the last couple years, there’s a couple of areas I’d like to improve in the upcoming year.&lt;/p&gt;
+&lt;h2 id=&quot;alphabetical-tags&quot;&gt;Alphabetical tags &lt;a class=&quot;direct-link&quot; href=&quot;https://nicksimson.com/posts/2023-newwwyear-itches/#alphabetical-tags&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I’ve supported tags since the December 2020 redesign embarked. One thing that currently annoys me is that as I add new tags, they do not appear in alphabetical order. This looks like it might be relatively easy to fix, and I already found a &lt;a href=&quot;https://www.markllobrera.com/posts/eleventy-tag-list-sorting-and-post-count/&quot;&gt;post by Mark Llobrera&lt;/a&gt; that gets into doing this with &lt;a href=&quot;https://github.com/11ty/eleventy-base-blog&quot;&gt;eleventy-base-blog&lt;/a&gt;, the Eleventy starter I built this site from.&lt;/p&gt;
+&lt;h2 id=&quot;theme-switcher&quot;&gt;Theme switcher &lt;a class=&quot;direct-link&quot; href=&quot;https://nicksimson.com/posts/2023-newwwyear-itches/#theme-switcher&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;In 2021 I &lt;a href=&quot;https://nicksimson.com/posts/2021-redesign-dark-mode/&quot;&gt;shipped a dark mode&lt;/a&gt; to my website and in 2022 I &lt;a href=&quot;https://nicksimson.com/posts/2022-redesign-earth-tones/&quot;&gt;updated the color scheme&lt;/a&gt; to take better advantage of CSS variables. Currently the site’s dark/light mode is tied to a user’s system preferences. In 2023, I’d like to add a theme switcher to my site. &lt;a href=&quot;https://fossheim.io/writing/posts/accessible-theme-picker-html-css-js/&quot;&gt;Sarah Fossheim wrote up an excellent tutorial&lt;/a&gt; on how to do this in an accessible way.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The need for more than just a light theme and dark theme came from the fact that personally, when I get bad migraines and headaches, low contrasting colors feel easier on my eyes, so I wanted to at least add a dark low-contrast option in addition to a regular light and dark theme.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Sarah, &lt;a href=&quot;https://mxb.dev/&quot;&gt;Max Böck&lt;/a&gt;, and &lt;a href=&quot;https://aaadaaam.com/&quot;&gt;Adam Stoddard&lt;/a&gt; all support multiple, creative color themes on their personal sites, and these are worth checking out. I’ve read other anecdotes about users wanting to be able switch between modes on individual sites/apps. While I do not suffer from migraines, I do have &lt;a href=&quot;https://www.mayoclinic.org/diseases-conditions/astigmatism/symptoms-causes/syc-20353835&quot;&gt;astigmatism&lt;/a&gt;, and I often find myself adjusting the contrast of my phone and other devices for more comfortable reading. Before I unleash a slew of light, dark, dim, and colorful themes on my users, I’d like to do a bit more research on different eye conditions, colorblindness, and user preferences in general.&lt;/p&gt;
+&lt;h2 id=&quot;microblog&quot;&gt;Microblog &lt;a class=&quot;direct-link&quot; href=&quot;https://nicksimson.com/posts/2023-newwwyear-itches/#microblog&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I set up a paid &lt;a href=&quot;https://micro.blog/&quot;&gt;Micro.blog&lt;/a&gt; account with a hosted microblog in 2022 after trying and giving up on a little WordPress project in 2021. I was able to &lt;a href=&quot;https://nicksimson.com/posts/2022-ditch-twitter/&quot;&gt;ditch Twitter&lt;/a&gt; and move my old Instagram photos over to it. I do wish the community at Micro.blog was a bit bigger, but I love the set of features the service currently provides, as well as its official iOS apps.&lt;/p&gt;
+&lt;p&gt;Writing primarily on this site and on &lt;a href=&quot;https://log.nicksimson.com/&quot;&gt;my microblog&lt;/a&gt;, I use Micro.blog to syndicate both feeds to &lt;a href=&quot;https://mastodon.design/@nsmsn&quot;&gt;Mastodon&lt;/a&gt;. I am able to reply natively to others using both Micro.blog and Mastodon apps.&lt;/p&gt;
+&lt;p&gt;I initially picked a &lt;a href=&quot;https://github.com/pimoore/microdotblog-tufte&quot;&gt;nice theme&lt;/a&gt; for my hosted microblog, but in 2023, I’d like to create my own custom theme, maybe based on this site’s typography and colors. I’ve not developed for &lt;a href=&quot;https://gohugo.io/&quot;&gt;Hugo&lt;/a&gt; before, so it could be a fun exercise.&lt;/p&gt;
+&lt;h2 id=&quot;indiekit&quot;&gt;Indiekit &lt;a class=&quot;direct-link&quot; href=&quot;https://nicksimson.com/posts/2023-newwwyear-itches/#indiekit&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;This last one has the most technical overhead, and I don’t know if I’ll make progress on it this year or not. I have a desire to close the distance between my microblog and personal website (macroblog?) and I’ve been following Paul Robert Lloyd’s &lt;a href=&quot;https://getindiekit.com/&quot;&gt;Indiekit&lt;/a&gt; project for a while. It is a self-hosted Node.js server and &lt;a href=&quot;https://indieweb.org/Micropub&quot;&gt;Micropub&lt;/a&gt; endpoint that does some nifty things and makes IndieWeb compatibility easier for static websites.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://paulrobertlloyd.com/articles/2022/12/indiekit/&quot;&gt;Paul’s launch post introducing the Indiekit beta&lt;/a&gt; came in December and promises tutorials for setting it up on different hosts. I intend to keep following Indiekit and see if more people hook it up to their &lt;a href=&quot;https://11ty.dev/&quot;&gt;Eleventy&lt;/a&gt;-powered websites. &lt;a href=&quot;https://www.w3.org/TR/webmention/&quot;&gt;Webmention&lt;/a&gt; support may be on the horizon too. I’m a designer and setting up servers, git actions, and other similar stuff has always made my head spin a bit. But I’d love to give it a try and see what I can learn from it.&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Books finished in 2022</title>
