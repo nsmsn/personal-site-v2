@@ -13,9 +13,9 @@
   --flow-space: 1em;
   --bg-color: #faf6ef;
   --bg-card: #e6e0d7;
-  --text-color: #433c33;
-  --light-text: #5d574e;
-  --link-color: #433c33;
+  --text-color: #453c33;
+  --light-text: #645b51;
+  --link-color: #453c33;
   --link-hover: #ee453b;
   font-size: calc(1rem + 0.275vw);
 }
@@ -161,7 +161,8 @@ select {
 }
 
 mark {
-  background-color: #ffb700;
+  background-color: #ffde37;
+  color: #231c13;
 }
 
 mark::selection {
@@ -170,7 +171,7 @@ mark::selection {
 }
 
 mark a {
-  color: black !important;
+  color: #231c13 !important;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -535,6 +536,22 @@ sup a {
 
 .size10 {
   font-size: 3em;
+}
+
+.mark-highlight {
+  --mark-color: #ffde37;
+  --mark-skew: 0.125em;
+  --mark-height: 1.75em;
+  --mark-overlap: 0.125em;
+  padding-inline: var(--mark-overlap);
+  margin-inline: calc(var(--mark-overlap) * -1);
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  background-color: transparent;
+  background-image: linear-gradient(to bottom right, transparent 50%, var(--mark-color) 50%), linear-gradient(to right, var(--mark-color), var(--mark-color)), linear-gradient(to top left, transparent 50%, var(--mark-color) 50%);
+  background-size: var(--mark-skew) var(--mark-height), calc(100% - var(--mark-skew) * 2 + 1px) var(--mark-height), var(--mark-skew) var(--mark-height);
+  background-position: 0 50%, 50% 50%, 100% 50%;
+  background-repeat: no-repeat;
 }
 
 body {
@@ -979,6 +996,7 @@ a[href].direct-link:focus:visited,
 /* Warning */
 .warning {
   background-color: #fbf1a9;
+  color: #231c13;
   padding: 1em 0.625em; /* 16px 10px /16 */
   width: 100%;
   max-width: 50em;
@@ -988,6 +1006,10 @@ a[href].direct-link:focus:visited,
   .warning {
     text-indent: -0.825em;
   }
+}
+
+.warning a {
+  color: #231c13;
 }
 
 .warning ol:only-child {
@@ -1255,6 +1277,11 @@ a[href].direct-link:focus:visited,
 
 .list-multi-col {
   column-width: 12em;
+  column-gap: 2em;
+}
+
+.list-following {
+  column-width: 15em;
   column-gap: 2em;
 }
 
@@ -2872,14 +2899,14 @@ a[href].direct-link:focus:visited,
 @media (prefers-color-scheme: dark) {
   :root {
     --bg-color: #231c13;
-    --bg-card: #433c33;
+    --bg-card: #453c33;
     --text-color: #f9f4eb;
     --light-text: #e6e0d7;
     --link-color: #f9f4eb;
     --link-hover: #f18680;
   }
   pre, code {
-    background-color: #433c33;
+    background-color: #453c33;
     color: #fbf1a9;
   }
   #forecast_embed {

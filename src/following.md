@@ -19,12 +19,7 @@ In earlier days, this might have looked like a <em>[webring](https://indieweb.or
 Artists, designers, developers, educators, illustrators, writers, and&nbsp;others.
 
 <div>
-<small><ul class="list-unstyled list-multi-col">
-  {% for item in people.items %}
-  <li><a href="{{ item.url }}" target="_blank">{{ item.name }}</a> <span class="text-meta">{{ item.meta }}</span>
-  </li>
-  {% endfor %}
-</ul></small>
+<small><strong>What happened to the massive list?</strong> I think I am following too many people. It was starting to feel overwhelming to keep up with and list everyone. I am going to blow up my RSS reader and start adding people back slowly.</small>
 </div>
 
 &nbsp;
@@ -34,7 +29,7 @@ Artists, designers, developers, educators, illustrators, writers, and&nbsp;other
 Design studios creating interesting work.
 
 <div>
-<small><ul class="list-unstyled list-multi-col">
+<small><ul class="list-unstyled list-following">
   {% for item in studios.items %}
   <li><a href="{{ item.url }}" target="_blank">{{ item.name }}</a> <span class="text-meta">{{ item.meta }}</span>
   </li>
@@ -49,7 +44,7 @@ Design studios creating interesting work.
 Nonprofits I actively support or donate to when I can.
 
 <div>
-<small><ul class="list-unstyled list-multi-col">
+<small><ul class="list-unstyled list-following">
   {% for item in orgs.items %}
   <li><a href="{{ item.url }}" target="_blank">{{ item.name }}</a> <span class="text-meta">{{ item.meta }}</span>
   </li>

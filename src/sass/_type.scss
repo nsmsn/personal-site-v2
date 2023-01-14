@@ -207,3 +207,19 @@ sup a {
 .size10{
     font-size: $size10
 }
+
+.mark-highlight{
+    --mark-color: #ffde37;
+    --mark-skew: 0.125em;
+    --mark-height: 1.75em;
+    --mark-overlap: 0.125em;
+    padding-inline: var(--mark-overlap);
+    margin-inline: calc(var(--mark-overlap) * -1);
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    background-color: transparent;
+    background-image: linear-gradient( to bottom right, transparent 50%, var(--mark-color) 50% ), linear-gradient( to right, var(--mark-color), var(--mark-color) ), linear-gradient( to top left, transparent 50%, var(--mark-color) 50% );
+    background-size: var(--mark-skew) var(--mark-height), calc(100% - var(--mark-skew) * 2 + 1px) var(--mark-height), var(--mark-skew) var(--mark-height);
+    background-position: 0 50%, 50% 50%, 100% 50%;
+    background-repeat: no-repeat;
+}

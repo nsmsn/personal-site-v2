@@ -21,9 +21,9 @@ permalink: /info/
 
 ## Profile
 
-I’m an graphic / communication / interaction designer with over a decade of professional experience. Most of that time has been spent working at higher education institutions. Today I work remotely for a nonprofit member association. 
+I’m a graphic / communication / interaction designer with over a decade of professional experience. Most of that time has been spent working at higher education institutions. Today I work remotely for a nonprofit member association. 
 
-I enjoy partnering with artists, musicians, scientists, and writers on smaller, short-term projects. I spent a long time as a generalist and thrive on learning new&nbsp;things. 
+I’ve been lucky to work with some wonderful artists, musicians, scientists, and writers on projects that needed a little design help. I spent a long time as a generalist and thrive on learning new&nbsp;things. 
 
 I’m married to [Eleanor](https://eleanoraldrich.com), who makes paintings. We live in Knoxville with our daughter and a small&nbsp;[dog](https://dogsof.dev/dogs/zelda/).
 

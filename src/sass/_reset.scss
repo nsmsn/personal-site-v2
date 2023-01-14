@@ -90,7 +90,8 @@ select {
   }
 
 mark{
-    background-color: $gold;
+    background-color: $yellow;
+    color: $black;
 }
 
 mark::selection {
@@ -98,7 +99,7 @@ mark::selection {
     color: black;
 }
 
-mark a{color: black !important;}
+mark a{color: $black !important;}
 
 @media (prefers-color-scheme: dark) {
 

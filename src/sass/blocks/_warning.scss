@@ -1,6 +1,7 @@
 /* Warning */
 .warning {
     background-color: $lightyellow;
+    color: $black;
     padding: 1em 0.625em; /* 16px 10px /16 */
     width: 100%;
     max-width: 50em;
@@ -10,6 +11,13 @@
       text-indent: -.825em;
     }
   }
+
+  .warning a {
+    color: $black;
+  }
+
+
+
   .warning ol:only-child {
     margin: 0;
   }
