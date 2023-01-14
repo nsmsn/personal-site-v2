@@ -2,7 +2,8 @@
     "items": [
       {
         "name": "Chicago Freedom School",
-        "url": "https://chicagofreedomschool.org/"
+        "url": "https://chicagofreedomschool.org/",
+        "meta": "(IL)"
       },
       {
         "name": "Debs-Jones-Douglass Institute",
