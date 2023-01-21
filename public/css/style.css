@@ -552,6 +552,7 @@ sup a {
   background-size: var(--mark-skew) var(--mark-height), calc(100% - var(--mark-skew) * 2 + 1px) var(--mark-height), var(--mark-skew) var(--mark-height);
   background-position: 0 50%, 50% 50%, 100% 50%;
   background-repeat: no-repeat;
+  font-weight: 520;
 }
 
 body {
