@@ -309,6 +309,27 @@
         "url": "https://www.discogs.com/master/821094-John-Hartford-Headin-Down-Into-The-Mystery-Below"
       },
       {
+        "title": "Unknown Pleasures",
+        "artist": "Joy Division",
+        "cover": "joy-division-unknown-1979.jpg",
+        "year": "1979",
+        "url": "https://www.discogs.com/release/621079-Joy-Division-Unknown-Pleasures"
+      },
+      {
+        "title": "Closer",
+        "artist": "Joy Division",
+        "cover": "joy-division-closer-1980.jpg",
+        "year": "1980",
+        "url": "https://www.discogs.com/release/239034-Joy-Division-Closer"
+      },
+      {
+        "title": "Muswell Hillbillies",
+        "artist": "The Kinks",
+        "cover": "kinks-muswell-hillbillies.jpg",
+        "year": "1971",
+        "url": "https://www.discogs.com/release/459051-The-Kinks-Muswell-Hillbillies"
+      },
+      {
         "title": "Misfits",
         "artist": "The Kinks",
         "cover": "kinks-misfits-1978.jpg",
@@ -351,6 +372,20 @@
         "url": "https://www.discogs.com/master/97789-Willie-Nelson-Stardust"
       },
       {
+        "title": "Movement",
+        "artist": "New Order",
+        "cover": "new-order-movement-1981.jpg",
+        "year": "1981",
+        "url": "https://www.discogs.com/release/1039368-New-Order-Movement"
+      },
+      {
+        "title": "Power, Corruption & Lies",
+        "artist": "New Order",
+        "cover": "new-order-power-corruption-lies-1983.jpg",
+        "year": "1983",
+        "url": "https://www.discogs.com/release/503268-New-Order-Power-Corruption-Lies"
+      },
+      {
         "title": "Good Old Boys",
         "artist": "Randy Newman",
         "cover": "newman-good-old-boys-1974.jpg",
@@ -363,6 +398,13 @@
         "cover": "orourke-eureka.jpg",
         "year": "1999",
         "url": "https://www.discogs.com/release/1159835-Jim-ORourke-Eureka"
+      },
+      {
+        "title": "Halfway to a Threeway EP",
+        "artist": "Jim O’Rourke",
+        "cover": "orourke-halfway.jpg",
+        "year": "1999",
+        "url": "https://www.discogs.com/release/1583944-Jim-ORourke-Halfway-To-A-Threeway"
       },
       {
         "title": "Insignificance",
