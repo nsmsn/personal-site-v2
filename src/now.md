@@ -1,27 +1,27 @@
 ---
 layout: layouts/now.njk
-title: /now
+title: Now
+eleventyNavigation:
+  key: Now
+  order: 3
+
 templateClass: tmpl-page
 permalink: /now/
 ---
 
-<small class="timestamp">Updated <time datetime="2023-01-10T13:36:24Z">January 10, 2023</time></small>
+<small class="timestamp">Updated <time datetime="2023-03-18T13:05:41Z">March 18, 2023</time></small>
 
-Here’s to a happy and healthy 2023! 🐇
+At the moment I am:
 
+* Leading UI design at the <a href="https://aamc.org/">AAMC</a>. 💼
+* Building <a href="https://typo.town/">Typo.town</a>, a personal typography resource. 🛠️
+* Raising a small child with <a href="https://eleanoraldrich.com">Eleanor</a>. 👶
 
-## 👶 Parenting
-Our little one is quickly approaching her first birthday, and her personality is emerging in surprising ways. Not quite ready to take her first steps, but enjoying her newfound mobility.
-
-&nbsp;
-
-## 💼 Career update
-Back in October I started a new role as **lead user interface designer** at the [Association of American Medical Colleges](https://www.aamc.org/) (AAMC). I’m excited to join this organization at this time, and to be digging deeper into UI work. I’ve been working with a wonderful digital experience team, and I am enjoying being a work-at-home dad.
 
 &nbsp;
 
-## 🤓 Learning
-Here’s some of the design and tech topics/projects I’m currently interested in:
+## 💭 Topics
+Here’s some of the design and tech topics/projects I’m currently interested&nbsp;in:
 
 * [Progressive Web Apps](https://web.dev/learn/pwa/) (PWA)
 * [Web components](https://developer.mozilla.org/en-US/docs/Web/Web_Components) and [Open UI](https://open-ui.org/)

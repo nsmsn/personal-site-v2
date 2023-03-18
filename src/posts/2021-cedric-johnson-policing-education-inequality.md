@@ -3,7 +3,7 @@ title: Cedric Johnson on Public Goods and Inequality
 description: Beyond slogans and cynicism. Identifying complexity and contradiction.
 date: 2021-01-17
 tags:
-  - scholarship
+  - scholars
 layout: layouts/post.njk
 ---
 

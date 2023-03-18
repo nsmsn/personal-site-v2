@@ -5,12 +5,26 @@
 	
 	<link href="https://nicksimson.com/feed/feed.xml" rel="self"/>
 	<link href="https://nicksimson.com/"/>
-	<updated>2023-01-11T16:40:02Z</updated>
+	<updated>2023-03-18T13:02:36Z</updated>
 	<id>https://nicksimson.com/</id>
 	<author>
 		<name>Nick Simson</name>
 		<email>nick@nicksimson.com</email>
 	</author>
+	
+	<entry>
+		<title>Simple Sites and HTML Energy</title>
+		<link href="https://nicksimson.com/posts/2023-simple-sites-html-energy/"/>
+		<updated>2023-03-18T13:02:36Z</updated>
+		<id>https://nicksimson.com/posts/2023-simple-sites-html-energy/</id>
+		<content type="html">&lt;p&gt;I recently purchased a great domain name (at least I think so). Over the last couple weeks I’ve slowly been tinkering away at &lt;a href=&quot;https://typo.town/&quot;&gt;Typo.town&lt;/a&gt;, a personal resource on typography. I have a vision for what I eventually want this website to be, but it will take me some time to get there. So right now, it’s pretty much a landing page plus two lists, with some classification stuff I hope will be useful metadata in the future.&lt;/p&gt;
+&lt;p&gt;Ben Edmonds, web consultant at &lt;a href=&quot;https://wesort.co.uk/&quot;&gt;We Sort&lt;/a&gt; has an open-source template for simple web projects, called simply, &lt;a href=&quot;https://github.com/wesort/simple-website&quot;&gt;Simple website&lt;/a&gt;. It’s a basic directory with an &lt;code&gt;index.html&lt;/code&gt; file plus a &lt;code&gt;404.html&lt;/code&gt; page that redirects back to the index. The stylesheet uses &lt;a href=&quot;https://andy-bell.co.uk/a-modern-css-reset/&quot;&gt;Andy Bell’s modern CSS reset&lt;/a&gt;, which I kept, plus some very simple styles. You can host this beauty on GitHub Pages, Netlify, or nearly any web hosting provider. I used Ben’s template to build out a few simple pages which I put in a &lt;a href=&quot;https://github.com/nsmsn/typotown-v0&quot;&gt;GitHub repository&lt;/a&gt; and connected to Netlify. It worked beautifully!&lt;/p&gt;
+&lt;p&gt;This is an approach I’d like to take with more of my unused domain names, or any of my future web projects. I can build a very simple coming soon page, or a one-page site stating my intentions for the domain name I’ve claimed. It feels a bit like designing in the open, which I loved &lt;a href=&quot;https://nicksimson.com/posts/2020-newww-year/&quot;&gt;when I started redesigning my personal site&lt;/a&gt; in 2020. Taking the simplest path is often the impetus to get going on the great idea you have.&lt;/p&gt;
+&lt;p&gt;Earlier this year I re-discovered the web work of &lt;a href=&quot;https://www.laurel.world/&quot;&gt;Laurel Schwulst&lt;/a&gt;, an artist, educator, and writer in NYC. She co-hosts a podcast with &lt;a href=&quot;https://elliott.computer/&quot;&gt;Elliot Cost&lt;/a&gt; called &lt;a href=&quot;https://html.energy/podcast.html&quot;&gt;HTML Energy&lt;/a&gt;. Each podcast interview features a creator who makes their own website by hand: No (or minimal) build tools; No templates, page-builders, or CMS. Just real people working with the building blocks of the web: HTML and maybe a little CSS.&lt;/p&gt;
+&lt;p&gt;The production and audio of the podcast is a bit like the experience of visiting the &lt;a href=&quot;https://html.energy/index.html&quot;&gt;html.energy&lt;/a&gt; website. The website is written in pure HTML and makes wonderful use of the web&#39;s raw materials: white backgrounds, &lt;code&gt;button&lt;/code&gt; and &lt;code&gt;table&lt;/code&gt; elements,  default Times New Roman. If you are familiar with &lt;a href=&quot;https://brutalistwebsites.com/&quot;&gt;brutalist websites&lt;/a&gt;, this certainly could be classified as one. Each interview is recorded in the kitchens and bedrooms of their guests, or outdoors, or over Skype. Ambient noises or digital artifacts bleed into the sound, and there isn’t a ton of editing, except for an artsy intro/outro soundscape. It all sounds artfully unpolished, but the whole thing has a quite intimate and generous spirit about it. I do wish more podcasts made me feel this way.&lt;/p&gt;
+&lt;p&gt;Anyway, I think I captured a bit of the HTML energy working on my new side project. Thanks to some basic HTML and CSS and extremely cheap hosting, I have a beautiful version 0.1. Every unused domain name has the potential to be something brilliant. Don’t wait for it to be perfect: Start something small and let it grow.&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>NewwwYear Itches</title>

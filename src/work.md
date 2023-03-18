@@ -1,9 +1,6 @@
 ---
 layout: layouts/home.njk
 permalink: /work/
-eleventyNavigation:
-  key: Work
-  order: 1
 
 title: Selected Work
 description: My design portfolio.

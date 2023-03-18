@@ -4,7 +4,7 @@ title: Information
 templateClass: tmpl-page
 eleventyNavigation:
   key: Info
-  order: 3
+  order: 2
 permalink: /info/
 ---
 
