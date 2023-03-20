@@ -47,8 +47,6 @@ This is my personal website. I use this as my place to experiment and try things
 
 You can track this site’s progress and iterations at [this GitHub repo](https://github.com/nsmsn/nicksimsondotcom). This site is built with [Eleventy](https://11ty.dev/) and deployed to [Netlify](https://netlify.com). My blog posts are available in both [RSS](https://www.nicksimson.com/feed/feed.xml) and [JSON](https://www.nicksimson.com/feed/feed.json). I prioritize performance and <a href="/accessibility">accessibility</a>. You can read [a note on the type](/type) to learn about the fonts in use.
 
-Want even more? Check out [log.nicksimson.com](https://log.nicksimson.com).
-
 </div>
 
 </div>

@@ -37,7 +37,7 @@ Micro.blog is designed to be more *decentralized* than other major social networ
 
 I am currently using the 10-day free trial to try all these features out. I created a separate blog for notes as a brief experiment with WordPress last fall and imported those posts using an XML file. It went very smoothly, save for the [youtube] shortcode that WordPress uses for the video embed block. I was able to [import photos and captions from my Instagram account](https://help.micro.blog/t/copying-photos-to-micro-blog-from-instagram/78) (after requesting a download of my data from Meta/Instagram) using the MacOS app. The [bookshelves feature](https://help.micro.blog/t/bookshelves/515/13) is a very basic Goodreads alternative. I found it relatively easy to export my Goodreads data into a .csv file and imported this into my Micro.blog account under Bookshelves. The import worked relatively quickly and uses ISBN data to find books in the Micro.blog [book database](https://micro.blog/discover/books/grid).
 
-If you’re curious to see what this all looks like, you can check out [my timeline on Micro.blog](http://micro.blog/nsmsn) or visit [log.nicksimson.com](https://log.nicksimson.com)
+If you’re curious to see what this all looks like, you can check out [my timeline on Micro.blog](http://micro.blog/nsmsn) or visit [nsmsn.micro.blog](https://nsmsn.micro.blog)
 
 <h2>Platform and Community</h2>
 
@@ -54,9 +54,9 @@ Micro.blog has posted clear [community guidelines](https://help.micro.blog/t/com
 
 <h2>Going forward</h2>
 
-For the time being, I am going to use [my microblog](https://log.nicksimson.com/) to keep track of the books I’m reading, publish my public notes, and for other things I find useful. I’ll also post the occasional photo or two. This will be my go-to social network. 
+For the time being, I am going to use [my microblog](https://nsmsn.micro.blog) to keep track of the books I’m reading, publish my public notes, and for other things I find useful. I’ll also post the occasional photo or two. This will be my go-to social network. 
 
-After downloading my Goodreads data, I deleted my account. I’m no longer interested in sending data on the books I read to Amazon. I put the RSS feeds for the handful of people I followed on Goodreads into my RSS reader, so I can keep up with their books. For now, I’m keeping my [Literal account](https://literal.club/nsmsn), but Micro.blog can easily replace that too. 
+After downloading my Goodreads data, I deleted my account. I’m no longer interested in sending data on the books I read to Amazon. I put the RSS feeds for the handful of people I followed on Goodreads into my RSS reader, so I can keep up with their books. For now, I’m keeping my [Literal account](https://literal.club/nsmsn), but Micro.blog could easily replace that too. 
 
 Similarly, I am not interested in sharing my photos or life updates with the advertising company Meta. Now that they are all moved over to my microblog, I archived the posts on my [Instagram account](https://www.instagram.com/n.smsn/) (but kept up the link to my personal website). I might open the Instagram app once or twice a month to see what my friends, favorite artists, and cute animals are up to.
 

@@ -43,38 +43,3 @@ layout: layouts/home.njk
   </div>
 </div>
 </div>
-
-<div class="flow pt-7">
-
-<h2 class="pt-6">Contents</h2>
-<details>
-<summary>Directories</summary>
-<ul class="list-unstyled auto-grid">
-  {% for item in toc.items %}
-  <li>
-  <div class="lib-item">
-            <a class="lib-title" href="{{ item.url }}">/{{ item.title }}</a>
-            <p>{{ item.description }}</p>
-    </div>
-  </li>
-  {% endfor %}
-</ul>
-</details>
-
-<details>
-<summary>Subdomains</summary>
-<div class="lib-item">
-<a class="lib-title" href="https://log.nicksimson.com">log.nicksimson.com</a>
-<p>My micro blog</p>
-</div>
-</details>
-
-</div>
-
-<style>
-
-.highlight {
-  background-color: rgba(255,222,55,0.25);
-}
-
-</style>

@@ -11,7 +11,7 @@ Here are links to my other projects and profiles around the World&nbsp;Wide&nbsp
 &nbsp;
 
 ## Microblog
-I post regularly to [log.nicksimson.com](https://log.nicksimson.com), which syndicates to my Mastodon account. It’s a mixture of links, photos, books, music,&nbsp;etc.
+I post regularly to [log.nick.sh](https://log.nick.sh), which syndicates to my Mastodon account. It’s a mixture of links, photos, books, music,&nbsp;etc.
 
 &nbsp;
 

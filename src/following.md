@@ -19,7 +19,12 @@ In earlier days, this might have looked like a <em>[webring](https://indieweb.or
 Artists, designers, developers, educators, illustrators, writers, and&nbsp;others.
 
 <div>
-<small><strong>What happened to the massive list?</strong> I think I am following too many people. It was starting to feel overwhelming to keep up with and list everyone. I am going to blow up my RSS reader and start adding people back slowly.</small>
+<small><ul class="list-unstyled list-following">
+  {% for item in people.items %}
+  <li><a href="{{ item.url }}" target="_blank">{{ item.name }}</a> <span class="text-meta">{{ item.meta }}</span>
+  </li>
+  {% endfor %}
+</ul></small>
 </div>
 
 &nbsp;

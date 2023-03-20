@@ -28,7 +28,7 @@ Sarah, [Max Böck](https://mxb.dev/), and [Adam Stoddard](https://aaadaaam.com/)
 ## Microblog 
 I set up a paid [Micro.blog](https://micro.blog/) account with a hosted microblog in 2022 after trying and giving up on a little WordPress project in 2021. I was able to [ditch Twitter](/posts/2022-ditch-twitter/) and move my old Instagram photos over to it. I do wish the community at Micro.blog was a bit bigger, but I love the set of features the service currently provides, as well as its official iOS apps. 
 
-Writing primarily on this site and on [my microblog](https://log.nicksimson.com/), I use Micro.blog to syndicate both feeds to [Mastodon](https://mastodon.design/@nsmsn). I am able to reply natively to others using both Micro.blog and Mastodon apps.
+Writing primarily on this site and on [my microblog](https://nsmsn.micro.blog), I use Micro.blog to syndicate both feeds to [Mastodon](https://mastodon.design/@nsmsn). I am able to reply natively to others using both Micro.blog and Mastodon apps.
 
 I initially picked a [nice theme](https://github.com/pimoore/microdotblog-tufte) for my hosted microblog, but in 2023, I’d like to create my own custom theme, maybe based on this site’s typography and colors. I’ve not developed for [Hugo](https://gohugo.io/) before, so it could be a fun exercise.
 
