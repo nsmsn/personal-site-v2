@@ -13,15 +13,15 @@ permalink: /now/
 
 These days I am:
 
-* Leading UI design at the <a href="https://aamc.org/">AAMC</a>. 💼
-* Building <a href="https://typo.town/">Typo.town</a>, a personal typography resource. 🛠️
+* Working 💼 as a UI designer at the <a href="https://aamc.org/">AAMC</a>.
+* 🛠️ Building <a href="https://typo.town/">Typo.town</a>, a personal typography resource.
 * Raising a small child 👶 with <a href="https://eleanoraldrich.com">Eleanor</a>.
 
 
 &nbsp;
 
 ## 💭 Topics
-Here’s a few design and tech topics/projects I’m currently interested&nbsp;in:
+A few design and tech topics/projects I’m currently interested&nbsp;in:
 
 * [Progressive Web Apps](https://web.dev/learn/pwa/) (PWA)
 * [Web components](https://developer.mozilla.org/en-US/docs/Web/Web_Components) and [Open UI](https://open-ui.org/)
