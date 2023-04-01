@@ -9,13 +9,14 @@ templateClass: tmpl-page
 permalink: /now/
 ---
 
-<small class="timestamp">Updated <time datetime="2023-03-18T13:05:41Z">March 18, 2023</time></small>
+<small class="timestamp">Updated <time datetime="2023-04-01T17:18:41Z">April 1, 2023</time></small>
 
 These days I am:
 
 * Working 💼 as a UI designer at the <a href="https://aamc.org/">AAMC</a>.
 * 🛠️ Building <a href="https://typo.town/">Typo.town</a>, a personal typography resource.
 * Raising a small child 👶 with <a href="https://eleanoraldrich.com">Eleanor</a>.
+* 🌵 Planning a move back to the Southwest.
 
 
 &nbsp;
