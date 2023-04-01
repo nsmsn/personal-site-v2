@@ -41,4 +41,4 @@ I’m still using both [Literal](https://literal.club/nsmsn/is-reading) and <a h
 &nbsp;
 
 ## 📍 Knoxville
-The Scruffy Little City continues to be home base. Spring and fall are the best seasons here in East Tennessee. You should plan a visit.
+The Scruffy Little City is home base, but only for a little while longer. Spring and fall are still the best seasons here in East Tennessee.
