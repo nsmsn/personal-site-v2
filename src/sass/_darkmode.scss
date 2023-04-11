@@ -1,7 +1,7 @@
 @media (prefers-color-scheme: dark) {
     :root {
-        --bg-color: #231c13;
-        --bg-card: #453c33;
+        --bg-color: #171613;
+        --bg-card: #38342d;
         --text-color: #f9f4eb;
         --light-text: #e6e0d7;
         --link-color: #f9f4eb;
@@ -9,12 +9,6 @@
       }
 
       pre, code {
-        background-color: $darkgray;
-        color: $lightyellow;
+        background-color: var(--bg-card);
       }
-
-    #forecast_embed{
-        background: $gray;
-    }
-
   }

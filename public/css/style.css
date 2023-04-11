@@ -265,7 +265,6 @@ code {
   font-size: 0.875em;
   line-height: 1.5;
   background-color: #e6e0d7;
-  color: #1a2249;
   padding: 0 0.25em;
   font-style: normal;
 }
@@ -1116,6 +1115,17 @@ a[href].direct-link:focus:visited,
   border: 2px solid rgba(0, 0, 0, 0.075);
 }
 
+.weatherwidget-io {
+  background: #e6e0d7;
+  border: 1px solid #aba59c;
+}
+
+@media (prefers-color-scheme: dark) {
+  .weatherwidget-io {
+    background: #7e7366;
+    border: 2px solid #645b51;
+  }
+}
 .flexo {
   display: flex;
   flex-wrap: wrap;
@@ -2900,19 +2910,15 @@ a[href].direct-link:focus:visited,
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg-color: #231c13;
-    --bg-card: #453c33;
+    --bg-color: #171613;
+    --bg-card: #38342d;
     --text-color: #f9f4eb;
     --light-text: #e6e0d7;
     --link-color: #f9f4eb;
     --link-hover: #f18680;
   }
   pre, code {
-    background-color: #453c33;
-    color: #fbf1a9;
-  }
-  #forecast_embed {
-    background: #aba59c;
+    background-color: var(--bg-card);
   }
 }
 /**

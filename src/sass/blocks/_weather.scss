@@ -1,0 +1,13 @@
+
+.weatherwidget-io{
+    background: $lightgray;
+    border: 1px solid $gray;
+}
+
+@media (prefers-color-scheme: dark) {
+    .weatherwidget-io{
+        background: #7e7366;
+        border: 2px solid $medgray;
+    }
+
+}
