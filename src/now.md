@@ -13,11 +13,12 @@ permalink: /now/
 
 These days I am:
 
-* Working 💼 as a UI designer at the <a href="https://aamc.org/">AAMC</a>.
-* 🛠️ Building <a href="https://typo.town/">Typo.town</a>, a personal typography resource.
-* Raising a small child 👶 with <a href="https://eleanoraldrich.com">Eleanor</a>.
-* 🌵 Planning a move back to the Southwest.
-
+<ul class="now-list">
+<li>Working as a UI designer at the <a href="https://aamc.org/">AAMC</a>.</li>
+<li>Building <a href="https://typo.town/">Typo.town</a>, a personal typography resource.</li>
+<li>Raising a small child with <a href="https://eleanoraldrich.com">Eleanor</a>.</li>
+<li>Planning a move back to the Southwest.</li>
+</ul>
 
 &nbsp;
 

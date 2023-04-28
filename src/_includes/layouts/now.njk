@@ -3,6 +3,18 @@ layout: layouts/base.njk
 templateClass: tmpl-page
 ---
 <h1>{{ title }}</h1>
+<style type="text/css">
+
+    .now-list{
+        list-style: thumbs;
+    }
+
+    @counter-style thumbs {
+        system: cyclic;
+        symbols: "💼" "🛠️" "👶" "🌵";
+        suffix: " ";
+    }
+</style>
 
 {{ content | safe }}
 
