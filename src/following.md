@@ -36,7 +36,7 @@ Design studios creating interesting work.
 <div>
 <small><ul class="list-unstyled list-following">
   {% for item in studios.items %}
-  <li><a href="{{ item.url }}" target="_blank">{{ item.name }}</a> <span class="text-meta">{{ item.meta }}</span>
+  <li><a href="{{ item.url }}" target="_blank">{{ item.name }}</a>
   </li>
   {% endfor %}
 </ul></small>

@@ -6,7 +6,7 @@ templateClass: tmpl-page
 permalink: /contact/
 ---
 
-Are you interested in hiring me for a short-term project? Or perhaps you have a question about me or my work?
+Are you interested in working together on a short-term project? Or perhaps you have a question about me or my work?
 
 I would love to hear from you. Email me at [nick@nicksimson.com](mailto:nick@nicksimson.com) or use this simple form to contact me.
 

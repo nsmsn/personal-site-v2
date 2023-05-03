@@ -1,0 +1,13 @@
+a.button {
+    text-decoration: none;
+    color: var(--bg-color);
+    background-color: var(--text-color);
+    font-family: $sans;
+    font-weight: 600;
+    padding: $size1 $size2;
+    border-radius: $size0;
+}
+
+a.button:hover {
+    background-color: var(--link-hover);
+}

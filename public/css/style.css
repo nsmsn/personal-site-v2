@@ -847,6 +847,20 @@ a.skip-link {
   text-decoration-color: #ffdfdf;
 }
 
+a.button {
+  text-decoration: none;
+  color: var(--bg-color);
+  background-color: var(--text-color);
+  font-family: "Epilogue", "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  padding: 0.5em 0.75em;
+  border-radius: 0.25em;
+}
+
+a.button:hover {
+  background-color: var(--link-hover);
+}
+
 /* Posts list */
 .postlist {
   list-style: none;
