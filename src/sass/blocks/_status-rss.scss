@@ -1,0 +1,40 @@
+.status-rss {
+    font-family: $system;
+}
+
+.status-rss > div {
+    font-size: 16px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.status-timeline-entry {
+    padding-top: .8rem;
+    padding-bottom: .8rem;
+    border-bottom: 1px dashed $gray;
+}
+
+.status-timeline-entry > * + *, .status-timeline-entry-intro > * + * {
+    margin-top: 1em;
+}
+
+.status-timeline-entry-intro > p {
+    line-height: 1.5;
+}
+
+.status-timeline-entry-intro > p img {
+    max-width: 200px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.status-timeline-entry > a small {
+    opacity: 75%;
+    display: block;
+    margin-top: 1em;
+}
+
+.status-timeline-entry > a:hover small {
+    opacity: 100%;
+}

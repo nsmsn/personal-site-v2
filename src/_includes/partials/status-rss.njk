@@ -1,0 +1,43 @@
+<div class="status-rss">
+<h3 class="system" style="font-size: 16px"><span style="font-weight: 400; opacity: 75%">Status updates from</span> <a href="https://log.nick.sh/">log.nick.sh</a></h3>
+<div id="err"></div>
+<div class="status-timeline"></div>
+<div style="text-align:right;font-family:system-ui,sans-serif;font-size:14px;opacity: 85%">
+<p>Get updates via <a href="https://mastodon.design/@nsmsn" rel="me">Mastodon</a>, <a href="https://micro.blog/nsmsn">Micro.blog</a>, or&nbsp;<a href="https://log.nick.sh/feed.xml">RSS</a>.</p>
+</div>
+</div>
+
+<!-- Load jQuery for AJAX use -->
+	<script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+
+	<!-- AJAX calls feeder into RSS HTML sections -->
+	<script type="text/javascript">
+		$(document).ready(function(){
+			var title, link, intro, published;
+			//xml news feed
+			$.ajax({
+				url: 'https://log.nick.sh/feed.xml',
+				dataType: 'xml',
+				success: function(data){
+					data = $(data).find('channel item').slice(0, 3);
+					data.each(function(){
+						title = $(this).find('title').text();
+						link = $(this).find('link').text();
+						intro = $(this).find('description').text();
+						published = $(this).find('pubDate').text().slice(0, 17);
+
+						//append 1 thumbnail for each news
+						$('.status-timeline').append(
+							 	"<div class='status-timeline-entry'>" +
+							 		"<div class='status-timeline-entry-intro'>" + intro + "</div>" +
+							 		"<a href=" + link + " target='_blank'><small>" + published + "</small></a>" +
+							 	"</div>"
+						);
+					});
+				},
+				error: function(){
+					$('#err').append("<div class='alert alert-danger'>Failed to get the latest updates.</div>");
+				}
+			});
+	   	});
+	</script>

@@ -480,6 +480,10 @@ sup a {
   font-family: "IBM Plex Mono", Consolas, Menlo, Monaco, "Andale Mono", "Lucida Console", "Courier New", Courier, monospace;
 }
 
+.system {
+  font-family: system-ui, sans-serif;
+}
+
 .home-heading {
   font-size: clamp(1.8em, 4vw, 3.75rem);
 }
@@ -1313,6 +1317,47 @@ a[href].direct-link:focus:visited,
 
 .weatherwidget-io {
   border-radius: 8px;
+}
+
+.status-rss {
+  font-family: system-ui, sans-serif;
+}
+
+.status-rss > div {
+  font-size: 16px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.status-timeline-entry {
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  border-bottom: 1px dashed #aba59c;
+}
+
+.status-timeline-entry > * + *, .status-timeline-entry-intro > * + * {
+  margin-top: 1em;
+}
+
+.status-timeline-entry-intro > p {
+  line-height: 1.5;
+}
+
+.status-timeline-entry-intro > p img {
+  max-width: 200px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.status-timeline-entry > a small {
+  opacity: 75%;
+  display: block;
+  margin-top: 1em;
+}
+
+.status-timeline-entry > a:hover small {
+  opacity: 100%;
 }
 
 .flexo {
