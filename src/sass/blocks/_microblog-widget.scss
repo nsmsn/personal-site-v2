@@ -1,0 +1,11 @@
+.microblog {
+    font-family: $system;
+}
+
+.micro-feed > div {
+    font-size: .85rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px dashed $gray;
+}

@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Information</title>
-    <meta name="description" content="Being the personal website of one Nick Simson, of Knoxville, Tenn.">
+    <meta name="description" content="Being the personal website of one Nick Simson, a designer in New Mexico">
     <link rel="stylesheet" href="/css/style.css">
     <!--<link rel="stylesheet" href="/css/prism-base16-monokai.dark.css">-->
     <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Nick Simson">
@@ -35,9 +35,9 @@
 </svg></a></h1>
     <nav class="navigation" aria-label="primary">
       <ul role="list">
-        <li class="navigation-item"><a href="/posts/">Archive</a></li>
         <li class="navigation-item navigation-item-active"><a href="/info/">Info</a></li>
-        <li class="navigation-item"><a href="/now/">Now</a></li>
+        <li class="navigation-item"><a href="/posts/">Archive</a></li>
+        <li class="navigation-item"><a href="/all/">All</a></li>
       </ul>
     </nav>
   </div>
@@ -52,7 +52,28 @@
 
     <main id="main-content"  class="tmpl-page flow container animate__animated animate__fadeIn">
 
-      <h1>Information</h1>
+      
+<style type="text/css">
+
+    ul {
+        list-style: thumbs;
+    }
+
+    @counter-style thumbs {
+        system: cyclic;
+        symbols: "🥃" "🌵" "🐄";
+        suffix: " ";
+    }
+
+@supports (list-style: thumbs) {
+    details ul li {
+        padding-left: .125rem;
+    }
+}
+</style>
+
+
+<h1>Information</h1>
 
 <div class="row">
 <div class="grid-fourth grid-last flow">
@@ -63,23 +84,29 @@
 </div>
 <div class="grid-three-fourths flow">
 <h2 id="profile">Profile <a class="direct-link" href="#profile">#</a></h2>
-<p>I’m a graphic / communication / interaction designer with over a decade of professional experience. I’ve spent most of that time working at higher education institutions. Today I work remotely for a nonprofit member association.</p>
-<p>I’ve been lucky to work with some wonderful artists, musicians, scientists, and writers on projects that needed a little design help. I spent a long time as a generalist and thrive on learning new things.</p>
-<p>I’m married to <a href="https://eleanoraldrich.com">Eleanor</a>, who makes paintings. We live in Knoxville with our daughter and a small <a href="https://dogsof.dev/dogs/zelda/">dog</a>.</p>
+<p>I’m a designer with over a decade of professional experience. I’ve spent most of that time working at higher education institutions. Today I’m a user interface (UI) designer at a nonprofit member association in Washington, DC.</p>
+<p>I’ve been lucky to work with some wonderful artists, musicians, scientists, and writers on design projects, especially interactive stuff. I spent a long time as a generalist and thrive on learning new things.</p>
 <p>See what I’m up to <a href="/now/">now</a>.</p>
+<p>I’m married to <a href="https://eleanoraldrich.com">Eleanor</a>, who makes paintings. We live in New Mexico with our toddler and a small <a href="https://dogsof.dev/dogs/zelda/">dog</a>.</p>
+<details>
+<summary class="sans bold">Previous locations</summary>
+<ul>
+<li>Tennessee <small><em>(2010 – 2023)</em></small></li>
+<li>Arizona <small><em>(2004 – 2009)</em></small></li>
+<li>Central New York <small><em>(1987 – 2003)</em></small></li>
+</ul>
+</details>
 <p> </p>
 <h3 id="get-in-touch">Get in touch <a class="direct-link" href="#get-in-touch">#</a></h3>
 <p>Send me email: <a href="mailto:nick@nicksimson.com">nick@nicksimson.com</a>. This is the quickest way to reach me.</p>
 <p>I’m also on <a rel="me" href="https://mastodon.design/@nsmsn">Mastodon</a> and a few <a href="/links">other places</a>.</p>
 <p> </p>
 <h2 id="about-this-website">About this website <a class="direct-link" href="#about-this-website">#</a></h2>
-<p>This is my personal website. I use this as my place to experiment and try things out. I tinker with this site’s writing, design, and code as I feel motivated, mainly during evenings and weekends.</p>
+<p>This is my personal website. I registered the domain name in 2008 and renew it at the end of each year as a small gift to myself. I tinker with this site’s writing, design, and code as I learn new things and feel motivated, mainly during evenings and weekends.</p>
 <p><strong><a href="https://themarkup.org/blacklight?url=nicksimson.com">This website does not track you.</a></strong> There are no third-party cookies here, and your data isn’t collected when using this site.</p>
 <p>You can track this site’s progress and iterations at <a href="https://github.com/nsmsn/nicksimsondotcom">this GitHub repo</a>. This site is built with <a href="https://11ty.dev/">Eleventy</a> and deployed to <a href="https://netlify.com">Netlify</a>. My blog posts are available in both <a href="https://www.nicksimson.com/feed/feed.xml">RSS</a> and <a href="https://www.nicksimson.com/feed/feed.json">JSON</a>. I prioritize performance and <a href="/accessibility">accessibility</a>. You can read <a href="/type">a note on the type</a> to learn about the fonts in use.</p>
 </div>
 </div>
-
-
 
     </main>
 
@@ -88,7 +115,7 @@
 	<div>
 Images and text © 2023 <a href="https://nicksimson.com" rel="author" class="footer-link" >Nick Simson</a>.
   
-    <script type="text/javascript">
+  <script type="text/javascript">
 <!--
 var r_text = new Array ();
 r_text[0] = "Thanks for stopping by.";
@@ -100,7 +127,7 @@ r_text[5] = "Sweating the small stuff since 1987.";
 r_text[6] = "Insert clever footer text here.";
 r_text[7] = "The large print giveth and the small print taketh away.";
 r_text[8] = "Now, more than ever.";
-r_text[9] = "A div is not a button.";
+r_text[9] = "Poetry is code.";
 r_text[10] = "Your mileage may vary.";
 r_text[11] = "Duty now for the future.";
 r_text[12] = "Now with 33⅓ percent more 🎸 Dad Rock.";
@@ -112,11 +139,11 @@ r_text[17] = "Updated sporadically.";
 r_text[18] = "Powered by HTML, CSS, and JavaScript.";
 r_text[19] = "Please design responsibly.";
 r_text[20] = "Millions of pixels served.";
-r_text[21] = "No bytes were harmed in the making of this website.";
+r_text[21] = "No Neopets were harmed in the making of this website.";
 r_text[22] = "You can’t have too many eagles.";
 r_text[23] = "Be kind. Please rewind.";
 r_text[24] = "You Are Here. 🌎🌍🌏";
-r_text[25] = "Made with 🧡 in Knoxville, Tenn.";
+r_text[25] = "Made with 🌶️ in New Mexico.";
 var i = Math.floor(26*Math.random())
 document.write('<span class="superfluous">' + r_text[i] + '</span>');
 //-->

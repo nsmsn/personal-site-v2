@@ -1,0 +1,25 @@
+---
+layout: layouts/home.njk
+permalink: /all/
+eleventyNavigation:
+  key: All
+  order: 3
+
+title: All the things.
+description: Nearly everything on this website.  
+---
+
+<h1>All the things.</h1>
+
+<p>(Nearly) everything on this website.</p>
+
+<ul class="pt-6 list-unstyled auto-grid">
+  {% for item in toc.items %}
+  <li>
+  <div class="lib-item">
+            <a class="lib-title" href="{{ item.url }}">/{{ item.title }}</a>
+            <p>{{ item.description }}</p>
+    </div>
+  </li>
+  {% endfor %}
+</ul>

@@ -3,6 +3,7 @@ $sans: "Epilogue", "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial,
   sans-serif;
 $mono: "IBM Plex Mono", Consolas, Menlo, Monaco, "Andale Mono", "Lucida Console",
   "Courier New", Courier, monospace;
+$system: system-ui, sans-serif;
 
 $darkred: #c11b11;
 $red: #ee453b;
@@ -47,7 +48,6 @@ $size10: 3em; /* 48px */
   --light-text: #645b51;
   --link-color: #453c33;
   --link-hover: #ee453b;
-
-
+  
   font-size: calc(1rem + 0.275vw);
 }

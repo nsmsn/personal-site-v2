@@ -1,15 +1,12 @@
 ---
 layout: layouts/now.njk
 title: Now
-eleventyNavigation:
-  key: Now
-  order: 3
 
 templateClass: tmpl-page
 permalink: /now/
 ---
 
-<small class="timestamp">Updated <time datetime="2023-04-01T17:18:41Z">April 1, 2023</time></small>
+<small class="timestamp">Updated <time datetime="2023-05-27T06:03:58Z">May 27, 2023</time></small>
 
 These days I am:
 
@@ -17,7 +14,6 @@ These days I am:
 <li>Working as a UI designer at the <a href="https://aamc.org/">AAMC</a>.</li>
 <li>Building <a href="https://typo.town/">Typo.town</a>, a personal typography resource.</li>
 <li>Raising a small child with <a href="https://eleanoraldrich.com">Eleanor</a>.</li>
-<li>Planning a move back to the Southwest.</li>
 </ul>
 
 &nbsp;
@@ -41,5 +37,12 @@ I’m still using both [Literal](https://literal.club/nsmsn/is-reading) and <a h
 
 &nbsp;
 
-## 📍 Knoxville
-The Scruffy Little City is home base, but only for a little while longer. Spring and fall are still the best seasons here in East Tennessee.
+## 🎧 Listening
+<a href="https://www.last.fm/user/nsmsn"><img src="https://lastfm-recently-played.vercel.app/api?user=nsmsn" height="auto" width="360px" loading="lazy" alt="five recent songs from my Last dot FM profile"/></a>
+
+[My last.fm account](https://www.last.fm/user/nsmsn) keeps track of music I listen to throughout the day. [Stats are&nbsp;fun](https://lastfmstats.com/user/nsmsn/).
+
+&nbsp;
+
+## 📍 Albuquerque
+After thirteen remarkable years in [Knoxville](https://en.wikipedia.org/wiki/Knoxville), it was time for a change. The [Duke City](https://en.wikipedia.org/wiki/Albuquerque,_New_Mexico) is home base&nbsp;now.

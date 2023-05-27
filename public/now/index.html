@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Now</title>
-    <meta name="description" content="Being the personal website of one Nick Simson, of Knoxville, Tenn.">
+    <meta name="description" content="Being the personal website of one Nick Simson, a designer in New Mexico">
     <link rel="stylesheet" href="/css/style.css">
     <!--<link rel="stylesheet" href="/css/prism-base16-monokai.dark.css">-->
     <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Nick Simson">
@@ -35,9 +35,9 @@
 </svg></a></h1>
     <nav class="navigation" aria-label="primary">
       <ul role="list">
-        <li class="navigation-item"><a href="/posts/">Archive</a></li>
         <li class="navigation-item"><a href="/info/">Info</a></li>
-        <li class="navigation-item navigation-item-active"><a href="/now/">Now</a></li>
+        <li class="navigation-item"><a href="/posts/">Archive</a></li>
+        <li class="navigation-item"><a href="/all/">All</a></li>
       </ul>
     </nav>
   </div>
@@ -64,15 +64,22 @@
         symbols: "💼" "🛠️" "👶" "🌵";
         suffix: " ";
     }
+
+@supports (list-style: thumbs) {
+    .now-list li {
+        padding-left: .125rem;
+    }
+}
+
+    
 </style>
 
-<p><small class="timestamp">Updated <time datetime="2023-04-01T17:18:41Z">April 1, 2023</time></small></p>
+<p><small class="timestamp">Updated <time datetime="2023-05-27T06:03:58Z">May 27, 2023</time></small></p>
 <p>These days I am:</p>
 <ul class="now-list">
 <li>Working as a UI designer at the <a href="https://aamc.org/">AAMC</a>.</li>
 <li>Building <a href="https://typo.town/">Typo.town</a>, a personal typography resource.</li>
 <li>Raising a small child with <a href="https://eleanoraldrich.com">Eleanor</a>.</li>
-<li>Planning a move back to the Southwest.</li>
 </ul>
 <p> </p>
 <h2 id="%F0%9F%92%AD-topics">💭 Topics <a class="direct-link" href="#%F0%9F%92%AD-topics">#</a></h2>
@@ -90,19 +97,18 @@
 <div id="literal-widget" handle="nsmsn" status="IS_READING" layout="list"></div>
 <script src="https://literal.club/js/widget.js"></script>
 <p> </p>
-<h2 id="%F0%9F%93%8D-knoxville">📍 Knoxville <a class="direct-link" href="#%F0%9F%93%8D-knoxville">#</a></h2>
-<p>The Scruffy Little City is home base, but only for a little while longer. Spring and fall are still the best seasons here in East Tennessee.</p>
+<h2 id="%F0%9F%8E%A7-listening">🎧 Listening <a class="direct-link" href="#%F0%9F%8E%A7-listening">#</a></h2>
+<p><a href="https://www.last.fm/user/nsmsn"><img src="https://lastfm-recently-played.vercel.app/api?user=nsmsn" height="auto" width="360px" loading="lazy" alt="five recent songs from my Last dot FM profile"/></a></p>
+<p><a href="https://www.last.fm/user/nsmsn">My last.fm account</a> keeps track of music I listen to throughout the day. <a href="https://lastfmstats.com/user/nsmsn/">Stats are fun</a>.</p>
+<p> </p>
+<h2 id="%F0%9F%93%8D-albuquerque">📍 Albuquerque <a class="direct-link" href="#%F0%9F%93%8D-albuquerque">#</a></h2>
+<p>After thirteen remarkable years in <a href="https://en.wikipedia.org/wiki/Knoxville">Knoxville</a>, it was time for a change. The <a href="https://en.wikipedia.org/wiki/Albuquerque,_New_Mexico">Duke City</a> is home base now.</p>
 
 
-<a class="weatherwidget-io" href="https://forecast7.com/en/35d96n83d92/knoxville/?unit=us" data-label_1="Knoxville, TN" data-label_2="Weather" data-font="Courier New" data-theme="original" data-basecolor="" data-accent="rgba(147, 140, 128, 0.26)" data-textcolor="" data-highcolor="" data-lowcolor="" data-suncolor="" data-mooncolor="" data-cloudcolor="" data-cloudfill="" data-raincolor="" data-snowcolor=""  >Knoxville, TN Weather</a>
+<a class="weatherwidget-io" href="https://forecast7.com/en/35d09n106d61/albuquerque/?unit=us" data-label_1="ABQ 📍 NM" data-label_2="Weather" data-font="Arial" data-theme="weather_one" >ABQ 📍 NM Weather</a>
 <script>
 !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
 </script>
-
-<!--<a class="weatherwidget-io" href="https://forecast7.com/en/35d09n106d61/albuquerque/?unit=us" data-label_1="ABQ 📍 NM" data-label_2="Weather" data-font="Courier New" data-theme="original" data-basecolor="" data-accent="rgba(147, 140, 128, 0.26)" data-textcolor="" data-highcolor="" data-lowcolor="" data-suncolor="" data-mooncolor="" data-cloudcolor="" data-cloudfill="" data-raincolor="" data-snowcolor="" >Albuquerque Weather</a>
-<script>
-!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
-</script>-->
 
 <p>&nbsp;</p>
 
@@ -114,7 +120,7 @@
 	<div>
 Images and text © 2023 <a href="https://nicksimson.com" rel="author" class="footer-link" >Nick Simson</a>.
   
-    <script type="text/javascript">
+  <script type="text/javascript">
 <!--
 var r_text = new Array ();
 r_text[0] = "Thanks for stopping by.";
@@ -126,7 +132,7 @@ r_text[5] = "Sweating the small stuff since 1987.";
 r_text[6] = "Insert clever footer text here.";
 r_text[7] = "The large print giveth and the small print taketh away.";
 r_text[8] = "Now, more than ever.";
-r_text[9] = "A div is not a button.";
+r_text[9] = "Poetry is code.";
 r_text[10] = "Your mileage may vary.";
 r_text[11] = "Duty now for the future.";
 r_text[12] = "Now with 33⅓ percent more 🎸 Dad Rock.";
@@ -138,11 +144,11 @@ r_text[17] = "Updated sporadically.";
 r_text[18] = "Powered by HTML, CSS, and JavaScript.";
 r_text[19] = "Please design responsibly.";
 r_text[20] = "Millions of pixels served.";
-r_text[21] = "No bytes were harmed in the making of this website.";
+r_text[21] = "No Neopets were harmed in the making of this website.";
 r_text[22] = "You can’t have too many eagles.";
 r_text[23] = "Be kind. Please rewind.";
 r_text[24] = "You Are Here. 🌎🌍🌏";
-r_text[25] = "Made with 🧡 in Knoxville, Tenn.";
+r_text[25] = "Made with 🌶️ in New Mexico.";
 var i = Math.floor(26*Math.random())
 document.write('<span class="superfluous">' + r_text[i] + '</span>');
 //-->

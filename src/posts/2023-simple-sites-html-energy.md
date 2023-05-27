@@ -1,6 +1,6 @@
 ---
 title: Simple sites and HTML energy
-description: Starting something small and letting it grow.
+description: Start something small and let it grow.
 date: 2023-03-18T13:02:36Z
 tags:
   - websites

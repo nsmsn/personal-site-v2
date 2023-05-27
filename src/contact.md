@@ -12,17 +12,14 @@ I would love to hear from you. Email me at [nick@nicksimson.com](mailto:nick@nic
 
 &nbsp;
 
+<div>
 <form name="contact" method="POST" data-netlify="true" class="flow">
-  <p>
-    <label>Your Name: <input type="text" name="name" /></label>
-  </p>
-  <p>
-    <label>Your Email: <input type="email" name="email" /></label>
-  </p>
-  <p>
-    <label>Message: <textarea name="message"></textarea></label>
-  </p>
-  <p>
-    <button type="submit">Send</button>
-  </p>
+
+  <label>Your Name: <input type="text" name="name"/></label>
+  <label>Your Email: <input type="email" name="email"/></label>
+
+  <label>Your Message: <textarea name="message"></textarea></label>
+  <button type="submit">Send</button>
+
 </form>
+</div>

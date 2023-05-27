@@ -1,6 +1,6 @@
 ---
 title: Mastodon servers
-description: My view into the “fediverse”.
+description: Finding my way into the fediverse.
 date: 2022-11-26T18:42:26Z
 tags:
   - websites

@@ -35,9 +35,9 @@
 </svg></a></h1>
     <nav class="navigation" aria-label="primary">
       <ul role="list">
-        <li class="navigation-item"><a href="/posts/">Archive</a></li>
         <li class="navigation-item"><a href="/info/">Info</a></li>
-        <li class="navigation-item"><a href="/now/">Now</a></li>
+        <li class="navigation-item"><a href="/posts/">Archive</a></li>
+        <li class="navigation-item"><a href="/all/">All</a></li>
       </ul>
     </nav>
   </div>
@@ -52,7 +52,29 @@
 
     <main id="main-content"  class="tmpl-page flow container animate__animated animate__fadeIn">
 
-      <h1>Links</h1>
+      
+<style type="text/css">
+
+    .social-links {
+        list-style: thumbs;
+    }
+
+    @counter-style thumbs {
+        system: cyclic;
+        symbols: "🕳️" "📄" "🏀" "👨🏻‍💻" "🎧" "🫱🏽‍🫲🏻" "📚" "🦣" "💬" "✍️";
+        suffix: " ";
+    }
+
+@supports (list-style: thumbs) {
+    .social-links li {
+        padding-left: .125rem;
+    }
+}
+
+</style>
+
+
+<h1>Links</h1>
 
 <p>Here are links to my other projects and profiles around the World Wide Web.</p>
 <p> </p>
@@ -60,15 +82,17 @@
 <p>I post regularly to <a href="https://log.nick.sh">log.nick.sh</a>, which syndicates to my Mastodon account. It’s a mixture of links, photos, books, music, etc.</p>
 <p> </p>
 <h2 id="social-profiles">Social profiles <a class="direct-link" href="#social-profiles">#</a></h2>
-<ul class="list-multi-col">
+<ul class="list-multi-col social-links">
 <li><a href="https://www.are.na/nick-simson" rel="me">Are.na</a></li>
 <li><a href="https://read.cv/nsmsn/" rel="me">CV</a></li>
 <li><a href="https://dribbble.com/nsmsn/" rel="me">Dribbble</a></li>
 <li><a href="https://github.com/nsmsn" rel="me">GitHub</a></li>
+<li><a href="https://www.last.fm/user/nsmsn" rel="me">Last.fm</a></li> 
 <li><a href="https://www.linkedin.com/in/nsmsn/" rel="me">LinkedIn</a></li>
 <li><a href="https://literal.club/nsmsn" rel="me">Literal</a></li>
 <li><a rel="me" href="https://mastodon.design/@nsmsn">Mastodon</a></li>
 <li><a href="http://micro.blog/nsmsn" rel="me">Micro.blog</a></li>
+<li><a href="https://posts.cv/nsmsn/">Posts</a></li>
 </ul>
 <p> </p>
 <h2 id="miscellaneous">Miscellaneous <a class="direct-link" href="#miscellaneous">#</a></h2>
@@ -81,8 +105,6 @@
 <p> </p>
 <p>You can also see lists of the people, studios and orgs I’m <a href="/following">following</a>.</p>
 
-
-
     </main>
 
     <footer role="contentinfo" class="footer pt-7">
@@ -90,7 +112,7 @@
 	<div>
 Images and text © 2023 <a href="https://nicksimson.com" rel="author" class="footer-link" >Nick Simson</a>.
   
-    <script type="text/javascript">
+  <script type="text/javascript">
 <!--
 var r_text = new Array ();
 r_text[0] = "Thanks for stopping by.";
@@ -102,7 +124,7 @@ r_text[5] = "Sweating the small stuff since 1987.";
 r_text[6] = "Insert clever footer text here.";
 r_text[7] = "The large print giveth and the small print taketh away.";
 r_text[8] = "Now, more than ever.";
-r_text[9] = "A div is not a button.";
+r_text[9] = "Poetry is code.";
 r_text[10] = "Your mileage may vary.";
 r_text[11] = "Duty now for the future.";
 r_text[12] = "Now with 33⅓ percent more 🎸 Dad Rock.";
@@ -114,11 +136,11 @@ r_text[17] = "Updated sporadically.";
 r_text[18] = "Powered by HTML, CSS, and JavaScript.";
 r_text[19] = "Please design responsibly.";
 r_text[20] = "Millions of pixels served.";
-r_text[21] = "No bytes were harmed in the making of this website.";
+r_text[21] = "No Neopets were harmed in the making of this website.";
 r_text[22] = "You can’t have too many eagles.";
 r_text[23] = "Be kind. Please rewind.";
 r_text[24] = "You Are Here. 🌎🌍🌏";
-r_text[25] = "Made with 🧡 in Knoxville, Tenn.";
+r_text[25] = "Made with 🌶️ in New Mexico.";
 var i = Math.floor(26*Math.random())
 document.write('<span class="superfluous">' + r_text[i] + '</span>');
 //-->

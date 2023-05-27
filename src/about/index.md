@@ -1,10 +1,10 @@
 ---
-layout: layouts/page.njk
+layout: layouts/info.njk
 title: Information
 templateClass: tmpl-page
 eleventyNavigation:
   key: Info
-  order: 2
+  order: 1
 permalink: /info/
 ---
 
@@ -21,13 +21,22 @@ permalink: /info/
 
 ## Profile
 
-I’m a graphic / communication / interaction designer with over a decade of professional experience. I’ve spent most of that time working at higher education institutions. Today I work remotely for a nonprofit member association. 
+I’m a designer with over a decade of professional experience. I’ve spent most of that time working at higher education institutions. Today I’m a user interface (UI) designer at a nonprofit member association in Washington,&nbsp;DC.
 
-I’ve been lucky to work with some wonderful artists, musicians, scientists, and writers on projects that needed a little design help. I spent a long time as a generalist and thrive on learning new&nbsp;things. 
-
-I’m married to [Eleanor](https://eleanoraldrich.com), who makes paintings. We live in Knoxville with our daughter and a small&nbsp;[dog](https://dogsof.dev/dogs/zelda/).
+I’ve been lucky to work with some wonderful artists, musicians, scientists, and writers on design projects, especially interactive stuff. I spent a long time as a generalist and thrive on learning new&nbsp;things.
 
 See what I’m up to [now](/now/).
+
+I’m married to [Eleanor](https://eleanoraldrich.com), who makes paintings. We live in New Mexico with our toddler and a small&nbsp;[dog](https://dogsof.dev/dogs/zelda/).
+
+<details>
+<summary class="sans bold">Previous locations</summary>
+
+* Tennessee <small>*(2010 &ndash; 2023)*</small>
+* Arizona <small>*(2004 &ndash; 2009)*</small>
+* Central New York <small>*(1987 &ndash; 2003)*</small>
+
+</details>
 
 &nbsp;
 
@@ -41,7 +50,7 @@ I’m also on <a rel="me" href="https://mastodon.design/@nsmsn">Mastodon</a> and
 
 ## About this website
 
-This is my personal website. I use this as my place to experiment and try things out. I tinker with this site’s writing, design, and code as I feel motivated, mainly during evenings and weekends.
+This is my personal website. I registered the domain name in 2008 and renew it at the end of each year as a small gift to myself. I tinker with this site’s writing, design, and code as I learn new things and feel motivated, mainly during evenings and weekends.
 
 <strong><a href="https://themarkup.org/blacklight?url=nicksimson.com">This website does not track you.</a></strong> There are no third-party cookies here, and your data isn’t collected when using this site.
 

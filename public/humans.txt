@@ -5,7 +5,7 @@ https://nicksimson.com
 ## The Human Responsible
 - Nick Simson
   - Designer
-  - Knoxville, TN
+  - Albuquerque, NM
   - nick@nicksimson.com
   - @nsmsn
 
@@ -39,9 +39,10 @@ https://nicksimson.com
   - CUBE CSS (https://cube.fyi/)
   - ITCSS (https://csswizardry.com/2018/11/itcss-and-skillshare/)
 
-- Third-Party Widgets
-  - Dark Sky (https://darksky.net/)
-  - Literal (https://literal.club/pages/widget)
+- Third-Party Widgets and APIs
+  - Books (https://literal.club/pages/widget)
+  - Music (https://www.last.fm/user/nsmsn)
+  - Weather (https://weatherwidget.io/)
 
 - Browsers
   - Chrome (https://www.google.com/chrome/)

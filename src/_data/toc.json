@@ -1,20 +1,45 @@
 {
     "items": [
       {
-        "title": "work",
-        "description": "My design portfolio",
-        "url": "/work"
+        "title": "404",
+        "description": "Page not found",
+        "url": "/404"
       },
       {
-        "title": "posts",
-        "description": "Blog archive (2014 - current)",
-        "url": "/posts"
+        "title": "accessibility",
+        "description": "My accessibility statement",
+        "url": "/accessibility/"
       },
       {
-        "title": "tags",
-        "description": "Browse posts by tag",
-        "url": "/tags"
+        "title": "all",
+        "description": "A directory of directories",
+        "url": "/all/"
       },
+      {
+        "title": "blank",
+        "description": "This page intentionally left blank",
+        "url": "/blank"
+      },
+      {
+        "title": "contact",
+        "description": "A simple contact form (get in touch!)",
+        "url": "/contact"
+      },
+      {
+        "title": "following",
+        "description": "People, studios, and orgs I follow (you should too!)",
+        "url": "/following"
+      },
+      {
+        "title": "html",
+        "description": "Bare-bones style guide",
+        "url": "/html"
+      },
+      {
+        "title": "humans.txt",
+        "description": "Site credits",
+        "url": "/humans.txt"
+      },  
       {
         "title": "info",
         "description": "Profile / About this site",
@@ -26,28 +51,8 @@
         "url": "/library"
       },
       {
-        "title": "vinyl",
-        "description": "My record collection (WIP)",
-        "url": "/vinyl"
-      },
-      {
-        "title": "accessibility",
-        "description": "My accessibility statement",
-        "url": "/accessibility/"
-      },
-      {
-        "title": "recommends",
-        "description": "Honest to goodness recommendations",
-        "url": "/recommends"
-      },
-      {
-        "title": "following",
-        "description": "People, studios, and orgs I follow (you should too!)",
-        "url": "/following"
-      },
-      {
         "title": "links",
-        "description": "My other places and profiles",
+        "description": "Other places you can find me",
         "url": "/links"
       },
       {
@@ -56,24 +61,34 @@
         "url": "/now"
       },
       {
-        "title": "html",
-        "description": "Bare-bones style guide",
-        "url": "/html"
-      },      
+        "title": "posts",
+        "description": "Blog archive (2014 - current)",
+        "url": "/posts"
+      },
+      {
+        "title": "recommends",
+        "description": "Honest to goodness recommendations",
+        "url": "/recommends"
+      },
+      {
+        "title": "tags",
+        "description": "Browse posts by tag",
+        "url": "/tags"
+      },     
       {
         "title": "type",
         "description": "A note on the type",
         "url": "/type"
       },
       {
-        "title": "404",
-        "description": "Page not found",
-        "url": "/404"
+        "title": "vinyl",
+        "description": "My record collection (WIP)",
+        "url": "/vinyl"
       },
       {
-        "title": "blank",
-        "description": "This page intentionally left blank",
-        "url": "/blank"
+        "title": "work",
+        "description": "A somewhat outdated design portfolio",
+        "url": "/work"
       }
     ]
   }

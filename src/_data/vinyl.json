@@ -78,6 +78,13 @@
         "url": "https://www.discogs.com/master/14069-Buffalo-Springfield-Retrospective-The-Best-Of-Buffalo-Springfield"
       },
       {
+        "title": "Sidewalks, Fences And Walls",
+        "artist": "Solomon Burke",
+        "cover": "burke-sidewalks-1979.jpg",
+        "year": "1979",
+        "url": "https://www.discogs.com/master/582589-Solomon-Burke-Sidewalks-Fences-And-Walls"
+      },      
+      {
         "title": "The Best Of The Byrds Greatest Hits, Volume II",
         "artist": "The Byrds",
         "cover": "byrds-greatest-hits-vol2-1972.jpg",
@@ -125,6 +132,13 @@
         "cover": "chopin-family-library-1976.jpg",
         "year": "1976",
         "url": "https://www.discogs.com/master/468828-Chopin-Polonaises-Nocturne-Etudes-Mazurkas"
+      },
+      {
+        "title": "The Legendary",
+        "artist": "Sam Cooke",
+        "cover": "cooke-the-legendary-1974.jpg",
+        "year": "1974",
+        "url": "https://www.discogs.com/master/1811009-Sam-Cooke-The-Legendary"
       },
       {
         "title": "Trailer Park Weekend",
@@ -302,6 +316,48 @@
         "url": "https://www.discogs.com/master/226718-Tim-Hardin-Tim-Hardin-3-Live-In-Concert"
       },
       {
+        "title": "The Best Of Tim Hardin",
+        "artist": "Tim Hardin",
+        "cover": "hardin-bestof-1969.jpg",
+        "year": "1969",
+        "url": "https://www.discogs.com/master/223264-Tim-Hardin-The-Best-Of-Tim-Hardin"
+      },
+      {
+        "title": "Painted Head",
+        "artist": "Tim Hardin",
+        "cover": "hardin-painted-head-1972.jpg",
+        "year": "1972",
+        "url": "https://www.discogs.com/master/366617-Tim-Hardin-Painted-Head"
+      },
+      {
+        "title": "Elite Hotel",
+        "artist": "Emmylou Harris",
+        "cover": "harris-elite-hotel-1975.jpg",
+        "year": "1975",
+        "url": "https://www.discogs.com/release/1730451-Emmylou-Harris-Elite-Hotel"
+      },
+      {
+        "title": "Light of the Stable",
+        "artist": "Emmylou Harris",
+        "cover": "harris-light-of-the-stable-1979.jpg",
+        "year": "1979",
+        "url": "https://www.discogs.com/master/380983-Emmylou-Harris-Light-Of-The-Stable-The-Christmas-Album"
+      },
+      {
+        "title": "All Things Must Pass",
+        "artist": "George Harrison",
+        "cover": "harrison-atmp-1970.jpg",
+        "year": "1970",
+        "url": "https://www.discogs.com/master/56036-George-Harrison-All-Things-Must-Pass"
+      },
+      {
+        "title": "John Hartford",
+        "artist": "John Hartford",
+        "cover": "hartford-1969.jpg",
+        "year": "1969",
+        "url": "https://www.discogs.com/master/422365-John-Hartford-John-Hartford"
+      },
+      {
         "title": "Headin’ Down Into The Mystery Below",
         "artist": "John Hartford",
         "cover": "hartford-headin-down-1978.jpg",
@@ -421,11 +477,32 @@
         "url": "https://www.discogs.com/release/7015934-Jim-ORourke-Simple-Songs"
       },
       {
+        "title": "The Best Of Pearls Before Swine",
+        "artist": "Pearls Before Swine",
+        "cover": "pearls-bestof-1980.jpg",
+        "year": "1980",
+        "url": "https://www.discogs.com/release/1365383-Pearls-Before-Swine-The-Best-Of-Pearls-Before-Swine"
+      },
+      {
         "title": "Animals",
         "artist": "Pink Floyd",
         "cover": "pink-floyd-animals-1977.jpg",
         "year": "1977",
         "url": "https://www.discogs.com/master/10370-Pink-Floyd-Animals"
+      },
+      {
+        "title": "Country Charley Pride",
+        "artist": "Charley Pride",
+        "cover": "country-charley-pride-1966.jpg",
+        "year": "1966",
+        "url": "https://www.discogs.com/master/534548-Charley-Pride-Country-Charley-Pride"
+      },
+      {
+        "title": "Document",
+        "artist": "R.E.M.",
+        "cover": "rem-document-1987.jpg",
+        "year": "1987",
+        "url": "https://www.discogs.com/master/21299-REM-Document"
       },
       {
         "title": "Pleased To Meet Me",
@@ -454,6 +531,13 @@
         "cover": "rollingstones-exileonmainst-1972.jpg",
         "year": "1972",
         "url": "https://www.discogs.com/master/30303-Rolling-Stones-Exile-On-Main-St"
+      },
+      {
+        "title": "Tom Rush",
+        "artist": "Tom Rush",
+        "cover": "tomrush-1973.jpg",
+        "year": "1973",
+        "url": "https://www.discogs.com/master/1224780-Tom-Rush-Tom-Rush"
       },
       {
         "title": "Piano Music of Erik Satie",
