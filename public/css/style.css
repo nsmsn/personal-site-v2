@@ -1350,6 +1350,13 @@ a[href].direct-link:focus:visited,
   border-radius: 8px;
 }
 
+.status-timeline-entry-intro > blockquote {
+  font-family: system-ui, sans-serif;
+  font-size: 16px;
+  border-left: 3px solid #aba59c;
+  margin-left: 0px;
+}
+
 .status-timeline-entry > a small {
   opacity: 75%;
   display: block;

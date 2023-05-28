@@ -29,6 +29,13 @@
     border-radius: 8px;
 }
 
+.status-timeline-entry-intro > blockquote {
+    font-family: $system;
+    font-size: 16px;
+    border-left: 3px solid $gray;
+    margin-left: 0px;
+}
+
 .status-timeline-entry > a small {
     opacity: 75%;
     display: block;

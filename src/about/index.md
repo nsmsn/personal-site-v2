@@ -57,5 +57,4 @@ This is my personal website. I registered the domain name in 2008 and renew it a
 You can track this site’s progress and iterations at [this GitHub repo](https://github.com/nsmsn/nicksimsondotcom). This site is built with [Eleventy](https://11ty.dev/) and deployed to [Netlify](https://netlify.com). My blog posts are available in both [RSS](https://www.nicksimson.com/feed/feed.xml) and [JSON](https://www.nicksimson.com/feed/feed.json). I prioritize performance and <a href="/accessibility">accessibility</a>. You can read [a note on the type](/type) to learn about the fonts in use.
 
 </div>
-
 </div>
