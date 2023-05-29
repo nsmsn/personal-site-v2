@@ -36,12 +36,12 @@
     margin-left: 0px;
 }
 
-.status-timeline-entry > a small {
+.status-timeline-entry > small {
     opacity: 75%;
     display: block;
     margin-top: 1em;
 }
 
-.status-timeline-entry > a:hover small {
+.status-timeline-entry > small a:hover {
     opacity: 100%;
 }

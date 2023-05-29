@@ -38,7 +38,7 @@ I’m still using both [Literal](https://literal.club/nsmsn/is-reading) and <a h
 &nbsp;
 
 ## 🎧 Listening
-<a href="https://www.last.fm/user/nsmsn"><img src="https://lastfm-recently-played.vercel.app/api?user=nsmsn" height="auto" width="360px" loading="lazy" alt="five recent songs from my Last dot FM profile"/></a>
+<a href="https://www.last.fm/user/nsmsn"><img src="https://lastfm-recently-played.vercel.app/api?user=nsmsn" height="auto" width="360px" loading="lazy" alt="recently played songs from my Last dot FM profile"/></a>
 
 [My last.fm account](https://www.last.fm/user/nsmsn) keeps track of music I listen to throughout the day. [Stats are&nbsp;fun](https://lastfmstats.com/user/nsmsn/).
 

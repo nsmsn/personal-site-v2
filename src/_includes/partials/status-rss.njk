@@ -10,33 +10,58 @@
 <!-- Load jQuery for AJAX use -->
 	<script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
 
-	<!-- AJAX calls feeder into RSS HTML sections -->
+<!-- AJAX calls feeder into RSS HTML sections -->
 	<script type="text/javascript">
+
 		$(document).ready(function(){
-			var title, link, intro, published;
-			//xml news feed
+			  var title, link, intro, published;
+
+  		// Function to convert pubDate to relative time string
+			function convertPubDate(pubDate) {
+				var currentDate = new Date();
+				var pubDateObj = new Date(pubDate);
+				var timeDiff = currentDate.getTime() - pubDateObj.getTime();
+				var secondsDiff = Math.floor(timeDiff / 1000);
+				var minutesDiff = Math.floor(secondsDiff / 60);
+				var hoursDiff = Math.floor(minutesDiff / 60);
+				var daysDiff = Math.floor(hoursDiff / 24);
+
+				if (secondsDiff < 60) {
+					return secondsDiff === 1 ? "1 second ago" : secondsDiff + " seconds ago";
+				} else if (minutesDiff < 60) {
+					return minutesDiff === 1 ? "1 minute ago" : minutesDiff + " minutes ago";
+				} else if (hoursDiff < 24) {
+					return hoursDiff === 1 ? "1 hour ago" : hoursDiff + " hours ago";
+				} else {
+					return daysDiff === 1 ? "1 day ago" : daysDiff + " days ago";
+				}
+			}
+		
+		//xml news feed
 			$.ajax({
 				url: 'https://log.nick.sh/feed.xml',
 				dataType: 'xml',
 				success: function(data){
-					data = $(data).find('channel item').slice(0, 3);
+					data = $(data).find('channel item').slice(0,3);
 					data.each(function(){
 						title = $(this).find('title').text();
 						link = $(this).find('link').text();
 						intro = $(this).find('description').text();
-						published = $(this).find('pubDate').text().slice(0, 17);
+						published = $(this).find('pubDate').text().slice(0,22);
 
-						//append 1 thumbnail for each news
+						var relativeTime = convertPubDate(published);
+
+						//append 1 thumbnail for each status update
 						$('.status-timeline').append(
 							 	"<article class='status-timeline-entry'>" +
 							 		"<div class='status-timeline-entry-intro'>" + intro + "</div>" +
-							 		"<a href=" + link + " target='_blank'><small>" + published + "</small></a>" +
+							 		"<small><a href=" + link + " target='_blank'>" + published + "</a></small>" +
 							 	"</article>"
 						);
 					});
 				},
 				error: function(){
-					$('#err').append("<div class='alert alert-danger'>Failed to get the latest updates.</div>");
+					$('#err').append("<div class='warning flow'> 🚩&nbsp;&nbsp;<em>Failed to get the latest updates from the&nbsp;feed.</em></div>");
 				}
 			});
 	   	});
