@@ -60,23 +60,35 @@
         </div>
 </div>
   <div class="grid-three-fourths flow">
-    <h1 class="home-heading">
+    <h1 id="greeting" class="home-heading">Howdy.</h1>
       <script language="JavaScript">
         var myDate = new Date();
-        if ( myDate.getHours() >= 5 && myDate.getHours() < 12 ) { document.write("Good morning."); }
-        else if ( myDate.getHours() >= 12 && myDate.getHours() <= 17 ) { document.write("Good afternoon."); }
-        else if ( myDate.getHours() > 17 && myDate.getHours() <= 22 ) { document.write("Good evening.");
-        } else { document.write("Hello."); }
+        var greeting;
+
+        if (myDate.getHours() >= 5 && myDate.getHours() < 12) {
+          greeting = "Good morning.";
+        } else if (myDate.getHours() >= 12 && myDate.getHours() <= 17) {
+          greeting = "Good afternoon.";
+        } else if (myDate.getHours() > 17 && myDate.getHours() <= 22) {
+          greeting = "Good evening.";
+        } else {
+          greeting = "Hello.";
+        }
+
+        // Display the greeting in an element with id "greeting"
+        var greetingElement = document.getElementById("greeting");
+        if (greetingElement) {
+          greetingElement.textContent = greeting;
+        }
       </script>
-      <noscript>Howdy.</noscript>
-    </h1>
+      
     <p class="lede">My name is Nick, which means <mark class="mark-highlight"><em>“<a href="https://www.behindthename.com/name/nicholas" title="Behind the Name">victory</a>.”</em></mark> I&nbsp;design things for screens (mostly), paper (sometimes), and humans&nbsp;(always).</p>
 
     &nbsp;
 
     <div class="h-card vcard p-author">
     <a href="https://nicksimson.com" class="u-url u-uid" rel="author"><img src="/img/misc/grainy-nick-profile.png" alt="" width="80" height="80" class="img-circle u-photo hcard-photo vis-hidden"><span class="p-name vis-hidden">Nick Simson</span></a>
-    <p><span class="p-note">I live in New Mexico and work as a graphic / communication / interaction designer.</span> I’m <strong class="p-nickname">@nsmsn</strong> on <a rel="me" href="https://github.com/nsmsn" class="u-url">Github</a>, <a rel="me" href="https://mastodon.design/@nsmsn" class="u-url">Mastodon</a>, and <a href="/links">a few other places</a>. You can learn more <a href="/info/">about&nbsp;me</a> or see what I’m up to&nbsp;<a href="/now/">now</a>.</p>
+    <p><span class="p-note">I live in New Mexico and work as a graphic and interaction designer.</span> I’m <strong class="p-nickname">@nsmsn</strong> on <a rel="me" href="https://github.com/nsmsn" class="u-url">Github</a>, <a rel="me" href="https://mastodon.design/@nsmsn" class="u-url">Mastodon</a>, and <a href="/links">a few other places</a>. You can learn more <a href="/info/">about&nbsp;me</a> or see what I’m up to&nbsp;<a href="/now/">now</a>.</p>
     </div>
     &nbsp;
     </div>
@@ -200,7 +212,7 @@
 	<div>
 Images and text © 2023 <a href="https://nicksimson.com" rel="author" class="footer-link" >Nick Simson</a>.
   
-  <span id="randomText" class="superfluous"></span>
+  <span id="randomText" class="superfluous">Thanks for stopping by.</span>
 
 <script type="text/javascript">
   var r_text = [
@@ -238,9 +250,6 @@ Images and text © 2023 <a href="https://nicksimson.com" rel="author" class="foo
   var spanElement = document.getElementById("randomText");
   spanElement.textContent = randomText;
 </script>
-
-<noscript><span class="superfluous">Thanks for stopping by.</span></noscript>
-
 
   </div>
 
