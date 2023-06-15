@@ -21,7 +21,7 @@ I learned a lot about the city reading Jack Neely’s columns (R.I.P., <i>Metro 
 
 ## Treasures and hidden gems
 
-If you're planning a visit to Knoxville, here’s some things I would suggest.
+If you’re planning a visit to Knoxville, here’s some things I would suggest.
 
 The [WDVX Blue Plate Special](https://wdvx.com/program/blue-plate-special/) is a live lunchtime radio show every weekday featuring national touring acts as well as local/regional musicians. The nicest evening concert venues in town are the Tennessee Theatre and the Bijou Theatre, both on Gay Street. While you’re downtown, Market Square is worth checking out, for dining, shopping, farmer’s markets, buskers and the weekend festivals, especially during the spring.
 
@@ -39,7 +39,7 @@ The Fourth and Gill neighborhood in North Knoxville has many remarkable Victoria
 ## Gone, but not forgotten
 [Yee-Haw Industrial Letterpress](https://panhandlermagazine.com/art/yee-haw-industries/) (or sometimes Yee-Haw Industries) was a unique storefront on Gay Street featuring affordable graphic prints, gifts, and tons of letterpress printing equipment. It closed in 2012. Yee-Haw Brewing Company opened in 2015 in Johnson City, but as far as I know has no affiliation or affinity to that beloved print studio.
 
-[The Minister's Treehouse](https://www.roadsideamerica.com/story/13769) was near Crossville, about an hour away on your way to Nashville. The pictures on the Roadside America website don't do it justice. The Tennessee Fire Marshall shut it down in 2012, and then it went up in flames in 2019.
+[The Minister’s Treehouse](https://www.roadsideamerica.com/story/13769) was near Crossville, about an hour away on your way to Nashville. The pictures on the Roadside America website don't do it justice. The Tennessee Fire Marshall shut it down in 2012, and then it went up in flames in 2019.
 
 King Tut Grill, or [King Tut's, quietly closed Dec. 31, 2021](https://www.knoxnews.com/story/shopper-news/south-knox/2022/02/02/king-tut-grill-south-knoxville-closes-after-decades/9226752002/). Eating there was definitely an *experience*, and I'll leave it at that.
 
