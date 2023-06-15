@@ -277,6 +277,11 @@
   </url>
   
   <url>
+    <loc>https://nicksimson.com/tags/places/</loc>
+    <lastmod>2022-11-23T13:24:28.748Z</lastmod>
+  </url>
+  
+  <url>
     <loc>https://nicksimson.com/type/</loc>
     <lastmod>2022-11-23T13:24:28.748Z</lastmod>
   </url>
@@ -324,5 +329,10 @@
   <url>
     <loc>https://nicksimson.com/all/</loc>
     <lastmod>2023-05-22T18:14:18.875Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nicksimson.com/posts/2023-thank-you-knoxville/</loc>
+    <lastmod>2023-06-15T22:27:12.000Z</lastmod>
   </url>
 </urlset>

@@ -23,7 +23,7 @@ permalink: /info/
 
 I’m a designer with over a decade of professional experience. I’ve spent most of that time working at higher education institutions. Today I’m a user interface (UI) designer at a nonprofit member association in Washington,&nbsp;DC.
 
-I’ve been lucky to work with some wonderful artists, musicians, scientists, and writers on design projects, especially interactive stuff. I spent a long time as a generalist and thrive on learning new&nbsp;things.
+Through my design practice I’ve been lucky to work with some wonderful artists, musicians, scientists, and writers. I spent a long time as a generalist and thrive on [learning](/tags/learning/) new&nbsp;things.
 
 See what I’m up to [now](/now/).
 

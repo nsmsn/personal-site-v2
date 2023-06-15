@@ -30,13 +30,13 @@ layout: layouts/home.njk
           greetingElement.textContent = greeting;
         }
       </script>
-      
+
     <p class="lede">My name is Nick, which means <mark class="mark-highlight"><em>“<a href="https://www.behindthename.com/name/nicholas" title="Behind the Name">victory</a>.”</em></mark> I&nbsp;design things for screens (mostly), paper (sometimes), and humans&nbsp;(always).</p>
 
     &nbsp;
 
     <div class="h-card vcard p-author">
-    <a href="https://nicksimson.com" class="u-url u-uid" rel="author"><img src="/img/misc/grainy-nick-profile.png" alt="" width="80" height="80" class="img-circle u-photo hcard-photo vis-hidden"><span class="p-name vis-hidden">Nick Simson</span></a>
+    <a href="https://nicksimson.com" class="u-url u-uid" rel="author"><img src="/img/misc/nick-profile.png" alt="" width="80" height="80" class="img-circle u-photo hcard-photo vis-hidden"><span class="p-name vis-hidden">Nick Simson</span></a>
     <p><span class="p-note">I live in New Mexico and work as a graphic and interaction designer.</span> I’m <strong class="p-nickname">@nsmsn</strong> on <a rel="me" href="https://github.com/nsmsn" class="u-url">Github</a>, <a rel="me" href="https://mastodon.design/@nsmsn" class="u-url">Mastodon</a>, and <a href="/links">a few other places</a>. You can learn more <a href="/info/">about&nbsp;me</a> or see what I’m up to&nbsp;<a href="/now/">now</a>.</p>
     </div>
     &nbsp;
@@ -50,7 +50,7 @@ layout: layouts/home.njk
       {% set maxPosts = collections.posts.length | min(1) %}
 
       <div class="homepage-post-snippet">
-      <p>You can read my latest {% if maxPosts == 1 %}post{% else %}{{ maxPosts }} posts{% endif %}:</p>
+      <small class="italic">You can read my latest blog {% if maxPosts == 1 %}post{% else %}{{ maxPosts }} posts{% endif %}:</small>
       {% set postslist = collections.posts | head(-1) %}
       {% set postslistCounter = collections.posts | length %}
       {% include "postslist.njk" %}
