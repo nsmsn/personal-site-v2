@@ -211,6 +211,13 @@
         "url": "https://www.discogs.com/master/52741-Devo-Oh-No-Its-Devo"
       },
       {
+        "title": "Now It Can Be Told, Devo At The Palace 12/9/88",
+        "artist": "Devo",
+        "cover": "devo-now-live-1989.jpg",
+        "year": "1989",
+        "url": "https://www.discogs.com/master/52841-Devo-Now-It-Can-Be-Told-Devo-At-The-Palace-12988"
+      },
+      {
         "title": "Their Greatest Recordings, The Early Years",
         "artist": "The Drifters",
         "cover": "drifters-1971.jpg",
@@ -476,6 +483,15 @@
         "year": "2015",
         "url": "https://www.discogs.com/release/7015934-Jim-ORourke-Simple-Songs"
       },
+
+      {
+        "title": "Stories",
+        "artist": "The Ordinary Things",
+        "cover": "ordinary-things-stories-2019.jpg",
+        "year": "2019",
+        "url": "https://www.discogs.com/release/15203019-The-Ordinary-Things-Stories"
+      },
+
       {
         "title": "The Best Of Pearls Before Swine",
         "artist": "Pearls Before Swine",
@@ -554,6 +570,27 @@
         "url": "https://www.discogs.com/release/960272-Shostakovich-Fitzwilliam-String-Quartet-String-Quartets-Nos-7-13-14"
       },
       {
+        "title": "Cuttin’ Grass Vol. 2 (The Cowboy Arms Sessions)",
+        "artist": "Sturgill Simpson",
+        "cover": "simpson-grass-vol2-2021.jpg",
+        "year": "2021",
+        "url": "https://www.discogs.com/release/17965327-Sturgill-Simpson-Cuttin-Grass-Vol-2-The-Cowboy-Arms-Sessions"
+      },
+      {
+        "title": "Horses",
+        "artist": "Patti Smith",
+        "cover": "patti-smith-horses-1975.jpg",
+        "year": "1975",
+        "url": "https://www.discogs.com/master/40109-Patti-Smith-Horses"
+      },
+      {
+        "title": "Knock Knock",
+        "artist": "Smog",
+        "cover": "smog-knock-knock-1999.jpg",
+        "year": "1999",
+        "url": "https://www.discogs.com/master/9707-Smog-Knock-Knock"
+      },
+      {
         "title": "Born To Run",
         "artist": "Bruce Springsteen",
         "cover": "springsteen-born-to-run-1975.jpg",
@@ -616,6 +653,15 @@
         "year": "1973",
         "url": "https://www.discogs.com/master/86466-Stevie-Wonder-Innervisions"
       },
+
+      {
+        "title": "Fakebook",
+        "artist": "Yo La Tengo",
+        "cover": "ylt-fakebook-1990.jpg",
+        "year": "1990",
+        "url": "https://www.discogs.com/master/32451-Yo-La-Tengo-Fakebook"
+      },
+
       {
         "title": "After the Gold Rush",
         "artist": "Neil Young",
