@@ -45,4 +45,4 @@ I’m still using both [Literal](https://literal.club/nsmsn/is-reading) and <a h
 &nbsp;
 
 ## 📍 Albuquerque
-After thirteen remarkable years in [Knoxville](https://en.wikipedia.org/wiki/Knoxville), it was time for a change. The [Duke City](https://en.wikipedia.org/wiki/Albuquerque,_New_Mexico) is home base&nbsp;now.
+After thirteen remarkable years in [Knoxville](/posts/2023-thank-you-knoxville/), it was time for a change. The [Duke City](https://en.wikipedia.org/wiki/Albuquerque,_New_Mexico) is home base&nbsp;now.
