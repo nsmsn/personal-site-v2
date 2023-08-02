@@ -1,7 +1,3 @@
 [build]
   publish = "public"
   command = "DEBUG=* eleventy"
-
-[build.environment]
-  # Environment variables are set here
-  NODE_VERSION = "16.18.0"
