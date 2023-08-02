@@ -56,5 +56,17 @@ This is my personal website. I registered the domain name in 2008 and renew it a
 
 You can track this site’s progress and iterations at [this GitHub repo](https://github.com/nsmsn/nicksimsondotcom). This site is built with [Eleventy](https://11ty.dev/) and deployed to [Netlify](https://netlify.com). My blog posts are available in both [RSS](https://www.nicksimson.com/feed/feed.xml) and [JSON](https://www.nicksimson.com/feed/feed.json). I prioritize performance and <a href="/accessibility">accessibility</a>. You can read [a note on the type](/type) to learn about the fonts in use.
 
+<details>
+    <summary class="sans bold">Badges, etc.</summary>
+
+    <div id="wcb" class="carbonbadge"></div>
+   <script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script>
+
+    <a href="https://nonbot.org/pledged/view/99bf4a6a-8b2c-4eef-b06e-fcd64f954192" target="_blank">
+	<img style="height:80px" src="https://nonbot.org/images/nonbot_pledged_logo.svg" alt="Human-made Content">
+    </a>
+
+</details>
+
 </div>
 </div>
