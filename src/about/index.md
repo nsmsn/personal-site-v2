@@ -54,7 +54,7 @@ This is my personal website. I registered the domain name in 2008 and renew it a
 
 <strong><a href="https://themarkup.org/blacklight?url=nicksimson.com">This website does not track you.</a></strong> There are no third-party cookies here, and your data isn’t collected when using this site.
 
-You can track this site’s progress and iterations at [this GitHub repo](https://github.com/nsmsn/nicksimsondotcom). This site is built with [Eleventy](https://11ty.dev/) and deployed to [Netlify](https://netlify.com). My blog posts are available in both [RSS](https://www.nicksimson.com/feed/feed.xml) and [JSON](https://www.nicksimson.com/feed/feed.json). I prioritize performance and <a href="/accessibility">accessibility</a>. You can read [a note on the type](/type) to learn about the fonts in use.
+You can track this site’s progress and iterations at [this GitHub repo](https://github.com/nsmsn/nicksimsondotcom). This site is built with [Eleventy](https://11ty.dev/) and deployed to [Netlify](https://netlify.com). My blog posts are available in both [RSS](https://www.nicksimson.com/feed/feed.xml) and [JSON](https://www.nicksimson.com/feed/feed.json). I prioritize performance and <a href="/accessibility">accessibility</a>. You can read [a note on the type](/type) to learn about the fonts in&nbsp;use.
 
 <details>
     <summary class="sans bold">Badges, etc.</summary>
