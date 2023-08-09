@@ -308,6 +308,15 @@
         "year": "1949",
         "url": "https://www.discogs.com/master/1812015-Kreisler-Paganini-Zino-Francescatti-With-Artur-Balsam-Kreisler-Favorites-Paganini-Caprices-"
       },
+
+      {
+        "title": "Beauty and the Beat",
+        "artist": "The Go-Go's",
+        "cover": "go-gos-beauty-1981.jpg",
+        "year": "1981",
+        "url": "https://www.discogs.com/release/395609-Go-Gos-Beauty-And-The-Beat"
+      },
+
       {
         "title": "The Virtuoso Liszt",
         "artist": "Gary Graffman",
@@ -619,6 +628,13 @@
         "url": "https://www.discogs.com/master/6206-Television-Adventure"
       },
       {
+        "title": "The George Mitchell Collection, Vol. 8 (7 inch)",
+        "artist": "Lonzie Thomas",
+        "cover": "lonzie-thomas-george-mitchell-1980s.jpeg",
+        "year": "2008",
+        "url": "https://www.discogs.com/release/8017562-Lonzie-Thomas-The-George-Mitchell-Collection-Vol-8"
+      },
+      {
         "title": "Mr. Gone",
         "artist": "Weather Report",
         "cover": "weather-report-mr-gone-1978.jpg",
@@ -631,6 +647,13 @@
         "cover": "bach-organ-music-vol2-1963.jpg",
         "year": "1963",
         "url": "https://www.discogs.com/master/1056386-Carl-Weinrich-Bach-Organ-Music-Vol-2"
+      },
+      {
+        "title": "The George Mitchell Collection, Vol. 15 (7 inch)",
+        "artist": "Bud White",
+        "cover": "bud-white-george-mitchell.jpg",
+        "year": "2008",
+        "url": "https://www.discogs.com/release/8017823-Bud-White-The-George-Mitchell-Collection-Vol-15"
       },
       {
         "title": "Out",

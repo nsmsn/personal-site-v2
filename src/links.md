@@ -11,13 +11,14 @@ Here are links to my other projects and profiles around the World&nbsp;Wide&nbsp
 &nbsp;
 
 ## Microblog
-I post regularly to [log.nick.sh](https://log.nick.sh), which syndicates to my Mastodon account. It’s a mixture of links, photos, books, music,&nbsp;etc.
+I post regularly to [log.nick.sh](https://log.nick.sh), which syndicates to my Bluesky and Mastodon accounts. It’s a mixture of links, photos, books, music,&nbsp;etc.
 
 &nbsp;
 
 ## Social profiles
 <ul class="list-multi-col social-links">
 <li><a href="https://www.are.na/nick-simson" rel="me">Are.na</a></li>
+<li><a href="https://bsky.app/profile/nicksimson.com" rel="me">Bluesky</a></li>
 <li><a href="https://read.cv/nsmsn/" rel="me">CV</a></li>
 <li><a href="https://dribbble.com/nsmsn/" rel="me">Dribbble</a></li>
 <li><a href="https://github.com/nsmsn" rel="me">GitHub</a></li>
