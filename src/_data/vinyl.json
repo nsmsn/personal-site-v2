@@ -14,6 +14,13 @@
         "year": "1975",
         "url": "https://www.discogs.com/master/36627-Aerosmith-Toys-In-The-Attic"
       },
+            {
+        "title": "The Allman Brothers Band At Fillmore East",
+        "artist": "The Allman Brothers Band",
+        "cover": "allman-bros-fillmore-1971.jpg",
+        "year": "1971",
+        "url": "https://www.discogs.com/release/1469396-The-Allman-Brothers-Band-The-Allman-Brothers-Band-At-Fillmore-East"
+      },
       {
         "title": "Stage Fright",
         "artist": "The Band",
@@ -148,6 +155,13 @@
         "url": "https://www.discogs.com/master/1676122-Crawpatch-Trailer-Park-Weekend"
       },
       {
+        "title": "Can We Funk Again",
+        "artist": "Crystal Band",
+        "cover": "crystal-band-can-we-funk-2021.jpg",
+        "year": "2021",
+        "url": "https://www.discogs.com/master/2566268-Crystal-Band-Henry-Turners-Crystal-Band-Can-We-Funk-Again"
+      },
+      {
         "title": "La Mer / Prelude To The Afternoon Of A Faun / Jeux",
         "artist": "Claude Debussy (New Philharmonia Orch. conducted by Pierre Boulez)",
         "cover": "debussy-boulez-1982.jpg",
@@ -167,6 +181,13 @@
         "cover": "del-fuegos-boston-mass-1985.jpg",
         "year": "1985",
         "url": "https://www.discogs.com/master/152386-The-Del-Fuegos-Boston-Mass"
+      },
+      {
+        "title": "Layla And Other Assorted Love Songs",
+        "artist": "Derek and the Dominos",
+        "cover": "layla-1970.jpg",
+        "year": "1970",
+        "url": "https://www.discogs.com/master/76678-Derek-And-The-Dominos-Layla-And-Other-Assorted-Love-Songs"
       },
       {
         "title": "Q: Are We Not Men? A: We Are Devo!",
@@ -295,6 +316,27 @@
         "url": "https://www.discogs.com/master/302513-The-Felice-Brothers-Yonder-Is-The-Clock"
       },
       {
+        "title": "The Flying Burrito Bros.",
+        "artist": "The Flying Burrito Bros.",
+        "cover": "flying-burrito-bros-1971.jpg",
+        "year": "1971",
+        "url": "https://www.discogs.com/master/294389-The-Flying-Burrito-Bros-The-Flying-Burrito-Bros"
+      },
+      {
+        "title": "Flying Again",
+        "artist": "The Flying Burrito Bros.",
+        "cover": "flying-burrito-bros-flying-again-1975.jpg",
+        "year": "1975",
+        "url": "https://www.discogs.com/master/395488-The-Flying-Burrito-Bros-Flying-Again"
+      },
+      {
+        "title": "Changing Times",
+        "artist": "The Four Tops",
+        "cover": "four-tops-changing-times-1970.jpg",
+        "year": "1970",
+        "url": "https://www.discogs.com/master/132714-Four-Tops-Changing-Times"
+      },
+      {
         "title": "Meeting of the Minds",
         "artist": "The Four Tops",
         "cover": "four-tops-meeting-1974.jpg",
@@ -381,6 +423,13 @@
         "url": "https://www.discogs.com/master/821094-John-Hartford-Headin-Down-Into-The-Mystery-Below"
       },
       {
+        "title": "Joplin in Concert",
+        "artist": "Janis Joplin",
+        "cover": "janis-joplin-in-concert-1972.jpg",
+        "year": "1972",
+        "url": "https://www.discogs.com/release/468176-Janis-Joplin-Joplin-In-Concert"
+      },
+      {
         "title": "Unknown Pleasures",
         "artist": "Joy Division",
         "cover": "joy-division-unknown-1979.jpg",
@@ -407,6 +456,34 @@
         "cover": "kinks-misfits-1978.jpg",
         "year": "1978",
         "url": "https://www.discogs.com/master/101412-The-Kinks-Misfits"
+      },
+      {
+        "title": "Jesus Was a Capricorn",
+        "artist": "Kris Kristofferson",
+        "cover": "kristofferson-jesus-1972.jpg",
+        "year": "1972",
+        "url": "https://www.discogs.com/master/133328-Kris-Kristofferson-Jesus-Was-A-Capricorn"
+      },
+      {
+        "title": "Plastic Ono Band",
+        "artist": "John Lennon",
+        "cover": "lennon-plastic-ono-1970.jpg",
+        "year": "1970",
+        "url": "https://www.discogs.com/master/72864-John-Lennon-Plastic-Ono-Band-John-Lennon-Plastic-Ono-Band"
+      },
+      {
+        "title": "Led Zeppelin III",
+        "artist": "Led Zeppelin",
+        "cover": "ledzep-iii-1970.jpg",
+        "year": "1970",
+        "url": "https://www.discogs.com/master/4199-Led-Zeppelin-Led-Zeppelin-III"
+      },
+      {
+        "title": "Untitled (Led Zeppelin IV)",
+        "artist": "Led Zeppelin",
+        "cover": "ledzep-iv-1971.jpg",
+        "year": "1971",
+        "url": "https://www.discogs.com/master/4300-Led-Zeppelin-Untitled-"
       },
       {
         "title": "Levant Plays Gershwin",
@@ -442,6 +519,13 @@
         "cover": "nelson-stardust-1978.jpg",
         "year": "1978",
         "url": "https://www.discogs.com/master/97789-Willie-Nelson-Stardust"
+      },
+            {
+        "title": "Always On My Mind",
+        "artist": "Willie Nelson",
+        "cover": "nelson-always-on-my-mind-1982.jpg",
+        "year": "1982",
+        "url": "https://www.discogs.com/master/112479-Willie-Nelson-Always-On-My-Mind"
       },
       {
         "title": "Movement",
@@ -492,7 +576,20 @@
         "year": "2015",
         "url": "https://www.discogs.com/release/7015934-Jim-ORourke-Simple-Songs"
       },
-
+      {
+        "title": "Plastic Ono Band",
+        "artist": "Yoko Ono",
+        "cover": "yoko-plastic-ono-1970.jpg",
+        "year": "1970",
+        "url": "https://www.discogs.com/master/90491-Yoko-Ono-Yoko-Ono-Plastic-Ono-Band"
+      },
+      {
+        "title": "Orbiting With Roy Orbison And Bristow Hopper",
+        "artist": "Roy Orbison / Bristow Hopper",
+        "cover": "orbiting-with-1962.jpg",
+        "year": "1962",
+        "url": "https://www.discogs.com/master/386261-Roy-Orbison-And-Bristow-Hopper-Orbiting-With"
+      },
       {
         "title": "Stories",
         "artist": "The Ordinary Things",
@@ -514,6 +611,13 @@
         "cover": "pink-floyd-animals-1977.jpg",
         "year": "1977",
         "url": "https://www.discogs.com/master/10370-Pink-Floyd-Animals"
+      },
+      {
+        "title": "Soít",
+        "artist": "The Pogues",
+        "cover": "pogues-soit-1985.jpg",
+        "year": "1985 (released 2002)",
+        "url": "https://www.discogs.com/master/943912-The-Pogues-So%C3%ADt"
       },
       {
         "title": "Country Charley Pride",
@@ -607,6 +711,13 @@
         "url": "https://www.discogs.com/master/26725-Bruce-Springsteen-Born-To-Run"
       },
       {
+        "title": "Teaser And The Firecat",
+        "artist": "Cat Stevens",
+        "cover": "cat-stevens-teaser-1971.jpg",
+        "year": "1971",
+        "url": "https://www.discogs.com/master/37157-Cat-Stevens-Teaser-And-The-Firecat"
+      },
+      {
         "title": "Also Sprach Zarathustra",
         "artist": "Richard Strauss (Boston Symphony Orchestra, William Steinberg conductor)",
         "cover": "zarathustra-1971.jpg",
@@ -631,7 +742,7 @@
         "title": "The George Mitchell Collection, Vol. 8 (7 inch)",
         "artist": "Lonzie Thomas",
         "cover": "lonzie-thomas-george-mitchell-1980s.jpeg",
-        "year": "2008",
+        "year": "2008 (recorded in the early 1980s)",
         "url": "https://www.discogs.com/release/8017562-Lonzie-Thomas-The-George-Mitchell-Collection-Vol-8"
       },
       {
@@ -652,7 +763,7 @@
         "title": "The George Mitchell Collection, Vol. 15 (7 inch)",
         "artist": "Bud White",
         "cover": "bud-white-george-mitchell.jpg",
-        "year": "2008",
+        "year": "2008 (recorded in 1969)",
         "url": "https://www.discogs.com/release/8017823-Bud-White-The-George-Mitchell-Collection-Vol-15"
       },
       {
@@ -661,6 +772,20 @@
         "cover": "whiteheaven-out.jpg",
         "year": "1991 (2020 Reissue)",
         "url": "https://www.discogs.com/release/14773032-White-Heaven-Out"
+      },
+      {
+        "title": "Live At Leeds",
+        "artist": "The Who",
+        "cover": "who-live-at-leeds-1970.jpg",
+        "year": "1970",
+        "url": "https://www.discogs.com/release/2280643-The-Who-Live-At-Leeds"
+      },
+      {
+        "title": "The Who By Numbers",
+        "artist": "The Who",
+        "cover": "who-by-numbers-1975.jpg",
+        "year": "1975",
+        "url": "https://www.discogs.com/master/68458-The-Who-The-Who-By-Numbers"
       },
       {
         "title": "Sky Blue Sky",
