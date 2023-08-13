@@ -106,11 +106,25 @@
         "url": "https://www.discogs.com/master/64036-Calexico-Carried-To-Dust"
       },
       {
+        "title": "Edited for Airplay (7 inch EP)",
+        "artist": "George Carlin",
+        "cover": "carlin-edited-1977.jpeg",
+        "year": "1977",
+        "url": "https://www.discogs.com/release/3153201-George-Carlin-Edited-For-Airplay"
+      },
+      {
         "title": "The Cars",
         "artist": "The Cars",
         "cover": "the-cars-1978.jpg",
         "year": "1978",
         "url": "https://www.discogs.com/release/190219-The-Cars-The-Cars"
+      },
+      {
+        "title": "Get Rhythm / I Walk The Line (7 inch single)",
+        "artist": "Johnny Cash and the Tennessee Two",
+        "cover": "cash-thirdman-2013.jpeg",
+        "year": "1956 (2013 Third Man Reissue)",
+        "url": "https://www.discogs.com/release/4577890-Johnny-Cash-And-Tennessee-Two-Get-Rhythm-I-Walk-The-Line"
       },
       {
         "title": "Modern Sounds In Country And Western Music",
@@ -148,11 +162,25 @@
         "url": "https://www.discogs.com/master/1811009-Sam-Cooke-The-Legendary"
       },
       {
+        "title": "Last Date",
+        "artist": "Floyd Cramer",
+        "cover": "floyd-cramer-last-date.jpeg",
+        "year": "1960",
+        "url": "https://www.discogs.com/release/13788131-Floyd-Cramer-Last-Date"
+      },
+      {
         "title": "Trailer Park Weekend",
         "artist": "Crawpatch",
         "cover": "crawpatch-trailerparkweekend-1979.jpg",
         "year": "1979",
         "url": "https://www.discogs.com/master/1676122-Crawpatch-Trailer-Park-Weekend"
+      },
+      {
+        "title": "Merry Christmas",
+        "artist": "Bing Crosby",
+        "cover": "bing-christmas.jpg",
+        "year": "1955 (1973 Re-issue)",
+        "url": "https://www.discogs.com/release/3253210-Bing-Crosby-Merry-Christmas"
       },
       {
         "title": "Can We Funk Again",
@@ -239,6 +267,13 @@
         "url": "https://www.discogs.com/master/52841-Devo-Now-It-Can-Be-Told-Devo-At-The-Palace-12988"
       },
       {
+        "title": "Pickin' And Fiddlin'",
+        "artist": "The Dillards with Byron Berline",
+        "cover": "dillards-pickin-1965.jpeg",
+        "year": "1965",
+        "url": "https://www.discogs.com/release/2766034-The-Dillards-With-Byron-Berline-Pickin-And-Fiddlin"
+      },
+      {
         "title": "Their Greatest Recordings, The Early Years",
         "artist": "The Drifters",
         "cover": "drifters-1971.jpg",
@@ -314,6 +349,13 @@
         "cover": "felice-bros-yonder-2009.jpg",
         "year": "2009",
         "url": "https://www.discogs.com/master/302513-The-Felice-Brothers-Yonder-Is-The-Clock"
+      },
+      {
+        "title": "Live Broadcast Bluegrass Bonanza",
+        "artist": "Lester Flatt & Earl Scruggs with the Foggy Mountain Boys",
+        "cover": "flatt-scruggs-1986.jpeg",
+        "year": "1986 (original broadcast form 1953)",
+        "url": "https://www.discogs.com/release/3054085-Lester-Flatt-Earl-Scruggs-The-Foggy-Mountain-Boys-Live-Broadcast-Bluegrass-Bonanza-Martha-White-Bisc"
       },
       {
         "title": "The Flying Burrito Bros.",
@@ -421,6 +463,13 @@
         "cover": "hartford-headin-down-1978.jpg",
         "year": "1978",
         "url": "https://www.discogs.com/master/821094-John-Hartford-Headin-Down-Into-The-Mystery-Below"
+      },
+      {
+        "title": "The Unicorn",
+        "artist": "The Irish Rovers",
+        "cover": "irish-rovers-unicorn-1967.jpg",
+        "year": "1967",
+        "url": "https://www.discogs.com/master/202902-The-Irish-Rovers-The-Unicorn"
       },
       {
         "title": "Joplin in Concert",
@@ -683,6 +732,20 @@
         "url": "https://www.discogs.com/release/960272-Shostakovich-Fitzwilliam-String-Quartet-String-Quartets-Nos-7-13-14"
       },
       {
+        "title": "Bookends",
+        "artist": "Simon and Garfunkel",
+        "cover": "simon-garfunkel-bookends-1968.jpg",
+        "year": "1968",
+        "url": "https://www.discogs.com/master/27757-Simon-Garfunkel-Bookends"
+      },
+      {
+        "title": "Paul Simon",
+        "artist": "Paul Simon",
+        "cover": "paul-simon-1972.jpg",
+        "year": "1972",
+        "url": "https://www.discogs.com/master/97959-Paul-Simon-Paul-Simon"
+      },
+      {
         "title": "Cuttin’ Grass Vol. 2 (The Cowboy Arms Sessions)",
         "artist": "Sturgill Simpson",
         "cover": "simpson-grass-vol2-2021.jpg",
@@ -744,6 +807,41 @@
         "cover": "lonzie-thomas-george-mitchell-1980s.jpeg",
         "year": "2008 (recorded in the early 1980s)",
         "url": "https://www.discogs.com/release/8017562-Lonzie-Thomas-The-George-Mitchell-Collection-Vol-8"
+      },
+      {
+        "title": "War",
+        "artist": "U2",
+        "cover": "u2-war-1983.jpg",
+        "year": "1983",
+        "url": "https://www.discogs.com/master/48830-U2-War"
+      },
+      {
+        "title": "The Joshua Tree",
+        "artist": "U2",
+        "cover": "u2-joshua-tree-1987.jpg",
+        "year": "1987",
+        "url": "https://www.discogs.com/master/64290-U2-The-Joshua-Tree"
+      },
+      {
+        "title": "A Tribute to Woody Guthrie Part One",
+        "artist": "Various Artists (including Bob Dylan, Arlo Guthrie, Odetta)",
+        "cover": "tribute-to-woody.jpeg",
+        "year": "1972",
+        "url": "https://www.discogs.com/master/450965-Various-A-Tribute-To-Woody-Guthrie-Part-One"
+      },
+      {
+        "title": "The Ventures Play Telstar, The Lonely Bull",
+        "artist": "The Ventures",
+        "cover": "ventures-telstar-1963.jpg",
+        "year": "1963",
+        "url": "https://www.discogs.com/release/3095043-The-Ventures-The-Ventures-Play-TelstarLonely-Bull"
+      },
+      {
+        "title": "Muddy & The Wolf",
+        "artist": "Muddy Waters and Howlin' Wolf",
+        "cover": "muddy-wolf-1982.jpeg",
+        "year": "1982",
+        "url": "https://www.discogs.com/master/373690-Muddy-Waters-Howlin-Wolf-Muddy-The-Wolf"
       },
       {
         "title": "Mr. Gone",
