@@ -71,6 +71,11 @@
         "url": "/recommends"
       },
       {
+        "title": "robots.txt",
+        "description": "Instructions for crawlers",
+        "url": "/robots.txt"
+      },
+      {
         "title": "tags",
         "description": "Browse posts by tag",
         "url": "/tags"
